@@ -1,0 +1,178 @@
+
+
+{% extends "layouts/content-with-sidenav.html" %}
+
+
+{% set pageName = "Provide a joined up experience across all channels" %}
+{% set pageDescription = "This guidance will help you apply point 4 of the Service Standard in the Department for Education" %}
+{% set pageDescriptionPageOverride = "This guidance will help you apply  <a href='https://www.gov.uk/service-manual/service-standard/point-4-make-the-service-simple-to-use' target='_blank' rel='noopener noreferrer'>standard point 4 (opens in new tab)</a>." %}
+{% set selectedNav = "Home" %}
+{% set lastUpdated = "April 2023"%}
+{% set backlog_issue_id = "" %}
+{% set point = "4" %}
+
+{% block beforeContent %}{% endblock %}
+
+{% block heroExtra %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+
+      <p>Everyone is responsible for meeting the Service Standard. This standard point is most relevant to:</p>
+      <strong class="govuk-tag">Content Designers</strong> <strong class="govuk-tag">Interaction Designers</strong> <strong class="govuk-tag">Service Designers</strong>
+    </div>
+
+  </div>
+
+  {% endblock%}
+
+  {% block content %}
+
+    {% markdown %}
+
+## Summary 
+
+Build a service that's simple to use so that people can succeed first time. Test it with users to make sure it works for them.
+
+## Why it's important 
+
+People expect services to work. They need things to be easy when they are trying to complete a task or find information. As a public sector organisation we have a legal duty to <a href='https://design.education.gov.uk/accessibility/'>consider everyone's needs when designing and delivering services</a>.
+
+## How to meet this standard in every phase
+
+You'll be assessed on what you've done to meet this standard at <a href='/service-assessments/'>service assessments</a>. However, even if the service you are working on is not being assessed, it's good practice to consider how you'll meet this standard point.
+
+### In discovery
+
+#### Things to consider:
+
+- evidence of how policy decisions can be implemented in a user-centred way
+- use of plain English and <a href="https://www.gov.uk/guidance/content-design/writing-for-gov-uk" target="_blank" rel="noopner noreferrer">language that users understand (opens in new tab)</a> 
+- the types of users and scenarios relevant to the service
+- using existing technologies,  <a href="https://design-system.service.gov.uk/" target="_blank" rel="noopner noreferrer">GOV.UK components and patterns (opens in new tab)</a>
+- developing your understanding of the user needs and pain points
+
+
+
+<div class="govuk-summary-card">
+      <div class="govuk-summary-card__title-wrapper">
+        <h3 class="govuk-summary-card__title">Things to avoid in discovery</h3>
+      </div>
+      <div class="govuk-summary-card__content">
+        <ul class="dfe-list dfe-list--cross" role="list">
+         <li>
+      <svg class="dfeuk-icon dfeuk-icon__cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" width="34" height="34">
+        <path d="M17 18.5c-.4 0-.8-.1-1.1-.4l-10-10c-.6-.6-.6-1.6 0-2.1.6-.6 1.5-.6 2.1 0l10 10c.6.6.6 1.5 0 2.1-.3.3-.6.4-1 .4z" fill="#d5281b"></path>
+        <path d="M7 18.5c-.4 0-.8-.1-1.1-.4-.6-.6-.6-1.5 0-2.1l10-10c.6-.6 1.5-.6 2.1 0 .6.6.6 1.5 0 2.1l-10 10c-.3.3-.6.4-1 .4z" fill="#d5281b"></path>
+      </svg>
+      designing solutions without understanding user needs
+    </li>
+        </ul>
+      </div>
+    </div>
+
+
+### In alpha
+
+#### Things to consider:
+
+- the user journey being <a href="https://www.gov.uk/service-manual/design/introduction-designing-government-services" target="_blank">simple to use (opens in new tab)</a> and understand, and based on research
+- risks associated with the service have been mitigated through design
+- a consistent user experience with other DfE services
+- the route users take to the service has been considered
+- how the service will look and work on <a href='https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices' target='_blank'>every browser or device users access it on (opens in new tab)</a> 
+- offline elements, including <a href="https://gds.blog.gov.uk/2011/07/28/an-introduction-to-assisted-digital/" target="_blank">assisted digital (opens in new tab)</a> routes, have been considered
+- a user-centred approach has been taken
+- technology decisions supporting accessible and usable design
+- content being tested to make sure that users understand it
+- <a href="https://design.education.gov.uk/design-system/prototype-kit/"> prototypes </a>built and tested with users identified in discovery
+- any unique component or pattern, or <a href="https://design-system.service.gov.uk/community/contribution-criteria/" target="_blank">an adaptation of an existing component from the Design System (opens in new tab)</a>, are shared and tested. Plus, a plan for how you will keep them up-to-date with existing systems
+- how users will report a problem with the service and how they'll be supported and updated of any resolution
+
+
+
+<div class="govuk-summary-card">
+      <div class="govuk-summary-card__title-wrapper">
+        <h3 class="govuk-summary-card__title">Things to avoid in discovery</h3>
+      </div>
+      <div class="govuk-summary-card__content">
+        <ul class="dfe-list dfe-list--cross" role="list">
+            <li>
+      <svg class="dfeuk-icon dfeuk-icon__cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" width="34" height="34">
+        <path d="M17 18.5c-.4 0-.8-.1-1.1-.4l-10-10c-.6-.6-.6-1.6 0-2.1.6-.6 1.5-.6 2.1 0l10 10c.6.6.6 1.5 0 2.1-.3.3-.6.4-1 .4z" fill="#d5281b"></path>
+        <path d="M7 18.5c-.4 0-.8-.1-1.1-.4-.6-.6-.6-1.5 0-2.1l10-10c.6-.6 1.5-.6 2.1 0 .6.6.6 1.5 0 2.1l-10 10c-.3.3-.6.4-1 .4z" fill="#d5281b"></path>
+      </svg>
+      dead ends in the journey or a disconnect between online and offline actions
+    </li>
+ 
+    <li>
+      <svg class="dfeuk-icon dfeuk-icon__cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" width="34" height="34">
+        <path d="M17 18.5c-.4 0-.8-.1-1.1-.4l-10-10c-.6-.6-.6-1.6 0-2.1.6-.6 1.5-.6 2.1 0l10 10c.6.6.6 1.5 0 2.1-.3.3-.6.4-1 .4z" fill="#d5281b"></path>
+        <path d="M7 18.5c-.4 0-.8-.1-1.1-.4-.6-.6-.6-1.5 0-2.1l10-10c.6-.6 1.5-.6 2.1 0 .6.6.6 1.5 0 2.1l-10 10c-.3.3-.6.4-1 .4z" fill="#d5281b"></path>
+      </svg>
+      where the service starts and ends not being clear
+    </li>
+ 
+    <li>
+      <svg class="dfeuk-icon dfeuk-icon__cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" width="34" height="34">
+        <path d="M17 18.5c-.4 0-.8-.1-1.1-.4l-10-10c-.6-.6-.6-1.6 0-2.1.6-.6 1.5-.6 2.1 0l10 10c.6.6.6 1.5 0 2.1-.3.3-.6.4-1 .4z" fill="#d5281b"></path>
+        <path d="M7 18.5c-.4 0-.8-.1-1.1-.4-.6-.6-.6-1.5 0-2.1l10-10c.6-.6 1.5-.6 2.1 0 .6.6.6 1.5 0 2.1l-10 10c-.3.3-.6.4-1 .4z" fill="#d5281b"></path>
+      </svg>
+      the service not achieving the users' goal
+    </li>
+        </ul>
+      </div>
+    </div>
+
+### In beta and live 
+
+#### Things to consider:
+
+- how data has been used to understand service performance and a plan for how you'll use this in live
+- evidence of continuous improvement to make changes to the user journey or content
+- continual monitoring of feedback and testing usability
+- evidence of usability testing, including users with the lowest level of digital skills
+- how the service meets <a href='https://design.education.gov.uk/accessibility/'> accessibility </a> requirements
+- user research to understand any performance issues
+
+
+
+
+<div class="govuk-summary-card">
+      <div class="govuk-summary-card__title-wrapper">
+        <h3 class="govuk-summary-card__title">Things to avoid in discovery</h3>
+      </div>
+      <div class="govuk-summary-card__content">
+        <ul class="dfe-list dfe-list--cross" role="list">
+           <li>
+      <svg class="dfeuk-icon dfeuk-icon__cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" width="34" height="34">
+        <path d="M17 18.5c-.4 0-.8-.1-1.1-.4l-10-10c-.6-.6-.6-1.6 0-2.1.6-.6 1.5-.6 2.1 0l10 10c.6.6.6 1.5 0 2.1-.3.3-.6.4-1 .4z" fill="#d5281b"></path>
+        <path d="M7 18.5c-.4 0-.8-.1-1.1-.4-.6-.6-.6-1.5 0-2.1l10-10c.6-.6 1.5-.6 2.1 0 .6.6.6 1.5 0 2.1l-10 10c-.3.3-.6.4-1 .4z" fill="#d5281b"></path>
+      </svg>
+      not having a plan to continually improve the service
+    </li>
+        <li>
+      <svg class="dfeuk-icon dfeuk-icon__cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" width="34" height="34">
+        <path d="M17 18.5c-.4 0-.8-.1-1.1-.4l-10-10c-.6-.6-.6-1.6 0-2.1.6-.6 1.5-.6 2.1 0l10 10c.6.6.6 1.5 0 2.1-.3.3-.6.4-1 .4z" fill="#d5281b"></path>
+        <path d="M7 18.5c-.4 0-.8-.1-1.1-.4-.6-.6-.6-1.5 0-2.1l10-10c.6-.6 1.5-.6 2.1 0 .6.6.6 1.5 0 2.1l-10 10c-.3.3-.6.4-1 .4z" fill="#d5281b"></path>
+      </svg>
+      not understanding how user needs might change over time
+    </li>
+        </ul>
+      </div>
+    </div>
+
+## Profession specific guidance
+
+Each DDaT profession in DfE has their own community and guidance.
+
+<p class="govuk-body-l govuk-!-font-weight-bold">
+   <a class="govuk-link" href="https://user-research.education.gov.uk/" target="_blank">User Research Manual</a>
+</p>
+<p class="govuk-body-l govuk-!-font-weight-bold">
+   <a class="govuk-link" href="https://design.education.gov.uk/" target="_blank">Design Manual</a>
+</p>
+
+  {% endmarkdown %}
+
+{% endblock %}
