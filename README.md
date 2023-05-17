@@ -1,6 +1,6 @@
 # Design Manual
 
-This is the Department for Education Design Manual
+Apply the Service Standard in DfE
 
 
 ## Prerequisites
