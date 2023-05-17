@@ -1,6 +1,6 @@
-# Design Manual
+# Apply the Service Standard in DfE
 
-Apply the Service Standard in DfE
+Guidance and information for working to the Government Service Standard in the Department for Education.
 
 
 ## Prerequisites
