@@ -1,7 +1,7 @@
 module.exports = {
 
   // Base URL
-  baseURL: process.env.BASE_URL || 'https://apply-the-service-standard.education.gov.uk/',
+  baseURL: process.env.BASE_URL || 'https://apply-the-service-standard.herokuapp.com/',
 
   // Environment
   env: process.env.NODE_ENV || 'development',

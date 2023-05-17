@@ -6,4 +6,10 @@
        <changefreq>daily</changefreq>
        <priority>1.0000</priority>
   </url>
+    <url>
+       <loc>https://apply-the-service-standard.herokuapp.com</loc>
+       <lastmod>2023-04-28T22:15:44+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1.0000</priority>
+  </url>
 </urlset>
