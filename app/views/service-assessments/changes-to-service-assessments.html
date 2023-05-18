@@ -1,0 +1,41 @@
+{% extends "layouts/content-with-sidenav.html" %}
+
+{% set selectedNav = "Service assessments" %}
+{% set pageName = "How we're changing service assessments" %}
+{% set pageDescription = "We're developing a new process for booking, managing, and reporting service assessments in the Department for Education."%}
+
+
+
+
+{% block content %}
+
+    {% markdown %}
+
+The [Design Ops team](https://design.education.gov.uk/design-ops) are building a new service to find out about, and assure digital projects and services in DfE.
+
+Assure your service will include a step-by-step guide to find out about, book, and report on different types of assurance. From discovery peer reviews to service assessments.
+
+The service will be used by service teams, peer reviewers, assessors and the service assessment team. All of whom are involved as either stakeholders or users of the service in research.
+
+  <picture>
+    <source srcset="/assets/images/assure.webp" type="image/webp">
+    <img src="/assets/images/assure.png" alt="Screenshot showing the Assure your service prototype" style="width:100%; background: #efefef; border-radius: 8px; margin: 15px 0px; padding: 10px 0 5px 0;">
+</picture>
+
+You can read more about the work on building this service in our [design history](https://design-histories.education.gov.uk/assure-your-service).
+
+## Join our user research panel
+
+If you would like to help us to build the service the right way you can join our user research panel.
+
+Over the coming weeks and months, we're organising multiple rounds of research with delivery managers, product managers, and service assessors.
+
+If you work within DfE and are interested in helping us with our research at some point you can <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=yXfS-grGoU2187O4s0qC-VTqKV3NqglCuR-vsZHpfNhUQkpaTkpDQlkwVkc2QVI2TjFFSFVaTzhaRC4u" target="_blank">register your interest using this Microsoft Form</a>.
+
+If you are from another government department and want to get involved, email [design.ops@education.gov.uk](design.ops@education.gov.uk)
+
+A typical session lasts 45 minutes to an hour. We would contact you when organising a round of research to see if you were free and would like to participate.
+
+    {% endmarkdown %}
+
+{% endblock %}

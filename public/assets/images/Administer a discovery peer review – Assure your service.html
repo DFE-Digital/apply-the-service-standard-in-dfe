@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8">
+    <title>
+Administer a discovery peer review – Assure your service
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c"> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/plugin-assets/govuk-frontend/govuk/assets/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="/plugin-assets/govuk-frontend/govuk/assets/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="/plugin-assets/govuk-frontend/govuk/assets/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="/plugin-assets/govuk-frontend/govuk/assets/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="/plugin-assets/govuk-frontend/govuk/assets/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="/plugin-assets/govuk-frontend/govuk/assets/images/govuk-apple-touch-icon.png">
+    
+
+    
+  
+<script src="https://kit.fontawesome.com/9ef90ca51e.js" crossorigin="anonymous"></script>
+
+  
+    <link href="/public/stylesheets/application.css" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+
+
+    
+    
+  </head>
+  <body class="govuk-template__body "><script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='/browser-sync/browser-sync-client.js?v=2.27.11'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+    
+
+    
+
+
+
+
+
+
+<div class="user-strip"><div class="dfeuk-width-container"><strong class="govuk-tag">Prototype</strong> User type: Admin - <a href="/">Change</a></div></div>
+<header class="dfeuk-header" role="banner">
+  <div class="dfeuk-width-container dfeuk-header__container app-width-container">
+    <div class="dfeuk-header__logo">
+      <a class="dfeuk-header__link dfeuk-header__link--service " href="/" aria-label="DfE digital service manual homepage">
+        <img src="/public/images/dfe-logo.png" alt="Back to the homepage" class="dfeuk-header__logo-img"></img>
+        <span class="dfeuk-header__service-name">Assure your service</span></a>
+    </div>
+    <div class="dfeuk-header__content" id="content-header">
+      <div class="dfeuk-header--username"><i class="fa-regular fa-circle-user"></i> Andy Jones</div>
+      <div class="dfeuk-header__menu">
+        <button class="dfeuk-header__menu-toggle" id="toggle-menu" aria-controls="header-navigation" aria-expanded="false">Menu</button>
+      </div>
+      <div class="dfeuk-header__search">
+        <button class="dfeuk-header__search-toggle" id="toggle-search" aria-controls="search" aria-label="Open search">
+          <svg class="dfeuk-icon dfeuk-icon__search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false" height="40" width="100">
+            <path d="M19.71 18.29l-4.11-4.1a7 7 0 1 0-1.41 1.41l4.1 4.11a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 10a5 5 0 1 1 5 5 5 5 0 0 1-5-5z"></path>
+          </svg>
+          <span class="dfeuk-u-visually-hidden">Search</span>
+        </button>
+        <div class="dfeuk-header__search-wrap" id="wrap-search">
+          <form class="dfeuk-header__search-form" id="search" action="/search/" method="get" role="search">
+            <label class="dfeuk-u-visually-hidden" for="search_field">Search the DfE digital service manual</label>
+            <div class="autocomplete-container" id="autocomplete-container"></div>
+            <input class="dfeuk-search__input" id="search_field" name="search_field" type="search" placeholder="Search requests and reports" autocomplete="off">
+
+            <button class="dfeuk-search__submit" type="submit">
+              <svg class="dfeuk-icon dfeuk-icon__search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false" width="27" height="27">
+                <path d="M19.71 18.29l-4.11-4.1a7 7 0 1 0-1.41 1.41l4.1 4.11a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 10a5 5 0 1 1 5 5 5 5 0 0 1-5-5z"></path>
+              </svg>
+              <span class="dfeuk-u-visually-hidden">Search</span>
+            </button>
+            <button class="dfeuk-search__close" id="close-search">
+              <svg class="dfeuk-icon dfeuk-icon__close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false" width="27" height="27">
+                <path d="M13.41 12l5.3-5.29a1 1 0 1 0-1.42-1.42L12 10.59l-5.29-5.3a1 1 0 0 0-1.42 1.42l5.3 5.29-5.3 5.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l5.29-5.3 5.29 5.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42z"></path>
+              </svg>
+              <span class="dfeuk-u-visually-hidden">Close search</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="dfeuk-header__navigation app-header__navigation" id="header-navigation" role="navigation" aria-label="Site navigation" aria-labelledby="label-navigation">
+    <div class="dfeuk-width-container app-width-container">
+      <p class="dfeuk-header__navigation-title">
+        <span id="label-navigation">Menu</span>
+        <button class="dfeuk-header__navigation-close" id="close-menu">
+          <svg class="dfeuk-icon dfeuk-icon__close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M13.41 12l5.3-5.29a1 1 0 1 0-1.42-1.42L12 10.59l-5.29-5.3a1 1 0 0 0-1.42 1.42l5.3 5.29-5.3 5.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l5.29-5.3 5.29 5.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42z"></path>
+          </svg>
+          <span class="dfeuk-u-visually-hidden">Close menu</span>
+        </button>
+      </p>
+      <ul class="dfeuk-header__navigation-list">
+        <li class="dfeuk-header__navigation-item dfeuk-header__navigation-item--for-mobile">
+          <a class="dfeuk-header__navigation-link" href="/">
+              Home
+              <svg class="dfeuk-icon dfeuk-icon__chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" width="27" height="27">
+              <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z"></path>
+            </svg>
+          </a>
+        </li>
+        
+          <li class="dfeuk-header__navigation-item app-header__navigation-item__item--current">
+            <a class="dfeuk-header__navigation-link" href="/admin/">
+              Manage 
+              <svg class="dfeuk-icon dfeuk-icon__chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"  width="34" height="34">
+                <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z"></path>
+              </svg>
+            </a>
+          </li>
+        
+          <li class="dfeuk-header__navigation-item">
+            <a class="dfeuk-header__navigation-link" href="/assessors/">
+              Assessors 
+              <svg class="dfeuk-icon dfeuk-icon__chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"  width="34" height="34">
+                <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z"></path>
+              </svg>
+            </a>
+          </li>
+        
+          <li class="dfeuk-header__navigation-item">
+            <a class="dfeuk-header__navigation-link" href="/reports/">
+              Reports 
+              <svg class="dfeuk-icon dfeuk-icon__chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"  width="34" height="34">
+                <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z"></path>
+              </svg>
+            </a>
+          </li>
+        
+          <li class="dfeuk-header__navigation-item">
+            <a class="dfeuk-header__navigation-link" href="/support/">
+              Support 
+              <svg class="dfeuk-icon dfeuk-icon__chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"  width="34" height="34">
+                <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z"></path>
+              </svg>
+            </a>
+          </li>
+        
+          <li class="dfeuk-header__navigation-item">
+            <a class="dfeuk-header__navigation-link" href="/survey/">
+              Survey 
+              <svg class="dfeuk-icon dfeuk-icon__chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"  width="34" height="34">
+                <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z"></path>
+              </svg>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+
+    
+      <div class="govuk-width-container ">
+        
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+        <div class="dfe-panel">
+
+    <strong class="govuk-tag govuk-tag--grey">Discovery</strong>
+    <strong class="govuk-tag govuk-tag--grey">Peer Review</strong>
+
+    <h1 class="govuk-heading-xl govuk-!-margin-bottom-5 govuk-!-margin-top-3">Book after school clubs</h1>
+
+    <div class="govuk-grid-row">
+
+        <div class="govuk-grid-column-one-quarter">
+            <p class="govuk-body">
+                <span class="govuk-!-font-weight-bold">Review date</span><br/>
+                17 July 2023 at 10:00</p>
+            </div>
+
+             <div class="govuk-grid-column-one-quarter">
+               <p class="govuk-body">
+                <span class="govuk-!-font-weight-bold">Status</span><br/>
+                
+                    <strong class="govuk-tag govuk-tag--blue">In progress</strong>
+                     
+
+                </p>
+            </div>
+
+            <div class="govuk-grid-column-one-quarter">
+                <p class="govuk-body">
+                    <span class="govuk-!-font-weight-bold">Outcome</span><br/>
+                    
+                   Review not complete
+                    
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+</div>
+
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-quarter">
+        <nav class="dfeuk-vertical-nav">
+
+    <ul class="dfeuk-vertical-nav__section">
+
+        
+
+        
+
+            <li class="dfeuk-vertical-nav__section-item dfeuk-vertical-nav__section-item--current">
+                <a class="dfeuk-vertical-nav__link " href="/admin/entry/304">Task</a>
+            </li>
+            <li class="dfeuk-vertical-nav__section-item ">
+                <a class="dfeuk-vertical-nav__link " href="/admin/entry/submission/304">View or update submission</a>
+            </li>
+            <li class="dfeuk-vertical-nav__section-item ">
+                <a class="dfeuk-vertical-nav__link " href="/admin/entry/team/304">Discovery team</a>
+            </li>
+            <li class="dfeuk-vertical-nav__section-item ">
+
+                <a class="dfeuk-vertical-nav__link " href="/admin/entry/files/304">Supporting artefacts</a>
+            </li>
+
+        </ul>
+
+        <h2 class="govuk-heading-s">Peer review</h2>
+
+        <ul class="dfeuk-vertical-nav__section">
+            <li class="dfeuk-vertical-nav__section-item ">
+                <a class="dfeuk-vertical-nav__link " href="/admin/entry/panel/304">Panel and observers</a>
+            </li>
+            <li class="dfeuk-vertical-nav__section-item ">
+                <a class="dfeuk-vertical-nav__link " href="/admin/entry/review/304">Review report</a>
+            </li>
+        </ul>
+    
+
+</nav>
+
+
+    </div>
+    <div class="govuk-grid-column-three-quarters">
+        
+        
+
+
+    
+                
+
+        
+
+              <h2 class="govuk-heading-m">Tasks</h2>
+
+            <table class="dfeuk-table dfeuk-table-responsive dfeuk-table--smaller">
+                <thead class="dfeuk-table__head">
+                    <tr class="dfeuk-table__row">
+                        <th scope="col" class="dfeuk-table__header">Task</th>
+                        <th scope="col" class="dfeuk-table__header dfeuk-table__header--numeric">Status</th>
+                    </tr>
+                </thead>
+                <tbody class="dfeuk-table__body">
+
+                    <tr class="dfeuk-table__row">
+                        <th scope="row" class="dfeuk-table__cell">
+                            <a href="/admin/entry/project-code/304">
+                                Change  project code</a>
+                            </th>
+                            <td class="dfeuk-table__cell dfeuk-table__header--numeric">
+                                
+                                    <strong class="govuk-tag govuk-tag--green">Complete</strong>
+                                
+                            </td>
+                        </tr>
+                        <tr class="dfeuk-table__row">
+                            <th scope="row" class="dfeuk-table__cell">
+                                <a href="/admin/entry/bp/304">
+                                    Add  business partner</a>
+                                </th>
+                                <td class="dfeuk-table__cell dfeuk-table__header--numeric">
+                                    
+                                        <strong class="govuk-tag govuk-tag--grey">Optional</strong>
+                                    
+                                </td>
+                            </tr>
+                               <tr class="dfeuk-table__row">
+                              <th scope="row" class="dfeuk-table__cell">
+                            <a href="/admin/entry/delivery/304">
+                                Change  delivery manager</a>
+                            </th>
+                            <td class="dfeuk-table__cell dfeuk-table__header--numeric">
+                                
+                                    <strong class="govuk-tag govuk-tag--green">Complete</strong>
+                                
+                            </td>
+                        </tr>
+                         <tr class="dfeuk-table__row">
+                              <th scope="row" class="dfeuk-table__cell">
+                            <a href="/admin/entry/product/304">
+                                Change  product manager</a>
+                            </th>
+                            <td class="dfeuk-table__cell dfeuk-table__header--numeric">
+                                
+                                    <strong class="govuk-tag govuk-tag--green">Complete</strong>
+                                
+                            </td>
+                        </tr>
+                        
+                            <tr class="dfeuk-table__row">
+                                <th scope="row" class="dfeuk-table__cell">
+                                    <a href="/admin/entry/review-date/304">
+                                        Change review date</a>
+                                    </th>
+                                    <td class="dfeuk-table__cell dfeuk-table__header--numeric">
+                                        
+                                            <strong class="govuk-tag govuk-tag--green">Complete</strong>
+                                        
+                                    </td>
+                                </tr>
+
+                                   <tr class="dfeuk-table__row">
+                                    <th scope="row" class="dfeuk-table__cell">
+                                        <a href="/admin/entry/panel/304">Manage panel members</a>
+                                        </th>
+                                        <td class="dfeuk-table__cell dfeuk-table__header--numeric">
+                                            
+                                                <strong class="govuk-tag govuk-tag--blue">In progress</strong>
+                                            
+                                        </td>
+                                    </tr>
+
+                                
+
+                                    
+
+                                      <tr class="dfeuk-table__row">
+                                        <th scope="row" class="dfeuk-table__cell">
+                                            <a href="/admin/entry/review/304">Check and send report to discovery team</a>
+                                        </th>
+                                        <td class="dfeuk-table__cell dfeuk-table__header--numeric">
+                                             
+                                                <strong class="govuk-tag govuk-tag--grey">Cannot start yet</strong>
+                                            
+                                        </td>
+                                    </tr>
+
+                                    <tr class="dfeuk-table__row">
+                                        <th scope="row" class="dfeuk-table__cell">
+                                            <a href="/admin/entry/publish/304">Publish report</a>
+                                        </th>
+                                        <td class="dfeuk-table__cell dfeuk-table__header--numeric">
+                                             
+                                                <strong class="govuk-tag govuk-tag--grey">Cannot start yet</strong>
+                                            
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                      
+    </div>
+</div>
+
+
+        </main>
+      </div>
+    
+
+    
+
+<footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    
+      <div class="govuk-footer__navigation">
+        
+          <div class="govuk-footer__section govuk-grid-column-two-thirds">
+            <h2 class="govuk-footer__heading govuk-heading-m">Navigation</h2>
+            
+              
+              <ul class="govuk-footer__list govuk-footer__list--columns-2">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="/">
+                        Home
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="/manage/">
+                        Manage your assurance
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="/admin">
+                        Assurance administration
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="/reports">
+                        Assurance reports
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="/support">
+                        Support
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="/accessibility">
+                        Accessibility statement
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+          <div class="govuk-footer__section govuk-grid-column-one-third">
+            <h2 class="govuk-footer__heading govuk-heading-m">Other services</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://dfe-standards-manual-prototype.herokuapp.com/">
+                        Standards manual
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://design.education.gov.uk">
+                        UCD manual
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://user-research.education.gov.uk">
+                        User research manual
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+      </div>
+      <hr class="govuk-footer__section-break">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          
+            All content is available under the
+            <a
+              class="govuk-footer__link"
+              href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+              rel="license"
+            >Open Government Licence v3.0</a>, except where otherwise stated
+          
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    
+  
+        
+  
+    
+  
+    <script src="/plugin-assets/govuk-prototype-kit/lib/assets/javascripts/kit.js"></script>
+  
+
+  
+    <script src="/plugin-assets/govuk-prototype-kit/lib/assets/javascripts/auto-store-data.js"></script>
+  
+
+  
+    <script src="/plugin-assets/govuk-frontend/govuk/all.js"></script>
+  
+
+  
+    <script src="/plugin-assets/govuk-frontend/govuk-prototype-kit/init.js"></script>
+  
+
+  
+    <script src="/public/javascripts/application.js"></script>
+  
+
+
+    
+  
+  <script src="/public/javascripts/ds.js"></script>
+  <script type="text/javascript" src="/public/javascripts/accessible-autocomplete.min.js"></script>     
+  <script>
+(function (m, a, z, e) {
+  var s, t;
+  try {
+    t = m.sessionStorage.getItem('maze-us');
+  } catch (err) {}
+
+  if (!t) {
+    t = new Date().getTime();
+    try {
+      m.sessionStorage.setItem('maze-us', t);
+    } catch (err) {}
+  }
+
+  s = a.createElement('script');
+  s.src = z + '?t=' + t + '&apiKey=' + e;
+  s.async = true;
+  a.getElementsByTagName('head')[0].appendChild(s);
+  m.mazeUniversalSnippetApiKey = e;
+})(window, document, 'https://snippet.maze.co/maze-universal-loader.js', '65dfeffa-8f46-4a3e-a48e-8de66e00be67');
+</script>
+
+
+
+
+        <script>
+            
+        </script>
+    
+
+  </body>
+</html>
