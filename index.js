@@ -113,6 +113,7 @@ app.post('/submit-feedback', (req, res) => {
       personalisation: {
         feedback: feedback,
         page: fullUrl,
+        service: "Apply the Service Standard"
       },
     })
     .then((response) => {})
