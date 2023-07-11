@@ -4,7 +4,7 @@
 {% set pageName = "Apply the Service Standard" %}
 {% set seoPageName = "Apply the Service Standard in the Department for Education" %}
 {% set pageDescription = "Guidance and information for how to apply the Government Service Standard to design and build accessible, usable and understandable services in the Department for Education."%}
-{% set selectedNav = "Home" %}
+{% set selectedNav = "Service Standard" %}
 
 {% set standards = [
   {
@@ -88,70 +88,17 @@
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-two-thirds">
 
+        <h2 class="govuk-heading-l">14 Service Standard points</h2>
 
+        <ol class="govuk-list dfe-list--bordered">
+          {% for standard in standards%}
 
-    <div class="dfe-grid-container">
-
-          <div class="dfe-card">
-    
-            <div class="dfe-card-container">
-
-              <h2 class="govuk-heading-m">
-                <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header" href="/service-standard">The Service Standard</a>
-              </h2>
-              <p>
-                 Guidance for applying the 14 point Service Standard throughout the serivce delivery lifecycle.</p>
-            </div>
-          </div>
-
-               <div class="dfe-card">
-      
-             <div class="dfe-card-container">
-              <h2 class="govuk-heading-m">
-                <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header" href="/service-assessments">Service assessments</a>
-              </h2>
-              <p>Understanding the service assessment process in the Department for Education.</p>
-            </div>
-
-
-          </div>
-
-        </div>
-
-<section class="govuk-!-margin-top-9">
-
-      <div class="dfe-panel-section">
-
-        <div class="govuk-grid-row">
-
-          <div class="govuk-grid-column-full">
-
-            <h2 class="govuk-heading-l">Standards for good services</h2>
-
-          </div>
-
-          <div class="govuk-grid-column-two-thirds">
-
-            <p>Find and understand standards for design, user research, technology and architecture for delivering good Department for Education services.</p>
-
-          </div>
-
-          <div class="govuk-grid-column-one-third">
-
-            <ul class="govuk-list govuk-list--spaced">
-              <li>
-                <a href="https://standards.education.gov.uk/" target="_blank" class="govuk-link govuk-link--inverse govuk-!-font-weight-bold">Standards guidance</a>
-              </li>
-            </ul>
-
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-     
+            <li>
+              <a class="govuk-link govuk-link--no-visited-state" href="{{standard.url}}">
+                <span class="dfe-list--number">{{standard.number}}</span>. {{standard.name}}</a>
+            </li>
+          {% endfor %}
+        </ol>
 
       </div>
       <div class="govuk-grid-column-one-third">

@@ -6,19 +6,8 @@
 
 
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (min-device-pixel-ratio: 2),
-only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) {
-  .govuk-width-container {
-    max-width: 960px;
-
-    @include govuk-media-query($from: desktop) {
-      max-width: 1200px;
-    }
-  }
+.govuk-width-container {
+  max-width: 1200px;
 }
 
 
@@ -2263,3 +2252,12 @@ $expander-border-hover-color: $color_dfe-secondary-blue;
   padding-left:0px;
 }
 
+
+
+.dfe-panel-section{
+  background: #347ca9;
+  padding: 30px;
+
+  .govuk-heading-l, p{
+  color: $color_dfe-white}
+}
