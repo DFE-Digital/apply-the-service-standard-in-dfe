@@ -810,7 +810,7 @@ function gtag() {
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-K11EVHSR12');
+  gtag('config', gID);
 
 }
 
