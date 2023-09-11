@@ -1,0 +1,34 @@
+{% set pageTitle = "Outcome" %}
+{% set pageSection = "Service assurance" %}
+{% set dateUpdated = "February 2023" %}
+{% set backlog_issue_id = "" %}
+{% set active_block_1 = "active-step" %}
+
+{% extends "includes/sbs-layout.njk" %}
+
+{% block breadcrumb %}
+    {% include "service-assurance/_breadcrumb.njk" %}
+{% endblock %}
+
+{% block beforeBody %}
+
+    <div class="app-step-nav-header">
+        <span class="app-step-nav-header__part-of">Part of</span>
+        <a class="app-step-nav-header__title" href="/service-assurance/check-what-assurance-you-need/check">
+      Service assurance: step by step
+    </a>
+    </div>
+
+{% endblock %}
+
+{% block bodyContent %}
+
+    {% if(outcome === "1")%}
+        {% include "service-assurance/check-what-assurance-you-need/check-service/_outcome-discovery.njk" %}
+        {% endif%}
+
+    {% endblock %}
+
+    {% block stepByStep %}
+    {% include "service-assurance/_sbs.njk"%}
+{% endblock %}

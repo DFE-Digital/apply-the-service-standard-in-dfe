@@ -1,0 +1,33 @@
+{% extends "layouts/content-with-sidenav-right.html" %}
+
+{% set selectedNav = "Service assurance" %}
+{% set pageName = "Service assurance: step by step" %}
+{% set seoPageName = "Service assurance: step by step" %}
+{% set pageDescription = "Check what you need to assure your service in the Department for Education."%}
+{% set selectedNav = "Service assurance" %}
+{% set largeSBS = "true" %}
+
+
+{% block hero %}
+
+  <section class="dfe-hero">
+    <div class="dfe-width-container ">
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+
+          <h1 class="govuk-heading-xl">{{pageName}}</h1>
+          <p class="govuk-body-l govuk-!-margin-bottom-0">{{pageDescription}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}
+
+{% block content %}
+
+   
+    {% include "service-assurance/_sbs.html"%}
+
+
+{% endblock %}

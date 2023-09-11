@@ -1,0 +1,81 @@
+{% set pageTitle = "What phase are you in?" %}
+{% set pageSection = "Service assurance" %}
+{% set dateUpdated = "February 2023" %}
+{% set backlog_issue_id = "" %}
+{% set active_block_1 = "active-step" %}
+
+{% extends "includes/sbs-form-layout.njk" %}
+
+{% block breadcrumb %}
+    {% include "service-assurance/_breadcrumb.njk" %}
+{% endblock %}
+
+{% block beforeBody %}
+
+    <div class="app-step-nav-header">
+        <span class="app-step-nav-header__part-of">Part of</span>
+        <a class="app-step-nav-header__title" href="/service-assurance/check-what-assurance-you-need/check">
+      Service assurance: step by step
+    </a>
+    </div>
+
+{% endblock %}
+
+{% block bodyContent %}
+
+    <form action="/service/assurance/check" method="post">
+        <div class="govuk-form-group">
+            <fieldset class="govuk-fieldset">
+                <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+
+                    <span class="govuk-caption-l">Check what assurance you need for your service</span>
+                    <h1 class="govuk-fieldset__heading">
+        What phase are you in?
+      </h1>
+                </legend>
+                <div class="govuk-radios" data-module="govuk-radios">
+                    <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="phase" name="phase" type="radio" value="Discovery">
+                        <label class="govuk-label govuk-radios__label" for="phase">
+          Discovery
+        </label>
+                    </div>
+                    <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="phase-2" name="phase" type="radio" value="Alpha">
+                        <label class="govuk-label govuk-radios__label" for="phase-2">
+          Alpha
+        </label>
+                    </div>
+                    <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="phase-3" name="phase" type="radio" value="Public or private beta">
+                        <label class="govuk-label govuk-radios__label" for="phase-3">
+          Public or private beta
+        </label>
+                    </div>
+                    <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="phase-4" name="phase" type="radio" value="Live">
+                        <label class="govuk-label govuk-radios__label" for="phase-4">
+          Live
+        </label>
+                    </div>
+                    <div class="govuk-radios__divider">or</div>
+                    <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="phase-6" name="phase" type="radio" value="Not in a phase">
+                        <label class="govuk-label govuk-radios__label" for="phase-6">
+          Not in a phase
+        </label>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <button class="govuk-button" data-module="govuk-button">
+  Continue
+</button>
+    </form>
+
+{% endblock %}
+
+
+    {% block stepByStep %}
+    {% include "service-assurance/_sbs.njk"%}
+{% endblock %}

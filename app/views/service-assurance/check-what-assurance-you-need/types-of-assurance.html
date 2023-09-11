@@ -1,0 +1,88 @@
+{% set selectedNav = "Service assurance" %}
+{% set pageName = "Types of assurance" %}
+{% set seoPageName = "Service assurance: step by step" %}
+{% set stepSection = "Check what assurance you need" %}
+{% set pageDescription = "Check what you need to assure your service in the Department for Education."%}
+{% set selectedNav = "Service assurance" %}
+{% set dateUpdated = "10 September 2023" %}
+{% set backlog_issue_id = "" %}
+{% set active_block_1 = "active-step" %}
+
+{% extends "layouts/content-with-sidenav-right.html" %}
+
+{% block breadcrumb %}
+    {% include "service-assurance/_breadcrumb.html" %}
+{% endblock %}
+
+
+{% block hero %}
+
+  <section class="dfe-hero">
+    <div class="dfe-width-container ">
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+
+          <span class="govuk-caption-xl">{{stepSection}}</span>
+          <h1 class="govuk-heading-xl">{{pageName}}</h1>
+          <p class="govuk-body-l govuk-!-margin-bottom-0">{{pageDescription}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}
+
+
+{% block content %}
+
+<p>There are 3 types of assurance which you can use to make sure we're spending public money or building the right thing in the right way.</p>
+
+<h2 class="govuk-heading-m">Team assurance</h2>
+
+<p>Team-level assurance methods can help you to make sure that you're doing the right thing.</p>
+
+<p>Some examples of team assurance are:</p>
+
+<ul>
+    <li>design crits</li>
+    <li>2i on content</li>
+    <li>accessibility compliance using checklists</li>
+    <li>automated tests when code is changed and deployed</li>
+    <li>RAG (red, amber, green) reviews</li>
+</ul>
+
+<h2 class="govuk-heading-m">Departmental assurance</h2>
+
+<p>Outside of your team, department-level assurance methods are used to make sure you're following the required standards.</p>
+
+<p>These are usually required to ensure we're meeting our governance requirements as a government department.</p>
+
+<p>Some examples of departmental assurance are:</p>
+
+<ul>
+    <li><a href="/service-assurance/prepare-for-a-discovery-peer-review/what-a-discovery-peer-review-is">discovery peer reviews</a></li>
+    <li>DfE panel service assessments</li>
+    <li>Show and tells</li>
+    <li>IT health check</li>
+    <li>Spend control review</li>
+    <li>mock assessments</li>
+</ul>
+
+<h2 class="govuk-heading-m">Independent assurance</h2>
+
+<p>Using independent assurance methods outside of DfE provides an even greater level of assurance and in some instances is required.</p>
+
+<p>Some examples of independent assurance are:</p>
+
+<ul>
+    <li>cross-government panel service assessment</li>
+    <li>security audits or penetration testing</li>
+    <li>accessibility audit</li>
+    <li>cross-government peer reviews or design crits</li>
+</ul>
+
+{% endblock %}
+
+{% block sideContent %}
+    {% include "service-assurance/_sbs.html"%}
+{% endblock %}
