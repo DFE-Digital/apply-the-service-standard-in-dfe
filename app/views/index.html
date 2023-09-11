@@ -68,13 +68,12 @@
 
 {% block hero %}
 
-  <section class="dfe-hero">
-    <div class="dfe-width-container ">
+  <section style="background: #ebf2f6;">
+    <div class="dfe-width-container" style="padding: 60px 0px;">
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-two-thirds">
-
-          <h1 class="govuk-heading-xl">Apply the Service Standard in the <br/>Department for Education</h1>
-          <p class="govuk-body-l govuk-!-margin-bottom-0">Guidance and information for how to apply the <a href="https://www.gov.uk/service-manual/service-standard" target="_blank" class="govuk-link govuk-link--inverse">Government Service Standard</a> to design and build accessible, usable and understandable services in DfE.</p>
+          <h1 class="govuk-heading-xl govuk-!-margin-bottom-6">{{pageName}}</h1>
+          <p class="govuk-body-l govuk-!-margin-bottom-0">{{pageDescription}}</p>
         </div>
       </div>
     </div>
@@ -84,122 +83,75 @@
 
 {% block content %}
 
-  <section class="govuk-!-margin-bottom-9">
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-two-thirds">
-
-
-
-    <div class="dfe-grid-container">
-
-          <div class="dfe-card">
-    
-            <div class="dfe-card-container">
-
-              <h2 class="govuk-heading-m">
-                <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header" href="/service-standard">The Service Standard</a>
-              </h2>
-              <p>
-                 Guidance for applying the 14 point Service Standard throughout the serivce delivery lifecycle.</p>
-            </div>
-          </div>
-
-               <div class="dfe-card">
-      
-             <div class="dfe-card-container">
-              <h2 class="govuk-heading-m">
-                <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header" href="/service-assurance">Service assurance</a>
-              </h2>
-              <p>Understanding the assessment process and assuring your service in the Department for Education.</p>
-            </div>
-
-
-          </div>
+  <section class="" style="background: #ffffff;">
+    <div class="dfe-width-container" style="padding: 0px 0px 80px 0px">
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+          <h2 class="govuk-heading-l">Understand and apply standards</h2>
 
         </div>
-
-<section class="govuk-!-margin-top-9">
-
-      <div class="dfe-panel-section">
-
-        <div class="govuk-grid-row">
-
-          <div class="govuk-grid-column-full">
-
-            <h2 class="govuk-heading-l">Standards for good services</h2>
-
-          </div>
-
-          <div class="govuk-grid-column-two-thirds">
-
-            <p>Find and understand standards for design, user research, technology and architecture for delivering good Department for Education services.</p>
-
-          </div>
-
-          <div class="govuk-grid-column-one-third">
-
-            <ul class="govuk-list govuk-list--spaced">
-              <li>
-                <a href="https://standards.education.gov.uk/" target="_blank" class="govuk-link govuk-link--inverse govuk-!-font-weight-bold">Standards guidance</a>
-              </li>
-            </ul>
-
-          </div>
-        </div>
-
       </div>
-
-    </section>
-
-     
-
-      </div>
-      <div class="govuk-grid-column-one-third">
-
-        <div class="dfe-grid-container">
-
-          <div class="dfe-card">
-            <picture>
-              <source srcset="/assets/images/download.webp" type="image/webp">
-              <img src="/assets/images/download.png" alt="">
-            </picture>
-            <div class="dfe-card-container">
-
-              <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header" href="/assets/files/standard-points-guidance-v01-dec-2022.xlsx">
-                <span class="govuk-visually-hidden">Download all guidance</span></a>
-
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <ul class="dfemanual-cta-cards">
+            <li class="card">
+              <h3>Service Standard</h3>
+              <p>How to apply the Service Standard throughout the agile delivery lifecycle.</p>
               <p>
-                  All the guidance for each of the Service Standard points.</p>
+                <a href="/service-standard" class="govuk-link govuk-link--no-visited-state">Understand the standard</a>
+              </p>
+            </li>
+            <li class="card">
+              <h3>Assurance</h3>
+              <p>Guidance on how to ensure you're following standards.</p>
+              <p>
+                <a href="/service-assurance" class="govuk-link govuk-link--no-visited-state">Understand assurance</a>
+              </p>
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="govuk-grid-column-one-third">
+
+          <ul class="dfemanual-cta-cards dfemanual-cta-cards--full">
+            <li class="card">
+              <h3>Download guidance</h3>
+              <p>All the guidance for each of the Service Standard points.</p>
+
               <p class="govuk-body-s">Excel - 98kb<br/>Last updated: 1 December 2022</p>
-            </div>
-          </div>
+              <p>
+                <a href="/assets/files/standard-points-guidance-v01-dec-2022.xlsx" class="govuk-link govuk-link--no-visited-state">Download</a>
+              </p>
+            </li>
+
+          </ul>
+
+          <h2 class="govuk-heading-m govuk-!-margin-top-5">Other resources and guidance</h2>
+
+          <ul class="govuk-list govuk-list--spaced">
+            <li>
+              <a href="https://design.education.gov.uk/" target="_blank">Design Manual</a>
+            </li>
+            <li>
+              <a href="https://user-research.education.gov.uk/" target="_blank">User Research Manual</a>
+            </li>
+            <li>
+              <a href="https://technical-guidance.education.gov.uk/" target="_blank">Technical Guidance</a>
+            </li>
+            <li>
+              <a href="https://dfe-digital.github.io/architecture/#dfe-architecture" target="_blank">Architecture</a>
+            </li>
+            <li>
+              <a href="https://design-system.service.gov.uk/" target="_blank">GOV.UK Design System</a>
+            </li>
+            <li>
+              <a href="https://www.gov.uk/service-manual" target="_blank">GOV.UK Service Manual</a>
+            </li>
+
+          </ul>
 
         </div>
-
-        <h2 class="govuk-heading-m govuk-!-margin-top-5">Other resources and guidance</h2>
-
-        <ul class="govuk-list govuk-list--spaced">
-          <li>
-            <a href="https://design.education.gov.uk/" target="_blank">Design Manual</a>
-          </li>
-          <li>
-            <a href="https://user-research.education.gov.uk/" target="_blank">User Research Manual</a>
-          </li>
-          <li>
-            <a href="https://technical-guidance.education.gov.uk/" target="_blank">Technical Guidance</a>
-          </li>
-          <li>
-            <a href="https://dfe-digital.github.io/architecture/#dfe-architecture" target="_blank">Architecture</a>
-          </li>
-          <li>
-            <a href="https://design-system.service.gov.uk/" target="_blank">GOV.UK Design System</a>
-          </li>
-          <li>
-            <a href="https://www.gov.uk/service-manual" target="_blank">GOV.UK Service Manual</a>
-          </li>
-
-        </ul>
-
       </div>
     </div>
   </section>
