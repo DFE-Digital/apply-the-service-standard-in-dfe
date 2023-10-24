@@ -1,0 +1,23 @@
+{% set selectedNav = "Service assurance" %}
+{% set pageName = filteredStructure
+    .subPages[0]
+    .title %}
+{% set seoPageName = "Service assurance: step by step" %}
+{% set stepSection = filteredStructure.title %}
+{% set pageDescription = filteredStructure
+    .subPages[0]
+    .description %}
+{% set selectedNav = "Service assurance" %}
+{% set dateUpdated = "10 September 2023" %}
+{% set backlog_issue_id = "" %}
+{% set active_block = filteredStructure.step %}
+
+{% extends "layouts/content-with-sidenav-right.html" %}
+
+{% block content %}
+    {% markdown "service-assurance/partials/_"+slug+".md"%}
+{% endblock %}
+
+{% block sideContent %}
+    {% include "service-assurance/_sbs.html"%}
+{% endblock %}

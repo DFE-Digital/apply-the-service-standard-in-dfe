@@ -122,6 +122,45 @@ app.post('/submit-feedback', (req, res) => {
   return res.sendStatus(200)
 })
 
+app.get('/service-assurance', (req, res) => {
+ 
+  // Get the sbs structure json file
+  var structure = require('./app/views/service-assurance/sbs-structure.json');
+  
+  // Pass it to the view to work with
+
+  return res.render('service-assurance/index.html', {structure})
+})
+
+app.get('/service-assurance/:slug', (req, res) => {
+ 
+  var slug = req.params.slug;
+
+  // Get the sbs structure json file
+  var structure = require('./app/views/service-assurance/sbs-structure.json');
+  
+  // Pass it to the view to work with
+
+
+const filteredStructure = filterBySlug(structure, slug)[0]; 
+
+
+  return res.render('service-assurance/page', {structure, filteredStructure, slug})
+})
+
+const filterBySlug = (json, slug) => {
+  const filteredItems = [];
+  for (const item of json) {
+      const filteredSubPages = item.subPages.filter(subPage => subPage.slug === slug);
+      if (filteredSubPages.length > 0) {
+          const newItem = { ...item };
+          newItem.subPages = filteredSubPages;
+          filteredItems.push(newItem);
+      }
+  }
+  return filteredItems;
+};
+
 
 app.get(/\.html?$/i, function (req, res) {
   var path = req.path
