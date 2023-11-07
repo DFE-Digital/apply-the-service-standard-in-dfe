@@ -12,7 +12,7 @@ Review the practical tips by phase in [Apply the Service Standard in DfE](/apply
 
 ### After you request a service assessment
 
-You'll receive an email with next steps. This includes how to share links to artifacts for the panel to read. For example, strategy docs, Lucid boards, design histories, or slide decks.
+You'll receive an email with next steps. This includes how to share links to artefacts for the panel to read. For example, strategy docs, Lucid boards, design histories, or slide decks.
 You can add links to work in progress, it doesn't need to be finished, it just gives the panel an idea of what you've done so far.
 
 ### One to 2 days before
@@ -40,6 +40,6 @@ The panel will aim to give the team an overall outcome within 4 working days.
 
 They'll then complete the report within 7 working days. The service assessment team will review and share it with the team.
 
-The report will include an overall [RAG (red, amber, green) status] (link to Receive feedback and recommendations for SAs) for the service, plus a RAG status against the 14 points of the Government Service Standard, feedback and any actions.
+The report will include an overall [RAG (red, amber, green) status] (link to Receive feedback and recommendations for SAs) for the service, plus a RAG status against the [14 points of the Government Service Standard](https://www.gov.uk/service-manual/service-standard), feedback and any actions.
 
 Button: Book a service assessment
