@@ -8,7 +8,7 @@ If your service is a non-transactional service, it should have a peer review.
 
 Peer reviews can happen at the end of discovery, alpha, and beta phases.
 
-- Discovery peer reviews are 2 hours long and consider the service against Standard points 1 to 7
-- Alpha and beta peer reviews are 4 hours and consider all 14 points of the Government Service Standard.
+- [Discovery peer](/service-assurance/discovery-peer-reviews) reviews are 2 hours long and consider the service against Standard points 1 to 7
+- [Alpha and beta peer reviews](/service-assurance/alpha-and-beta-peer-review) are 4 hours and consider all 14 points of the Government Service Standard.
 
 Choose the peer review that's relevant for the phase of your service.

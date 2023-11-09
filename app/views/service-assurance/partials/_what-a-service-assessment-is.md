@@ -31,7 +31,7 @@ If your service is non-transactional, it will have a [peer review](/service-assu
 
 ## When to book a service assessment 
 
-You should request a service assessment at least 6 weeks in advance so that the service assessment team has time to arrange an assessor panel. 
+You should request a service assessment at least 5 weeks in advance so that the service assessment team has time to arrange an assessor panel. 
 
 ## Outcome of a service assessment 
 

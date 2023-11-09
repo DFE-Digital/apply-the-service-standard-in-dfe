@@ -31,7 +31,7 @@ However, you should request this at least 5 weeks in advance so the service asse
 
 ## Outcome of a discovery peer review
 
-You will receive an email when the report is ready to read. This should happen around 3 days after the peer review takes place.
+You'll receive an email when the report is ready to read. This should happen around 3 days after the peer review takes place.
 
 The assessor panel will support the team with any recommendations made. Go to [step 6: after an assessment or peer review](/service-assurance/receive-peer-review-report) for details about receiving a report and acting on recommendations.
 

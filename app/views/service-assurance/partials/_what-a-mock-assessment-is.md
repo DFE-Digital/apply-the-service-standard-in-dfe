@@ -15,7 +15,7 @@ Email the service assessment team at <a href="mailto:serviceassessment.plus@educ
 
 ## Outcome of a mock assessment
 
-Mock assessments receive an informal mock report. You will receive it within 7 working days.
+You'll receive an informal mock report within 7 working days.
 
 The report follows the same format as a service assessment report but doesn’t give an overall [RAG (red, amber, green) status] (link to Receive feedback and recommendations for SAs) for the service. 
 

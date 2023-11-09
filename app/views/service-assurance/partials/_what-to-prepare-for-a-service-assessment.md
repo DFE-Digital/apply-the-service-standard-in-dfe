@@ -23,7 +23,11 @@ For larger projects, user research, design, and tech will also have pre-assessme
 
 ### On the day
 
-Service assessments are 4 hours. Someone from each discipline within the team should attend. It can be of value for the rest of the team to attend as silent observers.
+
+
+Service assessments are usually 4 hours but can vary. Some services may need less time, whereas larger services may need more. You can discuss your needs with the service assessment team as part of booking. 
+
+Someone from each discipline within the team should attend. It can be of value for the rest of the team to attend as silent observers.
 
 The panel usually includes a user researcher, designer (depending on the service, this could be content, interaction, or service design), tech assessor, and product or delivery manager.
 
