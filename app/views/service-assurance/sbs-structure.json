@@ -16,8 +16,36 @@
             }
         ]
     },
+   
     {
         "step": 2,
+        "title": "Discovery peer reviews",
+        "description": "Prepare for a discovery peer review",
+        "subPages": [
+            {
+                "title": "What a discovery peer review is",
+                "slug": "discovery-peer-review",
+                "description": ""
+            },
+            {
+                "title": "Prepare for discovery peer review",
+                "slug": "prepare-for-discovery-peer-review",
+                "description": ""
+            },
+            {
+                "title": "Assess a discovery peer review",
+                "slug": "assess-discovery-peer-review",
+                "description": ""
+            },
+            {
+                "title": "Complete a discovery peer review report",
+                "slug": "complete-discovery-peer-review-report",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "step": 3,
         "title": "Service assessments",
         "description": "Prepare for a service assessment",
         "subPages": [
@@ -27,56 +55,46 @@
                 "description": ""
             },
             {
-                "title": "What to prepare for a service assessment",
-                "slug": "what-to-prepare-for-a-service-assessment",
+                "title": "Prepare for a service assessment",
+                "slug": "prepare-for-a-service-assessment",
                 "description": ""
             },
             {
-                "title": "What a mock assessment is",
-                "slug": "what-a-mock-assessment-is",
+                "title": "Assess a service",
+                "slug": "assess-service",
                 "description": ""
             },
             {
-                "title": "What to prepare for a mock assessment",
-                "slug": "what-to-prepare-for-a-mock-assessment",
-                "description": ""
-            }
-        ]
-    },
-    {
-        "step": 3,
-        "title": "Peer reviews",
-        "description": "Prepare for a peer review",
-        "subPages": [
-            {
-                "title": "What a peer review is",
-                "slug": "what-a-peer-review-is",
-                "description": ""
-            },
-            {
-                "title": "Discovery peer reviews",
-                "slug": "discovery-peer-reviews",
-                "description": ""
-            },
-            {
-                "title": "Prepare for a discovery peer review",
-                "slug": "prepare-for-a-discovery-peer-review",
-                "description": ""
-            },
-            {
-                "title": "Alpha and beta peer reviews",
-                "slug": "alpha-and-beta-peer-review",
-                "description": ""
-            },
-            {
-                "title": "Prepare for an alpha or beta peer review",
-                "slug": "prepare-for-an-alpha-or-beta-peer-review",
+                "title": "Complete an assessment report",
+                "slug": "complete-assessment-report",
                 "description": ""
             }
         ]
     },
     {
         "step": 4,
+        "title": "Other types of assurance",
+        "description": "",
+        "subPages": [
+            {
+                "title": "Alpha and beta peer reviews",
+                "slug": "alpha-beta-peer-reviews",
+                "description": ""
+            },
+            {
+                "title": "RAG reviews",
+                "slug": "rag-reviews",
+                "description": ""
+            },
+            {
+                "title": "Design crits",
+                "slug": "design-crits",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "step": 5,
         "title": "Book and manage",
         "description": "Book and manage a service assessment or peer review",
         "subPages": [
@@ -93,45 +111,28 @@
         ]
     },
     {
-        "step": 5,
-        "title": "Assessors",
-        "description": "If you're assessing a service assessment or peer review",
-        "subPages": [
-            {
-                "title": "Assessing a service assessment",
-                "slug": "assessing-a-service-assessment",
-                "description": ""
-            },
-            {
-                "title": "Assessing a discovery peer review",
-                "slug": "assessing-discovery-peer-review",
-                "description": ""
-            },
-            {
-                "title": "Assessing an alpha or beta peer review",
-                "slug": "assessing-an-alpha-beta-peer-review",
-                "description": ""
-            }
-        ]
-    },
-    {
         "step": 6,
-        "title": "After a service assessment or peer review",
-        "description": "After a service assessment or peer review",
+        "title": "After a discovery peer review or service assessment",
+        "description": "",
         "subPages": [
+            {
+                "title": "Recieve discovery peer review report",
+                "slug": "receive-discovery-peer-review-report",
+                "description": ""
+            },
             {
                 "title": "Recieve service assessment report",
                 "slug": "recieve-assessment-report",
                 "description": ""
             },
             {
-                "title": "Recieve peer review report",
-                "slug": "receive-peer-review-report",
+                "title": "Manage actions from a peer review or service assessment",
+                "slug": "manage-actions-peer-review-service-assessment",
                 "description": ""
             },
             {
-                "title": "Complete the feedback survey",
-                "slug": "complete-the-feedback-survey",
+                "title": "Complete a feedback survey",
+                "slug": "complete-feedback-survey",
                 "description": ""
             }
         ]
