@@ -20,7 +20,7 @@
     {
         "step": 2,
         "title": "Discovery peer reviews",
-        "description": "Prepare for a discovery peer review",
+        "description": "Prepare for a discovery peer review.",
         "subPages": [
             {
                 "title": "What a discovery peer review is",
@@ -28,7 +28,7 @@
                 "description": ""
             },
             {
-                "title": "Prepare for discovery peer review",
+                "title": "Prepare for a discovery peer review",
                 "slug": "prepare-for-discovery-peer-review",
                 "description": ""
             },
@@ -47,7 +47,7 @@
     {
         "step": 3,
         "title": "Service assessments",
-        "description": "Prepare for a service assessment",
+        "description": "Prepare for a service assessment.",
         "subPages": [
             {
                 "title": "What a service assessment is",
@@ -96,7 +96,7 @@
     {
         "step": 5,
         "title": "Book and manage",
-        "description": "Book and manage a service assessment or peer review",
+        "description": "Book and manage a service assessment or peer review.",
         "subPages": [
             {
                 "title": "Book a service assessment or peer review",
@@ -116,22 +116,22 @@
         "description": "",
         "subPages": [
             {
-                "title": "Recieve discovery peer review report",
-                "slug": "receive-discovery-peer-review-report",
+                "title": "Get your discovery peer review report",
+                "slug": "get-discovery-peer-review-report",
                 "description": ""
             },
             {
-                "title": "Recieve service assessment report",
-                "slug": "recieve-assessment-report",
+                "title": "Get your service assessment report",
+                "slug": "get-assessment-report",
                 "description": ""
             },
             {
-                "title": "Manage actions from a peer review or service assessment",
+                "title": "Manage actions from your peer review or service assessment",
                 "slug": "manage-actions-peer-review-service-assessment",
                 "description": ""
             },
             {
-                "title": "Complete a feedback survey",
+                "title": "Complete the feedback survey",
                 "slug": "complete-feedback-survey",
                 "description": ""
             }

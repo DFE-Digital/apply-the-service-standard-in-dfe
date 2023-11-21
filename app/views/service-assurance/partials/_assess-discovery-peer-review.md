@@ -2,7 +2,7 @@ As an assessor you'll help a team understand if they've completed their discover
 
 You'll consider whether they've made well-evidenced recommendations and are ready to move on to the next phase.
 
-A panel can be made up of a user researcher, designer, product or delivery and a technical role. Together, you'll provide a level of assurance for a team to decide if they need to stop or carry on.
+A panel can be made up of user research, design, product or delivery and a technical role. Together, you'll provide a level of assurance for a team to decide if they need to stop or carry on.
 
 As part of the panel, there will be a lead assessor, who'll be responsible for chairing the peer review and coordinating the report.
 

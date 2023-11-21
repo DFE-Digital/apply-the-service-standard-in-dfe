@@ -1,5 +1,5 @@
 
-The report should show how the service is meeting the 14 Service Standard points. 
+The report should show how the service is meeting the 14 [Service Standard](https://apply-the-service-standard.education.gov.uk/) points. 
 
 As an assessor, consider each standard point, give feedback, and a red, amber, green (RAG) rating against each one. 
 
@@ -33,10 +33,10 @@ Services that receive green ratings for all 14 Service Standard points can progr
 
 ## What happens after the report is submitted
 
-The service assessment team will check it before it’s shared with the delivery team.
+The service assessment team will check it before it’s shared with the service team.
 
 If the team accepts the report and there are actions they need to take before their next assessment, they may be in touch with the panel. This could mean having a follow-up call, or giving advice on a workshop depending on the actions that need addressing.
 
 If the team challenges the report or asks for clarification for any of the points made in the report, they’ll speak to the service assessment team, who’ll set up a meeting with the panel.
 
-[View reports] () from previous service assessments.
+[View reports]() from previous service assessments.

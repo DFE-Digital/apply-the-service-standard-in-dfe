@@ -34,15 +34,13 @@ The panel usually includes a user researcher, designer (depending on the service
 There may also be silent observers from DfE or cross-government for learning and development opportunities.
 
 How you want the assessment to run is for you to agree with the panel. You could, for example, agree to have a 45-minute Show & Tell, followed by sections to cover the problem area, users, hypotheses, and measures of success.
-It's up to the team to decide whether you have questions throughout or at the end of the assessment. You can discuss this with the panel on the call the day before.
-
-See an [example agenda](link to agenda on role of assessor).
+It's up to the team to decide whether you have questions throughout or at the end of the assessment. You can discuss this with the panel on the pre-assessment call.
 
 ### After the assessment
 
 The panel will aim to give the team an overall outcome within 4 working days.
 
-They'll then complete the report within 7 working days. The service assessment team will review and share it with the team.
+They'll then complete the report and the service assessment team will share it with the team within 7 working days.
 
 The report will include an overall [RAG (red, amber, green) status] (link to Receive feedback and recommendations for SAs) for the service, plus a RAG status against the [14 points of the Government Service Standard](https://www.gov.uk/service-manual/service-standard), feedback and any actions.
 

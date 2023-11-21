@@ -1,4 +1,4 @@
-A service only needs an assessment if it’s a transactional service. If you’re working on a non-transactional service, go to [step 3: prepare for a peer review](/service-assurance/what-a-peer-review-is). 
+A service only needs an assessment if it’s a transactional service. If you’re working on a non-transactional service, go to [Check what assurance you need: step 1](/service-assurance/check-what-assurance-you-need) to learn what type of assurance might be right for your service. 
 
 A service assessment measures a transactional service against the [14 points of the Government Service Standard](/service-standard). 
 
@@ -27,7 +27,7 @@ Some non-transactional services may also need to be assessed by a cross-governme
 
 If your service has under 100,000 transactions per year, the panel will consist of DfE assessors. 
 
-If your service is non-transactional, it will have a [peer review](/service-assurance/what-a-peer-review-is).  
+If your service is non-transactional, it could have a [peer review](/service-assurance/alpha-beta-peer-reviews).  
 
 ## When to book a service assessment 
 
@@ -37,5 +37,5 @@ You should request a service assessment at least 5 weeks in advance so that the 
 
 You'll receive an overall [RAG (red, amber, green) status] (link to descriptions of RAG status) for the assessment within 4 working days.
 
-You'll then receive a more detailed report within 7 working days. Go to [step 6: after a service assessment or peer review](/service-assurance/recieve-assessment-report) for report details and how to act on recommendations. 
+You'll then receive a more detailed report within 7 working days. Go to [After a discovery peer review or service assessment: step 6](/service-assurance/recieve-assessment-report) for report details and how to act on recommendations. 
 
