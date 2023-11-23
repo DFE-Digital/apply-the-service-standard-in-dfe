@@ -29,10 +29,10 @@ Peer reviews are 2 hours. People who attend include members of the discovery tea
 
 How you want the review to run is for you to agree with the panel. You could, for example, agree to have 45 minutes to an hour Show & Tell, with the remaining time for questions and answers. You should aim to explore the problem space, the users and agree next steps.
 
-See an [example agenda](/service-assurance/prepare-for-a-discovery-peer-review/peer-reviewer-role#example-review-agenda).
+See an [example agenda](/service-assurance/assess-discovery-peer-review/#example-review-agenda).
 
 ### After the review
 
 The panel will aim to complete the report within 3 days. The service assessment team will review and share it with the team.
 
-The report will include a [RAG (red, amber, green) status](/service-assurance/after-discovery-peer-review/getting-the-report) for the discovery, feedback and recommendations for next steps.
+The report will include a [RAG (red, amber, green) status](/service-assurance/complete-discovery-peer-review-report/#give-the-project-an-overall-rag-status) for the discovery, feedback and recommendations for next steps.

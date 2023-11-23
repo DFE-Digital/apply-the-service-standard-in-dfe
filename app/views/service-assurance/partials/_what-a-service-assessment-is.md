@@ -1,4 +1,4 @@
-A service only needs an assessment if it’s a transactional service. If you’re working on a non-transactional service, go to [Check what assurance you need: step 1](/service-assurance/check-what-assurance-you-need) to learn what type of assurance might be right for your service. 
+A service only needs an assessment if it’s a transactional service. If you’re working on a non-transactional service, go to [Check what assurance you need: step 1](/service-assurance/check-what-assurance-you-need-for-you-service). 
 
 A service assessment measures a transactional service against the [14 points of the Government Service Standard](/service-standard). 
 
@@ -13,7 +13,7 @@ All transactional services need to have an assessment. Getting assessed is a con
 
 Service assessments happen at the end of alpha, private and public beta and live phases. 
 
-If you’re in discovery, you should [book a discovery peer review](/service-assurance/what-a-peer-review-is). This will help the team to understand what the problem is, priorities and whether to move into alpha.
+If you’re in discovery, you should [book a discovery peer review](/service-assurance/discovery-peer-review). This will help the team to understand what the problem is, priorities and whether to move into alpha.
 
 ## Cross-government panel assessment 
 
@@ -35,7 +35,7 @@ You should request a service assessment at least 5 weeks in advance so that the 
 
 ## Outcome of a service assessment 
 
-You'll receive an overall [RAG (red, amber, green) status] (link to descriptions of RAG status) for the assessment within 4 working days.
+You'll receive an overall [RAG (red, amber, green) status](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) for the assessment within 4 working days.
 
 You'll then receive a more detailed report within 7 working days. Go to [After a discovery peer review or service assessment: step 6](/service-assurance/recieve-assessment-report) for report details and how to act on recommendations. 
 

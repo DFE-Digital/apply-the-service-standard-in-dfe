@@ -6,7 +6,7 @@ You can create a slide deck but remember to show the actual work done to build t
 </div>
 
 
-Review the practical tips by phase in [Apply the Service Standard in DfE](/apply-the-service-standard.education.gov.uk/) to help you prepare.
+Review the practical tips by phase in [Apply the Service Standard in DfE](https://apply-the-service-standard.education.gov.uk/) to help you prepare.
 
 ## What to expect during a service assessment
 
@@ -42,6 +42,6 @@ The panel will aim to give the team an overall outcome within 4 working days.
 
 They'll then complete the report and the service assessment team will share it with the team within 7 working days.
 
-The report will include an overall [RAG (red, amber, green) status] (link to Receive feedback and recommendations for SAs) for the service, plus a RAG status against the [14 points of the Government Service Standard](https://www.gov.uk/service-manual/service-standard), feedback and any actions.
+The report will include an overall [RAG (red, amber, green) status](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) for the service, plus a RAG status against the [14 points of the Government Service Standard](https://apply-the-service-standard.education.gov.uk/), feedback and any actions.
 
 Button: Book a service assessment

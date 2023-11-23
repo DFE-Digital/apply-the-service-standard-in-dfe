@@ -1,12 +1,14 @@
 ## When to book
-You should book your service assessment or peer review so that it happens near the end of phase of the project.
+You should book your discovery peer review or service assessment so that it happens near the end of phase of the project.
 
-For service assessments and discovery peer reviews, you need to give at least 5 weeks notice.
+You need to give at least 5 weeks notice.
 
 This allows the service assessment team time to arrange the relevant panels.
 
 ## How to book
-Only Department for Education staff can book peer reviews and service assessments online. Staff include civil servants and contractors working in DfE.
+Use the [Service assessment plus service](link to service). 
+
+Only Department for Education staff can book discovery peer reviews and service assessments online. Staff include civil servants and contractors working in DfE.
 
 Button: [Book a peer review or service assessment online](https://service-assessments.herokuapp.com/book)
 

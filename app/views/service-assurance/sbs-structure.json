@@ -96,10 +96,10 @@
     {
         "step": 5,
         "title": "Book and manage",
-        "description": "Book and manage a service assessment or peer review.",
+        "description": "Book and manage a discovery peer review or service assessment.",
         "subPages": [
             {
-                "title": "Book a service assessment or peer review",
+                "title": "Book a discovery peer review or service assessment",
                 "slug": "book",
                 "description": ""
             },
@@ -112,8 +112,8 @@
     },
     {
         "step": 6,
-        "title": "After a discovery peer review or service assessment",
-        "description": "",
+        "title": "Get report and complete survey",
+        "description": "If you had a discovery peer review.",
         "subPages": [
             {
                 "title": "Get your discovery peer review report",
@@ -126,8 +126,13 @@
                 "description": ""
             },
             {
-                "title": "Manage actions from your peer review or service assessment",
-                "slug": "manage-actions-peer-review-service-assessment",
+                "title": "Manage actions from your discovery peer review",
+                "slug": "manage-actions-peer-review",
+                "description": ""
+            },
+            {
+                "title": "Manage actions from your service assessment",
+                "slug": "manage-actions-service-assessment",
                 "description": ""
             },
             {

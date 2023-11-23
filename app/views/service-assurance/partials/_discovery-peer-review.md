@@ -13,7 +13,7 @@ A discovery peer review will give reassurance to confirm whether you:
 - have understood what the problem is and priorities for the team
 - should move into the alpha phase
 
-After the review, the team will get a report with a RAG (red, amber, green) status, practical recommendations, and advice. It will not result in a pass or fail. It will not stop a team from progressing.
+After the review, the team will get a report with a [RAG (red, amber, green) status](/service-assurance/complete-discovery-peer-review-report/#give-the-project-an-overall-rag-status), practical recommendations, and advice. It will not result in a pass or fail. It will not stop a team from progressing.
 
 But remember, if research shows that it's better to stop at the end of discovery, this is not a failure. The team will be saving time and money that could be better spent elsewhere.
 
@@ -33,5 +33,5 @@ However, you should request this at least 5 weeks in advance so the service asse
 
 You'll receive an email when the report is ready to read. This should happen around 3 days after the peer review takes place.
 
-The assessor panel will support the team with any recommendations made. Go to [step 6: after a discovery peer review or service assessment](/service-assurance/receive-peer-review-report) for details about receiving a report and acting on recommendations.
+The assessor panel will support the team with any recommendations made. Go to [After a discovery peer review or service assessment: step 6](/service-assurance/get-discovery-peer-review-report) for details about receiving a report and acting on recommendations.
 
