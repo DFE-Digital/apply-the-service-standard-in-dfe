@@ -6,12 +6,16 @@ You’ll consider whether the service is ready to move into the next phase of de
 
 Assessments are a space for services to get expert advice and guidance from a panel of specialists. 
 
+## The assessment panel
+
 An assessment panel is usually made up of user research, design, product or delivery, and a technical role. Design could include interaction, service or content, or a mixture of the professions. Together, you’ll provide a level of assurance to check and support a team moving to the next phase. 
 
 The lead assessor will be responsible for chairing the assessment and coordinating and submitting the report.
 
 
-Before a service assessment you’ll: 
+## Before an assessment
+
+Assessors will: 
 
 - read the artefacts shared by the team. You’ll find these in the [Service assessment plus service](add link to service) 
 
@@ -21,15 +25,19 @@ Before a service assessment you’ll:
 
  
 
-At an assessment you’ll: 
+## At an assessment
 
-- review the work of the team against the [Service Standard](https://apply-the-service-standard.education.gov.uk/service-standard) 
+Assessors will: 
+
+- review the work of the team against the [Service Standard](https://apply-the-service-standard.education.gov.uk/service-standard) in a proportionate way. Take into account the context the team are working in 
 
 - ask questions to support the team in demonstrating why they’ve built what they have and how they’ve met the standard 
 
-After an assessment you’ll: 
+## After an assessment 
+
+Assessors will: 
  
-- provide a [RAG rating](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) for each of the 14 Service Standard points 
+- provide a [RAG rating](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) for each of the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard) 
 
 - detail any actions that the team must take, where a red or amber rating is given for that standard 
 

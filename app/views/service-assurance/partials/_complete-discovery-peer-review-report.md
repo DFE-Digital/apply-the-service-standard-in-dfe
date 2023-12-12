@@ -18,9 +18,9 @@ If the team challenges the report, they'll raise any issues with the service ass
 
 [View reports](link to report section) from previous discovery peer reviews.
 
-### Give the project an overall RAG status
+### Give the project an overall RAG rating
 
-Assessors will give the discovery a RAG (red, amber, green) status with a description of what this means.
+Assessors will give the discovery a RAG (red, amber, green) rating with a description of what this means.
 
 #### Red
 

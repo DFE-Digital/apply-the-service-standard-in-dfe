@@ -17,7 +17,7 @@ These pointers are taken from things teams should consider in the discovery phas
 
 ### After you request the review
 
-You'll receive an email with next steps. This includes how to share links to artifacts for the panel to read. For example, Lucid boards, docs, or slide decks. You can add links to work in progress; it doesn't need to be finished, it just gives the panel an idea of the discovery.
+You'll receive an email with next steps. This includes how to share links to artefacts for the panel to read. For example, Lucid boards, docs, or slide decks. You can add links to work in progress; it doesn't need to be finished, it just gives the panel an idea of the discovery.
 
 ### One to 2 days before
 
@@ -27,7 +27,7 @@ The team will have a call with the panel. This is a chance for everyone to meet 
 
 Peer reviews are 2 hours. People who attend include members of the discovery team and a peer review panel. The panel usually includes a user researcher, designer, and product or delivery manager. There may also be silent observers for learning and development opportunities.
 
-How you want the review to run is for you to agree with the panel. You could, for example, agree to have 45 minutes to an hour Show & Tell, with the remaining time for questions and answers. You should aim to explore the problem space, the users and agree next steps.
+How you want the review to run is for you to agree with the panel. You could, for example, agree to have 45-minutes-to-an-hour show and tell, with the remaining time for questions and answers. You should aim to explore the problem space, the users and agree next steps.
 
 See an [example agenda](/service-assurance/assess-discovery-peer-review/#example-review-agenda).
 
@@ -35,4 +35,4 @@ See an [example agenda](/service-assurance/assess-discovery-peer-review/#example
 
 The panel will aim to complete the report within 3 days. The service assessment team will review and share it with the team.
 
-The report will include a [RAG (red, amber, green) status](/service-assurance/complete-discovery-peer-review-report/#give-the-project-an-overall-rag-status) for the discovery, feedback and recommendations for next steps.
+The report will include a [RAG (red, amber, green) rating](/service-assurance/complete-discovery-peer-review-report/#give-the-project-an-overall-rag-status) for the discovery, feedback and recommendations for next steps.

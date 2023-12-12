@@ -6,7 +6,7 @@ You can create a slide deck but remember to show the actual work done to build t
 </div>
 
 
-Review the practical tips by phase in [Apply the Service Standard in DfE](https://apply-the-service-standard.education.gov.uk/) to help you prepare.
+Review the practical tips by phase in [Apply the Service Standard in DfE](https://apply-the-service-standard.education.gov.uk/service-standard) to help you prepare.
 
 ## What to expect during a service assessment
 
@@ -33,15 +33,16 @@ The panel usually includes a user researcher, designer (depending on the service
 
 There may also be silent observers from DfE or cross-government for learning and development opportunities.
 
-How you want the assessment to run is for you to agree with the panel. You could, for example, agree to have a 45-minute Show & Tell, followed by sections to cover the problem area, users, hypotheses, and measures of success.
+How you want the assessment to run is for you to agree with the panel. You could, for example, agree to have a 45-minute show and tell, followed by sections to cover the problem area, users, hypotheses, and measures of success.
+
 It's up to the team to decide whether you have questions throughout or at the end of the assessment. You can discuss this with the panel on the pre-assessment call.
 
 ### After the assessment
 
 The panel will aim to give the team an overall outcome within 4 working days.
 
-They'll then complete the report and the service assessment team will share it with the team within 7 working days.
+They'll then complete the report within 7 working days.
 
-The report will include an overall [RAG (red, amber, green) status](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) for the service, plus a RAG status against the [14 points of the Government Service Standard](https://apply-the-service-standard.education.gov.uk/), feedback and any actions.
+The report will include an overall [RAG (red, amber, green) rating](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) for the service, plus a RAG rating for each of the [14 points of the Government Service Standard](https://apply-the-service-standard.education.gov.uk/), feedback and any actions.
 
 Button: Book a service assessment

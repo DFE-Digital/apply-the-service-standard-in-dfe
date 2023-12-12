@@ -20,7 +20,7 @@
     {
         "step": 2,
         "title": "Discovery peer reviews",
-        "description": "Prepare for a discovery peer review.",
+        "description": "For service teams.",
         "subPages": [
             {
                 "title": "What a discovery peer review is",
@@ -35,7 +35,8 @@
             {
                 "title": "Assess a discovery peer review",
                 "slug": "assess-discovery-peer-review",
-                "description": ""
+                "description": "",
+                "subSection":"For assessors."
             },
             {
                 "title": "Complete a discovery peer review report",
@@ -47,7 +48,7 @@
     {
         "step": 3,
         "title": "Service assessments",
-        "description": "Prepare for a service assessment.",
+        "description": "For service teams.",
         "subPages": [
             {
                 "title": "What a service assessment is",
@@ -62,7 +63,8 @@
             {
                 "title": "Assess a service",
                 "slug": "assess-service",
-                "description": ""
+                "description": "",
+                "subSection":"For assessors."
             },
             {
                 "title": "Complete an assessment report",
@@ -82,8 +84,8 @@
                 "description": ""
             },
             {
-                "title": "RAG reviews",
-                "slug": "rag-reviews",
+                "title": "Service Standard reviews",
+                "slug": "service-standard-reviews",
                 "description": ""
             },
             {
@@ -113,7 +115,7 @@
     {
         "step": 6,
         "title": "Get report and complete survey",
-        "description": "If you had a discovery peer review.",
+        "description": "For discovery peer reviews.",
         "subPages": [
             {
                 "title": "Get your discovery peer review report",
@@ -121,14 +123,15 @@
                 "description": ""
             },
             {
-                "title": "Get your service assessment report",
-                "slug": "get-assessment-report",
-                "description": ""
-            },
-            {
                 "title": "Manage actions from your discovery peer review",
                 "slug": "manage-actions-peer-review",
                 "description": ""
+            },
+            {
+                "title": "Get your service assessment report",
+                "slug": "get-assessment-report",
+                "description": "",
+                "subSection":"For service assessments."
             },
             {
                 "title": "Manage actions from your service assessment",
@@ -138,7 +141,8 @@
             {
                 "title": "Complete the feedback survey",
                 "slug": "complete-feedback-survey",
-                "description": ""
+                "description": "",
+                "subSection":"For everyone."
             }
         ]
     }
