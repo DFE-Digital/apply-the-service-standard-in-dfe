@@ -1,6 +1,6 @@
-A service only needs an assessment if it’s a transactional service. If you’re working on a non-transactional service, go to [Check what assurance you need: step 1](/service-assurance/check-what-assurance-you-need-for-you-service). 
+A service assessment measures a service against the [14 points of the Government Service Standard](/service-standard). It's a space for services to get expert advice from a panel of specialists.
 
-A service assessment measures a transactional service against the [14 points of the Government Service Standard](/service-standard). 
+A service only needs an assessment if it’s a transactional service. If you’re working on a non-transactional service, go to [Check what assurance you need: step 1](/service-assurance/check-what-assurance-you-need-for-you-service). 
 
 A transactional service is any service which allows users to: 
 

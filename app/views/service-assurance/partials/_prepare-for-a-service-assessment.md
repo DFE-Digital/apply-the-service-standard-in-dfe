@@ -13,7 +13,7 @@ Review the practical tips by phase in [Apply the Service Standard in DfE](https:
 ### After you request a service assessment
 
 You'll receive an email with next steps. This includes how to share links to artefacts for the panel to read. For example, strategy docs, Lucid boards, design histories, or slide decks.
-You can add links to work in progress, it doesn't need to be finished, it just gives the panel an idea of what you've done so far.
+You can add links to work in progress, to give the panel an idea of what you've done so far.
 
 ### One to 2 days before
 

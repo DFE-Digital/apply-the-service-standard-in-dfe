@@ -18,9 +18,10 @@ You can also use them as a measure against the Service Standard before you have 
 
 ## When to arrange an alpha or beta peer review
 
-Arrange an alpha or beta end-of-phase peer review 5 to 6 weeks in advance, so that volunteers are more likely to have time to be on the panel.
-
 For a pre-service assessment check in, you should arrange the peer review approximately 2 weeks before the assessment date.
+
+
+For an end-of-phase check in at alpha or beta, you should arrange the peer review 5 to 6 weeks in advance, so that volunteers are more likely to have time to be on the panel.
 
 ## Outcome of an alpha or beta peer review
 

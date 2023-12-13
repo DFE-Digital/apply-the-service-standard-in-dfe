@@ -24,7 +24,7 @@ Assessors will give the discovery a RAG (red, amber, green) rating with a descri
 
 #### Red
 
-There are serious concerns or recommendations the team should address before continuing. The team may want to consider escalating issues or problems to their senior responsible officer or senior leadership team. They might want to consider stopping the discovery at this point.
+There are serious concerns or recommendations the team should address before continuing. The team may want to consider escalating issues to their senior responsible officer or senior leadership team. They might want to consider stopping the discovery at this point.
 
 #### Amber
 
@@ -32,7 +32,7 @@ There are some recommendations. At this point, the team may want to look at whet
 
 #### Green
 
-The team is on the right track.
+The team is on the right track and has no further actions.
 
 ## Review considerations
 
@@ -40,9 +40,9 @@ During the peer review, consider the practical tips in [Apply the Service Standa
 
 Although a team in discovery won't yet have made tech choices, they should, if relevant, show an understanding of existing options.
 
-Acknowledge any constraints or business requirements the team is working in.
+Acknowledge any constraints or business requirements the team is working to.
 
-### Include recommendations
+### Include recommendations and feedback
 
 Think about how the report can support the team to either explore things further or move into the next phase.
 

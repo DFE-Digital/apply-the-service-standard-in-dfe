@@ -23,7 +23,7 @@
         "description": "For service teams.",
         "subPages": [
             {
-                "title": "What a discovery peer review is",
+                "title": "Introduction to discovery peer reviews",
                 "slug": "discovery-peer-review",
                 "description": ""
             },
@@ -33,7 +33,7 @@
                 "description": ""
             },
             {
-                "title": "Assess a discovery peer review",
+                "title": "Assessors role in a discovery peer review",
                 "slug": "assess-discovery-peer-review",
                 "description": "",
                 "subSection":"For assessors."
@@ -51,8 +51,8 @@
         "description": "For service teams.",
         "subPages": [
             {
-                "title": "What a service assessment is",
-                "slug": "what-a-service-assessment-is",
+                "title": "Introduction to service assessments",
+                "slug": "service-assessments",
                 "description": ""
             },
             {
@@ -61,7 +61,7 @@
                 "description": ""
             },
             {
-                "title": "Assess a service",
+                "title": "Assessors role in a service assessment",
                 "slug": "assess-service",
                 "description": "",
                 "subSection":"For assessors."
@@ -98,7 +98,7 @@
     {
         "step": 5,
         "title": "Book and manage",
-        "description": "Book and manage a discovery peer review or service assessment.",
+        "description": "Use these services to book and manage discovery peer reviews and service assessments.",
         "subPages": [
             {
                 "title": "Book a discovery peer review or service assessment",

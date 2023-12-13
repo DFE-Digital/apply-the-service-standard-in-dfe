@@ -16,7 +16,7 @@ Assessors will:
 - take part in a pre-call, organised by the service assessment team, to do introductions and agree an agenda
 - answer any questions or concerns the team may have
 
-## At a discovery peer review
+## During a discovery peer review
 
 Assessors will:
 
@@ -33,17 +33,17 @@ Assessors will:
 
 - write up any recommendations or outcomes [in the report](/service-assurance/complete-discovery-peer-review-report)
 - submit the report, if you're the lead assessor
-- provide support if needed after the review with any actions from the peer review
+- provide any support needed after the peer review, along with any actions
 
 You'll be supported by the service assessment team throughout the process.
 
 ## Example review agenda
 
-A peer review is 2 hours long and can take place on Tuesdays, Wednesdays, and Thursdays.
+A peer review is 2 hours long and can take place on Tuesdays, Wednesdays, or Thursdays.
 
 You should agree in the pre-call with the team how the session will run. 
 
-An example agenda might look like:
+An example agenda might look like this:
 
 | Time             | Action                     |
 |------------------|----------------------------|

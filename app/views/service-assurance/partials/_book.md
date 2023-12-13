@@ -1,7 +1,7 @@
 ## When to book
 You should book your discovery peer review or service assessment so that it happens near the end of phase of the project.
 
-You need to give at least 5 weeks notice.
+You'll need to give at least 5 weeks notice.
 
 This allows the service assessment team time to arrange the relevant panels.
 

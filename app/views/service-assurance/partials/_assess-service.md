@@ -8,7 +8,7 @@ Assessments are a space for services to get expert advice and guidance from a pa
 
 ## The assessment panel
 
-An assessment panel is usually made up of user research, design, product or delivery, and a technical role. Design could include interaction, service or content, or a mixture of the professions. Together, you’ll provide a level of assurance to check and support a team moving to the next phase. 
+An assessment panel is usually made up of user research, design, product or delivery, and a technical role. Design could include interaction, service or content designer, or a mixture of the professions. Together, you’ll provide a level of assurance to check and support a team moving to the next phase. 
 
 The lead assessor will be responsible for chairing the assessment and coordinating and submitting the report.
 
@@ -25,7 +25,7 @@ Assessors will:
 
  
 
-## At an assessment
+## During an assessment
 
 Assessors will: 
 
@@ -43,6 +43,6 @@ Assessors will:
 
 - work with the panel to determine an overall rating for the service assessment 
 
-- add any other observations to the report, for example, what the team has done well 
+- add any other observations to the report, such as, what the team has done well 
 
 You’ll be supported by the service assessment team throughout the process. 
