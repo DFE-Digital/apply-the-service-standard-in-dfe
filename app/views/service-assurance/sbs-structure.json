@@ -33,7 +33,7 @@
                 "description": ""
             },
             {
-                "title": "Assessors role in a discovery peer review",
+                "title": "Assessor a discovery peer review",
                 "slug": "assess-discovery-peer-review",
                 "description": "",
                 "subSection":"For assessors."
@@ -61,7 +61,7 @@
                 "description": ""
             },
             {
-                "title": "Assessors role in a service assessment",
+                "title": "Assess a service",
                 "slug": "assess-service",
                 "description": "",
                 "subSection":"For assessors."
@@ -98,7 +98,7 @@
     {
         "step": 5,
         "title": "Book and manage",
-        "description": "Use these services to book and manage discovery peer reviews and service assessments.",
+        "description": "For new and existing bookings.",
         "subPages": [
             {
                 "title": "Book a discovery peer review or service assessment",

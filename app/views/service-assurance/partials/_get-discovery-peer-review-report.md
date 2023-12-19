@@ -7,7 +7,7 @@ The report will contain 3 sections.
 
 These include a summary of how the team has demonstrated an understanding of users and their needs. And, how the team has understood the problem space.
 
-The discovery will also be given an overall red, amber green (RAG) status with a description of what this means. Including specific recommendations the team needs to action.
+The discovery will also be given an overall red, amber green (RAG) status with a description of what this means. This includes specific recommendations the team needs to action.
 
 ## Discovery RAG status descriptions
 
@@ -20,6 +20,8 @@ There are some recommendations. At this point, the team may want to look at whet
 ### Green
 The team is on the right track.
 
+There will be no actions recorded in the report. 
+
 ## Accept or challenge the report
 Once you've read the report, the product or delivery manager has 10 working days to accept or challenge it.
 
@@ -27,11 +29,11 @@ Once you've read the report, the product or delivery manager has 10 working days
 If the team agree with what's written in the report, you can accept it on [your dashboard](link to service) in the Service assessment plus service.
 
 ### To challenge the report
-Email the service assessment team at [serviceassessment.plus@education.gov.uk](mailto:serviceassessment.plus@education.gov.uk) to arrange next steps. 
+Arrange next steps and email the service assessment team at [serviceassessment.plus@education.gov.uk](mailto:serviceassessment.plus@education.gov.uk). 
 
-They'll set up a meeting for the team with the panel to talk through the report. Agree any changes to the report with the panel before you accept it.
+They'll set up a meeting for the team with the panel to talk through the report. You'll agree any changes to the report with the panel before you accept it.
 
 ## What happens next
 Once the report has been accepted, it will automatically be published in the [reports section](/reports/) of the service. The team can then follow any recommendations and next steps. 
 
-Depending on the outcome, the team may be asked on a regular basis to provide evidence of actioning recommendations.
+Depending on the outcome, the team may be asked to provide evidence of any actions they've taken to implement recommendations.

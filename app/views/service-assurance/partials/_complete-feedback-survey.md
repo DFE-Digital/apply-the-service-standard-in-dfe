@@ -2,6 +2,8 @@ After you've received the report, both the service team and assessor panel will 
 
 This gives everyone the opportunity to give feedback on the whole process from start to finish.
 
+## How we use your feedback
+
 Giving feedback helps improve the assurance process for future teams.
 
 We measure the user satisfaction of the:

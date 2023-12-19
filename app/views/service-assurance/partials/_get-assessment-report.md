@@ -2,15 +2,15 @@ You'll receive an email up to 7 days after the assessment takes place with a lin
 
 See an [example service assessment report](link to report in service).
 
-### What to expect in a report
+## What to expect in a report
 
 The previous ‘met’ and ‘not met’ outcomes have been replaced with a new red, amber, green [(RAG) rating](/service-assurance/get-assessment-report/#assessment-report-rag-status-descriptions). 
 
 Your overall service and each of the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard) will be given a RAG rating.
 
-Assessors will take into account the context the team are working in and will evaluate the Service Standards in a proportionate way.
+Assessors will take into account the context the team are working in and will evaluate the [Service Standards](https://apply-the-service-standard.education.gov.uk/service-standard) in a proportionate way.
 
-If any of the standard are given a red or amber rating, there will also be a [list of actions for the team](link to Manage actions page).
+If any of the standards are given a red or amber rating, there will also be a [list of actions for the team](link to Manage actions page).
 
 ## Assessment report RAG status descriptions
 
@@ -26,7 +26,7 @@ This also replaces the previous rating of ‘not met’, or ‘met with conditio
 
 If you receive an amber rating, you can move into the next phase of delivery.  
 
-You’ll be given a list of actions in the report for any standards rated amber. You must address these actions within a 3-month timeframe.  
+You’ll be given a list of actions in the report for any standards rated amber. You must address these actions within 3 months.  
 
 All amber-rated actions must be addressed before you book your next service assessment. 
 
@@ -57,8 +57,8 @@ If your service receives a red rating for any of the standards, it will need to 
 For any standards that are rated red, the team will need to:
 <ol class="govuk-list govuk-list--number">
   <li>Focus on resolving the actions.</li>
-  <li>Book a reassessmen.t</li>
-  <li>Evidence how they have resolved actions and now meet the Service Standard.</li>
+  <li>Book a reassessmen.</li>
+  <li>Evidence how they have resolved actions to meet the Service Standard.</li>
 </ol>
 
 ## What happens next

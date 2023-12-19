@@ -32,7 +32,9 @@ There are some recommendations. At this point, the team may want to look at whet
 
 #### Green
 
-The team is on the right track and has no further actions.
+The team is on the right track.
+
+There will be no actions recorded in the report. 
 
 ## Review considerations
 

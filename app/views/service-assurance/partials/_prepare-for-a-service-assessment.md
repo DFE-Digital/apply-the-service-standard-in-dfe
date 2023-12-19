@@ -1,9 +1,8 @@
 
 Think about the best way to tell the story and show the work of the phase the team is in. This could be a mixture of Lucid boards, docs, and sketches.
 
-<div class="govuk-inset-text">
-You can create a slide deck but remember to show the actual work done to build the service, rather than lots of pre-prepared slides. Use slides to set the context, for example, but keep the deck to a minimum.
-</div>
+You can create a slide deck but remember to show the actual work done to build the service, rather than lots of pre-prepared slides. Use slides to set the context for example, but keep the deck to a minimum.
+
 
 
 Review the practical tips by phase in [Apply the Service Standard in DfE](https://apply-the-service-standard.education.gov.uk/service-standard) to help you prepare.
@@ -17,7 +16,7 @@ You can add links to work in progress, to give the panel an idea of what you've 
 
 ### One to 2 days before
 
-The team will have a call with the panel. This is a chance for everyone to meet and agree on what will happen during the assessment.
+The team will have a call, typically via Teams, with the panel. This is a chance for everyone to meet and agree on what will happen during the assessment.
 
 For larger projects, user research, design, and tech will also have pre-assessment calls with the relevant assessors.
 
@@ -33,7 +32,7 @@ The panel usually includes a user researcher, designer (depending on the service
 
 There may also be silent observers from DfE or cross-government for learning and development opportunities.
 
-How you want the assessment to run is for you to agree with the panel. You could, for example, agree to have a 45-minute show and tell, followed by sections to cover the problem area, users, hypotheses, and measures of success.
+How you want the assessment to run is for you to agree with the panel. For example, you could agree to have a 45-minute show and tell, followed by sections to cover the problem area, users, hypotheses, and measures of success.
 
 It's up to the team to decide whether you have questions throughout or at the end of the assessment. You can discuss this with the panel on the pre-assessment call.
 
