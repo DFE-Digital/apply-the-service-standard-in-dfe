@@ -13,7 +13,7 @@ All transactional services need to have an assessment. Getting assessed is a con
 
 Service assessments happen at the end of alpha, private and public beta and live phases. 
 
-If you’re in discovery, you should [book a discovery peer review](/service-assurance/discovery-peer-review). This will help the team to understand what the problem is, priorities and whether to move into alpha.
+If you’re in discovery, you should book a [discovery peer review](/service-assurance/discovery-peer-review). This will help the team to understand what the problem is, priorities and whether to move into alpha.
 
 ## Cross-government panel assessment 
 
