@@ -96,7 +96,7 @@
         "description": "For new and existing bookings.",
         "subPages": [
             {
-                "title": "Book a discovery peer review or service assessment",
+                "title": "Book a peer review or service assessment",
                 "slug": "book",
                 "description": ""
             },

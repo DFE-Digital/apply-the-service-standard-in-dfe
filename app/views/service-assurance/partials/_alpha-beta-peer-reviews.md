@@ -1,12 +1,12 @@
 An alpha or beta peer review is an informal review of a team’s work. They're a way to get feedback and recommendations at either the middle or towards the end of a phase.
 
-If you’re in discovery, go to [Discovery peer reviews: step 2](/service-assurance/discovery-peer-review).
+If you’re in discovery, go to step 2 [discovery peer reviews](/service-assurance/discovery-peer-review).
 
 Unlike a service assessment, a peer review will not result in the team stopping work based on the recommendations.
 
-You can book a peer review through the [service assessment plus service](link to service). 
-
 If you'd like a more light touch review, or something less formal, you could organise a [design crit](/service-assurance/design-crits).
+
+[Book an alpha or beta peer review](link to start page of service)
 
 ## Why have one
 
@@ -16,7 +16,7 @@ Peer reviews use [the Service Standard](https://apply-the-service-standard.educa
 
 They can help you understand if there's anything you need to change or improve in a service before you move to the next phase.
 
-You can also use them as a measure against the Service Standard before you have a service assessment. If you're doing this, it's a good idea to arrange your peer review in the middle of a phase.
+You can also use them as a measure against the Service Standard before you have a service assessment. If you're doing this, it's a good idea to arrange your peer review in the middle of the phase you're in.
 
 ## When to book an alpha or beta peer review
 

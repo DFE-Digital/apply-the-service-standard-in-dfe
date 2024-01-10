@@ -10,7 +10,7 @@ Some examples of team assurance are:
 - [2i on content](https://design.education.gov.uk/content-design/types-of-content-we-publish/reviewing-and-checking-content#prior-to-the-2i-check)
 - accessibility compliance using checklists
 - automated tests when code is changed and deployed
-- RAG (red, amber, green) reviews
+
 
 ## Departmental assurance
 
@@ -21,18 +21,18 @@ These are usually required to ensure we're meeting our governance requirements a
 Some examples of departmental assurance are:
 
 - [discovery peer reviews](/service-assurance/discovery-peer-review)
-- [DfE panel service assessments](/service-assurance/what-a-service-assessment-is#dfe-panel-assessment)
-- Show & tells
-- IT health check
-- Spend control review
+- [DfE panel service assessments](/service-assurance/service-assessments#dfe-panel-assessment)
+- show and tells
+- IT health checks
+- spend control review
 
 ## Independent assurance
 
-Using independent assurance methods outside of DfE provides an even greater level of assurance and in some instances is required.
+Using independent assurance methods outside of DfE provides an even greater level of assurance and in some instances, is required.
 
 Some examples of independent assurance are:
 
-- [cross-government panel service assessment](/service-assurance/what-a-service-assessment-is#cross-government-panel-assessment)
+- [cross-government panel service assessments](/service-assurance/service-assessments#cross-government-panel-assessment)
 - security audits or penetration testing
-- accessibility audit
+- [accessibility audit](https://design.education.gov.uk/accessibility/audits)
 - cross-government peer reviews or design crits

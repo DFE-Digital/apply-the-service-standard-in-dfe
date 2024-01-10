@@ -17,7 +17,7 @@ You could also add comments directly to the report in the service assessment ser
 
 ### Give the service a RAG rating for each Service Standard
 
-Following recent changes to Central Digital and Data Office (CDDO) policy for service assessments, services will be given either a red, amber, or green (RAG) rating for each of the 14 Service Standard points. 
+Following recent changes to [Central Digital and Data Office (CDDO)](https://www.gov.uk/government/organisations/central-digital-and-data-office) policy for service assessments, services will be given either a red, amber, or green (RAG) rating for each of the 14 Service Standard points. 
 
 Plus, you'll also provide an overall RAG rating for the service. This replaces using ‘met’ or ‘not met’.
 
@@ -51,4 +51,4 @@ If the service team accepts the report and there are actions they need to take b
 
 If the team challenges the report or asks for clarification for any of the points made, they’ll need to speak to the service assessment team. The service assessment team will then set up a meeting with the assessor panel. 
 
-[View reports from previous service assessments]().
+[View reports from previous service assessments](link to reports in service).

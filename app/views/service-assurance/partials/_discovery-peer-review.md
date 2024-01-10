@@ -4,7 +4,7 @@ It's a way to get feedback and recommendations at the end of this phase. All dis
 
 It's not an assessment. There are no assessments at discovery.
 
-[Book and manage a discovery peer review](/service-assurance/book-a-discovery-peer-review/book)
+[Book a discovery peer review](link to start page of service)
 
 ## Why have one
 
@@ -33,5 +33,5 @@ However, you should request this at least 5 weeks in advance so the service asse
 
 You'll receive an email when the report is ready to read. This should happen around 3 days after the peer review takes place.
 
-The assessor panel will support the team with any recommendations made. Go to [step 6: get report and complete survey](/service-assurance/get-discovery-peer-review-report) for details about receiving a report and acting on recommendations.
+The assessor panel will support the team with any recommendations made. Go to step 6 [get report and complete survey](/service-assurance/get-discovery-peer-review-report) for details about receiving a report and acting on recommendations.
 
