@@ -1,6 +1,6 @@
 A service assessment measures a service against the [14 points of the Government Service Standard](/service-standard). It's a space for services to get expert advice from a panel of specialists.
 
-A service only needs an assessment if it’s a transactional service. If you’re working on a non-transactional service, go to step 1 [check what assurance you need](/service-assurance/check-what-assurance-you-need-for-you-service). 
+A service only needs an assessment if it’s a transactional service. If you’re working on a non-transactional service, go to step 1 [check what assurance you need](/service-assurance/check-what-assurance-you-need-for-your-service). 
 
 A transactional service is any service which allows users to: 
 
@@ -35,7 +35,7 @@ You should request a service assessment at least 5 weeks in advance so that the 
 
 ## Outcome of a service assessment 
 
-You'll receive an overall [RAG (red, amber, green) rating](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) for the assessment within 4 working days.
+You'll receive an overall [red, amber, green (RAG) rating](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) for the assessment within 4 working days.
 
 You'll then receive a more detailed report within 7 working days. Go to step 6 [get report and complete survey](/service-assurance/get-assessment-report) for report details and how to act on recommendations. 
 

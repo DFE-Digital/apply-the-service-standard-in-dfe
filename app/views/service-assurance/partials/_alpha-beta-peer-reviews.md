@@ -10,7 +10,7 @@ If you'd like a more light touch review, or something less formal, you could org
 
 ## Why have one
 
-Peer reviews are not a mandated requirement from CDDO. They’re a chance to get feedback and advice from DfE colleagues.
+Peer reviews are not a mandated requirement from [Central Digital and Data Office (CDDO)](https://www.gov.uk/government/organisations/central-digital-and-data-office). They’re a chance to get feedback and advice from DfE colleagues.
 
 Peer reviews use [the Service Standard](https://apply-the-service-standard.education.gov.uk/service-standard) as a guide to provide recommendations.
 

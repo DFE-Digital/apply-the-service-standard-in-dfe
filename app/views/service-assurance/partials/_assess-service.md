@@ -37,7 +37,7 @@ Assessors will:
 
 Assessors will: 
  
-- provide a [RAG rating](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) for each of the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard) 
+- provide a [red, amber, green (RAG) rating](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) for each of the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard) 
 
 - detail any actions that the team must take, where a red or amber rating is given for that standard 
 
