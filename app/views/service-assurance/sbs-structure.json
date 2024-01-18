@@ -33,7 +33,7 @@
                 "description": ""
             },
             {
-                "title": "Assessor a discovery peer review",
+                "title": "Assess a discovery peer review",
                 "slug": "assess-discovery-peer-review",
                 "description": "",
                 "subSection":"For assessors."
@@ -61,13 +61,13 @@
                 "description": ""
             },
             {
-                "title": "Assess a service",
+                "title": "Guidance to assess a service",
                 "slug": "assess-service",
                 "description": "",
                 "subSection":"For assessors."
             },
             {
-                "title": "Complete an assessment report",
+                "title": "How to complete an assessment report",
                 "slug": "complete-assessment-report",
                 "description": ""
             }

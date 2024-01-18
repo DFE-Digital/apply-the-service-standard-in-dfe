@@ -1,11 +1,13 @@
 
-The report should show how the service is meeting the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard). 
+As a trained assessor, when writing the report you'll consider each of the [Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard) and give a [red, amber, green (RAG) rating](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) against each one. 
 
-As an assessor, you'll consider each standard point and give a [red, amber, green (RAG) rating](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) against each one. You should take into account the context the team are working in and evaluate the [Service Standards](https://apply-the-service-standard.education.gov.uk/service-standard) in a proportionate way. 
+Each profession will lead on different standards. Asessors may have a view on all 14 standards, but specialist roles will lead on certain ones. For example, standard 1 should be led by user research, and standard 12 by architects and developers.
+
+You should always take into account the context the team are working in and evaluate the [Service Standards](https://apply-the-service-standard.education.gov.uk/service-standard) in a proportionate way. 
 
 You'll detail any actions that the team must take, where a red or amber rating is given against a standard.
 
-The report should also include an overall rating for the service, for how it’s currently meeting the Service Standard. The panel should work together to consider this, but it's the lead assessor’s responsibility to finalise the overall rating.
+The report should also include an overall rating for the service, for how it’s currently meeting the [Service Standard]((https://apply-the-service-standard.education.gov.uk/service-standard). The panel should work together to consider this, but it's the lead assessor’s responsibility to finalise the overall rating.
 
 ## Draft the report
 
@@ -17,19 +19,27 @@ You could also add comments directly to the report in the service assessment ser
 
 ### Give the service a RAG rating for each Service Standard
 
-Following recent changes to [Central Digital and Data Office (CDDO)](https://www.gov.uk/government/organisations/central-digital-and-data-office) policy for service assessments, services will be given either a red, amber, or green (RAG) rating for each of the 14 Service Standard points. 
+Following recent changes to [Central Digital and Data Office (CDDO)](https://www.gov.uk/government/organisations/central-digital-and-data-office) policy for service assessments, services will be given either a red, amber, or green (RAG) rating for each of the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard). 
 
 Plus, you'll also provide an overall RAG rating for the service. This replaces using ‘met’ or ‘not met’.
 
+If a service receives 1 amber-or-red-rated standard, this means the overall outcome with be amber or red.
+
 #### Red
 
-In order for the service to continue to the next phase, it must meet the Standard and get CDDO spend approvals. The service must be reassessed against the points of the Standard that are rated red at this assessment.
+If any of the standards receives a red rating, the overall outcome of the assessment will be red. 
+
+The service must be reassessed against the points of the Standard that are rated red at this assessment. 
+
+In order for the service to continue to the next phase, it must meet the Standard and get CDDO spend approvals.
 
 #### Amber
 
-Services that receive any amber ratings will be able to move into the next phase. However, they must address these points within a 3-month timeframe. All amber recommendations must be addressed before booking the next assessment.
+Services that receive any amber ratings will be able to move into the next phase. 
 
-If a service receives 1 amber-or-red-rated standard, this means the overall outcome with be amber or red.
+However, they must address these points within a 3-month timeframe. 
+
+All amber recommendations must be addressed before booking the next assessment.
 
 #### Green
 
@@ -43,12 +53,14 @@ For any standards that are rated red, the team will need to resolve identified a
 
 If an action is rated amber, the team can continue to the next phase, but should complete the actions within 3 months of assessment. 
 
+Once you've added your notes and RAG ratings, you may want to meet again as a panel, to review the completed report before submitting it.
+
 ## What happens after the report is submitted
 
-The service assessment team will share the report with the service team.
+The DfE service assessment team will share the report with the service team.
 
 If the service team accepts the report and there are actions they need to take before their next assessment, they may be in touch with the panel. This could mean having a follow-up call, or giving advice on a workshop depending on the actions that need addressing.
 
-If the team challenges the report or asks for clarification for any of the points made, they’ll need to speak to the service assessment team. The service assessment team will then set up a meeting with the assessor panel. 
+If the team challenges the report or asks for clarification for any of the points made, they’ll need to speak to the DfE service assessment team. The DfE service assessment team will then set up a meeting with the assessor panel. 
 
 [View reports from previous service assessments](link to reports in service).
