@@ -45,8 +45,10 @@
 
 {% for key, value in outcomesArray %}
 
-    {% if value == "Yes" or (value == "No" or value == "Dont know") %}
+    {% if value == "Yes" or value == "No" or value == "Dontknow" %}
+   
         {% include './snippets/_' + key + '_' + value|lower + '.md' %}
+      
     {% endif %}
 
 {% endfor %}
