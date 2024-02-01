@@ -33,6 +33,8 @@ exports.get_doc = function (req, res) {
 
     const outcomesArray = req.session.outcomes
 
+    // loop the array and get the outcomes in the same way the view does and generate into the nextSteps paramter
+
     const data = {
         outcome: 'outcome text not available',
         now: formattedDate,
