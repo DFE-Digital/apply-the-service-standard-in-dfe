@@ -13,6 +13,8 @@ const cheerio = require('cheerio')
 const config = require('./app/config')
 const puppeteer = require('puppeteer');
 const glob = require('glob');
+const session = require('express-session');
+const routes = require('./app/routes'); 
 
 const helmet = require('helmet');
 
@@ -28,7 +30,14 @@ const app = express()
 
 const notify = new NotifyClient(process.env.notifyKey)
 
+app.set('trust proxy', 1) 
 
+app.use(session({
+  secret: process.env.sessionKey,
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: false }
+}))
 
 
 app.use(bodyParser.json())
@@ -160,6 +169,8 @@ const filterBySlug = (json, slug) => {
   }
   return filteredItems;
 };
+
+app.use('/', routes)
 
 
 app.get(/\.html?$/i, function (req, res) {

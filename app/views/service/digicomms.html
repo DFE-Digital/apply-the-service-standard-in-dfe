@@ -1,0 +1,60 @@
+{% set selectedNav = "Service assurance" %}
+{% set pageName = "Types of assurance" %}
+{% set seoPageName = "Service assurance: step by step" %}
+{% set stepSection = "Check what assurance you need" %}
+{% set pageDescription = "Check what you need to assure your service in the Department for Education."%}
+{% set selectedNav = "Service assurance" %}
+{% set dateUpdated = "10 September 2023" %}
+{% set backlog_issue_id = "" %}
+{% set active_block_1 = "active-step" %}
+
+{% extends "layouts/content-full-width-no-hero.html" %}
+
+
+{% block backlink %}<a href="#" class="govuk-back-link" onclick="history.back();return false;">Back</a>
+{% endblock %}
+
+
+{% block content %}
+
+<form method="post" action="/service/digicomms">
+
+    <div class="govuk-form-group">
+        <fieldset class="govuk-fieldset">
+          <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+            <h1 class="govuk-fieldset__heading">
+              Have you spoken to the DigiComms team about your work?
+            </h1>
+          </legend>
+          <div class="govuk-radios" data-module="govuk-radios">
+            <div class="govuk-radios__item">
+              <input class="govuk-radios__input" id="digicomms" name="digicomms" type="radio" value="Yes">
+              <label class="govuk-label govuk-radios__label" for="digicomms">
+                Yes
+              </label>
+            </div>
+            <div class="govuk-radios__item">
+              <input class="govuk-radios__input" id="digicomms-2" name="digicomms" type="radio" value="No">
+              <label class="govuk-label govuk-radios__label" for="digicomms-2">
+                No
+              </label>
+            </div>
+            <div class="govuk-radios__divider">or</div>
+            <div class="govuk-radios__item">
+              <input class="govuk-radios__input" id="digicomms-3" name="digicomms" type="radio" value="Dont know">
+              <label class="govuk-label govuk-radios__label" for="digicomms-3">
+                I do not know
+              </label>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+
+      <button type="submit" class="govuk-button" data-module="govuk-button">
+        Continue
+      </button>
+
+</form>
+
+
+{% endblock %}

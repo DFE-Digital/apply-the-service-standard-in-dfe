@@ -1,0 +1,83 @@
+{% set selectedNav = "Service assurance" %}
+{% set pageName = "Types of assurance" %}
+{% set seoPageName = "Service assurance: step by step" %}
+{% set stepSection = "Check what assurance you need" %}
+{% set pageDescription = "Check what you need to assure your service in the Department for Education."%}
+{% set selectedNav = "Service assurance" %}
+{% set dateUpdated = "10 September 2023" %}
+{% set backlog_issue_id = "" %}
+{% set active_block_1 = "active-step" %}
+
+{% extends "layouts/content-full-width-no-hero.html" %}
+
+
+{% block content %}
+
+<div class="govuk-panel govuk-panel--confirmation">
+  <h1 class="govuk-panel__title">
+    {% if outcomesArray.assessmenttype == "xgov-sa" %}
+        You need a cross-gov panel service assessment
+    {% endif %}
+
+    {% if outcomesArray.assessmenttype == "dfe-sa" %}
+   You need a DfE panel service assessment
+    {% endif %}
+
+    {% if outcomesArray.assessmenttype == "dfe-pr" %}
+  You need a DfE panel peer review
+    {% endif %}
+  </h1>
+
+  {% if outcomesArray.locationinphase == "Start" %}
+  <div class="govuk-panel__body">
+      As you're at the start of your phase, you could also book a mid-phase peer review
+    </div>
+  {% endif %}
+
+</div>
+
+
+{% markdown %}
+
+
+
+<h2 class="govuk-heading-l">Your next steps</h2>
+
+{% for key, value in outcomesArray %}
+
+    {% if value == "Yes" or (value == "No" or value == "Dont know") %}
+        {% include './snippets/_' + key + '_' + value|lower + '.html' %}
+    {% endif %}
+
+{% endfor %}
+
+{% endmarkdown %}
+
+
+
+    <table class="govuk-table">
+        <thead class="govuk-table__head">
+          <tr class="govuk-table__row">
+            <th class="govuk-table__header" scope="col">Key</th>
+            <th class="govuk-table__header" scope="col">Value</th>
+          </tr>
+        </thead>
+        <tbody class="govuk-table__body">
+          {% for key, value in outcomesArray %}
+            <tr class="govuk-table__row">
+              <td class="govuk-table__cell">{{ key }}</td>
+              <td class="govuk-table__cell">{{ value }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      
+
+{% endblock %}
+
+
+{% block sideContent %}
+
+<a href="/service/doc" class="govuk-link">Generate a word doc</a>
+
+{% endblock %}

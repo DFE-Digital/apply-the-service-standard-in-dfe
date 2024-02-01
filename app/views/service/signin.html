@@ -1,0 +1,55 @@
+{% set selectedNav = "Service assurance" %}
+{% set pageName = "Types of assurance" %}
+{% set seoPageName = "Service assurance: step by step" %}
+{% set stepSection = "Check what assurance you need" %}
+{% set pageDescription = "Check what you need to assure your service in the Department for Education."%}
+{% set selectedNav = "Service assurance" %}
+{% set dateUpdated = "10 September 2023" %}
+{% set backlog_issue_id = "" %}
+{% set active_block_1 = "active-step" %}
+
+{% extends "layouts/content-full-width-no-hero.html" %}
+
+
+{% block backlink %}<a href="#" class="govuk-back-link" onclick="history.back();return false;">Back</a>
+{% endblock %}
+
+
+{% block content %}
+
+<form method="post" action="/service/signin">
+
+
+
+    <div class="govuk-form-group">
+        <fieldset class="govuk-fieldset">
+          <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+            <h1 class="govuk-fieldset__heading">
+              Are user's required to sign in to your product to use it?
+            </h1>
+          </legend>
+          <div class="govuk-radios" data-module="govuk-radios">
+            <div class="govuk-radios__item">
+              <input class="govuk-radios__input" id="signin" name="signin" type="radio" value="Yes">
+              <label class="govuk-label govuk-radios__label" for="signin">
+                Yes
+              </label>
+            </div>
+            <div class="govuk-radios__item">
+              <input class="govuk-radios__input" id="signin-2" name="signin" type="radio" value="No">
+              <label class="govuk-label govuk-radios__label" for="signin-2">
+                No
+              </label>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+
+      <button type="submit" class="govuk-button" data-module="govuk-button">
+        Continue
+      </button>
+
+</form>
+
+
+{% endblock %}

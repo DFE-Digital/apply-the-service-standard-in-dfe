@@ -1,0 +1,25 @@
+{% set selectedNav = "Service assurance" %}
+{% set pageName = "Types of assurance" %}
+{% set seoPageName = "Service assurance: step by step" %}
+{% set stepSection = "Check what assurance you need" %}
+{% set pageDescription = "Check what you need to assure your service in the Department for Education."%}
+{% set selectedNav = "Service assurance" %}
+{% set dateUpdated = "10 September 2023" %}
+{% set backlog_issue_id = "" %}
+{% set active_block_1 = "active-step" %}
+
+{% extends "layouts/content-full-width-no-hero.html" %}
+
+
+{% block backlink %}<a href="#" class="govuk-back-link" onclick="history.back();return false;">Back</a>
+{% endblock %}
+
+{% block content %}
+
+<h1 class="govuk-heading-l">Assurance you should consider</h1>
+
+{% markdown %}
+    {% include './snippets/_guidance'+ outcome +'.html'%}
+{% endmarkdown %}
+
+{% endblock %}

@@ -1,0 +1,65 @@
+{% set selectedNav = "Service assurance" %}
+{% set pageName = "Types of assurance" %}
+{% set seoPageName = "Service assurance: step by step" %}
+{% set stepSection = "Check what assurance you need" %}
+{% set pageDescription = "Check what you need to assure your service in the Department for Education."%}
+{% set selectedNav = "Service assurance" %}
+{% set dateUpdated = "10 September 2023" %}
+{% set backlog_issue_id = "" %}
+{% set active_block_1 = "active-step" %}
+
+{% extends "layouts/content-full-width-no-hero.html" %}
+
+
+{% block backlink %}<a href="#" class="govuk-back-link" onclick="history.back();return false;">Back</a>
+{% endblock %}
+
+
+{% block content %}
+
+<form method="post" action="/service/formbuilder">
+
+  <h1 class="govuk-heading-l">Are any of the following statements true about your product or service?</h1>
+
+  <p>Answer yes if any of these apply to your product or service.</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>Will it have 10,000 or more transactions a year?</li>
+    <li>Will it support vulnerable adults or children, or people in crisis?</li>
+    <li>Are you legally required to provide the product or service?</li>
+    <li>Will it enable or process, £1 million a year in funds distribution?</li>
+  </ul>
+
+
+    <div class="govuk-form-group">
+        <fieldset class="govuk-fieldset">
+          <legend class="govuk-fieldset__legend">
+           
+             Select a response
+      
+          </legend>
+          <div class="govuk-radios" data-module="govuk-radios">
+            <div class="govuk-radios__item">
+              <input class="govuk-radios__input" id="formbuilder" name="formbuilder" type="radio" value="Yes">
+              <label class="govuk-label govuk-radios__label" for="formbuilder">
+                Yes
+              </label>
+            </div>
+            <div class="govuk-radios__item">
+              <input class="govuk-radios__input" id="formbuilder-2" name="formbuilder" type="radio" value="No">
+              <label class="govuk-label govuk-radios__label" for="formbuilder-2">
+                No
+              </label>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+
+      <button type="submit" class="govuk-button" data-module="govuk-button">
+        Continue
+      </button>
+
+</form>
+
+
+{% endblock %}
