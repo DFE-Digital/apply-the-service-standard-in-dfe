@@ -35,7 +35,7 @@ You should request a service assessment at least 5 weeks in advance so that the 
 
 ## Outcome of a service assessment 
 
-You'll receive an overall [red, amber, green (RAG) rating](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) for the assessment within 4 working days.
+You'll receive an overall [green, amber or red rating](/service-assurance/complete-assessment-report/#give-the-service-a-rating-for-each-service-standard) for the assessment within 4 working days.
 
 You'll then receive a more detailed report within 7 working days. Go to step 6 [get report and complete survey](/service-assurance/get-assessment-report) for report details and how to act on recommendations. 
 

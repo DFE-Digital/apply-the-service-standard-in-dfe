@@ -17,21 +17,17 @@ Do this in a way that suits you. Before adding your final notes to the report. F
 
 You could also add comments directly to the report in the service assessment service during the assessment. It will be the lead assessor’s responsibility to add the overall rating, review the report and submit it to the service assessment team. They'll then forward it on to the service team.
 
-### Give the service a RAG rating for each Service Standard
+### Give the service a rating for each Service Standard
 
-Following recent changes to [Central Digital and Data Office (CDDO)](https://www.gov.uk/government/organisations/central-digital-and-data-office) policy for service assessments, services will be given either a red, amber, or green (RAG) rating for each of the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard). 
+Following recent changes to [Central Digital and Data Office (CDDO)](https://www.gov.uk/government/organisations/central-digital-and-data-office) policy for service assessments, services will be given either a green, amber or red rating for each of the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard). 
 
-Plus, you'll also provide an overall RAG rating for the service. This replaces using ‘met’ or ‘not met’.
+Plus, you'll also provide an overall rating for the service. This replaces using ‘met’ or ‘not met’.
 
 If a service receives 1 amber-or-red-rated standard, this means the overall outcome with be amber or red.
 
-#### Red
+#### Green
 
-If any of the standards receives a red rating, the overall outcome of the assessment will be red. 
-
-The service must be reassessed against the points of the Standard that are rated red at this assessment. 
-
-In order for the service to continue to the next phase, it must meet the Standard and get CDDO spend approvals.
+Services that receive green ratings for all 14 Service Standard points can progress into the next phase.
 
 #### Amber
 
@@ -41,19 +37,23 @@ However, they must address these points within a 3-month timeframe.
 
 All amber recommendations must be addressed before booking the next assessment.
 
-#### Green
+#### Red
 
-Services that receive green ratings for all 14 Service Standard points can progress into the next phase.
+If any of the standards receives a red rating, the overall outcome of the assessment will be red. 
 
-### Add actions for red or amber-rated standards
+The service must be reassessed against the points of the Standard that are rated red at this assessment. 
 
-For red or amber-rated standards, add actions to the report for the team to complete, to help the service meet the standard. 
+In order for the service to continue to the next phase, it must meet the Standard and get CDDO spend approvals.
 
-For any standards that are rated red, the team will need to resolve identified actions and be reassessed against those standards. 
+### Add details to red or amber-rated standards
 
-If an action is rated amber, the team can continue to the next phase, but should complete the actions within 3 months of assessment. 
+For red or amber-rated standards, you will need to list things that the team have not demonstrated. 
 
-Once you've added your notes and RAG ratings, you may want to meet again as a panel, to review the completed report before submitting it.
+For any standards that are rated red, the team will need to be reassessed against those standards and demonstrate they've done this work. 
+
+If an action is rated amber, the team can continue to the next phase, but should complete the things they hadn't evidenced within 3 months of assessment. 
+
+Once you've added your notes and ratings, you may want to meet again as a panel, to review the completed report before submitting it.
 
 ## What happens after the report is submitted
 
