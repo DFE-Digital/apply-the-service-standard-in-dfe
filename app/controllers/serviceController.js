@@ -86,6 +86,9 @@ exports.post_phase = async function (req, res) {
     if (phase == 'Discovery') {
         return res.redirect('/service/service-standard');
     }
+    if (phase == 'Dontknow') {
+        return res.redirect('/service/outcome/3');
+    }
 
     if (!req.session.outcomes) {
         req.session.outcomes = {};
