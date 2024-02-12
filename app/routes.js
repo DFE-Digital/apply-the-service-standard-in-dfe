@@ -33,6 +33,8 @@ router.post("/service/signin", service.post_signin);
 router.post("/service/kpis", service.post_kpis);
 router.post("/service/personaldata", service.post_personaldata);
 router.post("/service/domain", service.post_domain);
+router.post("/service/audit", service.post_audit);
+router.post("/service/statement", service.post_statement);
 
 
 // Exports
