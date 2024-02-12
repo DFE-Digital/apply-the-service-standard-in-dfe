@@ -35,10 +35,22 @@ exports.get_doc = function (req, res) {
 
     // loop the array and get the outcomes in the same way the view does and generate into the nextSteps paramter
 
+    let message = ""; // Initialise an empty string to hold the message
+
+    if (outcomesArray.assessmenttype === "xgov-sa") {
+        message = "You need a cross-gov panel service assessment";
+    } else if (outcomesArray.assessmenttype === "dfe-sa") {
+        message = "You need a DfE panel service assessment";
+    } else if (outcomesArray.assessmenttype === "dfe-pr") {
+        message = "You need a DfE panel peer review";
+    }
+
+
+
     const data = {
-        outcome: 'outcome text not available',
+        outcome: message,
         now: formattedDate,
-        nextSteps: 'next steps text not available'
+        crits_no: outcomesArray.crits === "No" || false
     }
 
     doc.setData(data);
@@ -161,7 +173,7 @@ exports.post_transactioncount = async function (req, res) {
         req.session.outcomes.assessmenttype = 'dfe-sa';
         return res.redirect('/service/civilservice');
     }
-    
+
 }
 
 exports.post_campaign = async function (req, res) {
@@ -216,11 +228,11 @@ exports.post_usingformbuilder = async function (req, res) {
         req.session.outcomes.assessmenttype = 'dfe-pr';
         return res.redirect('/service/customcomponents');
     }
-    
-    
+
+
 
 }
-        
+
 exports.post_formbuilder = async function (req, res) {
     const { formbuilder } = req.body;
 
@@ -313,11 +325,11 @@ exports.post_domain = async function (req, res) {
 
     req.session.outcomes.domain = domain;
 
-    if(req.session.outcomes.phase === "Beta"){
+    if (req.session.outcomes.phase === "Beta") {
 
-    return res.redirect('/service/audit');
+        return res.redirect('/service/audit');
     }
-    else{
+    else {
         return res.redirect('/service/outcome');
     }
 }

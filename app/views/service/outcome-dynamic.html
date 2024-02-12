@@ -42,7 +42,7 @@
 
 {% for key, value in outcomesArray %}
 
-    {% if value == "Yes" or value == "No" or value == "Dontknow" %}
+    {% if key !== 'domain' and key !== 'locationinphase' and key !== 'assessmenttype' %}
    {% markdown %}
         {% include './snippets/_' + key + '_' + value|lower + '.md' %}
       {% endmarkdown %}
