@@ -87,6 +87,12 @@ exports.post_phase = async function (req, res) {
         return res.redirect('/service/service-standard');
     }
 
+    if (!req.session.outcomes) {
+        req.session.outcomes = {};
+    }
+
+    req.session.outcomes.phase = phase;
+
     return res.redirect('/service/locationinphase');
 }
 
@@ -324,6 +330,8 @@ exports.post_domain = async function (req, res) {
     }
 
     req.session.outcomes.domain = domain;
+
+    console.log(req.session)
 
     if (req.session.outcomes.phase === "Beta") {
 
