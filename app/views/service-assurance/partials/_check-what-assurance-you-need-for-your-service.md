@@ -1,7 +1,7 @@
 
-Use this tool to answer questions to help you understand the different ways you can check your work in DfE.
+Use this tool to answer questions to understand the different ways you can check your work in DfE.
 
-It will provide an outcome which will include guidance and best practices in DfE and how to meet the Service Standard.
+It will provide an outcome which will include best practices to deliver projects, products and services. It will also provide guidance to meet the Service Standard.
 
 You can use this tool to:
 
@@ -10,9 +10,9 @@ You can use this tool to:
 - understand what other types of checks you can do
 - get guidance and resources tailored to your specific project
 
-Anyone can use this tool, at any stage of your project lifecycle. 
+Anyone can use this tool, at any stage of a project lifecycle. 
 
-You may find it useful to use it at the start of a project to understand what you might need in future, and include the outcomes in your delivery plan.
+You may find it useful to use it at the start of a project to understand what you might need in future. You can include the outcomes in your delivery plan.
 
 You'll be able to save a copy of the outcome as a Word document for future reference.
 
@@ -25,6 +25,6 @@ You'll be able to save a copy of the outcome as a Word document for future refer
 </a>
 
 
-## Giving feedback on this tool
+## Give feedback
 
 This tool is maintained by the DesignOps team. You can give feedback on the questions, or suggest changes by [contacting the team](https://design.education.gov.uk/design-ops).
