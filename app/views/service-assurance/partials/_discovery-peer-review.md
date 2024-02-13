@@ -13,7 +13,7 @@ A discovery peer review will give reassurance to confirm whether you:
 - have understood what the problem is and priorities for the team
 - should move into the alpha phase
 
-After the review, the team will get a report with a [RAG (red, amber, green) rating](/service-assurance/complete-discovery-peer-review-report/#give-the-project-an-overall-rag-status), practical recommendations, and advice. It will not result in a pass or fail. It will not stop a team from progressing.
+After the review, the team will get a report with a [green, amber or red rating](/service-assurance/complete-discovery-peer-review-report/#give-the-project-an-overall-rag-status), practical recommendations, and advice. It will not result in a pass or fail. It will not stop a team from progressing.
 
 But remember, if research shows that it's better to stop at the end of discovery, this is not a failure. The team will be saving time and money that could be better spent elsewhere.
 
