@@ -61,7 +61,7 @@
 
     {% for key, value in outcomesArray %}
 
-    {% if key !== 'domain' and key !== 'assessmenttype' %}
+    {% if key !== 'assessmenttype' %}
     {% markdown %}
     {% include './snippets/_' + key + '_' + value|lower + '.md' %}
     {% endmarkdown %}
