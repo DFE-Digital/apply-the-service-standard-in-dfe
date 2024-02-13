@@ -42,7 +42,7 @@ Once you've read the report, the product or delivery manager has 10 working days
 
 ### To accept the report
 
-If the team agrees with what's written in the report, you can accept it on [your dashboard](link to service) in the Service assessment plus service.
+If the team agrees with what's written in the report, you can accept it on [your dashboard](link to service) in the Service assessment service.
 
 ### To challenge the report
 

@@ -17,7 +17,7 @@ The lead assessor - which tends to be a product or delivery role, but can be any
 
 Assessors will: 
 
-- read team artefacts that are relevant to your profession, for example, user research will review the research plan, whereas a lead assessor may just review the slidedeck. You’ll find artefacts in the [Service assessment plus service](add link to service) 
+- read team artefacts that are relevant to your profession, for example, user research will review the research plan, whereas a lead assessor may just review the slidedeck. You’ll find artefacts in the [Service assessment service](add link to service) 
 
 - review previous reports, such as a discovery peer review or previous phase assessment. You’ll be sent a link to these by the DfE service assessment team 
 
