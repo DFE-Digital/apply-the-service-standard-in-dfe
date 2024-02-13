@@ -1,7 +1,7 @@
 
-Use this tool to answer some questions which will help you understand the different ways you can check your work.
+Use this tool to answer questions to help you understand the different ways you can check your work in DfE.
 
-It will provide an outcome which will provide guidance on best practices and meeting the Service Standard.
+It will provide an outcome which will include guidance and best practices in DfE and how to meet the Service Standard.
 
 You can use this tool to:
 
@@ -10,9 +10,9 @@ You can use this tool to:
 - understand what other types of checks you can do
 - get guidance and resources tailored to your specific project
 
-Anyone can use this service, at any stage of the project lifecycle. 
+Anyone can use this tool, at any stage of your project lifecycle. 
 
-You may find it useful to use this tool at the start of a project to understand what you might need in future, and include the outcomes in your delivery plan.
+You may find it useful to use it at the start of a project to understand what you might need in future, and include the outcomes in your delivery plan.
 
 You'll be able to save a copy of the outcome as a Word document for future reference.
 
