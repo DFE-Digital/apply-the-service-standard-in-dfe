@@ -1,18 +1,16 @@
 
-Use this tool to answer questions to understand the different ways you can check your work in DfE.
+Use this tool to understand the different ways you can check your work in DfE.
 
-It will provide an outcome which will include best practices to deliver projects, products and services. It will also provide guidance to meet the Service Standard.
+The outcome will include guidance and best practice to meet the Service Standard and deliver projects, products and services in DfE.
 
 You can use this tool to:
 
 - confirm if you need a service assessment or peer review
 - determine if your work should be assessed by a cross-government or DfE panel of assessors
-- understand what other types of checks you can do
+- understand types of checks you can do
 - get guidance and resources tailored to your specific project
 
-Anyone can use this tool, at any stage of a project lifecycle. 
-
-You may find it useful to use it at the start of a project to understand what you might need in future. You can include the outcomes in your delivery plan.
+You may find it helpful at the start of a project, then you can include the outcome and suggestions in your delivery plan.
 
 You'll be able to save a copy of the outcome as a Word document for future reference.
 

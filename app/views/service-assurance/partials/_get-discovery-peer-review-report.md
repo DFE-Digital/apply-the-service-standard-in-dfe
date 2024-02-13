@@ -26,7 +26,7 @@ There will be no actions recorded in the report.
 Once you've read the report, the product or delivery manager has 10 working days to accept or challenge it.
 
 ### To accept the report
-If the team agree with what's written in the report, you can accept it on [your dashboard](link to service) in the Service assessment plus service.
+If the team agree with what's written in the report, you can accept it on [your dashboard](link to service) in the Service assessment service.
 
 ### To challenge the report
 Arrange next steps and email the service assessment team at [serviceassessment.plus@education.gov.uk](mailto:serviceassessment.plus@education.gov.uk). 

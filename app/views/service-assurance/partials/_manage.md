@@ -1,4 +1,4 @@
-If you need to return to your booking application, you can continue with your draft in the service assessment plus service.
+If you need to return to your booking application, you can continue with your draft in the service assessment service.
 
 Once you've submitted a booking request, the service assessment team will check it.
 

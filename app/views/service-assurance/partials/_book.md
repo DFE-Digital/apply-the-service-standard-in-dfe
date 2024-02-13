@@ -6,7 +6,7 @@ You can also book an alpha or beta peer review as a check in against the [Servic
 Try to give at least 5 weeks notice. This will allow the service assessment team time to arrange a relevant panel.
 
 ## How to book
-Use the [Service assessment plus service](link to service). 
+Use the [Service assessment service](link to service). 
 
 Only Department for Education staff can book discovery peer reviews and service assessments online. Staff include civil servants and contractors working in DfE.
 
