@@ -117,7 +117,7 @@ exports.post_location = async function (req, res) {
     return res.redirect('/service/digicomms');
 }
 
-exports.post_digicomms = async function (req, res) {
+exports.post_digicomms = async function (req, res) {F
     const { digicomms } = req.body;
 
     if (!req.session.outcomes) {
