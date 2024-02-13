@@ -6,4 +6,4 @@ You must not use the GOV.UK header or GDS Transport typeface on services provide
 
 ### If you're in private beta
 
-Testing a service on the education.gov.uk with a GOV.UK header and GDS Transport typeface, is acceptable during private beta. This is only permitted if it's known that the service will provided on a service.gov.uk domain in public beta and live.
+Testing a service on the education.gov.uk with a GOV.UK header and GDS Transport typeface is acceptable during private beta. This is only permitted if it's known that the service will be provided on a service.gov.uk domain in public beta and live.
