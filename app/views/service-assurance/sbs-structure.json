@@ -4,11 +4,7 @@
         "title": "Check what assurance you need",
         "description": "",
         "subPages": [
-            {
-                "title": "Types of assurance",
-                "slug": "types-of-assurance",
-                "description": ""
-            },
+            
             {
                 "title": "Check what assurance you need for your product or service",
                 "slug": "check-what-assurance-you-need-for-your-service",
