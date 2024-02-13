@@ -196,7 +196,7 @@ exports.post_campaign = async function (req, res) {
     req.session.outcomes.assessmenttype = 'dfe-pr';
 
 
-    return res.redirect('/service/customcomponents');
+    return res.redirect('/service/usingformbuilder');
 }
 
 exports.post_civilservice = async function (req, res) {
@@ -229,12 +229,13 @@ exports.post_usingformbuilder = async function (req, res) {
     req.session.outcomes.usingformbuilder = usingformbuilder;
 
 
+        
+
     if (usingformbuilder == 'Yes') {
-        req.session.outcomes.assessmenttype = 'dfe-sa';
+       
         return res.redirect('/service/formbuilder');
     }
     else {
-        req.session.outcomes.assessmenttype = 'dfe-pr';
         return res.redirect('/service/customcomponents');
     }
 
@@ -251,6 +252,7 @@ exports.post_formbuilder = async function (req, res) {
 
     req.session.outcomes.formbuilder = formbuilder;
 
+   
 
     if (formbuilder == 'Yes') {
         req.session.outcomes.assessmenttype = 'dfe-sa';
@@ -333,6 +335,24 @@ exports.post_domain = async function (req, res) {
     }
 
     req.session.outcomes.domain = domain;
+
+
+    if(req.session.outcomes.transactional === 'Yes' && req.session.outcomes.transactioncount === 'Yes'){
+        req.session.outcomes.assessmenttype = 'xgov-sa';
+    }
+
+    if(req.session.outcomes.transactional === 'Yes' && req.session.outcomes.transactioncount === 'No'){
+        req.session.outcomes.assessmenttype = 'dfe-sa';
+    }
+
+    if(req.session.outcomes.transactional === 'No' && req.session.outcomes.formbuilder === 'No'){
+        req.session.outcomes.assessmenttype = 'dfe-pr';
+    }
+
+    if(req.session.outcomes.transactional === 'No' && req.session.outcomes.formbuilder === 'Yes'){
+        req.session.outcomes.assessmenttype = 'dfe-sa';
+    }
+
 
     console.log(req.session)
 

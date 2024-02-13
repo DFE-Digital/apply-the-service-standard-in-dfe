@@ -14,7 +14,7 @@ const config = require('./app/config')
 const puppeteer = require('puppeteer');
 const glob = require('glob');
 const session = require('express-session');
-const routes = require('./app/routes'); 
+const routes = require('./app/routes');
 
 const helmet = require('helmet');
 
@@ -30,7 +30,7 @@ const app = express()
 
 const notify = new NotifyClient(process.env.notifyKey)
 
-app.set('trust proxy', 1) 
+app.set('trust proxy', 1)
 
 app.use(session({
   secret: process.env.sessionKey,
@@ -75,6 +75,9 @@ app.get('/sitemap.xml', (_, res) => {
   res.render('sitemap.xml');
 });
 
+app.get('/book', (req, res) => {
+  res.redirect(process.env.bookURL)
+})
 
 app.get('/search', (req, res) => {
   console.log(req.query['searchterm'])
@@ -125,47 +128,47 @@ app.post('/submit-feedback', (req, res) => {
         service: "Apply the Service Standard"
       },
     })
-    .then((response) => {})
+    .then((response) => { })
     .catch((err) => console.log(err))
 
   return res.sendStatus(200)
 })
 
 app.get('/service-assurance', (req, res) => {
- 
+
   // Get the sbs structure json file
   var structure = require('./app/views/service-assurance/sbs-structure.json');
-  
+
   // Pass it to the view to work with
 
-  return res.render('service-assurance/index.html', {structure})
+  return res.render('service-assurance/index.html', { structure })
 })
 
 app.get('/service-assurance/:slug', (req, res) => {
- 
+
   var slug = req.params.slug;
 
   // Get the sbs structure json file
   var structure = require('./app/views/service-assurance/sbs-structure.json');
-  
+
   // Pass it to the view to work with
 
 
-const filteredStructure = filterBySlug(structure, slug)[0]; 
+  const filteredStructure = filterBySlug(structure, slug)[0];
 
 
-  return res.render('service-assurance/page', {structure, filteredStructure, slug})
+  return res.render('service-assurance/page', { structure, filteredStructure, slug })
 })
 
 const filterBySlug = (json, slug) => {
   const filteredItems = [];
   for (const item of json) {
-      const filteredSubPages = item.subPages.filter(subPage => subPage.slug === slug);
-      if (filteredSubPages.length > 0) {
-          const newItem = { ...item };
-          newItem.subPages = filteredSubPages;
-          filteredItems.push(newItem);
-      }
+    const filteredSubPages = item.subPages.filter(subPage => subPage.slug === slug);
+    if (filteredSubPages.length > 0) {
+      const newItem = { ...item };
+      newItem.subPages = filteredSubPages;
+      filteredItems.push(newItem);
+    }
   }
   return filteredItems;
 };

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+$govuk-font-family: 'Inter', sans-serif;
+
 @import "node_modules/govuk-frontend/govuk/all";
 
 @import 'node_modules/dfe-frontend-alpha/packages/dfefrontend';
@@ -17,35 +21,6 @@
 html {
   overflow: auto;
 }
-
-body,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-span,
-div,
-table,
-th,
-td,
-blockquote,
-li,
-tr {
-  font-family:
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen-Sans,
-    Ubuntu,
-    Cantarell,
-    'Helvetica Neue',
-    sans-serif !important;
-}
-
 
 
 

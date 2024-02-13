@@ -11,9 +11,13 @@ const router = express.Router()
 
 const service = require('./controllers/serviceController.js');
 
+
+
 router.get("/service-assurance/check-what-assurance-you-need-for-your-service", service.get_start)
 router.get("/service/outcome/:outcome", service.get_outcome)
 router.get("/service/doc", service.get_doc)
+
+
 
 router.get("/service/outcome", service.get_outcome)
 router.post("/service/phase", service.post_phase);
