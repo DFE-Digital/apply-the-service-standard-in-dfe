@@ -16,7 +16,7 @@ If the team accepts the report and there are recommendations the panel has offer
 
 If the team challenges the report, they'll raise any issues with the service assessment team, who'll set up a meeting with the panel.
 
-[View reports](link to report section) from previous discovery peer reviews.
+[View reports](/reports) from previous discovery peer reviews.
 
 ### Give the project an overall RAG rating
 

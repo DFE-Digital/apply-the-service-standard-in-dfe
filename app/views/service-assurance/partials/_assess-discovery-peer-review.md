@@ -37,9 +37,9 @@ Assessors will:
 
 You'll be supported by the service assessment team throughout the process.
 
-## Example review agenda
+## Example discovery peer review agenda
 
-A peer review is 2 hours long and can take place on Tuesdays, Wednesdays, or Thursdays.
+A discovery peer review is 2 hours long and can take place on Tuesdays, Wednesdays, or Thursdays.
 
 You should agree in the pre-call with the team how the session will run. 
 
@@ -53,4 +53,4 @@ An example agenda might look like this:
 | 45 minutes       | Questions and answers       |
 | 5 minutes        | Wrap up and next steps      |
 
-You can also [download this as a PowerPoint template](create link to powerpoint slide) for presentations.
+

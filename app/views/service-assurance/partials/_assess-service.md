@@ -10,14 +10,14 @@ Assessments are a space for services to get expert advice and guidance from a pa
 
 An assessment panel is usually made up of user research, design, product or delivery, and a technical role. Design could include interaction, service or content designer, or a mixture of the professions. Together, you’ll provide a level of assurance to check and support a team moving to the next phase. 
 
-The lead assessor - which tends to be a product or delivery role, but can be any profession - is responsible for chairing the assessment and coordinating and submitting the report.
+The lead assessor tends to be a product or delivery role, but can be any profession. They are responsible for chairing the assessment and coordinating and submitting the report.
 
 
 ## Before an assessment
 
 Assessors will: 
 
-- read team artefacts that are relevant to your profession, for example, user research will review the research plan, whereas a lead assessor may just review the slidedeck. You’ll find artefacts in the [Service assessment service](add link to service) 
+- read team artefacts that are relevant to your profession, for example, user research will review the research plan, whereas a lead assessor may just review the slidedeck. You’ll find artefacts in the [Service assessment service](/book) 
 
 - review previous reports, such as a discovery peer review or previous phase assessment. You’ll be sent a link to these by the DfE service assessment team 
 
@@ -45,4 +45,4 @@ Assessors will:
 
 - add any other observations to the report, such as, what the team has done well 
 
-You’ll be supported by the DfE service assessment team throughout the process. 
+You’ll be supported by the DfE service assessment plus team throughout the process. 

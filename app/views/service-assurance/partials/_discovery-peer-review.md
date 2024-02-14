@@ -4,7 +4,7 @@ It's a way to get feedback and recommendations at the end of this phase. All dis
 
 It's not an assessment. There are no assessments at discovery.
 
-[Book a discovery peer review](link to start page of service)
+[Book a discovery peer review](/book)
 
 ## Why have one
 
@@ -13,7 +13,7 @@ A discovery peer review will give reassurance to confirm whether you:
 - have understood what the problem is and priorities for the team
 - should move into the alpha phase
 
-After the review, the team will get a report with a [green, amber or red rating](/service-assurance/complete-discovery-peer-review-report/#give-the-project-an-overall-rag-status), practical recommendations, and advice. It will not result in a pass or fail. It will not stop a team from progressing.
+After the review, the team will get a report with a [red, amber or green (RAG) rating](/service-assurance/complete-discovery-peer-review-report/#give-the-project-an-overall-rag-status), practical recommendations, and advice. It will not result in a pass or fail. It will not stop a team from progressing.
 
 But remember, if research shows that it's better to stop at the end of discovery, this is not a failure. The team will be saving time and money that could be better spent elsewhere.
 
@@ -25,7 +25,7 @@ Use the report to the team's advantage. Communicate recommendations with stakeho
 
 ## When to book
 
-When you start your discovery, you should plan to [book your peer review](/service-assurance/book-a-discovery-peer-review/book) so that it happens near the end of discovery.
+When you start your discovery, you should plan to [book your peer review](/book) so that it happens near the end of discovery.
 
 However, you should request this at least 5 weeks in advance so the service assessment team has time to arrange a panel.
 

@@ -42,6 +42,6 @@ The panel will aim to give the team an overall outcome within 4 working days.
 
 They'll then complete the report within 7 working days.
 
-The report will include an overall [RAG (red, amber, green) rating](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) for the service, plus a RAG rating for each of the [14 points of the Government Service Standard](https://apply-the-service-standard.education.gov.uk/), feedback and any actions.
+The report will include an overall [red, amber, green (RAG) rating](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) for the service, plus a RAG rating for each of the [14 points of the Government Service Standard](https://apply-the-service-standard.education.gov.uk/), feedback and any actions.
 
-Button: Book a service assessment
+[Book a service assessment](/book)
