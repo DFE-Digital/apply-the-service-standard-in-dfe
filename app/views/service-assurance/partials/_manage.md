@@ -6,15 +6,13 @@ These checks can take about 3 working days. You'll receive an email explaining n
 
 ## What happens next
 
-You'll be able to manage the request online, for example, you can:
+You'll be able to [manage the request online](/book), for example, you can:
 - add links to artefacts
 - view who the assessors will be
 - add details of the team attending the service assessment or peer review
 - assign responsibility for the service assessment or peer review to someone else
 
-Button: [Manage your booking](https://examplelink.com)
-
-Only Department for Education staff can book or manage discovery peer reviews or service assessments online. Staff include civil servants and contractors working in DfE.
+Only Department for Education staff can book or manage peer reviews or service assessments online. Staff include civil servants and contractors working in DfE.
 
 
 

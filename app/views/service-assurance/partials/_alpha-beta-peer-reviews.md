@@ -6,7 +6,7 @@ Unlike a service assessment, a peer review will not result in the team stopping 
 
 If you'd like a more light touch review, or something less formal, you could organise a [design crit](/service-assurance/design-crits).
 
-[Book an alpha or beta peer review](link to start page of service)
+[Book an alpha or beta peer review](/book)
 
 ## Why have one
 

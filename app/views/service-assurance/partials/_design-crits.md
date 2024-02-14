@@ -15,7 +15,7 @@ They also help a team to:
 - improve collaboration
 - encourage a culture of learning and sharing
 
-Try to have crits as a regular way of working with your team and sharing your work.
+Try to have crits as a regular way of working with your team and sharing work.
 
 ## How to arrange a design crit
 
@@ -43,11 +43,13 @@ If you’re doing a design crit with people outside your team, start by setting 
 
 You could introduce rules to create a supportive space.
 
-### 4 design crit rules
+### Design crit rules
 
-1. Set the scene: everyone did the best they could at that time, with the skills, ability, and resources available to them.
-2. Talk about the product or content, not the person who created it.
-3. Use constructive criticism, be honest and kind.
-4. No one needs to defend a decision. We’re a team, working together.
+<ol class="govuk-list govuk-list--number">
+  <li>Set the scene: everyone did the best they could at that time, with the skills, ability, and resources available to them.</li>
+  <li>Talk about the product or content, not the person who created it..</li>
+  <li>Use constructive criticism, be honest and kind.</li>
+  <li>No one needs to defend a decision. We’re a team, working together.</li>
+</ol>
 
 After the crit, you decide what feedback you take forward. Think about what you want to test in research or which changes help to answer the user need.
