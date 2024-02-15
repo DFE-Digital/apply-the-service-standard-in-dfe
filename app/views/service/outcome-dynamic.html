@@ -50,14 +50,18 @@
 
   <div class="govuk-grid-column-two-thirds">
 
-
     <h2 class="govuk-heading-l">Your next steps</h2>
 
     <p class="govuk-body">
       <a href="/book" class="govuk-link">Book a {% if outcomesArray.assessmenttype == "xgov-sa" or
         outcomesArray.assessmenttype == "dfe-sa" %}service assessment{% else%} peer review{% endif %}</a>
     </p>
+    
+    <p class="govuk-body">
+      <a href="/service-assurance/check-what-assurance-you-need-for-your-service" class="govuk-link">Start again</a>
+    </p>
 
+    <h2 class="govuk-heading-l">Actions to consider</h2>
 
     {% for key, value in outcomesArray %}
 
@@ -69,29 +73,33 @@
 
     {% endfor %}
 
-
-    {# <table class="govuk-table">
-      <thead class="govuk-table__head">
-        <tr class="govuk-table__row">
-          <th class="govuk-table__header" scope="col">Key</th>
-          <th class="govuk-table__header" scope="col">Value</th>
-        </tr>
-      </thead>
-      <tbody class="govuk-table__body">
-        {% for key, value in outcomesArray %}
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell">{{ key }}</td>
-          <td class="govuk-table__cell">{{ value }}</td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table> #}
-
+    <h2 class="govuk-heading-l">Your responses</h2>
+    <dl class="govuk-summary-list">
+      {% for key, value in outcomesArray %}
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          {{ key }}
+        </dt>
+        <dd class="govuk-summary-list__value">
+          {{ value }}
+        </dd>
+      </div>
+      {% endfor %}
+    </dl>
   </div>
 
   <div class="govuk-grid-column-one-third">
-    <a href="/service/doc" class="govuk-link">Generate a word doc</a>
+    <ul class="dfemanual-cta-cards dfemanual-cta-cards--full">
+      <li class="card">
+        <h3>Get a copy of your outcome</h3>
+        <p>You can download a copy of this outcome as a Word document to use within your team.</p>
+        <p>
+          <a href="/service/doc" class="govuk-link govuk-link--no-visited-state">Download document</a>
+        </p>
+      </li>
 
+    </ul>
+   
   </div>
 </div>
 

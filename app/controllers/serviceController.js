@@ -50,8 +50,14 @@ exports.get_doc = function (req, res) {
     const data = {
         outcome: message,
         now: formattedDate,
-        crits_no: outcomesArray.crits === "No" || false,
-        businesspartner_no: outcomesArray.businesspartner === "No" || false
+    }
+
+    for (const key in outcomesArray) {
+        if (outcomesArray.hasOwnProperty(key)) {
+            data[`${key}_yes`] = outcomesArray[key] === "Yes";
+            data[`${key}_no`] = outcomesArray[key] === "No";
+            data[`${key}_dontknow`] = outcomesArray[key] === "Dontknow";
+        }
     }
 
     doc.setData(data);

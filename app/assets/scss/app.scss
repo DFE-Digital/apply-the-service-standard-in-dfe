@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 $govuk-font-family: 'Inter', sans-serif;
+$govuk-new-link-styles: true;
+$govuk-global-styles: true;
 
 @import "node_modules/govuk-frontend/govuk/all";
 @import 'node_modules/dfe-frontend-alpha/packages/dfefrontend';
@@ -1853,9 +1855,7 @@ pre>code {
 
     }
 
-    .card>p:last-child {
-      margin-top: auto;
-    }
+  
 
     h3 {
       margin-bottom: 15px;
@@ -1869,8 +1869,8 @@ pre>code {
       margin-bottom: 0px;
     }
 
-    p:last-child {
-      margin-bottom: 0px;
+   :last-child {
+      margin-top: auto;
     }
 
   }
