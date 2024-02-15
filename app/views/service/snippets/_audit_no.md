@@ -8,4 +8,4 @@ Before arranging an audit, you could find common accessibility issues by using t
 
 You can also use the spreadsheet to test against the full WCAG guidelines as a checklist. 
 
-All services must have an [https://design.education.gov.uk/accessibility/accessibility-statements). 
+All services must have an [accessibility statement](https://design.education.gov.uk/accessibility/accessibility-statements). 
