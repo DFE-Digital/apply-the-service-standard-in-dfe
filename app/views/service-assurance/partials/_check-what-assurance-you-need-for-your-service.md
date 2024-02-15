@@ -1,13 +1,11 @@
 
-Use this tool to understand the different ways you can check your work in DfE.
-
-The outcome will include guidance and best practice to meet the Service Standard in DfE.
+Answer a series of questions to find out the different ways you can check your work in DfE. 
 
 You can use this tool to:
 
 - confirm if you need a service assessment or peer review
 - determine if your work should be assessed by a cross-government or DfE panel of assessors
-- understand types of checks you can do
+- understand types of checks you can do in DfE
 - get guidance and resources tailored to your specific project
 
 You may find it helpful to use at the start of a project, then you can include the outcome and suggestions in your delivery plan.

@@ -50,7 +50,8 @@ exports.get_doc = function (req, res) {
     const data = {
         outcome: message,
         now: formattedDate,
-        crits_no: outcomesArray.crits === "No" || false
+        crits_no: outcomesArray.crits === "No" || false,
+        businesspartner_no: outcomesArray.businesspartner === "No" || false
     }
 
     doc.setData(data);

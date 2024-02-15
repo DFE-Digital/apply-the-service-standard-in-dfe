@@ -4,7 +4,7 @@ It's a way to get feedback and recommendations at the end of this phase. All dis
 
 It's not an assessment. There are no assessments at discovery.
 
-[Book a discovery peer review](/book)
+[Book a discovery peer review.](/book)
 
 ## Why have one
 
