@@ -24,7 +24,7 @@ For larger projects, user research, design, and tech will also have pre-assessme
 
 
 
-Service assessments are usually 4 hours but can vary. Some services may need less time, whereas larger services may need more. You can discuss your needs with the service assessment team as part of booking. 
+Service assessments are usually 4 hours but can vary. Some services may need less time, whereas larger services may need more. You can discuss your needs with the service assessment plus team as part of booking. 
 
 Someone from each discipline within the team should attend. It can be of value for the rest of the team to attend as silent observers.
 
@@ -42,6 +42,6 @@ The panel will aim to give the team an overall outcome within 4 working days.
 
 They'll then complete the report within 7 working days.
 
-The report will include an overall [red, amber, green (RAG) rating](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) for the service, plus a RAG rating for each of the [14 points of the Government Service Standard](https://apply-the-service-standard.education.gov.uk/), feedback and any actions.
+The report will include an overall [RAG (red, amber, green) rating](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) for the service, plus a RAG rating for each of the [14 points of the Government Service Standard](https://apply-the-service-standard.education.gov.uk/), feedback and any actions.
 
 [Book a service assessment](/book)

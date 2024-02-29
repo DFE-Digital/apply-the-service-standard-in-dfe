@@ -33,6 +33,6 @@ See an [example agenda](/service-assurance/assess-discovery-peer-review/#example
 
 ### After the peer review
 
-The panel will aim to complete the report within 3 days. The service assessment team will review and share it with the team.
+The panel will aim to complete the report within 3 days. The service assessment plus team will review and share it with the team.
 
-The report will include a [red, amber, green (RAG) rating](/service-assurance/complete-discovery-peer-review-report/#give-the-project-an-overall-rag-rating) for the discovery, feedback and recommendations for next steps.
+The report will include a [RAG (red, amber, green) rating](/service-assurance/complete-discovery-peer-review-report/#give-the-project-an-overall-rag-rating) for the discovery, feedback and recommendations for next steps.

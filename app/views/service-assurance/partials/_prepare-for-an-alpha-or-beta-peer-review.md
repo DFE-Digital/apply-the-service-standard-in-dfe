@@ -32,7 +32,7 @@ See an [example agenda](link to agenda).
 
 ### After the alpha or beta peer review
 
-The panel will complete the report within 7 working days. The service assessment team will review and share it with the team. 
+The panel will complete the report within 7 working days. The service assessment plus team will review and share it with the team. 
 
 The report will provide feedback and recommendations that consider the [Service Standard](https://www.gov.uk/service-manual/service-standard).
 

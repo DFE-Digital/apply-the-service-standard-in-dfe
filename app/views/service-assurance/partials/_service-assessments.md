@@ -19,7 +19,7 @@ If you’re in discovery, you should book a [discovery peer review](/service-ass
 
 If your service has over 100,000 transactions per year or users are from more than one government department, the panel will consist of cross-government assessors.
 
-Some non-transactional services may also need to be assessed by a cross-government panel. The service assessment team can advise on this when you book your assessment.
+Some non-transactional services may also need to be assessed by a cross-government panel. The service assessment plus team can advise on this when you book your assessment.
 
 
 
@@ -31,7 +31,7 @@ If your service is non-transactional, it could have a [peer review](/service-ass
 
 ## When to book a service assessment 
 
-You should request a service assessment at least 5 weeks in advance so that the service assessment team has time to arrange an assessor panel. 
+You should request a service assessment at least 5 weeks in advance so that the service assessment plus team has time to arrange an assessor panel. 
 
 ## Outcome of a service assessment 
 

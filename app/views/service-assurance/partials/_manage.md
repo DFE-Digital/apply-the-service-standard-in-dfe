@@ -1,6 +1,6 @@
 If you need to return to your booking application, you can continue with your draft in the service assessment service.
 
-Once you've submitted a booking request, the service assessment team will check it.
+Once you've submitted a booking request, the service assessment plus team will check it.
 
 These checks can take about 3 working days. You'll receive an email explaining next steps.
 

@@ -21,4 +21,4 @@ Depending on the concerns or recommendations, the team could:
 The team is on the right track. Follow the [Service Standard](/) and think about the next phase of delivery.
 
 ## If the team want to challenge the report
-Email the service assessment team at [serviceassessment.plus@education.gov.uk](mailto:serviceassessment.plus@education.gov.uk) to arrange next steps. They'll set up a meeting for the team with the panel so that you can talk through the report.
+Email the service assessment plus team at [serviceassessment.plus@education.gov.uk](mailto:serviceassessment.plus@education.gov.uk) to arrange next steps. They'll set up a meeting with the panel so that you can talk through the report.

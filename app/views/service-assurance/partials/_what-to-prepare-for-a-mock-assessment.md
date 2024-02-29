@@ -34,7 +34,7 @@ See an [example agenda](link).
 
 ### After the mock assessment
 
-The panel will complete the mock report within 7 working days. The service assessment team will review and share it with the team. 
+The panel will complete the mock report within 7 working days. The service assessment plus team will review and share it with the team. 
 
 The mock report will include an overall [RAG (red, amber, green) status](link) for the service, plus a RAG status against the [14 points of the Government Service Standard](https://www.gov.uk/service-manual/service-standard), feedback, and any actions. Feedback should help prioritize what the team want to focus on before the date of the service assessment.
 

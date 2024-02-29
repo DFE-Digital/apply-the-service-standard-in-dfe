@@ -10,7 +10,7 @@ You can book one if you have a service assessment coming up and want to have an 
 
 You can book a mock assessment a couple of weeks before the date of your service assessment. 
 
-Email the service assessment team at <a href="mailto:serviceassessment.plus@education.gov.uk">serviceassessment.plus@education.gov.uk</a> to arrange. 
+Email the service assessment plus team at <a href="mailto:serviceassessment.plus@education.gov.uk">serviceassessment.plus@education.gov.uk</a> to arrange. 
 
 
 ## Outcome of a mock assessment

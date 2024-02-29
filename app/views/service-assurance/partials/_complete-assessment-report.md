@@ -1,5 +1,5 @@
 
-As a trained assessor, when writing the report you'll consider each of the [Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard) and give a [red, amber, green (RAG) rating](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) against each one. 
+As a trained assessor, when writing the report you'll consider each of the [Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard) and give a [RAG (red, amber, green) rating](/service-assurance/complete-assessment-report/#give-the-service-a-rag-rating-for-each-service-standard) against each one. 
 
 Each profession will lead on different standards. Asessors may have a view on all 14 standards, but specialist roles will lead on certain ones. For example, standard 1 should be led by user research, and standard 12 by architects and developers.
 
@@ -15,11 +15,11 @@ During the assessment, work with the other assessors on the panel to gather your
 
 Do this in a way that suits you. Before adding your final notes to the report. For example, in a Word doc or the panel chat in Slack. 
 
-You could also add comments directly to the report in the service assessment service during the assessment. It will be the lead assessor’s responsibility to add the overall rating, review the report and submit it to the service assessment team. They'll then forward it on to the service team.
+You could also add comments directly to the report in the service assessment service during the assessment. It will be the lead assessor’s responsibility to add the overall rating, review the report and submit it to the service assessment plus team. They'll then forward it on to the service team.
 
 ### Give the service a rating for each Service Standard
 
-Following recent changes to [Central Digital and Data Office (CDDO)](https://www.gov.uk/government/organisations/central-digital-and-data-office) policy for service assessments, services will be given either a red, amber or green (RAG) rating for each of the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard). 
+Following recent changes to [CDDO (Central Digital and Data Office)](https://www.gov.uk/government/organisations/central-digital-and-data-office) policy for service assessments, services will be given either a RAG rating for each of the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard). 
 
 Plus, you'll also provide an overall rating for the service. This replaces using ‘met’ or ‘not met’.
 
@@ -59,6 +59,6 @@ Once you've added your notes and ratings, you may want to meet again as a panel,
 
 The DfE service assessment plus team will share the report with the service team.
 
-If the service team accepts the report and there are actions they need to take before their next assessment, they may be in touch with the panel. This could mean having a follow-up call, or giving advice on a workshop depending on the actions that need addressing.
+If the team accepts the report and there are actions they need to take before their next assessment, they may be in touch with the panel. This could mean having a follow-up call, or advice on a workshop, depending on the actions that need addressing.
 
-If the team challenges the report or asks for clarification for any of the points made, they’ll need to speak to the DfE service assessment team. The DfE service assessment plus team will then set up a meeting with the assessor panel. 
+If the team challenge the report or ask for clarification for any of the points made, they should speak to the DfE service assessment plus team. Who will then set up a meeting with the assessor panel. 

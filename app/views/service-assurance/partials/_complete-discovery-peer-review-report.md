@@ -10,11 +10,11 @@ Do this in a way that suits you. For example, use a shared Word doc or the panel
 
 Once the panel is happy with the notes, add them to the final report in the service. This is usually done by the lead assessor, but the panel can add their findings individually.
 
-It's the lead assessor's responsibility to submit the report to the service assessment team for final checks before it's shared with the team in discovery.
+It's the lead assessor's responsibility to submit the report to the service assessment plus team for final checks before it's shared with the team in discovery.
 
 If the team accepts the report and there are recommendations the panel has offered to support, the team will be in touch. This could mean having a follow-up call or giving advice on a workshop, depending on the recommendations.
 
-If the team challenges the report, they'll raise any issues with the service assessment team, who'll set up a meeting with the panel.
+If the team challenges the report, they'll raise any issues with the service assessment plus team, who'll set up a meeting with the panel.
 
 [View reports](/reports) from previous discovery peer reviews.
 

@@ -3,7 +3,7 @@ You should book your discovery peer review or service assessment so that it happ
 
 You can also book an alpha or beta peer review as a check in against the [Service Standard](https://apply-the-service-standard.education.gov.uk/service-standard) in the middle of the phase you're in.
 
-Try to give at least 5 weeks notice. This will allow the service assessment team time to arrange a relevant panel.
+Try to give at least 5 weeks notice. This will allow the service assessment plus team time to arrange a relevant panel.
 
 ## How to book
 Use the [Service assessment service](/book) to book a peer review or service assessment. 

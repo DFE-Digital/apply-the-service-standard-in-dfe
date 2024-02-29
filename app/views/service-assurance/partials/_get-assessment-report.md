@@ -4,13 +4,13 @@ See an [example service assessment report](link to report in service).
 
 ## What to expect in a report
 
-The previous ‘met’ and ‘not met’ outcomes have been replaced with a new red, amber, green [(RAG) rating](/service-assurance/get-assessment-report/#assessment-report-rag-status-descriptions). 
+The previous ‘met’ and ‘not met’ outcomes have been replaced with a new [RAG (red, amber, green) rating](/service-assurance/get-assessment-report/#assessment-report-rag-status-descriptions). 
 
 Your overall service and each of the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard) will be given a RAG rating.
 
 Assessors will take into account the context the team are working in and will evaluate the [Service Standards](https://apply-the-service-standard.education.gov.uk/service-standard) in a proportionate way.
 
-If any of the standards are given a red or amber rating, there will also be a [list of actions for the team](link to Manage actions page).
+If any of the standards are given a red or amber rating, there will also be a [list of actions for the team](/manage-actions-service-assessment).
 
 ## Assessment report RAG status descriptions
 
@@ -46,7 +46,7 @@ If the team agrees with what's written in the report, you can accept it on [your
 
 ### To challenge the report
 
-Email the service assessment team at serviceassessment.plus@education.gov.uk to arrange next steps.
+Email the service assessment plus team at serviceassessment.plus@education.gov.uk to arrange next steps.
 
 They'll set up a meeting for the team with the panel to talk through the report. You'll need to agree any changes to the report with the panel before you accept the outcome.
 
@@ -57,7 +57,7 @@ If your service receives a red rating for any of the standards, it will need to 
 For any standards that are rated red, the team will need to:
 <ol class="govuk-list govuk-list--number">
   <li>Focus on resolving the actions.</li>
-  <li>Book a reassessmen.</li>
+  <li>Book a reassessment.</li>
   <li>Evidence how they have resolved actions to meet the Service Standard.</li>
 </ol>
 

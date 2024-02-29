@@ -5,7 +5,7 @@ The report will contain 3 sections.
 
 These include a summary of how the team has demonstrated an understanding of users and their needs. And, how the team has understood the problem space.
 
-The discovery will also be given an overall red, amber or green (RAG) rating with a description of what this means. This includes specific recommendations the team needs to action.
+The discovery will also be given an overall RAG (red, amber, green) rating with a description of what this means. This includes specific recommendations the team needs to action.
 
 ## Discovery RAG rating descriptions
 

@@ -6,13 +6,13 @@ Unlike a service assessment, a peer review will not result in the team stopping 
 
 If you'd like a more light touch review, or something less formal, you could organise a [design crit](/service-assurance/design-crits).
 
-[Book an alpha or beta peer review](/book)
+[Book an alpha or beta peer review](/book).
 
 ## Why have one
 
-Peer reviews are not a mandated requirement from [Central Digital and Data Office (CDDO)](https://www.gov.uk/government/organisations/central-digital-and-data-office). They’re a chance to get feedback and advice from DfE colleagues.
+Peer reviews are not a mandated requirement from [CDDO (Central Digital and Data Office)](https://www.gov.uk/government/organisations/central-digital-and-data-office/about). They’re a chance to get feedback and advice from DfE colleagues.
 
-Peer reviews use [the Service Standard](https://apply-the-service-standard.education.gov.uk/service-standard) as a guide to provide recommendations.
+Peer reviews use the [Service Standard](https://apply-the-service-standard.education.gov.uk/service-standard) as a guide to provide recommendations.
 
 They can help you understand if there's anything you need to change or improve in a service before you move to the next phase.
 
@@ -48,15 +48,15 @@ Share any related artefacts with the panel.
 
 This could include journey maps, user needs, personas, JIRA or Trello boards, design histories, prototypes, and roadmaps.
 
-You can share work in progress; it doesn’t need to be finished. It just gives the panel an idea of how you work and what you’ve done so far.
+You can share work in progress, it doesn’t need to be finished. It just gives the panel an idea of how you work and what you’ve done so far.
 
 ### Guidance for volunteer panel
 
 You’ll need to make time to read any artefacts shared in advance. Plus, time for the peer review itself. 
 
-Similar to a service assessment, it is the lead assessor's responsibility to manage the agenda and timings. Then reviewing and sharing the report. 
+Similar to a service assessment, it is the lead assessor's responsibility to manage the agenda and timings, then review and share the report. 
 
-You’ll write a report with the rest of the panel, documenting what the team have done well and what the team need to explore.
+You’ll write a report with the rest of the panel, documenting what the team has done well and what the team need to explore.
 
 ### On the day  
 

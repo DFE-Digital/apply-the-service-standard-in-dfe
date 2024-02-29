@@ -13,7 +13,7 @@ A discovery peer review will give reassurance to confirm whether you:
 - have understood what the problem is and priorities for the team
 - should move into the alpha phase
 
-After the review, the team will get a report with a [red, amber or green (RAG) rating](/service-assurance/complete-discovery-peer-review-report/#give-the-project-an-overall-rag-status), practical recommendations, and advice. It will not result in a pass or fail. It will not stop a team from progressing.
+After the review, the team will get a report with a [RAG (red, amber or green) rating](/service-assurance/complete-discovery-peer-review-report/#give-the-project-an-overall-rag-status), practical recommendations, and advice. It will not result in a pass or fail. It will not stop a team from progressing.
 
 But remember, if research shows that it's better to stop at the end of discovery, this is not a failure. The team will be saving time and money that could be better spent elsewhere.
 
@@ -27,7 +27,7 @@ Use the report to the team's advantage. Communicate recommendations with stakeho
 
 When you start your discovery, you should plan to [book your peer review](/book) so that it happens near the end of discovery.
 
-However, you should request this at least 5 weeks in advance so the service assessment team has time to arrange a panel.
+However, you should request this at least 5 weeks in advance so the service assessment plus team has time to arrange a panel.
 
 ## Outcome of a discovery peer review
 

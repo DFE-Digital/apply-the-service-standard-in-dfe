@@ -13,7 +13,7 @@ As part of the panel, there will be a lead assessor, who'll be responsible for c
 Assessors will:
 
 - read the supporting artefacts about the discovery. Start to think about questions you might ask
-- take part in a pre-call, organised by the service assessment team, to do introductions and agree an agenda
+- take part in a pre-call, organised by the service assessment plus team, to do introductions and agree an agenda
 - answer any questions or concerns the team may have
 
 ## During a discovery peer review
@@ -35,7 +35,7 @@ Assessors will:
 - submit the report, if you're the lead assessor
 - provide any support needed after the peer review, along with any actions
 
-You'll be supported by the service assessment team throughout the process.
+You'll be supported by the service assessment plus team throughout the process.
 
 ## Example discovery peer review agenda
 
