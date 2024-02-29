@@ -50,6 +50,9 @@ exports.get_doc = function (req, res) {
     const data = {
         outcome: message,
         now: formattedDate,
+        domain_dfe: outcomesArray.domain === "dfe",
+        domain_dontknow: outcomesArray.domain === "Dontknow",
+        domain_govuk: outcomesArray.domain === "govuk",
     }
 
     for (const key in outcomesArray) {
@@ -58,6 +61,7 @@ exports.get_doc = function (req, res) {
             data[`${key}_no`] = outcomesArray[key] === "No";
             data[`${key}_dontknow`] = outcomesArray[key] === "Dontknow";
         }
+    
     }
 
     doc.setData(data);
