@@ -1,100 +1,164 @@
-
 {% set standards = [
-  {
-    number: "1",
-    name: "Understand users and their needs",
-    url: "/service-standard/1-understand-user-needs"
-  },{
-    number: "2",
-    name: "Solve a whole problem for users",
-    url: "/service-standard/2-solve-a-whole-problem"
-  },{
-    number: "3",
-    name: "Provide a joined up experience across all channels",
-    url: "/service-standard/3-join-up-across-channels"
-  },{
-    number: "4",
-    name: "Make the service simple to use",
-    url: "/service-standard/4-make-the-service-simple-to-use"
-  },{
-    number: "5",
-    name: "Make sure everyone can use the service",
-    url: "/service-standard/5-make-sure-everyone-can-use-the-service"
-  },{
-    number: "6",
-    name: "Have a multidisciplinary team",
-    url: "/service-standard/6-have-a-multidisciplinary-team"
-  },{
-    number: "7",
-    name: "Use agile ways of working",
-    url: "/service-standard/7-use-agile-ways-of-working"
-  },{
-    number: "8",
-    name: "Iterate and improve frequently",
-    url: "/service-standard/8-iterate-and-improve-frequently"
-  },{
-    number: "9",
-    name: "Create a secure service which protects users’ privacy",
-    url: "/service-standard/9-create-a-secure-service"
-  },{
-    number: "10",
-    name: "Define what success looks like and publish performance data",
-    url: "/service-standard/10-define-success-publish-performance-data"
-  },{
-    number: "11",
-    name: "Choose the right tools and technology",
-    url: "/service-standard/11-choose-the-right-tools-and-technology"
-  },{
-    number: "12",
-    name: "Make new source code open",
-    url: "/service-standard/12-make-new-source-code-open"
-  },{
-    number: "13",
-    name: "Use and contribute to open standards, common components and patterns",
-    url: "/service-standard/13-use-common-standards-components-patterns"
-  },{
-    number: "14",
-    name: "Operate a reliable service",
-    url: "/service-standard/14-operate-a-reliable-service"
-  }
+{
+number: "1",
+name: "Understand users and their needs",
+url: "/service-standard/1-understand-user-needs"
+},{
+number: "2",
+name: "Solve a whole problem for users",
+url: "/service-standard/2-solve-a-whole-problem"
+},{
+number: "3",
+name: "Provide a joined up experience across all channels",
+url: "/service-standard/3-join-up-across-channels"
+},{
+number: "4",
+name: "Make the service simple to use",
+url: "/service-standard/4-make-the-service-simple-to-use"
+},{
+number: "5",
+name: "Make sure everyone can use the service",
+url: "/service-standard/5-make-sure-everyone-can-use-the-service"
+},{
+number: "6",
+name: "Have a multidisciplinary team",
+url: "/service-standard/6-have-a-multidisciplinary-team"
+},{
+number: "7",
+name: "Use agile ways of working",
+url: "/service-standard/7-use-agile-ways-of-working"
+},{
+number: "8",
+name: "Iterate and improve frequently",
+url: "/service-standard/8-iterate-and-improve-frequently"
+},{
+number: "9",
+name: "Create a secure service which protects users’ privacy",
+url: "/service-standard/9-create-a-secure-service"
+},{
+number: "10",
+name: "Define what success looks like and publish performance data",
+url: "/service-standard/10-define-success-publish-performance-data"
+},{
+number: "11",
+name: "Choose the right tools and technology",
+url: "/service-standard/11-choose-the-right-tools-and-technology"
+},{
+number: "12",
+name: "Make new source code open",
+url: "/service-standard/12-make-new-source-code-open"
+},{
+number: "13",
+name: "Use and contribute to open standards, common components and patterns",
+url: "/service-standard/13-use-common-standards-components-patterns"
+},{
+number: "14",
+name: "Operate a reliable service",
+url: "/service-standard/14-operate-a-reliable-service"
+}
 ] %}
 
 
-{% set assurance = [
-  {
-    name: "Service assessments",
-    url: "/service-assessments/"
-  },{
-    name: "How we're changing service assessments",
-    url: "/service-assessments/changes-to-service-assessments"
-  }
-  ]
+{% set teams = [
+{
+name: "Discovery peer review",
+url: "/service-assessments/discovery-peer-review"
+},{
+name: "Alpha and beta peer review",
+url: "/service-assessments/alpha-beta-peer-review"
+},{
+name: "Service assessments",
+url: "/service-assessments/assessments"
+},{
+name: "Your peer review report",
+url: "/service-assessments/peer-review-report"
+},{
+name: "Your service assessment report",
+url: "/service-assessments/service-assessment-report"
+},{
+name: "Actioning recommendations",
+url: "/service-assessments/actioning-recommendations"
+}
+]
 %}
+
+{% set assessors = [
+{
+name: "Running a peer review or assessments",
+url: "/service-assessments/process"
+},{
+name: "Supporting the team",
+url: "/service-assessments/support"
+},{
+name: "Writing a peer review report",
+url: "/service-assessments/writing-peer-review-report"
+},{
+name: "Writing a service assessment report",
+url: "/service-assessments/writing-service-assessment-report"
+}
+]
+%}
+
+{% set feedback = [
+{
+name: "Give feedback on the process",
+url: "/service-assessments/survey"
+}
+]
+%}
+
+
 
 
 <nav class="dfe-vertical-nav">
 
   {%- if selectedNav === "Service Standard" %}
 
-    <ul class="dfe-vertical-nav__section">
-      {% for item in standards %}
-        <li class="dfe-vertical-nav__section-item {% if point === item.number %}dfe-vertical-nav__section-item--current{% endif %}">
-          <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{ item.number }}. {{item.name}}</a>
-        </li>
-      {% endfor %}
-    </ul>
+  <ul class="dfe-vertical-nav__section">
+    {% for item in standards %}
+    <li
+      class="dfe-vertical-nav__section-item {% if point === item.number %}dfe-vertical-nav__section-item--current{% endif %}">
+      <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{ item.number }}. {{item.name}}</a>
+    </li>
+    {% endfor %}
+  </ul>
 
   {% endif %}
 
-   {%- if selectedNav === "Service assessments" %}
+  {%- if selectedNav === "Service assessments" %}
 
-    <ul class="dfe-vertical-nav__section">
-      {% for item in assurance %}
-        <li class="dfe-vertical-nav__section-item {% if pageName === item.name %}dfe-vertical-nav__section-item--current{% endif %}">
-          <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
-        </li>
-      {% endfor %}
-    </ul>
+  <h2 class="dfe-vertical-nav--section-header">For teams</h2>
+
+  <ul class="dfe-vertical-nav__section">
+    {% for item in teams %}
+    <li
+      class="dfe-vertical-nav__section-item {% if pageName === item.name %}dfe-vertical-nav__section-item--current{% endif %}">
+      <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <h2 class="dfe-vertical-nav--section-header">For assessors</h2>
+
+  <ul class="dfe-vertical-nav__section">
+    {% for item in assessors %}
+    <li
+      class="dfe-vertical-nav__section-item {% if pageName === item.name %}dfe-vertical-nav__section-item--current{% endif %}">
+      <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <h2 class="dfe-vertical-nav--section-header">Feedback</h2>
+
+  <ul class="dfe-vertical-nav__section">
+    {% for item in feedback %}
+    <li
+      class="dfe-vertical-nav__section-item {% if pageName === item.name %}dfe-vertical-nav__section-item--current{% endif %}">
+      <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
+    </li>
+    {% endfor %}
+  </ul>
 
   {% endif %}
 
