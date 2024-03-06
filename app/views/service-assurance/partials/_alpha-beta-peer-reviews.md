@@ -54,7 +54,7 @@ You can share work in progress, it doesn’t need to be finished. It just gives 
 
 You’ll need to make time to read any artefacts shared in advance. Plus, time for the peer review itself. 
 
-Similar to a service assessment, it is the lead assessor's responsibility to manage the agenda and timings, then review and share the report. 
+Similar to a service assessment, it's the lead assessor's responsibility to manage the agenda and timings, then review and share the report. 
 
 You’ll write a report with the rest of the panel, documenting what the team has done well and what the team need to explore.
 
