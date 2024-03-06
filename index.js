@@ -45,7 +45,7 @@ app.locals.serviceName = 'Apply the Service Standard in DfE'
 var nunjuckEnv = nunjucks.configure(
   [
     'app/views',
-    'node_modules/govuk-frontend',
+    'node_modules/govuk-frontend/dist/',
     'node_modules/dfe-frontend-alpha/packages/components',
   ],
   {
@@ -122,6 +122,58 @@ app.post('/submit-feedback', (req, res) => {
   return res.sendStatus(200)
 })
 
+
+app.get('/service-standard', (req, res) => {
+  return res.redirect('/')
+})
+
+
+// Route for handling Yes/No feedback submissions
+app.post('/form-response/helpful', (req, res) => {
+  const { response } = req.body;
+  const service = "Apply the service standard";
+  const pageURL = req.headers.referer || 'Unknown';
+  const date = new Date().toISOString();
+
+  base('Data').create([
+      {
+          "fields": {
+              "Response": response,
+              "Service": service,
+              "URL": pageURL
+          }
+      }
+  ], function(err) {
+      if (err) {
+          console.error(err);
+          return res.status(500).send('Error saving to Airtable');
+      }
+      res.json({ success: true, message: 'Feedback submitted successfully' });
+  });
+});
+
+// New route for handling detailed feedback submissions
+app.post('/form-response/feedback', (req, res) => {
+  const { response } = req.body;
+  
+  const service = "Apply the service standard"; // Example service name
+  const pageURL = req.headers.referer || 'Unknown'; // Attempt to capture the referrer URL
+  const date = new Date().toISOString();
+
+  base('Feedback').create([{
+      "fields": {
+          "Feedback": response,
+          "Service": service,
+          "URL": pageURL
+      }
+  }], function(err) {
+      if (err) {
+          console.error(err);
+          return res.status(500).send('Error saving to Airtable');
+      }
+      res.json({ success: true, message: 'Feedback submitted successfully' });
+  });
+});
 
 app.get(/\.html?$/i, function (req, res) {
   var path = req.path

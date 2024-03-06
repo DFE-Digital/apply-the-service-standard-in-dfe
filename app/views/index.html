@@ -1,207 +1,156 @@
 {% extends "layouts/homepage.html" %}
 
 {% set selectedNav = "Service Standard" %}
-{% set pageName = "Apply the Service Standard" %}
-{% set seoPageName = "Apply the Service Standard in the Department for Education" %}
-{% set pageDescription = "Guidance and information for how to apply the Government Service Standard to design and build accessible, usable and understandable services in the Department for Education."%}
-{% set selectedNav = "Home" %}
+{% set pageName = "Homepage" %}
+{% set seoPageName = "Homepage" %}
+{% set pageDescription = "Guidance and information for how to apply the Government Service Standard to design and build
+accessible, usable and understandable services in the Department for Education."%}
+{% set selectedNav = "Service Standard" %}
 
 {% set standards = [
-  {
-    number: "1",
-    name: "Understand users and their needs",
-    url: "/service-standard/1-understand-user-needs"
-  },{
-    number: "2",
-    name: "Solve a whole problem for users",
-    url: "/service-standard/2-solve-a-whole-problem"
-  },{
-    number: "3",
-    name: "Provide a joined up experience across all channels",
-    url: "/service-standard/3-join-up-across-channels"
-  },{
-    number: "4",
-    name: "Make the service simple to use",
-    url: "/service-standard/4-make-the-service-simple-to-use"
-  },{
-    number: "5",
-    name: "Make sure everyone can use the service",
-    url: "/service-standard/5-make-sure-everyone-can-use-the-service"
-  },{
-    number: "6",
-    name: "Have a multidisciplinary team",
-    url: "/service-standard/6-have-a-multidisciplinary-team"
-  },{
-    number: "7",
-    name: "Use agile ways of working",
-    url: "/service-standard/7-use-agile-ways-of-working"
-  },{
-    number: "8",
-    name: "Iterate and improve frequently",
-    url: "/service-standard/8-iterate-and-improve-frequently"
-  },{
-    number: "9",
-    name: "Create a secure service which protects users’ privacy",
-    url: "/service-standard/9-create-a-secure-service"
-  },{
-    number: "10",
-    name: "Define what success looks like and publish performance data",
-    url: "/service-standard/10-define-success-publish-performance-data"
-  },{
-    number: "11",
-    name: "Choose the right tools and technology",
-    url: "/service-standard/11-choose-the-right-tools-and-technology"
-  },{
-    number: "12",
-    name: "Make new source code open",
-    url: "/service-standard/12-make-new-source-code-open"
-  },{
-    number: "13",
-    name: "Use and contribute to open standards, common components and patterns",
-    url: "/service-standard/13-use-common-standards-components-patterns"
-  },{
-    number: "14",
-    name: "Operate a reliable service",
-    url: "/service-standard/14-operate-a-reliable-service"
-  }
+{
+number: "1",
+name: "Understand users and their needs",
+url: "/service-standard/1-understand-user-needs"
+},{
+number: "2",
+name: "Solve a whole problem for users",
+url: "/service-standard/2-solve-a-whole-problem"
+},{
+number: "3",
+name: "Provide a joined up experience across all channels",
+url: "/service-standard/3-join-up-across-channels"
+},{
+number: "4",
+name: "Make the service simple to use",
+url: "/service-standard/4-make-the-service-simple-to-use"
+},{
+number: "5",
+name: "Make sure everyone can use the service",
+url: "/service-standard/5-make-sure-everyone-can-use-the-service"
+},{
+number: "6",
+name: "Have a multidisciplinary team",
+url: "/service-standard/6-have-a-multidisciplinary-team"
+},{
+number: "7",
+name: "Use agile ways of working",
+url: "/service-standard/7-use-agile-ways-of-working"
+},{
+number: "8",
+name: "Iterate and improve frequently",
+url: "/service-standard/8-iterate-and-improve-frequently"
+},{
+number: "9",
+name: "Create a secure service which protects users’ privacy",
+url: "/service-standard/9-create-a-secure-service"
+},{
+number: "10",
+name: "Define what success looks like and publish performance data",
+url: "/service-standard/10-define-success-publish-performance-data"
+},{
+number: "11",
+name: "Choose the right tools and technology",
+url: "/service-standard/11-choose-the-right-tools-and-technology"
+},{
+number: "12",
+name: "Make new source code open",
+url: "/service-standard/12-make-new-source-code-open"
+},{
+number: "13",
+name: "Use and contribute to open standards, common components and patterns",
+url: "/service-standard/13-use-common-standards-components-patterns"
+},{
+number: "14",
+name: "Operate a reliable service",
+url: "/service-standard/14-operate-a-reliable-service"
+}
 ] %}
 
 {% block hero %}
+<section class="dfe-page-hero">
+  <div class="dfe-width-container ">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
 
-  <section class="dfe-hero">
-    <div class="dfe-width-container ">
-      <div class="govuk-grid-row">
-        <div class="govuk-grid-column-two-thirds">
-
-          <h1 class="govuk-heading-xl">Apply the Service Standard in the <br/>Department for Education</h1>
-          <p class="govuk-body-l govuk-!-margin-bottom-0">Guidance and information for how to apply the <a href="https://www.gov.uk/service-manual/service-standard" target="_blank" class="govuk-link govuk-link--inverse">Government Service Standard</a> to design and build accessible, usable and understandable services in DfE.</p>
-        </div>
+        <h1 class="govuk-heading-xl">Apply the Service Standard in the <br />Department for Education</h1>
+        <p class="govuk-body-l">Guidance and information for how to apply the <a
+            href="https://www.gov.uk/service-manual/service-standard" target="_blank"
+            class="govuk-link govuk-link--inverse">Government Service Standard</a> to design and build accessible,
+          usable and understandable services in DfE.</p>
       </div>
     </div>
-  </section>
-
+  </div>
+</section>
 {% endblock %}
 
 {% block content %}
 
-  <section class="govuk-!-margin-bottom-9">
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-two-thirds">
+<section class="govuk-!-margin-bottom-9">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
 
-
-
-    <div class="dfe-grid-container">
-
-          <div class="dfe-card">
-    
-            <div class="dfe-card-container">
-
-              <h2 class="govuk-heading-m">
-                <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header" href="/service-standard">The Service Standard</a>
-              </h2>
-              <p>
-                 Guidance for applying the 14 point Service Standard throughout the serivce delivery lifecycle.</p>
-            </div>
-          </div>
-
-               <div class="dfe-card">
-      
-             <div class="dfe-card-container">
-              <h2 class="govuk-heading-m">
-                <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header" href="/service-assessments">Service assessments</a>
-              </h2>
-              <p>Understanding the service assessment process in the Department for Education.</p>
-            </div>
-
-
-          </div>
-
-        </div>
-
-<section class="govuk-!-margin-top-9">
-
-      <div class="dfe-panel-section">
-
-        <div class="govuk-grid-row">
-
-          <div class="govuk-grid-column-full">
-
-            <h2 class="govuk-heading-l">Standards for good services</h2>
-
-          </div>
-
-          <div class="govuk-grid-column-two-thirds">
-
-            <p>Find and understand standards for design, user research, technology and architecture for delivering good Department for Education services.</p>
-
-          </div>
-
-          <div class="govuk-grid-column-one-third">
-
-            <ul class="govuk-list govuk-list--spaced">
-              <li>
-                <a href="https://standards.education.gov.uk/" target="_blank" class="govuk-link govuk-link--inverse govuk-!-font-weight-bold">Standards guidance</a>
-              </li>
-            </ul>
-
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-     
-
-      </div>
-      <div class="govuk-grid-column-one-third">
-
-        <div class="dfe-grid-container">
-
-          <div class="dfe-card">
-            <picture>
-              <source srcset="/assets/images/download.webp" type="image/webp">
-              <img src="/assets/images/download.png" alt="">
-            </picture>
-            <div class="dfe-card-container">
-
-              <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header" href="/assets/files/standard-points-guidance-v01-dec-2022.xlsx">
-                <span class="govuk-visually-hidden">Download all guidance</span></a>
-
-              <p>
-                  All the guidance for each of the Service Standard points.</p>
-              <p class="govuk-body-s">Excel - 98kb<br/>Last updated: 1 December 2022</p>
-            </div>
-          </div>
-
-        </div>
-
-        <h2 class="govuk-heading-m govuk-!-margin-top-5">Other resources and guidance</h2>
-
-        <ul class="govuk-list govuk-list--spaced">
-          <li>
-            <a href="https://design.education.gov.uk/" target="_blank">Design Manual</a>
-          </li>
-          <li>
-            <a href="https://user-research.education.gov.uk/" target="_blank">User Research Manual</a>
-          </li>
-          <li>
-            <a href="https://technical-guidance.education.gov.uk/" target="_blank">Technical Guidance</a>
-          </li>
-          <li>
-            <a href="https://dfe-digital.github.io/architecture/#dfe-architecture" target="_blank">Architecture</a>
-          </li>
-          <li>
-            <a href="https://design-system.service.gov.uk/" target="_blank">GOV.UK Design System</a>
-          </li>
-          <li>
-            <a href="https://www.gov.uk/service-manual" target="_blank">GOV.UK Service Manual</a>
-          </li>
-
-        </ul>
-
-      </div>
+      <h2 class="govuk-heading-l">Guidance for applying the standards</h2>
     </div>
-  </section>
+
+    <div class="govuk-grid-column-two-thirds">
+
+
+      <ol class="govuk-list dfe-list--bordered">
+        {% for standard in standards%}
+        <li>
+          <a class="govuk-link govuk-link--no-visited-state" href="{{standard.url}}">
+            <span class="dfe-list--number">{{standard.number}}</span>. {{standard.name}}</a>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+
+      <div class="dfe-grid-container">
+
+        <div class="dfe-card">
+          <picture>
+            <source srcset="/assets/images/download.webp" type="image/webp">
+            <img src="/assets/images/download.png" alt="">
+          </picture>
+          <div class="dfe-card-container">
+
+            <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header"
+              href="/assets/files/standard-points-guidance-v01-dec-2022.xlsx">
+              <span class="govuk-visually-hidden">Download all guidance</span></a>
+
+            <p>
+              All the guidance for each of the Service Standard points.</p>
+            <p class="govuk-body-s">Excel - 98kb<br />Last updated: 1 December 2022</p>
+          </div>
+        </div>
+
+        <div class="dfe-card">
+          <div class="dfe-card-container">
+            <h2 class="govuk-heading-m">
+              <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header"
+                href="/service-assessments">Service
+                assessments</a>
+            </h2>
+            <p>Understanding the service assessment process in the Department for Education.</p>
+          </div>
+        </div>
+
+        <div class="dfe-card">
+          <div class="dfe-card-container">
+            <h2 class="govuk-heading-m">
+              <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header"
+                href="https://standards.education.gov.uk">DfE Standards manual</a>
+            </h2>
+            <p>Find and understand standards for design, user research, technology and architecture for delivering good Department for Education services.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 {% endblock %}
