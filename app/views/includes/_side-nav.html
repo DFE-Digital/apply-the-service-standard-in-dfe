@@ -104,6 +104,13 @@ url: "/service-assessments/writing-service-assessment-report"
 name: "Give feedback on the process",
 url: "/service-assessments/survey"
 }
+]%}
+
+{% set overview = [
+{
+name: "Overview",
+url: "/service-assessments/index"
+}
 ]
 %}
 
@@ -112,7 +119,10 @@ url: "/service-assessments/survey"
 
 <nav class="dfe-vertical-nav">
 
+
+
   {%- if selectedNav === "Service Standard" %}
+
 
   <ul class="dfe-vertical-nav__section">
     {% for item in standards %}
@@ -126,6 +136,16 @@ url: "/service-assessments/survey"
   {% endif %}
 
   {%- if selectedNav === "Service assessments" %}
+
+  <ul class="dfe-vertical-nav__section">
+    {% for item in overview %}
+    <li
+      class="dfe-vertical-nav__section-item {% if pageName === item.name %}dfe-vertical-nav__section-item--current{% endif %}">
+      <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
+    </li>
+    {% endfor %}
+  </ul>
+
 
   <h2 class="dfe-vertical-nav--section-header">For teams</h2>
 
