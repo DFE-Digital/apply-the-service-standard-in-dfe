@@ -1,130 +1,155 @@
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/cookie-policy</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-assessments</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-standard/1-understand-user-needs</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-standard/2-solve-a-whole-problem</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-standard/3-join-up-across-channels</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-standard/4-make-the-service-simple-to-use</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-standard/5-make-sure-everyone-can-use-the-service</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-standard/6-have-a-multidisciplinary-team</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-standard/7-use-agile-ways-of-working</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-standard/8-iterate-and-improve-frequently</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-standard/9-create-a-secure-service</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-standard/10-define-success-publish-performance-data</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-standard/11-choose-the-right-tools-and-technology</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-standard/12-make-new-source-code-open</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-standard/13-use-common-standards-components-patterns</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-standard/14-operate-a-reliable-service</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/accessibility-statement</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-assessments/index</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-assessments/discovery-peer-review</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-assessments/assessments</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-assessments/service-assessment-report</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-assessments/actioning-recommendations</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-assessments/run-peer-review</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-assessments/run-service-assessment</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-assessments/complete-service-assessment-report</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-assessments/support-team</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-assessments/survey</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apply-the-service-standard.education.gov.uk/service-assessments/</loc>
+  <lastmod>2024-04-24T19:43:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>1.0000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/cookie-policy</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-assessments</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-standard/1-understand-user-needs</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-standard/2-solve-a-whole-problem</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-standard/3-join-up-across-channels</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-standard/4-make-the-service-simple-to-use</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-standard/5-make-sure-everyone-can-use-the-service</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-standard/6-have-a-multidisciplinary-team</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-standard/7-use-agile-ways-of-working</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-standard/8-iterate-and-improve-frequently</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-standard/9-create-a-secure-service</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-standard/10-define-success-publish-performance-data</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-standard/11-choose-the-right-tools-and-technology</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-standard/12-make-new-source-code-open</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-standard/13-use-common-standards-components-patterns</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-standard/14-operate-a-reliable-service</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/accessibility-statement</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/updates</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-assessments/</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://apply-the-service-standard.education.gov.uk/service-assessments/changes-to-service-assessments</loc>
-       <lastmod>2023-05-19T14:26:49+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
+
 </urlset>
