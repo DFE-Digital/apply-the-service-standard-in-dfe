@@ -27,6 +27,8 @@ const app = express()
 
 const notify = new NotifyClient(process.env.notifyKey)
 
+const airtable = require('airtable');
+const base = new airtable({ apiKey: process.env.airtableFeedbackKey }).base(process.env.airtableFeedbackBase);
 
 
 
