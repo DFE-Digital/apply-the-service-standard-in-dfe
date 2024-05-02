@@ -28,7 +28,7 @@ gulp.task('copy-govuk-js', function () {
 
 gulp.task('copy-dfefrontend-js', function () {
   return gulp
-    .src('node_modules/dfe-frontend-alpha/dist/dfefrontend.js')
+    .src('node_modules/dfe-webfrontend/dist/dfefrontend.js')
     .pipe(copy('app/assets/js', { prefix: 3 }))
 })
 
@@ -48,7 +48,7 @@ gulp.task(
 gulp.task('copy-assets', function () {
   return gulp
     .src(
-      'node_modules/dfe-frontend-alpha/packages/assets/**/*.{jpg,jpeg,png,gif,svg}',
+      'node_modules/dfe-webfrontend/packages/assets/**/*.{jpg,jpeg,png,gif,svg}',
     )
     .pipe(copy('app/assets/images', { prefix: 6 }))
 })
@@ -97,11 +97,11 @@ gulp.task('watch', function () {
   gulp.watch('app/assets/images/**/*.png', gulp.series('process-images'))
   gulp.watch('app/assets/images/**/*', gulp.series('process-images-copy'))
   gulp.watch(
-    'node_modules/dfe-frontend-alpha/packages/assets/**/*.{jpg,jpeg,png,gif,svg}',
+    'node_modules/dfe-webfrontend/packages/assets/**/*.{jpg,jpeg,png,gif,svg}',
     gulp.series('copy-assets'),
   )
   gulp.watch(
-    'node_modules/dfe-frontend-alpha/dist/dfefrontend.js',
+    'node_modules/dfe-webfrontend/dist/dfefrontend.js',
     gulp.series('process-js'),
   )
   gulp.watch('app/**/*.*').on('change', browserSync.reload)

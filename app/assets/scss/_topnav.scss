@@ -1,4 +1,87 @@
-.dfe-topnav {
-    background-color: govuk-shade($color_dfe-blue, 30);
+.dfe-topnav{
+  background-color: govuk-shade($color_dfe-blue, 30);
+}
+
+.dfe-topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  line-height: 1.4em;
+}
+
+.dfe-topnav li a {
+  display: block;
+  text-align: center;
+  padding: 8px 12px 8px 12px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.71429;
+  text-decoration: none;
+  color: $color_dfe-white;
+}
+
+@media (min-width: 40.0625em) {
+  .dfe-topnav li a {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
   }
-  
+}
+
+@media print {
+  .dfe-topnav li a {
+    font-size: 14pt;
+    line-height: 1.2;
+  }
+}
+
+.dfe-topnav li {
+  float: left;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+.dfe-topnav li a:focus {
+  background: #ffdd00;
+  color: #171b1f !important;
+}
+
+.dfe-topnav li a:hover {
+  background-color: $color_dfe-blue;
+  color: #ffffff;
+}
+
+.dfe-topnav li a:hover:focus {
+  color: #ffffff !important;
+}
+
+.dfe-topnav li a:hover {
+  color: #ffffff;
+}
+
+.dfe-topnav .active {
+  color: #ffffff;
+  font-weight: 700;
+  background-color: $color_dfe-blue;
+}
+
+.dfe-topnav .active:focus {
+  color: #171b1f;
+}
+
+.dfe-topnav ul.right {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+
+
+
+@media (min-width: 61.875em) {
+  .dfe-topnav {
+    display: block;
+  }
+}
