@@ -54,7 +54,32 @@ exports.g_standard = async function (req, res) {
  
 }
 
+exports.g_phase = async function (req, res) {
+    const { phase } = req.params;  
+    const standards = require('../data/content.json');  
 
+    let matchedPhases = []; 
+
+    standards.forEach(standard => {
+        standard.phases.forEach(p => {
+            if (p.name.toLowerCase() === phase.toLowerCase() || p.name.toLowerCase() === 'all phases') {
+                matchedPhases.push({
+                    standard: standard.standard,
+                    slug: standard.slug,
+                    name: standard.name,
+                    considerations: p.considerations.map(point => cleanUpHtml(marked(point))),
+                    avoid: p.avoid.map(point => cleanUpHtml(marked(point)))
+                });
+            }
+        });
+    });
+
+    if (matchedPhases.length > 0) {  
+        return res.render('phase_template.html', { phases: matchedPhases, phase});
+    }
+
+    return res.redirect('/');
+}
 
 
 function getContentForStandard(standard) {

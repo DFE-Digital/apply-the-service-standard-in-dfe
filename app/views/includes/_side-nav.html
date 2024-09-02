@@ -15,6 +15,8 @@ url: "/service-assessments/actioning-recommendations"
 ]
 %}
 
+
+
 {% set assessors = [
 {
 name: "Run a discovery peer review",
@@ -47,6 +49,21 @@ url: "/service-assessments/index"
 ]
 %}
 
+{% set phases = [
+{
+name: "Discovery",
+url: "/phases/discovery"
+},{
+name: "Alpha",
+url: "/phases/alpha"
+},{
+name: "Beta and live",
+url: "/phases/beta-and-live"
+}
+]
+%}
+
+
 <nav class="dfe-vertical-nav">
 
   {%- if selectedNav === "Service Standard" %}
@@ -56,6 +73,19 @@ url: "/service-assessments/index"
         <li
       class="dfe-vertical-nav__section-item {% if point === item.standard %}dfe-vertical-nav__section-item--current{% endif %}">
           <a class="dfe-vertical-nav__link" href="/service-standard/{{ item.slug }}">{{ item.standard }}. {{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+  {% endif %}
+
+   {%- if selectedNav === "Phases" %}
+
+    <ul class="dfe-vertical-nav__section">
+      {% for item in phases %}
+        <li
+      class="dfe-vertical-nav__section-item {% if phase | lower | replace('-', ' ') === item.name | lower | replace('-', ' ') %}dfe-vertical-nav__section-item--current{% endif %}">
+          <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
         </li>
       {% endfor %}
     </ul>
