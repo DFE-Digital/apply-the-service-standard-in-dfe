@@ -11,6 +11,16 @@ function cleanUpHtml(html) {
         .trim();  // Remove any leading or trailing whitespace
 }
 
+exports.g_home = async function (req, res) {
+
+    const standards = require('../data/content.json');
+
+    console.log(standards)
+
+    return res.render('index', {standards});
+
+}
+
 
 exports.g_standard = async function (req, res) {
     const {slug} = req.params;
@@ -39,9 +49,11 @@ exports.g_standard = async function (req, res) {
 
         console.log(data)
 
-        const standards = data.data
+        const dfestandards = data.data
 
-        return res.render('standard_template.html', { standard: standardData, standards });
+        const standards = require('../data/content.json');
+
+        return res.render('standard_template.html', { standard: standardData, dfestandards, standards });
 
     } catch (error) {
         console.error('Error fetching data:', error.message)
