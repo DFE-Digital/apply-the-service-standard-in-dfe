@@ -12,6 +12,8 @@ const path = require('path')
 const cheerio = require('cheerio')
 const config = require('./app/config')
 const glob = require('glob');
+const routes = require('./app/routes');
+
 
 const helmet = require('helmet');
 
@@ -57,6 +59,8 @@ var nunjuckEnv = nunjucks.configure(
 
 nunjuckEnv.addFilter('date', dateFilter)
 markdown.register(nunjuckEnv, marked.parse)
+
+app.use('/', routes)
 
 // Set up static file serving for the app's assets
 app.use('/assets', express.static('public/assets'))

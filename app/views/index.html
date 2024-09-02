@@ -68,89 +68,85 @@ url: "/service-standard/14-operate-a-reliable-service"
 ] %}
 
 {% block hero %}
-<section class="dfe-page-hero">
-  <div class="dfe-width-container ">
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-two-thirds">
+  <section class="dfe-page-hero">
+    <div class="dfe-width-container ">
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
 
-        <h1 class="govuk-heading-xl">Apply the Service Standard in the <br />Department for Education</h1>
-        <p class="govuk-body-l">Guidance and information for how to apply the <a
+          <h1 class="govuk-heading-xl">Apply the Service Standard in the <br />Department for Education</h1>
+          <p class="govuk-body-l">Guidance and information for how to apply the <a
             href="https://www.gov.uk/service-manual/service-standard" target="_blank"
             class="govuk-link govuk-link--inverse">Government Service Standard</a> to design and build accessible,
           usable and understandable services in DfE.</p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 {% endblock %}
 
 {% block content %}
 
-<section class="govuk-!-margin-bottom-9">
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-full">
+  <section class="govuk-!-margin-bottom-9">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
 
-      <h2 class="govuk-heading-l">Guidance for applying the standards</h2>
-    </div>
-
-    <div class="govuk-grid-column-two-thirds">
-
-
-      <ol class="govuk-list dfe-list--bordered">
-        {% for standard in standards%}
-        <li>
-          <a class="govuk-link govuk-link--no-visited-state" href="{{standard.url}}">
-            <span class="dfe-list--number">{{standard.number}}</span>. {{standard.name}}</a>
-        </li>
-        {% endfor %}
-      </ol>
-    </div>
-
-    <div class="govuk-grid-column-one-third">
-
-      <div class="dfe-grid-container">
-
-        <div class="dfe-card">
-          <picture>
-            <source srcset="/assets/images/download.webp" type="image/webp">
-            <img src="/assets/images/download.png" alt="">
-          </picture>
-          <div class="dfe-card-container">
-
-            <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header"
-              href="/assets/files/standard-points-guidance-v01-dec-2022.xlsx">
-              <span class="govuk-visually-hidden">Download all guidance</span></a>
-
-            <p>
-              All the guidance for each of the Service Standard points.</p>
-            <p class="govuk-body-s">Excel - 98kb<br />Last updated: 1 December 2022</p>
-          </div>
-        </div>
-
-        <div class="dfe-card">
-          <div class="dfe-card-container">
-            <h2 class="govuk-heading-m">
-              <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header"
-                href="/service-assessments">Service
-                assessments</a>
-            </h2>
-            <p>Understanding the service assessment process in the Department for Education.</p>
-          </div>
-        </div>
-
-        <div class="dfe-card">
-          <div class="dfe-card-container">
-            <h2 class="govuk-heading-m">
-              <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header"
-                href="https://standards.education.gov.uk">DfE Standards manual</a>
-            </h2>
-            <p>Find and understand standards for design, user research, technology and architecture for delivering good Department for Education services.</p>
-          </div>
-        </div>
+        <h2 class="govuk-heading-l">Guidance for applying the standards</h2>
       </div>
 
+      <div class="govuk-grid-column-two-thirds">
+
+        <ol class="govuk-list dfe-list--bordered">
+          {% for standard in standards%}
+            <li>
+              <a class="govuk-link govuk-link--no-visited-state" href="{{standard.url}}">
+                <span class="dfe-list--number">{{standard.number}}</span>. {{standard.name}}</a>
+            </li>
+          {% endfor %}
+        </ol>
+      </div>
+
+      <div class="govuk-grid-column-one-third">
+
+        <div class="dfe-grid-container">
+
+          <div class="dfe-card">
+
+            <div class="dfe-card-container">
+
+              <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header"
+              href="/assets/files/standard-points-guidance-v01-dec-2022.xlsx">
+                <span class="govuk-visually-hidden">Download all guidance</span></a>
+             
+              <p>
+              All the guidance for each of the Service Standard points.</p>
+              <p class="govuk-body-s">Excel - 98kb<br />Last updated: 1 December 2022</p>
+            </div>
+          </div>
+
+          <div class="dfe-card">
+            <div class="dfe-card-container">
+              <h2 class="govuk-heading-m">
+                <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header"
+                href="/service-assessments">Service
+                assessments</a>
+              </h2>
+              <p>Understanding the service assessment process in the Department for Education.</p>
+            </div>
+          </div>
+
+          <div class="dfe-card">
+            <div class="dfe-card-container">
+              <h2 class="govuk-heading-m">
+                <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header"
+                href="https://standards.education.gov.uk">DfE Standards manual</a>
+              </h2>
+              <p>Find and understand standards for design, user research, technology and architecture for delivering good Department for Education services.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
 {% endblock %}

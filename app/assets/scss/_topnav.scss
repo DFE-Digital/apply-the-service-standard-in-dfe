@@ -1,3 +1,18 @@
+.flex-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-right {
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.flex-left {
+  justify-content: flex-start;
+  margin-right: auto;
+}
+
 .dfe-topnav{
   background-color: govuk-shade($color_dfe-blue, 30);
 }
@@ -20,22 +35,6 @@
   text-decoration: none;
   color: $color_dfe-white;
 }
-
-@media (min-width: 40.0625em) {
-  .dfe-topnav li a {
-    font-size: 16px;
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-}
-
-@media print {
-  .dfe-topnav li a {
-    font-size: 14pt;
-    line-height: 1.2;
-  }
-}
-
 .dfe-topnav li {
   float: left;
   margin-bottom: 0px;
