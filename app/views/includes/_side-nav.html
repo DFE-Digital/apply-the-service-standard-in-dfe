@@ -1,5 +1,3 @@
-
-
 {% set teams = [
 {
 name: "Discovery peer reviews",
@@ -49,73 +47,65 @@ url: "/service-assessments/index"
 ]
 %}
 
-
-
-
 <nav class="dfe-vertical-nav">
-
-
 
   {%- if selectedNav === "Service Standard" %}
 
-
-  <ul class="dfe-vertical-nav__section">
-    {% for item in standards %}
-    <li
+    <ul class="dfe-vertical-nav__section">
+      {% for item in standards %}
+        <li
       class="dfe-vertical-nav__section-item {% if point === item.standard %}dfe-vertical-nav__section-item--current{% endif %}">
-      <a class="dfe-vertical-nav__link" href="/service-standard/{{ item.slug }}">{{ item.standard }}. {{item.name}}</a>
-    </li>
-    {% endfor %}
-  </ul>
+          <a class="dfe-vertical-nav__link" href="/service-standard/{{ item.slug }}">{{ item.standard }}. {{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
 
   {% endif %}
 
   {%- if selectedNav === "Service assessments" %}
 
-  <ul class="dfe-vertical-nav__section">
-    {% for item in overview %}
-    <li
+    <ul class="dfe-vertical-nav__section">
+      {% for item in overview %}
+        <li
       class="dfe-vertical-nav__section-item {% if pageName === item.name %}dfe-vertical-nav__section-item--current{% endif %}">
-      <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
-    </li>
-    {% endfor %}
-  </ul>
+          <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
 
+    <h2 class="dfe-vertical-nav--section-header">For teams</h2>
 
-  <h2 class="dfe-vertical-nav--section-header">For teams</h2>
-
-  <ul class="dfe-vertical-nav__section">
-    {% for item in teams %}
-    <li
+    <ul class="dfe-vertical-nav__section">
+      {% for item in teams %}
+        <li
       class="dfe-vertical-nav__section-item {% if pageName === item.name %}dfe-vertical-nav__section-item--current{% endif %}">
-      <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
-    </li>
-    {% endfor %}
-  </ul>
+          <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
 
-  <h2 class="dfe-vertical-nav--section-header">For assessors</h2>
+    <h2 class="dfe-vertical-nav--section-header">For assessors</h2>
 
-  <ul class="dfe-vertical-nav__section">
-    {% for item in assessors %}
-    <li
+    <ul class="dfe-vertical-nav__section">
+      {% for item in assessors %}
+        <li
       class="dfe-vertical-nav__section-item {% if pageName === item.name %}dfe-vertical-nav__section-item--current{% endif %}">
-      <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
-    </li>
-    {% endfor %}
-  </ul>
+          <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
 
-  <h2 class="dfe-vertical-nav--section-header">Feedback</h2>
+    <h2 class="dfe-vertical-nav--section-header">Feedback</h2>
 
-  <ul class="dfe-vertical-nav__section">
-    {% for item in feedback %}
-    <li
+    <ul class="dfe-vertical-nav__section">
+      {% for item in feedback %}
+        <li
       class="dfe-vertical-nav__section-item {% if pageName === item.name %}dfe-vertical-nav__section-item--current{% endif %}">
-      <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
-    </li>
-    {% endfor %}
-  </ul>
+          <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
 
   {% endif %}
-
 
 </nav>

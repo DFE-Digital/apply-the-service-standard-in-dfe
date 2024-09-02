@@ -12,13 +12,8 @@ function cleanUpHtml(html) {
 }
 
 exports.g_home = async function (req, res) {
-
     const standards = require('../data/content.json');
-
-    console.log(standards)
-
     return res.render('index', {standards});
-
 }
 
 
@@ -29,8 +24,6 @@ exports.g_standard = async function (req, res) {
     const standardParts = slug.split('-');
     const standardNumber = standardParts[0];
 
-
-
     const standardData = getContentForStandard(standardNumber);
     if (standardData === null) {
         return res.render('index');
@@ -38,22 +31,20 @@ exports.g_standard = async function (req, res) {
 
     try {
 
-        // Fetching posts
-        const data = await axios({
-            method: 'get',
-            url: `${process.env.cmsurl}api/standards?populate=%2A`,
-            headers: {
-                Authorization: `Bearer ${process.env.apikey}`,
-            }
-        })
+        // // Fetching posts
+        // const data = await axios({
+        //     method: 'get',
+        //     url: `${process.env.cmsurl}api/standards?populate=%2A`,
+        //     headers: {
+        //         Authorization: `Bearer ${process.env.apikey}`,
+        //     }
+        // })
 
-        console.log(data)
-
-        const dfestandards = data.data
+        // const dfestandards = data.data
 
         const standards = require('../data/content.json');
 
-        return res.render('standard_template.html', { standard: standardData, dfestandards, standards });
+        return res.render('standard_template.html', { standard: standardData, standards });
 
     } catch (error) {
         console.error('Error fetching data:', error.message)
