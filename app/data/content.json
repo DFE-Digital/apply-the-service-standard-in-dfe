@@ -721,9 +721,9 @@
                 "name": "Alpha",
                 "considerations": [
                     "Define what you want to measure, why, and how these measurements will be obtained. Potential options for collecting this data could include:",
-                    "- Analytics that describe time spent on pages, heatmaps, if users start something but don't finish it.",
-                    "- [Performance data](https://www.gov.uk/service-manual/measuring-success/using-data-to-improve-your-service-an-introduction) and reporting to capture baseline measurements on service efficiency, timescales, service level agreements (SLAs).",
-                    "- Qualitative data, which could include insights from users on the current as-is service captured via user research and feedback.",
+                    "Analytics that describe time spent on pages, heatmaps, if users start something but don't finish it.",
+                    "[Performance data](https://www.gov.uk/service-manual/measuring-success/using-data-to-improve-your-service-an-introduction) and reporting to capture baseline measurements on service efficiency, timescales, service level agreements (SLAs).",
+                    "Qualitative data, which could include insights from users on the current as-is service captured via user research and feedback.",
                     "Evidence of finding baseline data, or why this is not available, with a plan to show how you will measure future success.",
                     "Evidence of how the team has iterated and improved metrics and data collection plans as you learn more about user needs.",
                     "What metrics could you analyze to support or improve the service."

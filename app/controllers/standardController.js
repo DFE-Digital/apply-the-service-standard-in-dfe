@@ -62,7 +62,7 @@ exports.g_phase = async function (req, res) {
 
     standards.forEach(standard => {
         standard.phases.forEach(p => {
-            if (p.name.toLowerCase() === phase.toLowerCase() || p.name.toLowerCase() === 'all phases') {
+            if (p.name.toLowerCase() === phase.toLowerCase() || p.name.toLowerCase() === 'all phases' || p.name.toLowerCase() === 'general considerations') {
                 matchedPhases.push({
                     standard: standard.standard,
                     slug: standard.slug,
