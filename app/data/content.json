@@ -4,7 +4,7 @@
         "slug": "1-understand-user-needs",
         "name": "Understand users and their needs",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-1-understand-user-needs",
-        "description": "Take time to understand users' needs and the problem you're trying to solve for them",
+        "description": "Take time to understand users' needs and the problem you're trying to solve for them.",
         "why": [
             "You need to [understand your users and their needs](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs#understanding-user-needs) to build something that helps them. Otherwise you could build the wrong thing or make DfE services more difficult to use",
             "Understanding as much of the context of the user needs as possible will give you the best chance of meeting them in the most simple, cost effective way",
@@ -385,7 +385,7 @@
                 ]
             },
             {
-                "name": "Beta and Live",
+                "name": "Beta and live",
                 "considerations": [
                     "continual testing with users with access needs",
                     "what your approach to recruiting users with access needs will be",
