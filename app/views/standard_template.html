@@ -34,7 +34,7 @@
         <h2 class="govuk-heading-l">Summary</h2>
 
         {% for content in standard.description %}
-            <p>{{content}}</p>
+            <p>{{content | safe}}</p>
         {% endfor %}
 
         <h2 class="govuk-heading-l">Why it's important</h2>
@@ -51,7 +51,7 @@
 
             <h2 class="govuk-heading-l">{{ phase.phaseName }}</h2>
 
-            <h3>Considerations:</h3>
+            <h3>Things to consider:</h3>
             <ul class="govuk-list govuk-list--bullet">
                 {% for point in phase.considerations %}
                     <li>{{ point | safe}}</li>
