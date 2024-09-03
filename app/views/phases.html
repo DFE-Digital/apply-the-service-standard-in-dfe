@@ -1,8 +1,8 @@
 {% extends "layouts/full.html" %}
 
-{% set selectedNav = "Standards by phase" %}
-{% set pageName = "Standards by phase" %}
-{% set pageDescription = ""%}
+{% set selectedNav = "Phases" %}
+{% set pageName = "Phases of delivery" %}
+{% set pageDescription = "Things to do and good practice throughout the agile phases of delivery."%}
 {% set aka = "" %}
 {% set mainClasses = " govuk-!-padding-bottom-9" %}
 
@@ -21,17 +21,14 @@
 
                                 <ul class="govuk-list govuk-list--spaced">
                                     <li>
-                                        <a href="">Guidance for this phase</a>
-                                    </li>
-                                    <li>
-                                        <a href="">A good discovery</a>
+                                        <a href="/phase/discovery">Guidance for this phase</a>
                                     </li>
                                 </ul>
 
                             </div>
                             <div class="govuk-grid-column-one-half image-column">
                                 <div class="image-container"
-                     style="background-image: url('/assets/images/.png');"></div>
+                     style="background-image: url('/assets/images/disco.jpg');"></div>
                             </div>
                         </div>
                     </div>
@@ -49,6 +46,7 @@
                     <div class="govuk-!-margin-top-3 govuk-!-margin-bottom-5">
                         <div class="govuk-grid-row split-panel" style="background: #f3f2f1;">
                             <div class="govuk-grid-column-one-half text-column">
+                                <strong class="govuk-tag" style="max-width: fit-content">Coming soon</strong>
                                 <h2 class="govuk-heading-l govuk-!-margin-top-3">Alpha</h2>
                                 <p class="govuk-body-l">What does a good alpha phase look like</p>
 
@@ -56,15 +54,12 @@
                                     <li>
                                         <a href="">Guidance for this phase</a>
                                     </li>
-                                    <li>
-                                        <a href="">A good alpha</a>
-                                    </li>
                                 </ul>
 
                             </div>
                             <div class="govuk-grid-column-one-half image-column">
                                 <div class="image-container"
-                     style="background-image: url('/assets/images/.png');"></div>
+                     style="background-image: url('/assets/images/alpha.jpg');"></div>
                             </div>
                         </div>
                     </div>
@@ -82,22 +77,20 @@
                     <div class="govuk-!-margin-top-3 govuk-!-margin-bottom-5">
                         <div class="govuk-grid-row split-panel" style="background: #f3f2f1;">
                             <div class="govuk-grid-column-one-half text-column">
-                                <h2 class="govuk-heading-l govuk-!-margin-top-3">Beta</h2>
-                                <p class="govuk-body-l">What does a good beta phase look like</p>
+                                <strong class="govuk-tag" style="max-width: fit-content">Coming soon</strong>
+                                <h2 class="govuk-heading-l govuk-!-margin-top-3">Beta and live</h2>
+                                <p class="govuk-body-l">What does a good beta phase look like and moving to live</p>
 
                                 <ul class="govuk-list govuk-list--spaced">
                                     <li>
                                         <a href="">Guidance for this phase</a>
                                     </li>
-                                    <li>
-                                        <a href="">A good beta</a>
-                                    </li>
                                 </ul>
 
                             </div>
                             <div class="govuk-grid-column-one-half image-column">
                                 <div class="image-container"
-                     style="background-image: url('/assets/images/.png');"></div>
+                     style="background-image: url('/assets/images/beta.jpg');"></div>
                             </div>
                         </div>
                     </div>
@@ -107,37 +100,6 @@
         </div>
     </div>
 
-    <div class="dfe-width-container govuk-!-margin-top-5">
-        <div class="govuk-grid-row">
-            <div class="govuk-grid-column-full">
 
-                <section>
-                    <div class="govuk-!-margin-top-3 govuk-!-margin-bottom-5">
-                        <div class="govuk-grid-row split-panel" style="background: #f3f2f1;">
-                            <div class="govuk-grid-column-one-half text-column">
-                                <h2 class="govuk-heading-l govuk-!-margin-top-3">Live</h2>
-                                <p class="govuk-body-l">What does a good live service look like</p>
-
-                                <ul class="govuk-list govuk-list--spaced">
-                                    <li>
-                                        <a href="">Guidance for ongoing improvement</a>
-                                    </li>
-                                    <li>
-                                        <a href="">A good service</a>
-                                    </li>
-                                </ul>
-
-                            </div>
-                            <div class="govuk-grid-column-one-half image-column">
-                                <div class="image-container"
-                     style="background-image: url('/assets/images/.png');"></div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-            </div>
-        </div>
-    </div>
 
 {% endblock %}
