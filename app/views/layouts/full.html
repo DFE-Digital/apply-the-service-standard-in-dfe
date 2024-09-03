@@ -58,57 +58,27 @@
 
   {% endblock %}
 
-  {% block main %}
+       {% block hero %}
+        <section class="dfe-page-hero">
+          <div class="govuk-width-container">
+            <div class="govuk-grid-row">
+              <div class="govuk-grid-column-two-thirds">
+                <h1 class="govuk-heading-xl">{{pageName}}</h1>
+                <p class="govuk-body-l">{{pageDescription}}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      {% endblock %}
 
-  <div class="dfe-content-page--header">
-    <div class="dfe-width-container ">
+      {% block main %}
 
-      <div class="govuk-grid-row ">
-        <div class="govuk-grid-column-three-quarters">
-          {% block breadcrumb %}{% endblock %}
-        </div>
-      </div>
+        <main class="govuk-main-wrapper  {{mainClasses}}" id="main-content" role="main">
+       
+          {% block content %}{% endblock %}
+        </main>
 
-      <div class="govuk-grid-row govuk-!-padding-top-9 govuk-!-padding-bottom-0">
-
-        <div class="govuk-grid-column-three-quarters">
-          {% if point %}
-          <span class="govuk-caption-xl">Standard point {{point}}</span>{%endif%}
-          <h1 class="govuk-heading-xl govuk-!-margin-bottom-4">{{pageName}}</h1>
-          <p class="govuk-body-l">{% if pageDescriptionPageOverride %}{{pageDescriptionPageOverride | safe}}{%
-            else%}{{pageDescription}}{% endif%}</p>
-
-          {% if dateUpdated %}
-
-          <p class="govuk-body-s govuk-!-margin-bottom-0">
-            <span class="govuk-!-font-weight-bold">Last updated: </span>
-            {{dateUpdated | date('D MMMM YYYY')}}
-          </p>
-
-          {% endif %}
-
-        </div>
-      </div>
-      <div class="govuk-grid-row govuk-!-padding-top-0 govuk-!-padding-bottom-7">
-        <div class="govuk-grid-column-full">
-          {% block heroExtra %}{% endblock %}
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <main class="govuk-main-wrapper {% if zeroMainMargin === 'true'%}govuk-!-margin-0 govuk-!-padding-0{% endif %}"
-    id="main-content" role="main">
-
-
-    {% block content %}{% endblock %}
-
-
-
-  </main>
-  {% endblock %}
+      {% endblock %}
 
   </div>
 
