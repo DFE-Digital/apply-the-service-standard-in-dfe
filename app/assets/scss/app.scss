@@ -119,3 +119,21 @@ $govuk-global-styles: true;
     /* Adjust height for mobile view */
   }
 }
+
+
+
+.dfe-inset-text--warning {
+  border-left-color: #d4351c;
+  font-weight: 700;
+}
+
+
+@media (min-width: 48.0625em) {
+  .sticky {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 20px;
+    z-index: 1000;
+  }
+}
