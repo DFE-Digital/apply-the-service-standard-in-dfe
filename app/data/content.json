@@ -4,7 +4,9 @@
         "slug": "1-understand-user-needs",
         "name": "Understand users and their needs",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-1-understand-user-needs",
-        "description": "Take time to understand users' needs and the problem you're trying to solve for them.",
+        "description": [
+            "Take time to understand users' needs and the problem you're trying to solve for them."
+        ],
         "why": [
             "You need to [understand your users and their needs](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs#understanding-user-needs) to build something that helps them. Otherwise you could build the wrong thing or make DfE services more difficult to use",
             "Understanding as much of the context of the user needs as possible will give you the best chance of meeting them in the most simple, cost effective way",
@@ -98,7 +100,9 @@
         "slug": "2-solve-a-whole-problem",
         "name": "Solve a whole problem for users",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem",
-        "description": "Consider where your service fits in your users' journey and whether you can solve a whole problem or influence a wider solution",
+        "description": [
+            "Consider where your service fits in your users' journey and whether you can solve a whole problem or influence a wider solution"
+        ],
         "why": [
             "People often don't know how education services fit together. It helps if you can bring things together into a journey which makes sense to users, irrespective of which organisation they belong to or channel they use",
             "You may not be able to fix a whole problem, but you may be able to improve it and support or influence a wider solution"
@@ -177,7 +181,9 @@
         "slug": "3-join-up-across-channels",
         "name": "Provide a joined up experience across all channels",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-3-join-up-across-channels",
-        "description": "Consider where your service fits into a wider journey or alongside other DfE services, and how it will join up across channels",
+        "description": [
+            "Consider where your service fits into a wider journey or alongside other DfE services, and how it will join up across channels"
+        ],
         "why": [
             "If a service moves between channels, for example, email, contact centres, paper forms, or in person, and you bring those different channels together, you can design an experience that reduces friction for users",
             "Understanding where your user needs fit into wider journeys can help to solve a whole problem for users"
@@ -256,7 +262,9 @@
         "slug": "4-make-the-service-simple-to-use",
         "name": "Make the service simple to use",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-4-make-the-service-simple-to-use",
-        "description": "Build a service that's simple to use so that people can succeed first time. Test it with users to make sure it works for them",
+        "description": [
+            "Build a service that's simple to use so that people can succeed first time. Test it with users to make sure it works for them"
+        ],
         "why": [
             "People expect services to work. They need things to be easy when they are trying to complete a task or find information",
             "As a public sector organisation we have a legal duty to [consider everyone's needs when designing and delivering services](https://design.education.gov.uk/accessibility/)"
@@ -333,7 +341,9 @@
         "slug": "5-make-sure-everyone-can-use-the-service",
         "name": "Make sure everyone can use the service",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-5-make-sure-everyone-can-use-the-service",
-        "description": "Make sure your service can be used by people with different physical, mental, social, cultural or learning needs, whether it's for the public, for staff working in DfE or across the education sector",
+        "description": [
+            "Make sure your service can be used by people with different physical, mental, social, cultural or learning needs, whether it's for the public, for staff working in DfE or across the education sector"
+        ],
         "why": [
             "Everyone who works on DfE digital services has a role to play in making them [accessible and inclusive](https://design.education.gov.uk/accessibility/standards)",
             "If your service isn't accessible to everyone who needs it, you may be breaking the [2010 Equality Act](https://www.legislation.gov.uk/ukpga/2010/15/contents)",
@@ -431,7 +441,9 @@
         "slug": "6-have-a-multidisciplinary-team",
         "name": "Have a multidisciplinary team",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-6-have-a-multidisciplinary-team",
-        "description": "It's important to have a diverse mix of the skills and roles needed to build and operate the service",
+        "description": [
+            "It's important to have a diverse mix of the skills and roles needed to build and operate the service"
+        ],
         "why": [
             "A team with a range of expertise and perspectives is more likely to come up with the best solution",
             "The size and roles you'll need will change as you build the service",
@@ -509,7 +521,9 @@
         "slug": "7-use-agile-ways-of-working",
         "name": "Use agile ways of working",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-7-use-agile-ways-of-working",
-        "description": "Agile is a way of working that encourages teams to build quickly, test what they've built and iterate their work based on regular feedback and other useful data",
+        "description": [
+            "Agile is a way of working that encourages teams to build quickly, test what they've built and iterate their work based on regular feedback and other useful data"
+        ],
         "why": [
             "By getting your service in front of real users as soon as possible, you can get insights on how they use it and iterate based on what you learn",
             "Working this way means you're not specifying everything up front before you've developed an understanding of what users need, reducing the risk of delivering the wrong thing"
@@ -560,7 +574,9 @@
         "slug": "8-iterate-and-improve-frequently",
         "name": "Iterate and improve frequently",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-8-iterate-and-improve-frequently",
-        "description": "Make sure you have the capacity, people, and technical flexibility to iterate and improve the service frequently, focusing on improvements that deliver the most value",
+        "description": [
+            "Make sure you have the capacity, people, and technical flexibility to iterate and improve the service frequently, focusing on improvements that deliver the most value"
+        ],
         "why": [
             "Services are never 'finished'. Once you've got real people using your service, you need to iterate and improve it",
             "This means more than doing basic maintenance, like fixing bugs in code or deploying security patches. It means responding to feedback and changes in user needs and behaviour, technology, and DfE policy",
@@ -614,7 +630,9 @@
         "slug": "9-create-a-secure-service",
         "name": "Create a secure service which protects users’ privacy",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-9-create-a-secure-service",
-        "description": "Understand what data and information your service will be collecting from users, and how this will be stored and used. Identify and address security threats, legal responsibilities, confidentiality, privacy issues, and risks associated with the service",
+        "description": [
+            "Understand what data and information your service will be collecting from users, and how this will be stored and used. Identify and address security threats, legal responsibilities, confidentiality, privacy issues, and risks associated with the service"
+        ],
         "why": [
             "DfE handles [personal and sensitive information](https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/What-is-Personal-Data-.aspx?xsdata=MDV8MDF8fDk4NzE3NGExMjVkYTQ3Nzg4ODgxMDhkYWNiYjEwNTUzfGZhZDI3N2M5YzYwYTRkYTFiNWYzYjNiOGIzNGE4MmY5fDB8MHw2MzgwNDYyNTgzODUzNTY5Mjl8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxNVFkyT1RBeU9UQXpOelUyTkRzeE5qWTVNREk1TURNM05UWTBPekU1T2pBeE5HSXlNVFUxTFRoaE1ETXRORE5oT1MxaU5UbGxMVE00WWpnek9UUTVZMlV6TjE4MVpESTVaV0UxTkMxaFlXTmtMVFF5TURrdFlqa3haaTFoWm1JeE9URmxPVGRqWkRoQWRXNXhMbWRpYkM1emNHRmpaWE09fGVhNGM5YmRjN2I2ZDQ5NmVjNTg2MDhkYWNiYjEwNTUyfDQ4MGQxOTRlNTU2ZjQxYWY5N2E0ZWE4Njk4NjhjNjdm&sdata=MUpMVEdaY2crNHVFUDJkL29RVVpEenVRY3h0LzN6MGJGOUl5azh0RWlDOD0%3D&ovuser=fad277c9-c60a-4da1-b5f3-b3b8b34a82f9%2CKerry.LYONS%40education.gov.uk&OR=Teams-HL&CT=1669029043713&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyOC8yMjEwMjgwNzIwMCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D) about users, children's services, and education",
             "We have a legal duty to protect personal and sensitive information. Failing to do so would undermine public trust in DfE services",
@@ -703,7 +721,9 @@
         "slug": "10-define-success-publish-performance-data",
         "name": "Define what success looks like and publish performance data",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-10-define-success-publish-performance-data",
-        "description": "Service teams need to work out what success looks like for their DfE service. Collect performance information across all online and offline channels so that you can measure and show that the service is effective and improving",
+        "description": [
+            "Service teams need to work out what success looks like for their DfE service. Collect performance information across all online and offline channels so that you can measure and show that the service is effective and improving"
+        ],
         "why": [
             "Having clear objectives, a definition of what success looks like, and appropriate metrics can help you know whether the service is solving the problem it's meant to solve",
             "Collecting the right information and interpreting it will alert you to potential improvements you need to make and help you know if changes have the effect you intend"
@@ -759,7 +779,9 @@
         "slug": "11-choose-the-right-tools-and-technology",
         "name": "Choose the right tools and technology",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-11-choose-the-right-tools-and-technology",
-        "description": "Choose tools and technology that let you build a good service in an efficient, cost-effective way. Build a sustainable service that allows you to change direction in the future",
+        "description": [
+            "Choose tools and technology that let you build a good service in an efficient, cost-effective way. Build a sustainable service that allows you to change direction in the future"
+        ],
         "why": [
             "When you make a decision about technology, you're making a significant investment. The choices you make will have a huge impact on your ability to create, iterate, and operate the service in a flexible, sustainable way",
             "It's important to make sure you're not working on your own and use learnings from other teams or services where possible. Always try to align technology choices with other DfE teams. The more common components that are created and used, the more efficient you can be in building a great service that meets the Service Standard",
@@ -808,7 +830,9 @@
         "slug": "12-make-new-source-code-open",
         "name": "Make new source code open",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open",
-        "description": "Teams should aim to make all new source code open and reusable, and publish it under appropriate licences. DfE specific guidance on how to meet this standard can be found in DfE Technical Guidance",
+        "description": [
+            "Teams should aim to make all new source code open and reusable, and publish it under appropriate licences. DfE specific guidance on how to meet this standard can be found in DfE Technical Guidance"
+        ],
         "why": [
             "Public services are built with public money. Unless there's a good reason not to, the code they're based on should be made available for other people to reuse and build on",
             "Open source code can save teams duplicating effort and help them build better services faster. Publishing source code under an open licence means that you're less likely to get locked into working with a single supplier",
@@ -854,7 +878,9 @@
         "slug": "13-use-common-standards-components-patterns",
         "name": "Use and contribute to open standards, common components and patterns",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-13-use-common-standards-components-patterns",
-        "description": "Use open standards, common components and patterns, and create new ones if there is not one that already meets your needs",
+        "description": [
+            "Use open standards, common components and patterns, and create new ones if there is not one that already meets your needs"
+        ],
         "why": [
             "Open standards save money and make use of best practice",
             "Using common components, patterns, and technology stacks means you don't have to solve problems that have already been solved",
@@ -905,7 +931,9 @@
         "slug": "14-operate-a-reliable-service",
         "name": "Operate a reliable service",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-14-operate-a-reliable-service",
-        "description": "Ensure your service is available for use at the time users need to access it. Where a service is unavailable, have a plan to deal with its recovery",
+        "description": [
+            "Ensure your service is available for use at the time users need to access it. Where a service is unavailable, have a plan to deal with its recovery"
+        ],
         "why": [
             "Users expect to be able to use DfE services when they need to",
             "There are some DfE services that are only available at certain times of the year. However, this should not mean that services do not operate reliably outside of these times. For example, if a school needs to access a service in an emergency"
