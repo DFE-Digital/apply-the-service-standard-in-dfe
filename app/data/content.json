@@ -139,7 +139,7 @@
                     "how the service will look and feel like other DfE services that are part of the same user journey",
                     "creating a map of the current user journey, pain points, and what the user journey will look like",
                     "how to make it easy for users to focus on the next step in a journey. for example, how to navigate their way through the service to help them achieve their goal",
-                    "how the concepts being tested avoid duplication",
+                    "how the concepts being tested avoid duplication of what already exists,",
                     "join together other relevant services or DfE content to solve a whole problem"
                 ],
                 "avoid": [
@@ -739,6 +739,15 @@
         ],
         "phases": [
             {
+                "name": "Discovery",
+                "considerations": ["define what a definition of success looks like for discovery. This should include both quantitative measures, such as specific research outcomes, and qualitative indicators, like user satisfaction, or conversion rates",
+                "how a service may add value to users in your problem space",
+                "access whether that value could reasonably be realised by developing a service, and only proceed if you think you can",
+                "some data collection to inform baselining"
+
+                ]
+            },
+            {
                 "name": "Alpha",
                 "considerations": [
                     "define what you want to measure, why, and how these measurements will be obtained",
@@ -790,7 +799,7 @@
         "why": [
             "When you make a decision about technology, you're making a significant investment. The choices you make will have a huge impact on your ability to create, iterate, and operate the service in a flexible, sustainable way.",
             "It's important to make sure you're not working on your own and use learnings from other teams or services where possible. Always try to align technology choices with other DfE teams. The more common components that are created and used, the more efficient you can be in building a great service that meets the Service Standard.",
-            "When you make a decision about tools, look across DfE to see what's currently being used. [Align with tools](https://www.gov.uk/guidance/share-and-reuse-technology) being used across other DDaT communities as much as possible."
+            "When you make a decision about tools, look across DfE to see what's currently being used. [Align with tools](https://www.gov.uk/guidance/share-and-reuse-technology) being used across other DDT communities as much as possible."
         ],
         "professions": [
             "Architects",
