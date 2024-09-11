@@ -3,6 +3,8 @@ const { link } = require('fs');
 const { marked } = require('marked');
 const axios = require('axios')
 
+const client = require('../../middleware/contentful.js');
+
 function cleanUpHtml(html) {
     return html
         .replace(/^\s*<p>|<\/p>\s*$/g, '')  // Strip <p> tags at the start and end
@@ -13,12 +15,12 @@ function cleanUpHtml(html) {
 
 exports.g_home = async function (req, res) {
     const standards = require('../data/content.json');
-    return res.render('index', {standards});
+    return res.render('index', { standards });
 }
 
 
 exports.g_standard = async function (req, res) {
-    const {slug} = req.params;
+    const { slug } = req.params;
 
     // Split the standard into its parts, get the number before the first hyphen
     const standardParts = slug.split('-');
@@ -31,34 +33,32 @@ exports.g_standard = async function (req, res) {
 
     try {
 
-        // // Fetching posts
-        // const data = await axios({
-        //     method: 'get',
-        //     url: `${process.env.cmsurl}api/standards?populate=%2A`,
-        //     headers: {
-        //         Authorization: `Bearer ${process.env.apikey}`,
-        //     }
-        // })
+        const [standard] = await Promise.all([
+            client.getEntries({
+                content_type: 'standard',
+                'fields.serviceStandard': standardNumber
+            })
+        ]);
 
-        // const dfestandards = data.data
+        let data = standard.items.map(item => item.fields);
 
         const standards = require('../data/content.json');
 
-        return res.render('standard_template.html', { standard: standardData, standards });
+        return res.render('standard_template.html', { standard: standardData, standards, data });
 
     } catch (error) {
         console.error('Error fetching data:', error.message)
         res.status(500).send('An error occurred while fetching the data.')
     }
 
- 
+
 }
 
 exports.g_phase = async function (req, res) {
-    const { phase } = req.params;  
-    const standards = require('../data/content.json');  
+    const { phase } = req.params;
+    const standards = require('../data/content.json');
 
-    let matchedPhases = []; 
+    let matchedPhases = [];
 
     standards.forEach(standard => {
         standard.phases.forEach(p => {
@@ -74,8 +74,8 @@ exports.g_phase = async function (req, res) {
         });
     });
 
-    if (matchedPhases.length > 0) {  
-        return res.render('phase_template.html', { phases: matchedPhases, phase});
+    if (matchedPhases.length > 0) {
+        return res.render('phase_template.html', { phases: matchedPhases, phase });
     }
 
     return res.redirect('/');
