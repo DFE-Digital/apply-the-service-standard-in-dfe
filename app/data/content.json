@@ -5,12 +5,13 @@
         "name": "Understand users and their needs",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-1-understand-user-needs",
         "description": [
-            "Take time to understand users' needs and the problem you're trying to solve for them."
+            "Take time to understand users' needs and the problem you're trying to solve for them.",
+            "Think about people's entire experience and the systems and processes around the product or service you're building."
         ],
         "why": [
-            "You need to [understand your users and their needs](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs#understanding-user-needs) to build something that helps them. Otherwise you could build the wrong thing or make DfE services more difficult to use",
-            "Understanding as much of the context of the user needs as possible will give you the best chance of meeting them in the most simple, cost effective way",
-            "The most obvious problem is not always the one that needs solving. Test assumptions early and often to reduce the risk of building the wrong thing"
+            "You need to [understand your users and their needs](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs#understanding-user-needs) to build something that helps them. Otherwise you could build the wrong thing or make DfE services more difficult to use.",
+            "Understanding as much of the context of the user needs as possible will give you the best chance of meeting them in the most simple, cost effective way.",
+            "The most obvious problem is not always the one that needs solving. Test assumptions early and often to reduce the risk of building the wrong thing."
         ],
         "professions": [
             "User researchers",
@@ -64,7 +65,7 @@
                 ]
             },
             {
-                "name": "Beta and Live",
+                "name": "Beta and live",
                 "considerations": [
                     "recommendations from the most recent phase assessment have been addressed",
                     "a plan for ongoing research and continuous improvement",
@@ -85,11 +86,11 @@
         ],
         "links": [
             {
-                "title": "User research",
+                "title": "User Research Manual",
                 "url": "https://user-research.education.gov.uk"
             },
             {
-                "title": "User needs",
+                "title": "Design Manual",
                 "url": "https://design.education.gov.uk"
             }
         ],
@@ -101,14 +102,16 @@
         "name": "Solve a whole problem for users",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem",
         "description": [
-            "Consider where your service fits in your users' journey and whether you can solve a whole problem or influence a wider solution"
+            "Consider where your service fits in your users' journey and whether you can solve a whole problem or influence a wider solution.",
+            "Collaborate across teams, programmes and other services to create a service that meets users' needs across all channels in the end-to-end journey. For example, if users have to come in and then out of the service again to reach their end goal, what would that look like."
         ],
         "why": [
-            "People often don't know how education services fit together. It helps if you can bring things together into a journey which makes sense to users, irrespective of which organisation they belong to or channel they use",
-            "You may not be able to fix a whole problem, but you may be able to improve it and support or influence a wider solution"
+            "People often don't know how education services fit together. It helps if you can bring things together into a journey which makes sense to users, irrespective of which organisation they belong to or channel they use.",
+            "You may not be able to fix a whole problem, but you may be able to improve it and support or influence a wider solution."
         ],
         "professions": [
-            "Designers"
+            "Designers",
+            "User researchers"
         ],
         "phases": [
             {
@@ -130,14 +133,14 @@
                 "considerations": [
                     "evidence of where the service touches other services and whether you've spoken to those teams",
                     "speaking to teams working on similar services to share knowledge of the types of users, user research carried out, or design work done to meet user needs",
-                    "how the team will talk through an end-to-end journey at a [service assessment](https://www.gov.uk/service-assessments/)",
+                    "how the team will talk through an end-to-end journey at a [service assessment](/service-assessments/)",
                     "an understanding of non-digital or offline processes and their impact or relationship to the service",
                     "how the service fits in with other channels or services relevant to your user group",
                     "if you are providing a service to schools which will be used by people who use other DfE services, consider how to make the service consistent in the look and feel, the language used, and the tone of voice",
                     "how the service will look and feel like other DfE services that are part of the same user journey",
                     "creating a map of the current user journey, pain points, and what the user journey will look like",
                     "how to make it easy for users to focus on the next step in a journey. for example, how to navigate their way through the service to help them achieve their goal",
-                    "how the concepts being tested avoid duplication",
+                    "how the concepts being tested avoid duplication of what already exists,",
                     "join together other relevant services or DfE content to solve a whole problem"
                 ],
                 "avoid": [
@@ -147,7 +150,7 @@
                 ]
             },
             {
-                "name": "Beta and Live",
+                "name": "Beta and live",
                 "considerations": [
                     "using research and private beta analytics to show the service works. Demonstrate, with evidence, how users can get through the end-to-end journey unaided, especially during public beta",
                     "collaborating with teams that make part of the end-to-end service",
@@ -182,14 +185,16 @@
         "name": "Provide a joined up experience across all channels",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-3-join-up-across-channels",
         "description": [
-            "Consider where your service fits into a wider journey or alongside other DfE services, and how it will join up across channels"
+            "Consider where your service fits into a wider journey or alongside other DfE services, and how it will join up across channels.",
+            "This involves understanding how the online and offline parts of your service link together and any pain points users experience as a result of this."
         ],
         "why": [
-            "If a service moves between channels, for example, email, contact centres, paper forms, or in person, and you bring those different channels together, you can design an experience that reduces friction for users",
-            "Understanding where your user needs fit into wider journeys can help to solve a whole problem for users"
+            "If a service moves between channels, for example, email, contact centres, paper forms, or in person, and you bring those different channels together, you can design an experience that reduces friction for users.",
+            "Understanding where your user needs fit into wider journeys can help to solve a whole problem for users."
         ],
         "professions": [
-            "Designers"
+            "Designers",
+            "User researchers"
         ],
         "phases": [
             {
@@ -222,7 +227,7 @@
                 ]
             },
             {
-                "name": "Beta and Live",
+                "name": "Beta and live",
                 "considerations": [
                     "use of [GOV.UK Design System](https://design-system.service.gov.uk/) and patterns or testing new patterns where needed",
                     "the right artefacts to describe the end-to-end service are being iterated and changed based on user research. for example, service flows, blueprints, [service maps](https://bat-design-history.netlify.app/service-map/)",
@@ -263,14 +268,15 @@
         "name": "Make the service simple to use",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-4-make-the-service-simple-to-use",
         "description": [
-            "Build a service that's simple to use so that people can succeed first time. Test it with users to make sure it works for them"
+            "Build a service that's simple to use so that people can succeed first time. Test it with users to make sure it works for them."
         ],
         "why": [
             "People expect services to work. They need things to be easy when they are trying to complete a task or find information",
-            "As a public sector organisation we have a legal duty to [consider everyone's needs when designing and delivering services](https://design.education.gov.uk/accessibility/)"
+            "As a public sector organisation we have a legal duty to [consider everyone's needs when designing and delivering services](https://design.education.gov.uk/accessibility/)."
         ],
         "professions": [
-            "Designers"
+            "Designers",
+            "User researchers"
         ],
         "phases": [
             {
@@ -309,7 +315,7 @@
                 ]
             },
             {
-                "name": "Beta and Live",
+                "name": "Beta and live",
                 "considerations": [
                     "how data has been used to understand service performance and a plan for how you'll use this in live",
                     "evidence of continuous improvement to make changes to the user journey or content",
@@ -342,12 +348,13 @@
         "name": "Make sure everyone can use the service",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-5-make-sure-everyone-can-use-the-service",
         "description": [
-            "Make sure your service can be used by people with different physical, mental, social, cultural or learning needs, whether it's for the public, for staff working in DfE or across the education sector"
+            "Make sure your service can be used by people with different physical, mental, social, cultural or learning needs, whether it's for the public, for staff working in DfE or across the education sector.",
+            "Champion the needs of all users and include them as part of the design and iterative process. Consider where these users are on the [digital inclusion scale](https://userresearch.blog.gov.uk/2019/02/22/reflecting-on-how-we-developed-the-digital-inclusion-scale/)."
         ],
         "why": [
-            "Everyone who works on DfE digital services has a role to play in making them [accessible and inclusive](https://design.education.gov.uk/accessibility/standards)",
-            "If your service isn't accessible to everyone who needs it, you may be breaking the [2010 Equality Act](https://www.legislation.gov.uk/ukpga/2010/15/contents)",
-            "Accessibility regulations say that public sector websites must meet accessibility standards and publish an accessibility statement. You can find out [more about the regulations on GOV.UK](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)"
+            "Everyone who works on DfE digital services has a role to play in making them [accessible and inclusive](https://design.education.gov.uk/accessibility/standards).",
+            "If your service isn't accessible to everyone who needs it, you may be breaking the [2010 Equality Act](https://www.legislation.gov.uk/ukpga/2010/15/contents).",
+            "Accessibility regulations say that public sector websites must meet accessibility standards and publish an accessibility statement. You can find out [more about the regulations on GOV.UK](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)."
         ],
         "professions": [
             "Designers",
@@ -442,12 +449,13 @@
         "name": "Have a multidisciplinary team",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-6-have-a-multidisciplinary-team",
         "description": [
-            "It's important to have a diverse mix of the skills and roles needed to build and operate the service"
+            "It's important to have a diverse mix of the skills and roles needed to build and operate the service.",
+            "Make as many decisions as possible as a team, so that you can respond quickly to what you learn about users and their needs."
         ],
         "why": [
-            "A team with a range of expertise and perspectives is more likely to come up with the best solution",
-            "The size and roles you'll need will change as you build the service",
-            "When planning for a team, for the next phase, think about how much it would cost to build and the roles you might need"
+            "A team with a range of expertise and perspectives is more likely to come up with the best solution.",
+            "The size and roles you'll need will change as you build the service.",
+            "When planning for a team, for the next phase, think about how much it would cost to build and the roles you might need."
         ],
         "professions": [
             "Delivery Managers",
@@ -457,7 +465,7 @@
             {
                 "name": "Discovery",
                 "considerations": [
-                    "[roles specific at discovery](https://www.gov.uk/service-manual/the-team/set-up-a-service-team#the-service-team-you-need-in-each-phase) to the type of work that needs doing",
+                    "[roles specific to discovery](https://www.gov.uk/service-manual/the-team/set-up-a-service-team#the-service-team-you-need-in-each-phase) to the type of work that needs doing",
                     "if [working with contractors](https://www.gov.uk/service-manual/the-team/working-contractors-third-parties), create a plan for how knowledge will be shared",
                     "identify a service owner and consider how they will be engaged through the design and delivery of the service",
                     "identify where additional roles may be needed and how to fill them"
@@ -482,7 +490,7 @@
                 ]
             },
             {
-                "name": "Beta and Live",
+                "name": "Beta and live",
                 "considerations": [
                     "how the team and ways of working can keep improving the service",
                     "how knowledge and skills from contractors have been transferred to permanent staff",
@@ -522,11 +530,12 @@
         "name": "Use agile ways of working",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-7-use-agile-ways-of-working",
         "description": [
-            "Agile is a way of working that encourages teams to build quickly, test what they've built and iterate their work based on regular feedback and other useful data"
+            "[Agile](https://www.gov.uk/service-manual/agile-delivery/agile-government-services-introduction#:~:text=Agile%20methods%20encourage%20teams%20to,feedback%20and%20other%20useful%20data) is a way of working that encourages teams to build quickly, test what they've built and iterate their work based on regular feedback and other useful data.",
+            "Use [agile principles](https://www.gov.uk/service-manual/agile-delivery/core-principles-agile) and tools (for example, Trello, Lucid and Jira) and have processes in place that follow the [governance principles for service delivery](https://www.gov.uk/service-manual/agile-delivery/governance-principles-for-agile-service-delivery)."
         ],
         "why": [
-            "By getting your service in front of real users as soon as possible, you can get insights on how they use it and iterate based on what you learn",
-            "Working this way means you're not specifying everything up front before you've developed an understanding of what users need, reducing the risk of delivering the wrong thing"
+            "By getting your service in front of real users as soon as possible, you can get insights on how they use it and iterate based on what you learn.",
+            "Working this way means you're not specifying everything up front before you've developed an understanding of what users need, reducing the risk of delivering the wrong thing."
         ],
         "professions": [
             "Delivery Managers",
@@ -575,17 +584,18 @@
         "name": "Iterate and improve frequently",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-8-iterate-and-improve-frequently",
         "description": [
-            "Make sure you have the capacity, people, and technical flexibility to iterate and improve the service frequently, focusing on improvements that deliver the most value"
+            "Make sure you have the capacity, people, and technical flexibility to iterate and improve the service frequently, focusing on improvements that deliver the most value."
         ],
         "why": [
-            "Services are never 'finished'. Once you've got real people using your service, you need to iterate and improve it",
-            "This means more than doing basic maintenance, like fixing bugs in code or deploying security patches. It means responding to feedback and changes in user needs and behaviour, technology, and DfE policy",
-            "It also means being able to make [substantial improvements](https://www.gov.uk/service-manual/agile-delivery/running-your-service-in-a-sustainable-way) throughout the service's lifetime"
+            "Services are never 'finished'. Once you've got real people using your service, you need to iterate and improve it.",
+            "This means more than doing basic maintenance, like fixing bugs in code or deploying security patches. It means responding to feedback and changes in user needs and behaviour, technology, and DfE policy.",
+            "It also means being able to make [substantial improvements](https://www.gov.uk/service-manual/agile-delivery/running-your-service-in-a-sustainable-way) throughout the service's lifetime."
         ],
         "professions": [
             "Delivery Managers",
             "Product Managers",
-            "Designers"
+            "Designers",
+            "User researchers"
         ],
         "phases": [
             {
@@ -628,15 +638,16 @@
     {
         "standard": 9,
         "slug": "9-create-a-secure-service",
-        "name": "Create a secure service which protects users’ privacy",
+        "name": "Create a secure service which protects users' privacy",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-9-create-a-secure-service",
         "description": [
-            "Understand what data and information your service will be collecting from users, and how this will be stored and used. Identify and address security threats, legal responsibilities, confidentiality, privacy issues, and risks associated with the service"
+            "Understand what data and information your service will be collecting from users, and how this will be stored and used. Identify and address security threats, legal responsibilities, confidentiality, privacy issues, and risks associated with the service. Consult experts where you need to.",
+            "A secure service also includes, but is not limited to, consideration of how to handle policy, money, safeguarding and future DfE strategy information."
         ],
         "why": [
-            "DfE handles [personal and sensitive information](https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/What-is-Personal-Data-.aspx?xsdata=MDV8MDF8fDk4NzE3NGExMjVkYTQ3Nzg4ODgxMDhkYWNiYjEwNTUzfGZhZDI3N2M5YzYwYTRkYTFiNWYzYjNiOGIzNGE4MmY5fDB8MHw2MzgwNDYyNTgzODUzNTY5Mjl8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxNVFkyT1RBeU9UQXpOelUyTkRzeE5qWTVNREk1TURNM05UWTBPekU1T2pBeE5HSXlNVFUxTFRoaE1ETXRORE5oT1MxaU5UbGxMVE00WWpnek9UUTVZMlV6TjE4MVpESTVaV0UxTkMxaFlXTmtMVFF5TURrdFlqa3haaTFoWm1JeE9URmxPVGRqWkRoQWRXNXhMbWRpYkM1emNHRmpaWE09fGVhNGM5YmRjN2I2ZDQ5NmVjNTg2MDhkYWNiYjEwNTUyfDQ4MGQxOTRlNTU2ZjQxYWY5N2E0ZWE4Njk4NjhjNjdm&sdata=MUpMVEdaY2crNHVFUDJkL29RVVpEenVRY3h0LzN6MGJGOUl5azh0RWlDOD0%3D&ovuser=fad277c9-c60a-4da1-b5f3-b3b8b34a82f9%2CKerry.LYONS%40education.gov.uk&OR=Teams-HL&CT=1669029043713&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyOC8yMjEwMjgwNzIwMCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D) about users, children's services, and education",
-            "We have a legal duty to protect personal and sensitive information. Failing to do so would undermine public trust in DfE services",
-            "DfE service and project teams must understand the importance of protecting the confidentiality, integrity, and availability of sensitive information. This includes being aware of risks that reduce the security of the information, and taking action to mitigate"
+            "DfE handles [personal and sensitive information (opens DfE intranet)](https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/What-is-Personal-Data-.aspx?xsdata=MDV8MDF8fDk4NzE3NGExMjVkYTQ3Nzg4ODgxMDhkYWNiYjEwNTUzfGZhZDI3N2M5YzYwYTRkYTFiNWYzYjNiOGIzNGE4MmY5fDB8MHw2MzgwNDYyNTgzODUzNTY5Mjl8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxNVFkyT1RBeU9UQXpOelUyTkRzeE5qWTVNREk1TURNM05UWTBPekU1T2pBeE5HSXlNVFUxTFRoaE1ETXRORE5oT1MxaU5UbGxMVE00WWpnek9UUTVZMlV6TjE4MVpESTVaV0UxTkMxaFlXTmtMVFF5TURrdFlqa3haaTFoWm1JeE9URmxPVGRqWkRoQWRXNXhMbWRpYkM1emNHRmpaWE09fGVhNGM5YmRjN2I2ZDQ5NmVjNTg2MDhkYWNiYjEwNTUyfDQ4MGQxOTRlNTU2ZjQxYWY5N2E0ZWE4Njk4NjhjNjdm&sdata=MUpMVEdaY2crNHVFUDJkL29RVVpEenVRY3h0LzN6MGJGOUl5azh0RWlDOD0%3D&ovuser=fad277c9-c60a-4da1-b5f3-b3b8b34a82f9%2CKerry.LYONS%40education.gov.uk&OR=Teams-HL&CT=1669029043713&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyOC8yMjEwMjgwNzIwMCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D) about users, children's services, and education.",
+            "We have a legal duty to protect personal and sensitive information. Failing to do so would undermine public trust in DfE services.",
+            "DfE service and project teams must understand the importance of protecting the confidentiality, integrity, and availability of sensitive information. This includes being aware of risks that reduce the security of the information, and taking action to mitigate."
         ],
         "professions": [
             "Architects",
@@ -648,11 +659,11 @@
             {
                 "name": "Discovery",
                 "considerations": [
-                    "building an awareness of [DfE security policies](https://educationgovuk.sharepoint.com/sites/security/SitePages/security-policies.aspx) and recognizing which ones relate to the service",
-                    "evidence that there has been engagement with Information Security and a response has been received to indicate how [security assurance](https://educationgovuk.sharepoint.com/sites/security/SitePages/assurance.aspx) should proceed",
-                    "evidence that a [Data Protection Impact Assessment (DPIA)](https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx) has been started, where necessary",
-                    "evidence that a [Departmental Security Assurance Model (DSAM) process](https://educationgovuk.sharepoint.com/sites/security/SitePages/assurance.aspx#departmental-security-assurance-model-%28dsam%29-process) has been started",
-                    "a plan that details headline [General Data Protection Regulation (GDPR)](https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/UK-General-Data-Protection-Regulation-(UK-GDPR).aspx) requirements",
+                    "building an awareness of [DfE security policies (opens DfE intranet)](https://educationgovuk.sharepoint.com/sites/security/SitePages/security-policies.aspx) and recognizing which ones relate to the service",
+                    "evidence that there has been engagement with Information Security and a response has been received to indicate how [security assurance (opens DfE intranet)](https://educationgovuk.sharepoint.com/sites/security/SitePages/assurance.aspx) should proceed",
+                    "evidence that a [Data Protection Impact Assessment (DPIA) (opens DfE intranet)](https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx) has been started, where necessary",
+                    "evidence that a [Departmental Security Assurance Model (DSAM) process (opens DfE intranet)](https://educationgovuk.sharepoint.com/sites/security/SitePages/assurance.aspx#departmental-security-assurance-model-%28dsam%29-process) has been started",
+                    "a plan that details headline [General Data Protection Regulation (GDPR) (opens DfE intranet)](https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/UK-General-Data-Protection-Regulation-(UK-GDPR).aspx) requirements",
                     "identify the minimum [personal information](https://www.gov.uk/service-manual/design/collecting-personal-information-from-users) you need from users to provide the service",
                     "whether the service needs identity assurance or authentication",
                     "if the service needs identity assurance or authentication, consider your approach to identifying and evaluating assurance and authentication methods that balance risks in a proportionate way, for example, using [common components](https://dfe-digital.github.io/architecture/common-components/#what-are-common-components), such as [DfE Sign-in](https://dfe-digital.github.io/architecture/common-components/#dfe-sign-in)"
@@ -681,7 +692,7 @@
                 ]
             },
             {
-                "name": "Beta and Live",
+                "name": "Beta and live",
                 "considerations": [
                     "evidence of addressing findings from alpha",
                     "findings of DPIA are being addressed",
@@ -722,11 +733,11 @@
         "name": "Define what success looks like and publish performance data",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-10-define-success-publish-performance-data",
         "description": [
-            "Service teams need to work out what success looks like for their DfE service. Collect performance information across all online and offline channels so that you can measure and show that the service is effective and improving"
+            "Service teams need to work out what success looks like for their DfE service. Collect performance information across all online and offline channels so that you can measure and show that the service is effective and improving."
         ],
         "why": [
-            "Having clear objectives, a definition of what success looks like, and appropriate metrics can help you know whether the service is solving the problem it's meant to solve",
-            "Collecting the right information and interpreting it will alert you to potential improvements you need to make and help you know if changes have the effect you intend"
+            "Having clear objectives, a definition of what success looks like, and appropriate metrics can help you know whether the service is solving the problem it's meant to solve.",
+            "Collecting the right information and interpreting it will alert you to potential improvements you need to make and help you know if changes have the effect you intend."
         ],
         "professions": [
             "Performance Analysts",
@@ -734,22 +745,32 @@
         ],
         "phases": [
             {
+                "name": "Discovery",
+                "considerations": [
+                    "define what a [definition of success looks like for discovery](https://www.gov.uk/service-manual/measuring-success/using-data-to-improve-your-service-an-introduction#measuring-from-the-start). This should include both quantitative measures, such as specific research outcomes, and qualitative indicators, like user satisfaction, or conversion rates",
+                    "how a service may add value to users in your problem space",
+                    "access whether that value could reasonably be realised by developing a service, and only proceed if you think you can",
+                    "some data collection to inform baselining"
+                ],
+                "avoid": []
+            },
+            {
                 "name": "Alpha",
                 "considerations": [
-                    "define what you want to measure, why, and how these measurements will be obtained. Potential options for collecting this data could include:",
+                    "define what you want to measure, why, and how these measurements will be obtained",
                     "analytics that describe time spent on pages, heatmaps, if users start something but don't finish it",
                     "[performance data](https://www.gov.uk/service-manual/measuring-success/using-data-to-improve-your-service-an-introduction) and reporting to capture baseline measurements on service efficiency, timescales, service level agreements (SLAs)",
                     "qualitative data, which could include insights from users on the current as-is service captured via user research and feedback",
                     "evidence of finding baseline data, or why this is not available, with a plan to show how you will measure future success",
                     "evidence of how the team has iterated and improved metrics and data collection plans as you learn more about user needs",
-                    "what metrics could you analyze to support or improve the service"
+                    "what metrics you could analyse to support or improve the service"
                 ],
                 "avoid": [
                     "putting measurements against data that doesn't currently exist in the as-is service. However, you may wish to explain the reasons that certain measurements could not be included when describing the measurement choices you have selected"
                 ]
             },
             {
-                "name": "Beta and Live",
+                "name": "Beta and live",
                 "considerations": [
                     "measurement data agreed in the KPIs during alpha has been captured and collated",
                     "quantitative and qualitative data has been combined to measure where the benefits are being realized",
@@ -761,14 +782,14 @@
                     "when moving to live, learnings from metrics in beta are applied"
                 ],
                 "avoid": [
-                    "not capturing or analyzing data needed to assess service performance",
+                    "not capturing or analysing data needed to assess service performance",
                     "failing to engage with stakeholders when interpreting performance data"
                 ]
             }
         ],
         "links": [
             {
-                "title": "Business Analysis",
+                "title": "Business Analysts",
                 "url": "https://teams.microsoft.com/l/team/19%3ah0Ir-wDLJudl2KZu_MZ_g35hHL_msBAAYf6stQg1MEk1%40thread.tacv2/conversations?groupId=818b8a75-83f4-4097-8c8c-d496a83dac0c&tenantId=fad277c9-c60a-4da1-b5f3-b3b8b34a82f9"
             }
         ],
@@ -780,12 +801,14 @@
         "name": "Choose the right tools and technology",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-11-choose-the-right-tools-and-technology",
         "description": [
-            "Choose tools and technology that let you build a good service in an efficient, cost-effective way. Build a sustainable service that allows you to change direction in the future"
+            "Choose tools and technology that let you build a good service in an efficient, cost-effective way.",
+            "Build a sustainable service that allows you to change direction in the future.",
+            "Detailed guidance of how to meet this standard can be found in the [DfE Architecture Guidance](https://dfe-digital.github.io/architecture/#dfe-architecture) and [DfE Technical Guidance](https://technical-guidance.education.gov.uk/guides/default-technology-stack/)."
         ],
         "why": [
-            "When you make a decision about technology, you're making a significant investment. The choices you make will have a huge impact on your ability to create, iterate, and operate the service in a flexible, sustainable way",
-            "It's important to make sure you're not working on your own and use learnings from other teams or services where possible. Always try to align technology choices with other DfE teams. The more common components that are created and used, the more efficient you can be in building a great service that meets the Service Standard",
-            "When you make a decision about tools, look across DfE to see what's currently being used. [Align with tools](https://www.gov.uk/guidance/share-and-reuse-technology) being used across other DDaT communities as much as possible"
+            "When you make a decision about technology, you're making a significant investment. The choices you make will have a huge impact on your ability to create, iterate, and operate the service in a flexible, sustainable way.",
+            "It's important to make sure you're not working on your own and use learnings from other teams or services where possible. Always try to align technology choices with other DfE teams. The more common components that are created and used, the more efficient you can be in building a great service that meets the Service Standard.",
+            "When you make a decision about tools, look across DfE to see what's currently being used. [Align with tools](https://www.gov.uk/guidance/share-and-reuse-technology) being used across other DDT communities as much as possible."
         ],
         "professions": [
             "Architects",
@@ -794,7 +817,7 @@
         ],
         "phases": [
             {
-                "name": "General Considerations",
+                "name": "All phases",
                 "considerations": [
                     "evidence that the team has considered different options for how the service will be delivered technically and the rationale for the chosen technical direction",
                     "technology choices are technically feasible and [security assured](https://educationgovuk.sharepoint.com/sites/security/SitePages/assurance.aspx)",
@@ -831,12 +854,13 @@
         "name": "Make new source code open",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open",
         "description": [
-            "Teams should aim to make all new source code open and reusable, and publish it under appropriate licences. DfE specific guidance on how to meet this standard can be found in DfE Technical Guidance"
+            "Teams should aim to make all new source code open and reusable, and publish it under [appropriate licences](https://technical-guidance.education.gov.uk/standards/licencing-software-or-code/). DfE specific guidance on how to meet this standard can be found in [DfE Technical Guidance](https://technical-guidance.education.gov.uk/standards/storing-source-code/)."
         ],
         "why": [
             "Public services are built with public money. Unless there's a good reason not to, the code they're based on should be made available for other people to reuse and build on",
-            "Open source code can save teams duplicating effort and help them build better services faster. Publishing source code under an open licence means that you're less likely to get locked into working with a single supplier",
-            "Coding in the open encourages high quality and secure coding in development teams"
+            "Open source code can save teams duplicating effort and help them build better services faster. Publishing source code under an open licence means that you're less likely to get locked into working with a single supplier.",
+            "Coding in the open encourages high quality and [secure coding](https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open) in development teams.",
+            "There may be times when code should not be published in the open. For example, secrets, keys or sensitive information should not be published to public repositories. DfE has guidance on [managing secrets](https://technical-guidance.education.gov.uk/infrastructure/security/managing-secrets/#content) and closed code."
         ],
         "professions": [
             "Architects",
@@ -844,11 +868,11 @@
         ],
         "phases": [
             {
-                "name": "General Considerations",
+                "name": "All phases",
                 "considerations": [
                     "any code being produced should be [open by default](https://technical-guidance.education.gov.uk/standards/storing-source-code/). If at any point the code was not publicly available, the team will be asked why, and without good reason, could fail an assessment",
                     "it is important not to commit secrets to code. If you have some information that must be secret, for example, passwords, you can use [GitHub secrets](https://technical-guidance.education.gov.uk/infrastructure/security/managing-secrets/#access-secrets-from-github-actions)",
-                    "use GitHub as the recommended tooling for meeting this standard, as repositories in GitHub are open by default. There is a DfE organisation set up at [DfE-Digital](https://github.com/DFE-Digital) which is publicly available",
+                    "use GitHub as the recommended tooling for meeting this standard, as repositories in GitHub are open by default. There is a DfE organisation set up at [DfE-Digital](https://github.com/DFE-Digital) which is publicly available. [Find a Tuition Partner](https://github.com/DFE-Digital/find-a-tuition-partner) is an example of a GitHub repo in DfE",
                     "join DfE-Digital to create a repository for a new service by contacting the DfE Slack channel [#digital-tools-support](https://ukgovernmentdfe.slack.com/archives/CMS9V0JQL)"
                 ],
                 "avoid": [
@@ -865,10 +889,7 @@
             {
                 "title": "Technical Guidance",
                 "url": "https://technical-guidance.education.gov.uk/"
-            },
-            {
-                "title": "Find a Tuition Partner",
-                "url": "https://github.com/DFE-Digital/find-a-tuition-partner"
+
             }
         ],
         "dfeStandards": []
@@ -879,13 +900,13 @@
         "name": "Use and contribute to open standards, common components and patterns",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-13-use-common-standards-components-patterns",
         "description": [
-            "Use open standards, common components and patterns, and create new ones if there is not one that already meets your needs"
+            "Use open standards, common components and patterns, and create new ones if there is not one that already meets your needs."
         ],
         "why": [
-            "Open standards save money and make use of best practice",
-            "Using common components, patterns, and technology stacks means you don't have to solve problems that have already been solved",
-            "By using a component, pattern, or stack that's already been assured and extensively tested, you can provide users with a good experience in a cost-effective way. It also speeds up delivery and reduces risk",
-            "Developing components and patterns that meet a shared need and sharing them allows others to benefit from your work"
+            "[Open standards](https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles#Defining-open-standards) save money and make use of best practice",
+            "Using common components, patterns, and technology stacks means you don't have to solve problems that have already been solved.",
+            "By using a component, pattern, or stack that's already been assured and extensively tested, you can provide users with a good experience in a cost-effective way. It also speeds up delivery and reduces risk.",
+            "Developing components and patterns that meet a shared need and sharing them allows others to benefit from your work."
         ],
         "professions": [
             "Architects",
@@ -895,7 +916,7 @@
         ],
         "phases": [
             {
-                "name": "General Considerations",
+                "name": "All phases",
                 "considerations": [
                     "teams have reached out to other teams and similar services to consider possible patterns, [architecture components](https://dfe-digital.github.io/architecture/common-components/#common-components), and tools",
                     "[open source tools](https://dfe-digital.github.io/architecture/common-components/#common-tooling) and frameworks have been chosen or considered as the basis for the service components",
@@ -932,11 +953,11 @@
         "name": "Operate a reliable service",
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-14-operate-a-reliable-service",
         "description": [
-            "Ensure your service is available for use at the time users need to access it. Where a service is unavailable, have a plan to deal with its recovery"
+            "Ensure your service is available for use at the time users need to access it. Where a service is unavailable, have a plan to deal with its recovery."
         ],
         "why": [
-            "Users expect to be able to use DfE services when they need to",
-            "There are some DfE services that are only available at certain times of the year. However, this should not mean that services do not operate reliably outside of these times. For example, if a school needs to access a service in an emergency"
+            "Users expect to be able to use DfE services when they need to.",
+            "There are some DfE services that are only available at certain times of the year. However, this should not mean that services do not operate reliably outside of these times. For example, if a school needs to access a service in an emergency."
         ],
         "professions": [
             "Architects",
@@ -946,7 +967,7 @@
         ],
         "phases": [
             {
-                "name": "All Phases",
+                "name": "All phases",
                 "considerations": [
                     "how the service [maximises uptime](https://www.gov.uk/service-manual/technology/uptime-and-availability-keeping-your-service-online#design-to-maximise-uptime) and speed of response for the online part of the service",
                     "that the service has the ability to [deploy software changes regularly](https://www.gov.uk/service-manual/technology/deploying-software-regularly), without significant downtime. For example, by minimising the effort involved in creating new environments and populating pre-production environments with test data",

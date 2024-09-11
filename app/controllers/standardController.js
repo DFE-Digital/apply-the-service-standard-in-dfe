@@ -92,7 +92,7 @@ function getContentForStandard(standard) {
             govLink: content.govLink,
             name: content.name,
             professions: content.professions,
-            description: content.description,
+            description: content.description.map(point => cleanUpHtml(marked(point))),
             why: content.why,
             links: content.links,
             dfeStandards: content.dfeStandards,
