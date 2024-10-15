@@ -33,18 +33,11 @@ exports.g_standard = async function (req, res) {
 
     try {
 
-        const [standard] = await Promise.all([
-            client.getEntries({
-                content_type: 'standard',
-                'fields.serviceStandard': standardNumber
-            })
-        ]);
-
-        let data = standard.items.map(item => item.fields);
+    
 
         const standards = require('../data/content.json');
 
-        return res.render('standard_template.html', { standard: standardData, standards, data });
+        return res.render('standard_template.html', { standard: standardData, standards});
 
     } catch (error) {
         console.error('Error fetching data:', error.message)
