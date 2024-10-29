@@ -349,7 +349,8 @@
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-5-make-sure-everyone-can-use-the-service",
         "description": [
             "Make sure your service can be used by people with different physical, mental, social, cultural or learning needs, whether it's for the public, for staff working in DfE or across the education sector.",
-            "Champion the needs of all users and include them as part of the design and iterative process. Consider where these users are on the [digital inclusion scale](https://userresearch.blog.gov.uk/2019/02/22/reflecting-on-how-we-developed-the-digital-inclusion-scale/)."
+            "Champion the needs of all users and include them as part of the design and iterative process. Consider where these users are on the [digital inclusion scale](https://userresearch.blog.gov.uk/2019/02/22/reflecting-on-how-we-developed-the-digital-inclusion-scale/).",
+            "Depending on the size and complexity of your service, this standard could be assessed by an accessibility specialist."
         ],
         "why": [
             "Everyone who works on DfE digital services has a role to play in making them [accessible and inclusive](https://design.education.gov.uk/accessibility/standards).",
@@ -358,7 +359,8 @@
         ],
         "professions": [
             "Designers",
-            "User researchers"
+            "User researchers",
+            "Accessibility specialist"
         ],
         "phases": [
             {
