@@ -139,8 +139,8 @@
                     "if you are providing a service to schools which will be used by people who use other DfE services, consider how to make the service consistent in the look and feel, the language used, and the tone of voice",
                     "how the service will look and feel like other DfE services that are part of the same user journey",
                     "creating a map of the current user journey, pain points, and what the user journey will look like",
-                    "how to make it easy for users to focus on the next step in a journey. for example, how to navigate their way through the service to help them achieve their goal",
-                    "how the concepts being tested avoid duplication of what already exists,",
+                    "how to make it easy for users to focus on the next step in a journey. For example, how to navigate their way through the service to help them achieve their goal",
+                    "how the concepts being tested avoid duplication of what already exists",
                     "join together other relevant services or DfE content to solve a whole problem"
                 ],
                 "avoid": [
@@ -217,7 +217,7 @@
                     "how you've explored where the service should start and stop",
                     "use of [common components](https://dfe-digital.github.io/architecture/common-components/#common-components), such as [DfE Sign-in](https://dfe-digital.github.io/architecture/common-components/#dfe-sign-in), to provide a consistent experience with other DfE services",
                     "research with internal DfE teams who form part of the design of the service",
-                    "entry points to the service. for example, how users find or know about it",
+                    "entry points to the service. For example, how users find or know about it",
                     "how you might [encourage users to use your digital service](https://www.gov.uk/service-manual/helping-people-to-use-your-service/encouraging-people-to-use-your-digital-service)",
                     "gaps, drop-off points, re-entry loops, transitions to other channels and returns to the service",
                     "how design, user research, and content design are considering the full end-to-end service, including the non-digital parts, for example, branding of an email matches that of the service it is sent from"
@@ -230,7 +230,7 @@
                 "name": "Beta and live",
                 "considerations": [
                     "use of [GOV.UK Design System](https://design-system.service.gov.uk/) and patterns or testing new patterns where needed",
-                    "the right artefacts to describe the end-to-end service are being iterated and changed based on user research. for example, service flows, blueprints, [service maps](https://bat-design-history.netlify.app/service-map/)",
+                    "the right artefacts to describe the end-to-end service are being iterated and changed based on user research. For example, service flows, blueprints, [service maps](https://bat-design-history.netlify.app/service-map/)",
                     "how users will find the service and entry points",
                     "a plan for how to onboard users to the service",
                     "the team observing and getting feedback on the end-to-end journey",
@@ -271,7 +271,7 @@
             "Build a service that's simple to use so that people can succeed first time. Test it with users to make sure it works for them."
         ],
         "why": [
-            "People expect services to work. They need things to be easy when they are trying to complete a task or find information",
+            "People expect services to work. They need things to be easy when they are trying to complete a task or find information.",
             "As a public sector organisation we have a legal duty to [consider everyone's needs when designing and delivering services](https://design.education.gov.uk/accessibility/)."
         ],
         "professions": [
@@ -305,8 +305,8 @@
                     "technology decisions supporting accessible and usable design",
                     "content being tested to make sure that users understand it",
                     "[prototypes](https://design.education.gov.uk/design-system/prototype-kit/) built and tested with users identified in discovery",
-                    "any unique component or pattern, or [an adaptation of an existing component from the Design System](https://design-system.service.gov.uk/community/contribution-criteria/), are shared and tested. plus, a plan for how you will keep them up-to-date with existing systems",
-                    "how users will report a prblem with the service and how they'll be supported and updated on any resolution"
+                    "any unique component or pattern, or [an adaptation of an existing component from the Design System](https://design-system.service.gov.uk/community/contribution-criteria/), are shared and tested. Plus, a plan for how you will keep them up-to-date with existing systems",
+                    "how users will report a problem with the service and how they'll be supported and updated on any resolution"
                 ],
                 "avoid": [
                     "dead ends in the journey or a disconnect between online and offline actions",
@@ -349,22 +349,24 @@
         "govLink": "https://www.gov.uk/service-manual/service-standard/point-5-make-sure-everyone-can-use-the-service",
         "description": [
             "Make sure your service can be used by people with different physical, mental, social, cultural or learning needs, whether it's for the public, for staff working in DfE or across the education sector.",
-            "Champion the needs of all users and include them as part of the design and iterative process. Consider where these users are on the [digital inclusion scale](https://userresearch.blog.gov.uk/2019/02/22/reflecting-on-how-we-developed-the-digital-inclusion-scale/)."
+            "Champion the needs of all users and include them as part of the design and iterative process. Consider where these users are on the [digital inclusion scale](https://userresearch.blog.gov.uk/2019/02/22/reflecting-on-how-we-developed-the-digital-inclusion-scale/).",
+            "Depending on the size and complexity of your service, this standard could be assessed by an accessibility specialist at assessment."
         ],
         "why": [
-            "Everyone who works on DfE digital services has a role to play in making them [accessible and inclusive](https://design.education.gov.uk/accessibility/standards).",
+            "Everyone who works on DfE digital services has a role to play in making them [accessible and inclusive](https://accessibility.education.gov.uk/standards).",
             "If your service isn't accessible to everyone who needs it, you may be breaking the [2010 Equality Act](https://www.legislation.gov.uk/ukpga/2010/15/contents).",
             "Accessibility regulations say that public sector websites must meet accessibility standards and publish an accessibility statement. You can find out [more about the regulations on GOV.UK](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)."
         ],
         "professions": [
             "Designers",
-            "User researchers"
+            "User researchers",
+            "Accessibility specialist"
         ],
         "phases": [
             {
                 "name": "Discovery",
                 "considerations": [
-                    "time and money allocated for [accessibility testing and audits](https://design.education.gov.uk/accessibility/assurance) at future phases",
+                    "time and money allocated for [accessibility testing and audits](https://accessibility.education.gov.uk/audits-statements/audits) at future phases",
                     "what your approach to recruiting users with access needs will be",
                     "evidence of talking to people who use assistive technology",
                     "user research with people with access needs",
@@ -408,9 +410,9 @@
                     "what your approach to recruiting users with access needs will be",
                     "the context of your users' environment when they might be using the service, for example, a noisy classroom, slow internet connection, and what devices they're using",
                     "how you've tested—and continue to test—with users who need [assistive digital support](https://www.gov.uk/service-manual/helping-people-to-use-your-service/assisted-digital-support-introduction)",
-                    "an [accessibility audit](https://design.education.gov.uk/accessibility/audits) and any issues fixed, this is a mandatory requirement",
-                    "how the service meets the latest [accessibility standards](https://design.education.gov.uk/accessibility/standards)",
-                    "[an accessibility statement](https://design.education.gov.uk/accessibility/accessibility-statements) that explains how accessible the service is. this needs to be published when the service moves into public beta",
+                    "an [accessibility audit](https://accessibility.education.gov.uk/audits-statements/audits) and any issues fixed, this is a mandatory requirement",
+                    "how the service meets the latest [accessibility standards](https://accessibility.education.gov.uk/standards)",
+                    "[an accessibility statement](https://accessibility.education.gov.uk/audits-statements/accessibility-statements) that explains how accessible the service is. This needs to be published when the service moves into public beta",
                     "the service continues to be iterated based on insights from user research",
                     "any changes are tested to make sure they meet accessibility requirements",
                     "non-digital or offline processes and their impact or relationship to the service"
@@ -458,8 +460,8 @@
             "When planning for a team, for the next phase, think about how much it would cost to build and the roles you might need."
         ],
         "professions": [
-            "Delivery Managers",
-            "Product Managers"
+            "Delivery managers",
+            "Product managers"
         ],
         "phases": [
             {
@@ -495,8 +497,7 @@
                     "how the team and ways of working can keep improving the service",
                     "how knowledge and skills from contractors have been transferred to permanent staff",
                     "how the team has evaluated and iterated the less common paths through the service",
-                    "a plan for what team you'll need to operate and support the service once live",
-                    "knowledge and skills from contractors are transferred to permanent staff"
+                    "a plan for what team you'll need to operate and support the service once live"
                 ],
                 "avoid": [
                     "not having a plan to transfer knowledge from contractors to permanent staff",
@@ -538,8 +539,8 @@
             "Working this way means you're not specifying everything up front before you've developed an understanding of what users need, reducing the risk of delivering the wrong thing."
         ],
         "professions": [
-            "Delivery Managers",
-            "Product Managers"
+            "Delivery managers",
+            "Product managers"
         ],
         "phases": [
             {
@@ -592,8 +593,8 @@
             "It also means being able to make [substantial improvements](https://www.gov.uk/service-manual/agile-delivery/running-your-service-in-a-sustainable-way) throughout the service's lifetime."
         ],
         "professions": [
-            "Delivery Managers",
-            "Product Managers",
+            "Delivery managers",
+            "Product managers",
             "Designers",
             "User researchers"
         ],
@@ -651,8 +652,8 @@
         ],
         "professions": [
             "Architects",
-            "Delivery Managers",
-            "Product Managers",
+            "Delivery managers",
+            "Product managers",
             "Developers"
         ],
         "phases": [
@@ -740,8 +741,8 @@
             "Collecting the right information and interpreting it will alert you to potential improvements you need to make and help you know if changes have the effect you intend."
         ],
         "professions": [
-            "Performance Analysts",
-            "Business Analysts"
+            "Performance analysts",
+            "Business analysts"
         ],
         "phases": [
             {
@@ -813,7 +814,7 @@
         "professions": [
             "Architects",
             "Developers",
-            "Product Managers"
+            "Product managers"
         ],
         "phases": [
             {
@@ -822,7 +823,7 @@
                     "evidence that the team has considered different options for how the service will be delivered technically and the rationale for the chosen technical direction",
                     "technology choices are technically feasible and [security assured](https://educationgovuk.sharepoint.com/sites/security/SitePages/assurance.aspx)",
                     "the tools the team will be using and why they are value for money",
-                    "how the tools and technology you choose meet [accessibility standards](https://design.education.gov.uk/accessibility/standards), including [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/)",
+                    "how the tools and technology you choose meet [accessibility standards](https://accessibility.education.gov.uk/standards), including [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)",
                     "any constraints with legislation, contracts, or technology that impact the service",
                     "align technology choices with the recommended [tech stack](https://technical-guidance.education.gov.uk/guides/default-technology-stack/) used across DfE, where possible",
                     "a working prototype, technical spikes, or proof of concept using the chosen tools and technology has been built and tested to prove that the architecture is fit for purpose",
@@ -857,7 +858,7 @@
             "Teams should aim to make all new source code open and reusable, and publish it under [appropriate licences](https://technical-guidance.education.gov.uk/standards/licencing-software-or-code/). DfE specific guidance on how to meet this standard can be found in [DfE Technical Guidance](https://technical-guidance.education.gov.uk/standards/storing-source-code/)."
         ],
         "why": [
-            "Public services are built with public money. Unless there's a good reason not to, the code they're based on should be made available for other people to reuse and build on",
+            "Public services are built with public money. Unless there's a good reason not to, the code they're based on should be made available for other people to reuse and build on.",
             "Open source code can save teams duplicating effort and help them build better services faster. Publishing source code under an open licence means that you're less likely to get locked into working with a single supplier.",
             "Coding in the open encourages high quality and [secure coding](https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open) in development teams.",
             "There may be times when code should not be published in the open. For example, secrets, keys or sensitive information should not be published to public repositories. DfE has guidance on [managing secrets](https://technical-guidance.education.gov.uk/infrastructure/security/managing-secrets/#content) and closed code."
@@ -903,14 +904,14 @@
             "Use open standards, common components and patterns, and create new ones if there is not one that already meets your needs."
         ],
         "why": [
-            "[Open standards](https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles#Defining-open-standards) save money and make use of best practice",
+            "[Open standards](https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles#Defining-open-standards) save money and make use of best practice.",
             "Using common components, patterns, and technology stacks means you don't have to solve problems that have already been solved.",
             "By using a component, pattern, or stack that's already been assured and extensively tested, you can provide users with a good experience in a cost-effective way. It also speeds up delivery and reduces risk.",
             "Developing components and patterns that meet a shared need and sharing them allows others to benefit from your work."
         ],
         "professions": [
             "Architects",
-            "Product Managers",
+            "Product managers",
             "Developers",
             "Designers"
         ],
@@ -961,8 +962,8 @@
         ],
         "professions": [
             "Architects",
-            "Delivery Managers",
-            "Product Managers",
+            "Delivery managers",
+            "Product managers",
             "Developers"
         ],
         "phases": [
