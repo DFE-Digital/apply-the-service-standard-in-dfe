@@ -151,6 +151,8 @@ class PageIndex {
     const title = this.parseTitle($);
     const h2 = this.getIndex($, 'h2');
     const h3 = this.getIndex($, 'h3');
+    const p = this.getIndex($, 'p');
+    const li = this.getIndex($, 'li');
     const extra = this.getAdditionalIndices(url).join(' ');
 
     // Add page data to docs array
