@@ -129,10 +129,14 @@ class PageIndex {
         q.term(tokenString, { boost: 100, fields: ['title'] });
         q.term(tokenString, { boost: 80, fields: ['h2'] });
         q.term(tokenString, { boost: 60, fields: ['h3'] });
+        q.term(tokenString, { boost: 40, fields: ['p'] });
+        q.term(tokenString, { boost: 30, fields: ['li'] });
 
         q.term(`${tokenString}*`, { boost: 90, fields: ['title'] });
         q.term(`${tokenString}*`, { boost: 70, fields: ['h2'] });
         q.term(`${tokenString}*`, { boost: 50, fields: ['h3'] });
+        q.term(`${tokenString}*`, { boost: 40, fields: ['p'] });
+        q.term(`${tokenString}*`, { boost: 30, fields: ['li'] });
       });
     });
 
@@ -159,6 +163,8 @@ class PageIndex {
         h3,
         title,
         url,
+        p,
+        li
       },
     ];
   }
