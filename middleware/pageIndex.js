@@ -73,6 +73,7 @@ class PageIndex {
         builder.field('h2');
         builder.field('h3');
         builder.field('extra');
+        builder.field('p');
         // Add each indexed page from above to lunr
         this.docs.forEach((doc) => builder.add(doc)); // eslint-disable-line arrow-parens
       });
