@@ -9,8 +9,8 @@
             "Think about people's entire experience and the systems and processes around the product or service you're building."
         ],
         "why": [
-            "You need to [understand your users and their needs](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs#understanding-user-needs) to build something that helps them. Otherwise you could build the wrong thing or make DfE services more difficult to use.",
-            "Understanding as much of the context of the user needs as possible will give you the best chance of meeting them in the most simple, cost effective way.",
+            "You need to [understand your users and their needs](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs#understanding-user-needs) to build something that helps them. Otherwise, you could build the wrong thing or make DfE services more difficult to use.",
+            "Understanding as much of the context of the user needs as possible will give you the best chance of meeting them in the most simple, cost-effective way.",
             "The most obvious problem is not always the one that needs solving. Test assumptions early and often to reduce the risk of building the wrong thing."
         ],
         "professions": [
@@ -29,7 +29,7 @@
                     "a variety of methods of user research",
                     "a prioritised list of user needs",
                     "an understanding of the difference between users and project stakeholders",
-                    "a [Data Protection Impact Assessment (DPIA)](https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx) has been started, where necessary. if you do not have access to the DfE intranet, ask a civil servant to get the information for you",
+                    "a [Data Protection Impact Assessment (DPIA)](https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx) has been started, where necessary. If you do not have access to the DfE intranet, ask a civil servant to get the information for you",
                     "a plan for alpha"
                 ],
                 "avoid": [
@@ -44,7 +44,7 @@
                     "hypotheses tested with a variety of quick, throwaway [prototypes](https://design.education.gov.uk/design-system/prototype-kit/)",
                     "collaboration with other service-related teams and stakeholders, including policy",
                     "use of existing research and performance data across DfE",
-                    "clear definition of user needs written in language familiar to users",
+                    "clear definition of user needs, written in language familiar to users",
                     "clear definition of user groups",
                     "a prioritised list of user stories",
                     "how inclusive design is being considered in addition to testing with people with access needs",
@@ -79,7 +79,7 @@
                     "what the team has done beyond public beta to continue to meet user needs and deliver outcomes, when moving to live"
                 ],
                 "avoid": [
-                    "Not testing all service touch points",
+                    "Not testing all service touchpoints",
                     "Not doing usability testing with users with access needs, separate from an audit"
                 ]
             }
@@ -549,7 +549,7 @@
                     "how the team [uses agile ways of working](https://www.gov.uk/service-manual/agile-delivery), tools, and techniques",
                     "changes to the service are based on user research feedback and testing. The [children and families design history](https://design-histories.education.gov.uk/team/children-and-families) documents how they've done this",
                     "how the team will prioritise riskiest assumptions",
-                    "evidence of decision making with senior stakeholders that allow the team to adapt and change",
+                    "evidence of decision-making with senior stakeholders that allow the team to adapt and change",
                     "evidence that governance is being managed with measurable goals",
                     "the team has all the skills it needs at each phase of the agile lifecycle"
                 ],
@@ -774,7 +774,7 @@
                 "name": "Beta and live",
                 "considerations": [
                     "measurement data agreed in the KPIs during alpha has been captured and collated",
-                    "quantitative and qualitative data has been combined to measure where the benefits are being realized",
+                    "quantitative and qualitative data has been combined to measure where the benefits are being realised",
                     "demonstration of how the collated data provides evidence to show how the new service is performing for users",
                     "evidence of performance data being used to make decisions about how to fix problems and improve the service",
                     "engagement with business owners and stakeholders to help make decisions using performance data",
@@ -821,7 +821,7 @@
                 "name": "All phases",
                 "considerations": [
                     "evidence that the team has considered different options for how the service will be delivered technically and the rationale for the chosen technical direction",
-                    "technology choices are technically feasible and [security assured](https://educationgovuk.sharepoint.com/sites/security/SitePages/assurance.aspx)",
+                    "technology choices are technically feasible and [security assured (opens DfE intranet)](https://educationgovuk.sharepoint.com/sites/security/SitePages/assurance.aspx)",
                     "the tools the team will be using and why they are value for money",
                     "how the tools and technology you choose meet [accessibility standards](https://accessibility.education.gov.uk/standards), including [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)",
                     "any constraints with legislation, contracts, or technology that impact the service",
