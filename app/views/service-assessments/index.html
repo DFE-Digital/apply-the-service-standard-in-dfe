@@ -1,80 +1,88 @@
-{% extends "layouts/content-with-sidenav.html" %}
+{% extends "layouts/layout.html" %}
 
 {% set selectedNav = "Service assessments" %}
-{% set pageName = "Overview" %}
-{% set seoPageDescription = "Service assessments and discovery peer reviews and how to book one in the Department for
-Education."%}
-{% set pageDescription = "Service assessments, peer reviews and how to book one"%}
-
-
+{% set pageName = "Service assessments" %}
+{% set pageDescription = "Overview of service assessments and peer reviews." %}
+{% set seoPageDescription = "Overview of service assessments and peer reviews." %}
+{% set path = "" %}
 
 {% block content %}
 
-{% markdown %}
+<div class="govuk-width-container">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-quarter">
+      <a href="/" class="govuk-back-link govuk-!-margin-top-0 govuk-!-margin-bottom-9">Back to homepage</a>
+      {% include 'partials/_sidenav.html' %}
+    </div>
 
+    <div class="govuk-grid-column-three-quarters">
+      <span class="govuk-caption-l">Overview</span>
+      {% markdown %}
 
-Across government, digital and technology services must be assessed against the Service Standard at the end of each phase. Getting assessed is a condition of Cabinet Office spend approval.
+      # {{pageName}}
 
-Service assessments happen at the end of alpha, private beta, and public beta phases. They are compulsory for transactional services and recommended for non-transactional services.
+      Across government, digital and technology services must be assessed against the Service Standard at the end of each phase. Getting assessed is a condition of Cabinet Office spend approval.
 
-If you're in the discovery phase, you should have a <a href="/service-assessments/discovery-peer-review">peer review</a>.
+      Service assessments happen at the end of alpha, private beta, and public beta phases. They are compulsory for transactional services and recommended for non-transactional services.
 
+      If you're in the discovery phase, you should have a <a href="/service-assessments/discovery-peer-review">peer review</a>.
 
-A service is transactional if it allows users to either:
+      A service is transactional if it allows users to either:
 
-- exchange information, money, permission, goods, or services
-- submit personal information that results in a change to a government record
+      - exchange information, money, permission, goods, or services
+      - submit personal information that results in a change to a government record
 
-A service is assessed by a panel of trained assessors from either DfE, or across government. The assessment will be the same, no matter which panel is reviewing it.
+      A service is assessed by a panel of trained assessors from either DfE, or across government. The assessment will be the same, no matter which panel is reviewing it.
 
-## DfE panel service assessment
+      ## DfE panel service assessment
 
-You need a DfE panel service assessment if your service or product:
+      You need a DfE panel service assessment if your service or product:
 
-- has less than 100,000 transactions per year (actual or planned)
-- is non-transactional
+      - has less than 100,000 transactions per year (actual or planned)
+      - is non-transactional
 
-Book a DfE panel service assessment using the <a href="https://service-assessments.education.gov.uk/book">Service assessment service</a>.
+      Book a DfE panel service assessment using the <a href="https://service-assessments.education.gov.uk/book">Service assessment service</a>.
 
-## Cross-government panel service assessment
+      ## Cross-government panel service assessment
 
-You need a cross-government panel service assessment if your service or product has:
+      You need a cross-government panel service assessment if your service or product has:
 
-- over 100,000 transactions per year (actual or planned)
-- users are from more than one public sector organisation
+      - over 100,000 transactions per year (actual or planned)
+      - users are from more than one public sector organisation
 
-The Service Assessment Plus team will work with GDS (Government Digital Service) to arrange the panel of cross-government assessors.
+      The Service Assessment Plus team will work with GDS (Government Digital Service) to arrange the panel of cross-government assessors.
 
-Book a cross-government service assessment using the <a href="https://service-assessments.education.gov.uk/book">Service assessment service</a>.
+      Book a cross-government service assessment using the <a href="https://service-assessments.education.gov.uk/book">Service assessment service</a>.
 
-## Peer reviews
+      ## Peer reviews
 
-Peer reviews are a less formal version of a service assessment. A report is produced, which will share feedback and recommendations. It is not an assessment and will not be RAG rated.
+      Peer reviews are a less formal version of a service assessment. A report is produced, which will share feedback and recommendations. It is not an assessment and will not be RAG rated.
 
+      Peer reviews are always arranged with a DfE panel.
 
-Peer reviews are always arranged with a DfE panel.
+      ### Discovery peer reviews
 
-### Discovery peer reviews
+      You need a peer review at the end of the discovery phase to provide assurance that it is reasonable to move to alpha.
 
-You need a peer review at the end of the discovery phase to provide assurance that it is reasonable to move to alpha.
+      Book a discovery peer review using the <a href="https://service-assessments.education.gov.uk/book">Service assessment service</a>.
 
-Book a discovery peer review using the <a href="https://service-assessments.education.gov.uk/book">Service assessment service</a>.
+      ### Other peer reviews
 
-### Other peer reviews
+      Peer reviews can also be arranged mid-way through alpha, private-beta, or public-beta phases. They provide assurance that the team is doing the right thing and are working towards the <a href="https://apply-the-service-standard.education.gov.uk/">Service Standard</a>. They can also help to prepare a team for an end-of-phase service assessment.
 
-Peer reviews can also be arranged mid-way through alpha, private-beta, or public-beta phases. They provide assurance that the team is doing the right thing and are working towards the <a href="https://apply-the-service-standard.education.gov.uk/">Service Standard</a>. They can also help to prepare a team for an end-of-phase service assessment.
+      Mid-phase peer reviews are not compulsory. They may be requested by a service team, recommended as part of the Cabinet Office spend controls process, or by a service assessment panel.
 
-Mid-phase peer reviews are not compulsory. They may be requested by a service team, recommended as part of the Cabinet Office spend controls process, or by a service assessment panel.
+      If you would like to request a mid-phase peer review, please contact the [Service Assessment Plus team](mailto:serviceassessment.plus@education.gov.uk).
 
-If you would like to request a mid-phase peer review, please contact the [Service Assessment Plus team](mailto:serviceassessment.plus@education.gov.uk).
+      The Service Assessment Plus team will prioritise service assessments over mid-phase peer reviews when recruiting assessor panels.
 
-The Service Assessment Plus team will prioritise service assessments over mid-phase peer reviews when recruiting assessor panels.
+      ## Support
 
-## Support
+      Email the [Service Assessment Plus team](mailto:serviceassessment.plus@education.gov.uk) if you have any questions about service assessments or peer reviews.
 
-Email the [Service Assessment Plus team](serviceassessment.plus@education.gov.uk](mailto:serviceassessment.plus@education.gov.uk) if you have any questions about service assessments or peer reviews.
-
-
-{% endmarkdown %}
+      {% endmarkdown %}
+    </div>
+  </div>
+</div>
 
 {% endblock %}

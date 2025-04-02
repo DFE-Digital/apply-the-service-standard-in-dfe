@@ -1,21 +1,32 @@
-  {% extends "layouts/content-with-sidenav.html" %}
+{% extends "layouts/layout.html" %}
 
 {% set pageName = "Search results" %}
 {% set selectedNav = "Search" %}
-{% set setSelectedSideNav = "" %}
-{% set backlog_issue_id = "" %}
-
-{% block beforeContent %}{% endblock %}
+{% set pageDescription = "Search results for Apply the Service Standard in DfE" %}
+{% set seoPageDescription = "Search results for Apply the Service Standard in DfE" %}
+{% set path = "" %}
 
 {% block content %}
 
-  <article>
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-two-thirds">
+<div class="govuk-width-container">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-quarter">
+      <a href="/" class="govuk-back-link govuk-!-margin-top-0 govuk-!-margin-bottom-9">Back to homepage</a>
+      {% include 'partials/_sidenav.html' %}
+    </div>
+
+    <div class="govuk-grid-column-three-quarters">
+      {% markdown %}
+
+      # {{pageName}}
+
+      {% endmarkdown %}
+
+      <article>
         {% if results | length > 0 %}
           <p class="govuk-u-margin-bottom-3">
-           {{ resultsLen }} Result{%if results | length != 1%}s{%endif%}
-         </p>
+            {{ resultsLen }} Result{%if results | length != 1%}s{%endif%}
+          </p>
           <ul class="govuk-list govuk-list--border">
             {% for item in results %}
               <li>
@@ -24,17 +35,18 @@
               </li>
             {% endfor %}
           </ul>
-          {% else %}
-            <p>Your search - <span class="govuk-!-font-weight-bold">{{query}}</span> - had no matching results.</p>
-            <p>Improve your search results by:</p>
-            <ul>
-              <li>double-checking your spelling</li>
-              <li>using fewer keywords</li>
-              <li>searching for something less specific</li>
-            </ul>
+        {% else %}
+          <p>Your search - <span class="govuk-!-font-weight-bold">{{query}}</span> - had no matching results.</p>
+          <p>Improve your search results by:</p>
+          <ul>
+            <li>double-checking your spelling</li>
+            <li>using fewer keywords</li>
+            <li>searching for something less specific</li>
+          </ul>
         {% endif %}
-        </div>
+      </article>
     </div>
-  </article>
+  </div>
+</div>
 
-  {% endblock %}
+{% endblock %}

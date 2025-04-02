@@ -1,0 +1,142 @@
+{% set teams = [
+{
+name: "Discovery peer reviews",
+url: "/service-assessments/discovery-peer-review"
+},{
+name: "Service assessments",
+url: "/service-assessments/assessments"
+},{
+name: "Your service assessment report",
+url: "/service-assessments/service-assessment-report"
+},{
+name: "Manage actions from a service assessment",
+url: "/service-assessments/actioning-recommendations"
+}
+]
+%}
+
+
+
+{% set assessors = [
+{
+name: "Run a discovery peer review",
+url: "/service-assessments/run-peer-review"
+},{
+name: "Run a service assessment",
+url: "/service-assessments/run-service-assessment"
+},{
+name: "Complete a service assessment report",
+url: "/service-assessments/complete-service-assessment-report"
+},{
+name: "Support the team",
+url: "/service-assessments/support-team"
+}
+]
+%}
+
+{% set feedback = [
+{
+name: "Give feedback on the assessment process",
+url: "/service-assessments/survey"
+}
+]%}
+
+{% set overview = [
+{
+name: "Overview",
+url: "/service-assessments"
+}
+]
+%}
+
+{% set phases = [
+{
+name: "Discovery",
+url: "/phases/discovery"
+},{
+name: "Alpha",
+url: "/phases/alpha"
+},{
+name: "Beta and live",
+url: "/phases/beta-and-live"
+}
+]
+%}
+
+
+<nav class="dfe-vertical-nav">
+
+
+  {%- if selectedNav === "Service Standard" %}
+
+    <ul class="dfe-vertical-nav__section">
+      {% for item in standards %}
+        <li
+      class="dfe-vertical-nav__section-item {% if point === item.standard %}dfe-vertical-nav__section-item--current{% endif %}">
+          <a class="dfe-vertical-nav__link" href="/service-standard/{{ item.slug }}">{{ item.standard }}. {{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+  {% endif %}
+
+   {%- if selectedNav === "Phases" %}
+
+    <ul class="dfe-vertical-nav__section">
+      {% for item in phases %}
+        <li
+      class="dfe-vertical-nav__section-item {% if phase | lower | replace('-', ' ') === item.name | lower | replace('-', ' ') %}dfe-vertical-nav__section-item--current{% endif %}">
+          <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+  {% endif %}
+
+  {%- if selectedNav === "Service assessments" %}
+
+    <ul class="dfe-vertical-nav__section">
+      {% for item in overview %}
+        <li
+      class="dfe-vertical-nav__section-item {% if pageName === item.name %}dfe-vertical-nav__section-item--current{% endif %}">
+          <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <h2 class="dfe-vertical-nav--section-header govuk-heading-s">For teams</h2>
+
+    <ul class="dfe-vertical-nav__section">
+      {% for item in teams %}
+        <li
+      class="dfe-vertical-nav__section-item {% if pageName === item.name %}dfe-vertical-nav__section-item--current{% endif %}">
+          <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <h2 class="dfe-vertical-nav--section-header  govuk-heading-s">For assessors</h2>
+
+    <ul class="dfe-vertical-nav__section">
+      {% for item in assessors %}
+        <li
+      class="dfe-vertical-nav__section-item {% if pageName === item.name %}dfe-vertical-nav__section-item--current{% endif %}">
+          <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <h2 class="dfe-vertical-nav--section-header  govuk-heading-s    ">Feedback</h2>
+
+    <ul class="dfe-vertical-nav__section">
+      {% for item in feedback %}
+        <li
+      class="dfe-vertical-nav__section-item {% if pageName === item.name %}dfe-vertical-nav__section-item--current{% endif %}">
+          <a class="dfe-vertical-nav__link" href="{{ item.url }}">{{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+  {% endif %}
+
+</nav>

@@ -1,100 +1,107 @@
-{% extends "layouts/content-with-sidenav.html" %}
+{% extends "layouts/layout.html" %}
 
 {% set selectedNav = "Service assessments" %}
 {% set pageName = "Complete a service assessment report" %}
 {% set pageDescription = "How to complete an assessment report, rate each of the 14 Service Standards and what happens after the report is submitted "%}
-
-
+{% set seoPageDescription = "How to complete an assessment report, rate each of the 14 Service Standards and what happens after the report is submitted" %}
+{% set path = "/service-assessments" %}
 
 {% block content %}
 
-{% markdown %}
+<div class="govuk-width-container">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-quarter">
+      <a href="/" class="govuk-back-link govuk-!-margin-top-0 govuk-!-margin-bottom-9">Back to homepage</a>
+      {% include 'partials/_sidenav.html' %}
+    </div>
 
-As a trained assessor, when writing the report you'll consider each of the [Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard) and give a [RAG (red, amber, green) rating](/service-assessments/complete-service-assessment-report#give-the-service-a-rating-for-each-service-standard) against each one.  
+    <div class="govuk-grid-column-three-quarters">
+      <span class="govuk-caption-l">For assessors</span>
+      {% markdown %}
 
-Each profession will lead on different standards. 
+      # {{pageName}}
 
-Assessors may have a view on all 14 standards, but specialist roles will lead on certain ones. For example, standard 1 should be led by user research, and standard 12 by architects and developers. 
+      As a trained assessor, when writing the report you'll consider each of the [Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard) and give a [RAG (red, amber, green) rating](/service-assessments/complete-service-assessment-report#give-the-service-a-rating-for-each-service-standard) against each one.  
 
-You should always take into account the context the team are working in and evaluate the [Service Standard](https://apply-the-service-standard.education.gov.uk/service-standard) in a proportionate way.  
+      Each profession will lead on different standards. 
 
-You'll detail any actions that the team must take, where a red or amber rating is given against a standard. 
+      Assessors may have a view on all 14 standards, but specialist roles will lead on certain ones. For example, standard 1 should be led by user research, and standard 12 by architects and developers. 
 
-The report should also include an [overall rating](/service-assessments/complete-service-assessment-report#give-the-service-a-rating-for-each-service-standard) for the service, for how it's currently meeting the [Service Standard](https://apply-the-service-standard.education.gov.uk/service-standard). The panel should work together to consider this, but it's the lead assessor's responsibility to finalise the overall rating. 
+      You should always take into account the context the team are working in and evaluate the [Service Standard](https://apply-the-service-standard.education.gov.uk/service-standard) in a proportionate way.  
 
- 
+      You'll detail any actions that the team must take, where a red or amber rating is given against a standard. 
 
-## Draft the report 
+      The report should also include an [overall rating](/service-assessments/complete-service-assessment-report#give-the-service-a-rating-for-each-service-standard) for the service, for how it's currently meeting the [Service Standard](https://apply-the-service-standard.education.gov.uk/service-standard). The panel should work together to consider this, but it's the lead assessor's responsibility to finalise the overall rating. 
 
-During the assessment, work with the other assessors on the panel to gather your findings for each of the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard), and provide any actions for the team. 
+      ## Draft the report 
 
-Do this in a way that suits you. Before adding your final notes to the report. For example, in a Word doc or the panel chat in Slack.  
+      During the assessment, work with the other assessors on the panel to gather your findings for each of the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard), and provide any actions for the team. 
 
-You could also add comments directly to <a href="https://service-assessments.education.gov.uk/assess">the report in the Service assessment service</a> during the assessment. 
+      Do this in a way that suits you. Before adding your final notes to the report. For example, in a Word doc or the panel chat in Slack.  
 
-It will be the lead assessor's responsibility to add the overall rating, review the report and submit it to the Service Assessment Plus team. They'll then forward it on to the service team. 
+      You could also add comments directly to <a href="https://service-assessments.education.gov.uk/assess">the report in the Service assessment service</a> during the assessment. 
 
-## Give the service a rating for each Service Standard 
+      It will be the lead assessor's responsibility to add the overall rating, review the report and submit it to the Service Assessment Plus team. They'll then forward it on to the service team. 
 
-Following changes to GDS (Government Digital Services) policy for service assessments, [services will be assessed](https://www.gov.uk/service-manual/service-assessments/how-service-assessments-work#get-your-result) as 'green', 'amber' or 'red' the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard).  
+      ## Give the service a rating for each Service Standard 
 
-Plus, you'll also provide an overall rating for the service. This replaces using 'met' or 'not met'. 
+      Following changes to GDS (Government Digital Services) policy for service assessments, [services will be assessed](https://www.gov.uk/service-manual/service-assessments/how-service-assessments-work#get-your-result) as 'green', 'amber' or 'red' the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard).  
 
-If a service receives 1 amber-or-red-rated standard, this means the overall outcome will be amber or red. 
+      Plus, you'll also provide an overall rating for the service. This replaces using 'met' or 'not met'. 
 
-### Red rating
+      If a service receives 1 amber-or-red-rated standard, this means the overall outcome will be amber or red. 
 
-This replaces the previous rating of 'not met'. 
+      ### Red rating
 
-If any of the standards receives a red rating, the overall outcome of the assessment will be red.  
+      This replaces the previous rating of 'not met'. 
 
-The service must be reassessed against the points of the Standard that are rated red at this assessment.  
+      If any of the standards receives a red rating, the overall outcome of the assessment will be red.  
 
-In order for the service to continue to the next phase, it must meet [the Standard](https://apply-the-service-standard.education.gov.uk/service-standard) and get Cabinet Office spend approvals. 
+      The service must be reassessed against the points of the Standard that are rated red at this assessment.  
 
-### Amber rating 
+      In order for the service to continue to the next phase, it must meet [the Standard](https://apply-the-service-standard.education.gov.uk/service-standard) and get Cabinet Office spend approvals. 
 
-This also replaces the previous rating of 'not met', or 'met with conditions' that has been used in DfE. 
+      ### Amber rating 
 
-Services that receive any amber ratings for a standard will be able to move into the next phase.  
+      This also replaces the previous rating of 'not met', or 'met with conditions' that has been used in DfE. 
 
-However, they must address these points within a 3-month timeframe.  
+      Services that receive any amber ratings for a standard will be able to move into the next phase.  
 
-All amber recommendations must be addressed before booking the next assessment. 
+      However, they must address these points within a 3-month timeframe.  
 
-
-### Green rating
-
-This replaces the 'met' rating.
-
-Services that receive green ratings for all 14 Service Standard points can progress into the next phase. 
-
-### Add details to red or amber-rated standards 
-
-For red or amber-rated standards, you will need to list things that the team have not demonstrated.  
-
-For any standards rated red, the team will need to be reassessed against those standards and demonstrate they've done this work.  
-
-If a standard is rated amber, the team can continue to the next phase, but should complete the things they hadn't evidenced within 3 months of assessment.  
-
-Once you've added your notes and ratings, you may want to meet again as a panel, to review the completed report before submitting it. 
-
-You should aim to complete the report within 7 working days.
-
- 
-
-## What happens after the report is submitted 
+      All amber recommendations must be addressed before booking the next assessment. 
 
 
-The DfE Service Assessment Plus team will share the report with the service team. 
+      ### Green rating
 
-If the team accepts the report and there are actions they need to take before their next assessment, they may be in touch with the panel. This could mean having a follow-up call, or advice on a workshop, depending on the actions that need addressing. 
+      This replaces the 'met' rating.
 
-If the team challenge the report or ask for clarification for any of the points made, they should speak to the DfE Service Assessment Plus team. Who will then set up a meeting with the assessor panel. 
+      Services that receive green ratings for all 14 Service Standard points can progress into the next phase. 
 
- 
+      ### Add details to red or amber-rated standards 
+
+      For red or amber-rated standards, you will need to list things that the team have not demonstrated.  
+
+      For any standards rated red, the team will need to be reassessed against those standards and demonstrate they've done this work.  
+
+      If a standard is rated amber, the team can continue to the next phase, but should complete the things they hadn't evidenced within 3 months of assessment.  
+
+      Once you've added your notes and ratings, you may want to meet again as a panel, to review the completed report before submitting it. 
+
+      You should aim to complete the report within 7 working days.
+
+      ## What happens after the report is submitted 
 
 
-{% endmarkdown %}
+      The DfE Service Assessment Plus team will share the report with the service team. 
+
+      If the team accepts the report and there are actions they need to take before their next assessment, they may be in touch with the panel. This could mean having a follow-up call, or advice on a workshop, depending on the actions that need addressing. 
+
+      If the team challenge the report or ask for clarification for any of the points made, they should speak to the DfE Service Assessment Plus team. Who will then set up a meeting with the assessor panel. 
+
+      {% endmarkdown %}
+    </div>
+  </div>
+</div>
 
 {% endblock %}

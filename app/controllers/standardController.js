@@ -1,9 +1,9 @@
 require('dotenv').config();
-const { link } = require('fs');
 const { marked } = require('marked');
-const axios = require('axios')
+const govukMarkdown = require('govuk-markdown');
 
-const client = require('../../middleware/contentful.js');
+// Configure marked to use the GOV.UK renderer
+marked.use(govukMarkdown());
 
 function cleanUpHtml(html) {
     return html
@@ -18,7 +18,6 @@ exports.g_home = async function (req, res) {
     return res.render('index', { standards });
 }
 
-
 exports.g_standard = async function (req, res) {
     const { slug } = req.params;
 
@@ -32,19 +31,12 @@ exports.g_standard = async function (req, res) {
     }
 
     try {
-
-    
-
         const standards = require('../data/content.json');
-
         return res.render('standard_template.html', { standard: standardData, standards});
-
     } catch (error) {
         console.error('Error fetching data:', error.message)
         res.status(500).send('An error occurred while fetching the data.')
     }
-
-
 }
 
 exports.g_phase = async function (req, res) {
@@ -60,8 +52,8 @@ exports.g_phase = async function (req, res) {
                     standard: standard.standard,
                     slug: standard.slug,
                     name: standard.name,
-                    considerations: p.considerations.map(point => cleanUpHtml(marked(point))),
-                    avoid: p.avoid.map(point => cleanUpHtml(marked(point)))
+                    considerations: p.considerations.map(point => cleanUpHtml(marked.parse(point))),
+                    avoid: p.avoid.map(point => cleanUpHtml(marked.parse(point)))
                 });
             }
         });
@@ -74,7 +66,6 @@ exports.g_phase = async function (req, res) {
     return res.redirect('/');
 }
 
-
 function getContentForStandard(standard) {
     const data = require('../data/content.json');
     let content = data.find(s => s.standard == standard);
@@ -85,14 +76,14 @@ function getContentForStandard(standard) {
             govLink: content.govLink,
             name: content.name,
             professions: content.professions,
-            description: content.description.map(point => cleanUpHtml(marked(point))),
+            description: content.description.map(point => cleanUpHtml(marked.parse(point))),
             why: content.why,
             links: content.links,
             dfeStandards: content.dfeStandards,
             phases: content.phases.map(phase => ({
                 phaseName: phase.name,
-                considerations: phase.considerations.map(point => cleanUpHtml(marked(point))),
-                avoid: phase.avoid.map(point => cleanUpHtml(marked(point)))
+                considerations: phase.considerations.map(point => cleanUpHtml(marked.parse(point))),
+                avoid: phase.avoid.map(point => cleanUpHtml(marked.parse(point)))
             }))
         };
     } else {

@@ -1,41 +1,59 @@
-{% extends "layouts/content-with-sidenav.html" %}
+{% extends "layouts/layout.html" %}
 
 {% set selectedNav = "Service assessments" %}
 {% set pageName = "How we're changing service assessments" %}
+{% set seoPageDescription = "We're developing a new process for booking, managing, and reporting service assessments in the Department for Education."%}
 {% set pageDescription = "We're developing a new process for booking, managing, and reporting service assessments in the Department for Education."%}
 
-
-
+{% set path = "" %}
 
 {% block content %}
 
-    {% markdown %}
+    <div class="govuk-width-container">
 
-The <a href="https://design.education.gov.uk/design-ops" target="_blank">DesignOps team</a> are building a new service to find out about and assure digital projects and services in DfE.
+        <div class="govuk-grid-row">
 
-The Service assessment service will include guidance to find out about, book, and report on assessments and peer reviews. From discovery peer reviews to service assessments.
+            <div class="govuk-grid-column-one-quarter">
+                <a href="/" class="govuk-back-link govuk-!-margin-top-0 govuk-!-margin-bottom-9">Back to homepage</a>
+                {% include 'partials/_sidenav.html' %}
+            </div>
 
-The service will be used by service teams, assessors and the service assessment team. All of who are involved as either stakeholders or users of the service in research.
+            <div class="govuk-grid-column-three-quarters">
 
-  <picture>
-    <source srcset="/assets/images/assure.webp" type="image/webp">
-    <img src="/assets/images/assure.png" alt="Screenshot showing the Assure your service prototype" style="width:100%; background: #efefef; border-radius: 8px; margin: 15px 0px; padding: 10px 0 5px 0;">
-</picture>
+                {% markdown %}
 
-You can read more about the work on building this service in our [design history](https://design-histories.education.gov.uk/assure-your-service).
+                # {{pageName}}
 
-## Join our user research panel
+                The <a href="https://design.education.gov.uk/design-ops" target="_blank">DesignOps team</a> are building a new service to find out about and assure digital projects and services in DfE.
 
-If you would like to help us to build the service the right way you can join our user research panel.
+                The Service assessment service will include guidance to find out about, book, and report on assessments and peer reviews. From discovery peer reviews to service assessments.
 
-We run research sessions with delivery managers, product managers, and service assessors.
+                The service will be used by service teams, assessors and the service assessment team. All of who are involved as either stakeholders or users of the service in research.
 
-If you work within DfE and are interested in helping us with our research at some point you can <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=yXfS-grGoU2187O4s0qC-VTqKV3NqglCuR-vsZHpfNhUQkpaTkpDQlkwVkc2QVI2TjFFSFVaTzhaRC4u" target="_blank">register your interest using this Microsoft Form</a>.
+                <picture>
+                    <source srcset="/assets/images/assure.webp" type="image/webp">
+                    <img src="/assets/images/assure.png" alt="Screenshot showing the Assure your service prototype" style="width:100%; background: #efefef; border-radius: 8px; margin: 15px 0px; padding: 10px 0 5px 0;">
+                </picture>
 
-If you are from another government department and want to get involved, email [design.ops@education.gov.uk](design.ops@education.gov.uk)
+                You can read more about the work on building this service in our [design history](https://design-histories.education.gov.uk/assure-your-service).
 
-A typical session lasts 45 minutes to an hour. We would contact you when organising a round of research to see if you were free and would like to participate.
+                ## Join our user research panel
 
-    {% endmarkdown %}
+                If you would like to help us to build the service the right way you can join our user research panel.
 
+                We run research sessions with delivery managers, product managers, and service assessors.
+
+                If you work within DfE and are interested in helping us with our research at some point you can <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=yXfS-grGoU2187O4s0qC-VTqKV3NqglCuR-vsZHpfNhUQkpaTkpDQlkwVkc2QVI2TjFFSFVaTzhaRC4u" target="_blank">register your interest using this Microsoft Form</a>.
+
+                If you are from another government department and want to get involved, email [design.ops@education.gov.uk](design.ops@education.gov.uk)
+
+                A typical session lasts 45 minutes to an hour. We would contact you when organising a round of research to see if you were free and would like to participate.
+
+                {% endmarkdown %}
+
+            </div>
+
+        </div>
+
+    </div>
 {% endblock %}

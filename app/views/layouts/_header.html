@@ -1,55 +1,52 @@
- {{ header({
-    "showNav": "false",
-    "showSearch": "true",
-    "showUserName": "false",
-    "userName": "",
-    "userNameURL": "",
-    "selectedNav": selectedNav,
-    "logoPath": "assets/images",
-    "searchInputName": "searchterm",
-   
-    "primaryLinks": [
-      {
-        "url"  : "/",
-        "label" : "Service Standard"
-      },{
-        "url"  : "/service-assessments",
-        "label" : "Service assessments"
-      }
-    ]
-  })
+{% from "header/macro.njk" import header %}
+
+
+{% block header %}
+
+{{ header({
+"showNav": "false",
+"showSearch": "true",
+"showHeaderActionLinks": "false",
+"logoPath": "assets/images",
+"searchAction": "/search",
+"searchInputName": "q",
+"logoAltText": "Department for Education",
+"homeHref": "https://design.education.gov.uk",
+"selectedNav": view,
+"service": {
+"name": "",
+"serviceUrl": "/"
+},
+"headerActionLinks": [
+{
+"url" : "/designops",
+"label" : "Contact"
+}
+],
+"primaryLinks": [
+{
+"url" : "/",
+"label" : "Home"
+}, {
+"url" : "/design-system/styles",
+"label" : "Styles"
+}, {
+"url" : "/design-system/components",
+"label" : "Components"
+}, {
+"url" : "/design-system/patterns",
+"label" : "Patterns"
+}, {
+"url" : "/content",
+"label" : "Content"
+},{
+"url" : "/standards",
+"label" : "Standards"
+}, {
+"url" : "/community",
+"label" : "Community"
+}
+]
+})
 }}
-
-<style>
-  .dfe-header{padding-bottom: 1rem}
-  </style>
-
-<section aria-label="Service information" class="govuk-service-navigation"
-  data-module="govuk-service-navigation">
-  <div class="govuk-width-container">
-    <div class="govuk-service-navigation__container">
-      <span class="govuk-service-navigation__service-name">
-        <a href="/" class="govuk-service-navigation__link">
-          Apply the Service Standard
-        </a>
-      </span>
-      <nav aria-label="Menu" class="govuk-service-navigation__wrapper">
-        <button type="button" class="govuk-service-navigation__toggle govuk-js-service-navigation-toggle" aria-controls="navigation" hidden>
-          Menu
-        </button>
-        <ul class="govuk-service-navigation__list" id="navigation">
-          <li class="govuk-service-navigation__item {% if selectedNav === 'Service Standard' %} govuk-service-navigation__item--active{% endif %}">
-            <a class="govuk-service-navigation__link" href="/" aria-current="true">
-              <strong class="govuk-service-navigation__active-fallback">Service Standards</strong>
-            </a>
-          </li>
-          <li class="govuk-service-navigation__item {% if selectedNav === 'Service assessments' %} govuk-service-navigation__item--active{% endif %}">
-            <a class="govuk-service-navigation__link" href="/service-assessments">
-              Service assessments
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</section>
+{% endblock %}

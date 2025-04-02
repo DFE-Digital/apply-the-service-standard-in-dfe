@@ -1,63 +1,66 @@
-{% extends "layouts/content-with-sidenav.html" %}
+{% extends "layouts/layout.html" %}
 
 {% set selectedNav = "Service assessments" %}
 {% set pageName = "Complete a discovery peer review report" %}
+{% set seoPageDescription = "How to complete a discovery peer review report, what to consider and what happens after the report is submitted"%}
 {% set pageDescription = "How to complete a discovery peer review report, what to consider and what happens after the report is submitted"%}
 
-
+{% set path = "" %}
 
 {% block content %}
 
-{% markdown %}
+    <div class="govuk-width-container">
 
-The report should aim to conclude whether the team has understood the problem space and priorities for next steps following the end of discovery. 
+        <div class="govuk-grid-row">
 
-If the team has not yet reached a decision on next steps, the report will give feedback and recommendations based on the evidence shared at the peer review. 
+            <div class="govuk-grid-column-one-quarter">
+                <a href="/" class="govuk-back-link govuk-!-margin-top-0 govuk-!-margin-bottom-9">Back to homepage</a>
+                {% include 'partials/_sidenav.html' %}
+            </div>
 
-## Draft the report
+            <div class="govuk-grid-column-three-quarters">
 
-During the discovery peer review, consider the practical tips in [Apply the Service Standard in DfE](https://apply-the-service-standard.education.gov.uk/service-standard) against standards 1 to 7 in the discovery phase. This will help you understand if the team has done what they need to do to mark the end of discovery. 
+                {% markdown %}
 
-Although a team in discovery won't yet have made tech choices, they should, if relevant, show an understanding of existing options. 
+                # {{pageName}}
 
-Acknowledge any constraints or business requirements the team is working to.
+                The report should aim to conclude whether the team has understood the problem space and priorities for next steps following the end of discovery. 
 
-### Include what the team has done well
+                If the team has not yet reached a decision on next steps, the report will give feedback and recommendations based on the evidence shared at the peer review. 
 
-Make sure you consider feedback on the positive aspects of the discovery too, not only on recommendations on what to improve. 
+                ## Draft the report
 
-Work together with the rest of the panel to gather your findings and recommendations. 
+                During the discovery peer review, consider the practical tips in [Apply the Service Standard in DfE](https://apply-the-service-standard.education.gov.uk/service-standard) against standards 1 to 7 in the discovery phase. This will help you understand if the team has done what they need to do to mark the end of discovery. 
 
-Do this in a way that suits you. For example, use a shared Word doc or the panel chat in Slack. 
+                Although a team in discovery won't yet have made tech choices, they should, if relevant, show an understanding of existing options. 
 
-Once the panel is happy with the notes, add them to the final report in the service. This is usually done by the lead assesor, but the panel can add their findings individually.
+                Acknowledge any constraints or business requirements the team is working to.
 
-You should aim to complete the discovery peer review report within 3 days.
+                ### Include what the team has done well
 
-## Submit the report 
+                Make sure you consider feedback on the positive aspects of the discovery too, not only on recommendations on what to improve. 
 
-It's the lead assessor's responsibility to submit the report to the Service Assessment Plus team for final checks before it's shared with the service team. 
+                Work together with the rest of the panel to gather your findings and recommendations. 
 
-If the team accepts the report and there are recommendations the panel has offered to support, the team will be in touch. This could mean having a follow-up call or giving advice on a workshop, depending on the recommendations. 
+                Do this in a way that suits you. For example, use a shared Word doc or the panel chat in Slack. 
 
-If the team challenges the report, they'll raise any issues with the Service Assessment Plus team, who'll set up a meeting with the panel. 
+                Once the panel is happy with the notes, add them to the final report in the service. This is usually done by the lead assesor, but the panel can add their findings individually.
 
- 
+                You should aim to complete the discovery peer review report within 3 days.
 
+                ## Submit the report 
 
- 
+                It's the lead assessor's responsibility to submit the report to the Service Assessment Plus team for final checks before it's shared with the service team. 
 
+                If the team accepts the report and there are recommendations the panel has offered to support, the team will be in touch. This could mean having a follow-up call or giving advice on a workshop, depending on the recommendations. 
 
- 
+                If the team challenges the report, they'll raise any issues with the Service Assessment Plus team, who'll set up a meeting with the panel. 
 
+                {% endmarkdown %}
 
- 
+            </div>
 
+        </div>
 
-
- 
-
-
-{% endmarkdown %}
-
+    </div>
 {% endblock %}

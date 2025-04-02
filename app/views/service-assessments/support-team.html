@@ -1,23 +1,42 @@
-{% extends "layouts/content-with-sidenav.html" %}
+{% extends "layouts/layout.html" %}
 
 {% set selectedNav = "Service assessments" %}
 {% set pageName = "Support the team" %}
+{% set seoPageDescription = "The role of assessors after an assessment"%}
 {% set pageDescription = "The role of assessors after an assessment"%}
-takes pl
 
+{% set path = "" %}
 
 {% block content %}
 
-{% markdown %}
+    <div class="govuk-width-container">
 
+        <div class="govuk-grid-row">
 
-Assessors will be expected to support the team after the assessment to action any recommendations.
+            <div class="govuk-grid-column-one-quarter">
+                <a href="/" class="govuk-back-link govuk-!-margin-top-0 govuk-!-margin-bottom-9">Back to homepage</a>
+                {% include 'partials/_sidenav.html' %}
+            </div>
 
-The lead assessor will mainly be responsible for overseeing this, their role will involve reviewing any actions taken if a service receives any [amber-rated Service Standards](/service-assessments/complete-service-assessment-report#amber-rating).
+            <div class="govuk-grid-column-three-quarters">
 
-If you're an assessor, you may be contacted as an expert within your profession to support the team with specific tasks to meet amber-rated standards.
+                <span class="govuk-caption-l">For assessors</span>
 
+                {% markdown %}
 
-{% endmarkdown %}
+                # {{pageName}}
 
+                Assessors will be expected to support the team after the assessment to action any recommendations.
+
+                The lead assessor will mainly be responsible for overseeing this, their role will involve reviewing any actions taken if a service receives any [amber-rated Service Standards](/service-assessments/complete-service-assessment-report#amber-rating).
+
+                If you're an assessor, you may be contacted as an expert within your profession to support the team with specific tasks to meet amber-rated standards.
+
+                {% endmarkdown %}
+
+            </div>
+
+        </div>
+
+    </div>
 {% endblock %}

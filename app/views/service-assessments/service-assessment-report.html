@@ -1,94 +1,116 @@
-{% extends "layouts/content-with-sidenav.html" %}
+{% extends "layouts/layout.html" %}
 
 {% set selectedNav = "Service assessments" %}
 {% set pageName = "Your service assessment report" %}
+{% set seoPageDescription = "The outcome of a service assessment and what the RAG (red, amber, green) rating means"%}
 {% set pageDescription = "The outcome of a service assessment and what the RAG (red, amber, green) rating means"%}
+
+{% set path = "" %}
 
 {% block content %}
 
-{% markdown %}
+    <div class="govuk-width-container">
 
-You'll receive an email with a link to the report up to 7 days after the assessment.  
+        <div class="govuk-grid-row">
 
-## What to expect in a report 
+            <div class="govuk-grid-column-one-quarter">
+                <a href="/" class="govuk-back-link govuk-!-margin-top-0 govuk-!-margin-bottom-9">Back to homepage</a>
+                {% include 'partials/_sidenav.html' %}
+            </div>
 
-The previous 'met' and 'not met' outcomes have been replaced with a RAG (red, amber, green) rating.  
+            <div class="govuk-grid-column-three-quarters">
 
-The overall service and each of the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard) will be given a RAG rating. 
+                <span class="govuk-caption-l">For teams</span>
 
-Assessors will take into account the context the team are working in and will evaluate the [Service Standards](https://apply-the-service-standard.education.gov.uk/service-standard) in a proportionate way. 
+                {% markdown %}
 
-If any of the standards are given a red or amber rating, there will also be a [list of actions for the team](/service-assessments/actioning-recommendations). 
+                # {{pageName}}
 
+                You'll receive an email with a link to the report up to 7 days after the assessment.  
 
-## Service assessment RAG ratings 
+                ## What to expect in a report 
 
-### Red rating
+                The previous 'met' and 'not met' outcomes have been replaced with a RAG (red, amber, green) rating.  
 
-This replaces the previous rating of 'not met'. 
+                The overall service and each of the [14 Service Standard points](https://apply-the-service-standard.education.gov.uk/service-standard) will be given a RAG rating. 
 
-If you receive a red rating, the service needs to pause, take appropriate action to address the issue and be re-assessed.
+                Assessors will take into account the context the team are working in and will evaluate the [Service Standards](https://apply-the-service-standard.education.gov.uk/service-standard) in a proportionate way. 
 
-For the service to continue to the next phase, it must meet the [Service Standard](https://www.gov.uk/service-manual/service-standard).  
-
-You'll be given a [list of actions](/service-assessments/actioning-recommendations) in the report to be reassessed against any standards rated red.  
-
-### Amber rating 
-
-This also replaces the previous rating of 'not met', or 'met with conditions' that has been used in DfE.  
-
-If you receive an amber rating, you can move into the next phase of delivery.  
-
-You'll be given a [list of actions](/service-assessments/actioning-recommendations) in the report for any standards rated amber. You should address these actions within 3 months.  
-
-All amber-rated actions should be addressed before you book your next service assessment.  
-
-### Green rating
-
-This replaces the 'met' rating. Services that receive green ratings for all 14 Service Standard points can progress to the next phase.  
-
-There will be no actions recorded in the report.  
-
-## Accept or challenge the report 
-
-Once you've read the report, the product or delivery manager has 10 working days to accept or challenge it. 
-
-### To accept the report 
-
-If the team agrees with what's written in the report, you can accept it on <a href="https://service-assessments.education.gov.uk/manage">your dashboard</a> in the Service assessment service. 
+                If any of the standards are given a red or amber rating, there will also be a [list of actions for the team](/service-assessments/actioning-recommendations). 
 
 
-### To challenge the report 
+                ## Service assessment RAG ratings 
 
-Email the <a href="mailto:serviceassessment.plus@education.gov.uk">Service Assessment Plus team</a> to arrange next steps. 
+                ### Red rating
 
-They'll set up a meeting for the team with the panel. You'll need to agree any changes to the report with the panel before you accept the outcome. 
+                This replaces the previous rating of 'not met'. 
 
-## When to get reassessed 
+                If you receive a red rating, the service needs to pause, take appropriate action to address the issue and be re-assessed.
 
-If your service receives a red rating for any of the standards, it will need to be reassessed against those points. 
+                For the service to continue to the next phase, it must meet the [Service Standard](https://www.gov.uk/service-manual/service-standard).  
+
+                You'll be given a [list of actions](/service-assessments/actioning-recommendations) in the report to be reassessed against any standards rated red.  
+
+                ### Amber rating 
+
+                This also replaces the previous rating of 'not met', or 'met with conditions' that has been used in DfE.  
+
+                If you receive an amber rating, you can move into the next phase of delivery.  
+
+                You'll be given a [list of actions](/service-assessments/actioning-recommendations) in the report for any standards rated amber. You should address these actions within 3 months.  
+
+                All amber-rated actions should be addressed before you book your next service assessment.  
+
+                ### Green rating
+
+                This replaces the 'met' rating. Services that receive green ratings for all 14 Service Standard points can progress to the next phase.  
+
+                There will be no actions recorded in the report.  
+
+                ## Accept or challenge the report 
+
+                Once you've read the report, the product or delivery manager has 10 working days to accept or challenge it. 
+
+                ### To accept the report 
+
+                If the team agrees with what's written in the report, you can accept it on <a href="https://service-assessments.education.gov.uk/manage">your dashboard</a> in the Service assessment service. 
 
 
-For any standards that are rated red, the team will need to: 
+                ### To challenge the report 
 
-<ol class="govuk-list govuk-list--number"> 
+                Email the <a href="mailto:serviceassessment.plus@education.gov.uk">Service Assessment Plus team</a> to arrange next steps. 
 
-<li>Focus on resolving the actions.</li> 
+                They'll set up a meeting for the team with the panel. You'll need to agree any changes to the report with the panel before you accept the outcome. 
 
-<li>Book a reassessment.</li> 
+                ## When to get reassessed 
 
-<li>Evidence how they've resolved actions to meet the Service Standard.</li> 
-
-</ol> 
+                If your service receives a red rating for any of the standards, it will need to be reassessed against those points. 
 
 
-## What happens next 
+                For any standards that are rated red, the team will need to: 
 
-Once you've accepted the report, it will automatically be published in the <a href="https://service-assessments.education.gov.uk/reports"> reports section</a> in the service. 
+                <ol class="govuk-list govuk-list--number"> 
 
-After your assessment, you'll receive a link to [complete a survey](/service-assessments/survey) and provide feedback to help us improve the assessment experience. 
+                <li>Focus on resolving the actions.</li> 
+
+                <li>Book a reassessment.</li> 
+
+                <li>Evidence how they've resolved actions to meet the Service Standard.</li> 
+
+                </ol> 
 
 
-{% endmarkdown %}
+                ## What happens next 
 
+                Once you've accepted the report, it will automatically be published in the <a href="https://service-assessments.education.gov.uk/reports"> reports section</a> in the service. 
+
+                After your assessment, you'll receive a link to [complete a survey](/service-assessments/survey) and provide feedback to help us improve the assessment experience. 
+
+                {% endmarkdown %}
+
+            </div>
+
+        </div>
+
+    </div>
 {% endblock %}

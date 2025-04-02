@@ -1,79 +1,83 @@
-{% extends "layouts/content-with-sidenav.html" %}
+{% extends "layouts/layout.html" %}
 
 {% set selectedNav = "Service assessments" %}
 {% set pageName = "Manage actions from a service assessment" %}
+{% set seoPageDescription = "How to manage actions and recommendations in an assessment report"%}
 {% set pageDescription = "How to manage actions and recommendations in an assessment report"%}
 
-
+{% set path = "" %}
 
 {% block content %}
 
-{% markdown %}
+    <div class="govuk-width-container">
 
-Actions in a service assessment report are things the team must do to help the service meet the [Service Standard](https://apply-the-service-standard.education.gov.uk/service-standard). 
+        <div class="govuk-grid-row">
 
- 
+            <div class="govuk-grid-column-one-quarter">
+                <a href="/" class="govuk-back-link govuk-!-margin-top-0 govuk-!-margin-bottom-9">Back to homepage</a>
+                {% include 'partials/_sidenav.html' %}
+            </div>
 
-If your assessment report contains amber or red-rated standards, there will also be a list of actions for the team.  
+            <div class="govuk-grid-column-three-quarters">
 
- 
+                <span class="govuk-caption-l">For teams</span>
 
-The assessor panel and heads of profession in DfE will support teams to complete any actions. 
+                {% markdown %}
 
- 
+                # {{pageName}}
 
-### If a standard is rated red
+                Actions in a service assessment report are things the team must do to help the service meet the [Service Standard](https://apply-the-service-standard.education.gov.uk/service-standard). 
 
-If your service has any [red-rated standards](/service-assessments/service-assessment-report#assessment-report-rag-status-descriptions), you’ll need to book a reassessment. 
+                If your assessment report contains amber or red-rated standards, there will also be a list of actions for the team.  
 
-You should: 
+                The assessor panel and heads of profession in DfE will support teams to complete any actions. 
 
-- complete any actions before moving forward 
-- review the actions as a team 
-- go back to the assessor panel with any specific questions 
-- prioritise actions in sprint planning 
-- book a reassessment 
-- demonstrate, with support of the panel and heads of profession, how you've met the standard 
+                ### If a standard is rated red
 
-At reassessment, the assessors will listen to the team talk through the actions they’ve resolved. 
+                If your service has any [red-rated standards](/service-assessments/service-assessment-report#assessment-report-rag-status-descriptions), you'll need to book a reassessment. 
 
-You'll then get a new report with outcomes for standards that have been reassessed. 
+                You should: 
 
-### If a standard is rated amber
+                - complete any actions before moving forward 
+                - review the actions as a team 
+                - go back to the assessor panel with any specific questions 
+                - prioritise actions in sprint planning 
+                - book a reassessment 
+                - demonstrate, with support of the panel and heads of profession, how you've met the standard 
 
- 
+                At reassessment, the assessors will listen to the team talk through the actions they've resolved. 
 
-If your service has any [amber-rated standards](/service-assessments/service-assessment-report#assessment-report-rag-status-descriptions), you can continue to the next phase but should resolve any actions within 3 months.
+                You'll then get a new report with outcomes for standards that have been reassessed. 
 
- 
+                ### If a standard is rated amber
 
-You should: 
+                If your service has any [amber-rated standards](/service-assessments/service-assessment-report#assessment-report-rag-status-descriptions), you can continue to the next phase but should resolve any actions within 3 months.
 
- 
+                You should: 
 
-- review the actions as a team 
-- build actions into sprint planning 
-- involve heads of profession or profession leads to address actions 
-- book your next assessment 
-- demonstrate how you've resolved the actions before your next assessment 
+                - review the actions as a team 
+                - build actions into sprint planning 
+                - involve heads of profession or profession leads to address actions 
+                - book your next assessment 
+                - demonstrate how you've resolved the actions before your next assessment 
 
- 
+                If you have amber actions that you're unable to resolve before your next assessment, work with the assessors, heads of profession, or profession leads to demonstrate how you'll either mitigate the action or resolve it in the future.  
 
-If you have amber actions that you're unable to resolve before your next assessment, work with the assessors, heads of profession, or profession leads to demonstrate how you'll either mitigate the action or resolve it in the future.  
+                For example, an amber rating for an issue that you know you cannot resolve by your next assessment, but will add to your roadmap, ready for the next iteration. 
 
- 
+                ### If a standard is rated green
 
-For example, an amber rating for an issue that you know you cannot resolve by your next assessment, but will add to your roadmap, ready for the next iteration. 
+                There will be no actions for the team to take. The team is on the right track.
 
- ### If a standard is rated green
+                ## If the team want to challenge the report 
 
-There will be no actions for the team to take.  The team is on the right track.
+                Email the <a href="mailto:serviceassessment.plus@education.gov.uk">Service Assessment Plus team</a> to arrange next steps. They'll set up a meeting with the panel so that you can talk through the report. 
 
+                {% endmarkdown %}
 
-## If the team want to challenge the report 
+            </div>
 
-Email the <a href="mailto:serviceassessment.plus@education.gov.uk">Service Assessment Plus team</a> to arrange next steps. They'll set up a meeting with the panel so that you can talk through the report. 
+        </div>
 
-{% endmarkdown %}
-
+    </div>
 {% endblock %}

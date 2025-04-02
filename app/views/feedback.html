@@ -1,12 +1,29 @@
-{% extends "layouts/main.html" %}
+{% extends "layouts/layout.html" %}
 
 {% set pageName = "Feedback" %}
 {% set pageDescription = "Give us feedback on this service." %}
 {% set selectedNav = "" %}
-{% set lastUpdated = "May 2024 "%}
-
-{% block beforeContent %}{% endblock %}
+{% set seoPageDescription = "Give us feedback on this service." %}
+{% set path = "" %}
+{% set lastUpdated = "May 2024" %}
 
 {% block content %}
+
+<div class="govuk-width-container">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-quarter">
+      <a href="/" class="govuk-back-link govuk-!-margin-top-0 govuk-!-margin-bottom-9">Back to homepage</a>
+      {% include 'partials/_sidenav.html' %}
+    </div>
+
+    <div class="govuk-grid-column-three-quarters">
+      {% markdown %}
+
+      # {{pageName}}
+
+      {% endmarkdown %}
+    </div>
+  </div>
+</div>
 
 {% endblock %}

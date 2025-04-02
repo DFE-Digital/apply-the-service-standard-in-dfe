@@ -1,0 +1,131 @@
+{% extends "layouts/layout.html" %}
+
+{% set pageName = "Cookie policy" %}
+{% set pageDescription = "Cookie policy for Apply the Service Standard in DfE" %}
+{% set selectedNav = "Home" %}
+{% set seoPageDescription = "Cookie policy for Apply the Service Standard in DfE" %}
+{% set path = "" %}
+
+{% block content %}
+
+<div class="govuk-width-container">
+  <div class="govuk-grid-row">
+   
+
+    <div class="govuk-grid-column-three-quarters">
+      {% markdown %}
+
+      # {{pageName}}
+
+      Cookies are small files saved on your phone, tablet or computer when you visit a website.
+
+      We use cookies to make Apply the Service Standard in DfE work and collect information about how you use this website.
+
+      ## Essential cookies
+
+      Essential cookies keep your information secure while you use Apply the Service Standard in DfE. We do not need to ask permission to use them.
+
+      | Name | Purpose | Expires |
+      |------|---------|---------|
+      | cookie-preferences | Saves your cookie consent settings | 1 year |
+
+      ## Analytics cookies (optional)
+
+      With your permission, we use Google Analytics to collect data about how you use this service. This information helps us to improve our service.
+
+      Google is not allowed to use or share our analytics data with anyone.
+
+      Google Analytics stores anonymised information about:
+
+      - how you got to these sites
+      - the pages you visit and how long you spend on each page
+      - what you click on while you're visiting these sites
+
+      | Name | Purpose | Expires |
+      |------|---------|---------|
+      | _ga | Helps us count how many people visit the DfE Design Manual by tracking if you've visited before | 1 year |
+      | CLID | Used by Microsoft Clarity to help us understand DfE Design Manual usage | 1 year |
+      | MUID | Used by Microsoft Clarity to help us understand DfE Design Manual usage | 1 year |
+
+      ## Change your cookie settings
+
+      We cannot change your cookie settings at the moment because JavaScript is not running in your browser. To fix this, try:
+
+      - turning on JavaScript in your browser settings
+      - reloading this page
+
+      {% endmarkdown %}
+
+      <form name="cookie-settings" class="js-cookie-setting-form">
+        <div class="govuk-form-group">
+          <fieldset class="govuk-fieldset">
+            <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">Do you want to accept analytics cookies?</legend>
+            <div class="govuk-radios" data-module="govuk-radios">
+              <div class="govuk-radios__item">
+                <input class="govuk-radios__input" id="analytics-cookies-yes" name="analytics-cookies" type="radio" value="1">
+                <label class="govuk-label govuk-radios__label" for="analytics-cookies-yes">Yes</label>
+              </div>
+              <div class="govuk-radios__item">
+                <input class="govuk-radios__input" id="analytics-cookies-no" name="analytics-cookies" type="radio" value="0">
+                <label class="govuk-label govuk-radios__label" for="analytics-cookies-no">No</label>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+        <p>
+          <button type="submit" class="govuk-button" data-module="govuk-button">Save cookie settings</button>
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+  // check if the cookie-preferences cookie exists
+  if (document.cookie.indexOf("cookie-preferences") !== -1) {
+    // get the value of the cookie
+    var cookieValue = JSON.parse(getCookie("cookie-preferences"));
+
+    // check if the analytics preference is set to "on"
+    if (cookieValue.analytics === "on") {
+      // set the "analytics-cookies-yes" radio button to be checked by default
+      document.getElementById("analytics-cookies-yes").checked = true;
+    } else {
+      // set the "analytics-cookies-no" radio button to be checked by default
+      document.getElementById("analytics-cookies-no").checked = true;
+    }
+  }
+
+  // function to get the value of a cookie
+  function getCookie(name) {
+    var value = "; " + document.cookie;
+    var parts = value.split("; " + name + "=");
+    if (parts.length === 2) {
+      return parts.pop().split(";").shift();
+    }
+  }
+
+  var cookieForm = document.querySelector('.js-cookie-setting-form');
+  cookieForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    // check which radio button is checked
+    var analyticsCookies = document.querySelector('input[name="analytics-cookies"]:checked').value;
+
+    // delete all cookies if "No" radio button is checked
+    if (analyticsCookies === "0") {
+      var cookies = document.cookie.split(";");
+      for (var i = 0; i < cookies.length; i++) {
+        var cookie = cookies[i];
+        var eqPos = cookie.indexOf("=");
+        var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+        document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+      }
+    } 
+
+    // submit the form
+    cookieForm.submit();
+  });
+</script>
+
+{% endblock %}

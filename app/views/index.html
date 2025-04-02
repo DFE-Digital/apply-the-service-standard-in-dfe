@@ -1,45 +1,42 @@
-{% extends "layouts/homepage.html" %}
+{% extends "layouts/layout.html" %}
 
-{% set selectedNav = "Service Standard" %}
-{% set pageName = "Homepage" %}
-{% set seoPageName = "Homepage" %}
-{% set pageDescription = "Guidance and information for how to apply the GOV.UK Service Standard to design and build
+{% set serviceNav = "Service Standard" %}
+{% set title = "Homepage" %}
+{% set description = "Guidance and information for how to apply the GOV.UK Service Standard to design and build
 accessible, usable and understandable services in the Department for Education."%}
 {% set selectedNav = "Service Standard" %}
 
-{% block hero %}
-  <section class="dfe-page-hero">
-    <div class="dfe-width-container ">
-      <div class="govuk-grid-row">
-        <div class="govuk-grid-column-two-thirds">
-
-          <h1 class="govuk-heading-xl">Apply the Service Standard in the <br />Department for Education</h1>
-          <p class="govuk-body-l">Guidance and information for how to apply the <a
-            href="https://www.gov.uk/service-manual/service-standard" target="_blank"
-            class="govuk-link govuk-link--inverse">Government Service Standard</a> to design and build accessible,
-          usable and understandable services in DfE.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-{% endblock %}
+{% set mainClasses = 'govuk-!-padding-top-0 govuk-!-padding-bottom-0' %}
 
 {% block content %}
 
   <section class="govuk-!-margin-bottom-9">
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-full">
+    <div class="govuk-width-container">
+      <div class="govuk-grid-row">
 
-        <h2 class="govuk-heading-l">Guidance for applying the standards</h2>
-      </div>
+        <section style="background-color:#ffffff;" class="govuk-!-padding-top-9 govuk-!-padding-bottom-7">
+          <div class="govuk-width-container">
+            <div class="govuk-grid-row">
+              <div class="govuk-grid-column-three-quarters">
+                <h1 class="govuk-heading-xl govuk-!-font-size-64 govuk-!-margin-top-5" style="color: #003a69">Apply the Service Standard in the
+Department for Education</h1>
+               <p class="govuk-body-l">Guidance and information for how to apply the <a href="https://www.gov.uk/service-manual/service-standard" target="_blank" class="govuk-link govuk-link--no-visited-state">Government Service Standard</a> to design and build accessible,
+          usable and understandable services in DfE.</p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-      <div class="govuk-grid-column-two-thirds">
+        <div class="govuk-grid-column-two-thirds">
 
-        <ol class="govuk-list dfe-list--bordered">
-          {% for standard in standards %}
-            <li>
-              <a class="govuk-link govuk-link--no-visited-state" href="/service-standard/{{standard.slug}}">
-                <span class="dfe-list--number">{{standard.standard}}</span>. {{standard.name}}</a>
+          <ul class="govuk-list dfe-action-list">
+            {% for standard in standards %}
+              <li>
+                <a href="/service-standard/{{standard.slug}}" class="govuk-link govuk-link--no-visited-state">{{standard.standard}}</span>. {{standard.name}}
+                <svg class="chevron dfe-icon dfe-icon__chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z"></path>
+                </svg>
+              </a>
             </li>
           {% endfor %}
         </ol>
@@ -59,13 +56,13 @@ accessible, usable and understandable services in the Department for Education."
 
               <p>
               All the guidance for each of the Service Standard points.</p>
-              <p class="govuk-body-s">Excel - 98kb<br />Last updated: 1 December 2022</p>
+              <p class="govuk-body-s">Excel - 98kb<br/>Last updated: 1 December 2022</p>
             </div>
           </div>
 
           <div class="dfe-card">
             <div class="dfe-card-container">
-           <strong class="govuk-tag govuk-tag--green" style="inline-size: fit-content;">New</strong>
+              <strong class="govuk-tag govuk-tag--green" style="inline-size: fit-content;">New</strong>
               <h2 class="govuk-heading-m govuk-!-margin-top-2">
                 <a class="govuk-link govuk-link--no-visited-state dfe-card-link--header"
                 href="https://standards.education.gov.uk">Find and use standards</a>
@@ -89,6 +86,7 @@ accessible, usable and understandable services in the Department for Education."
 
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
 {% endblock %}

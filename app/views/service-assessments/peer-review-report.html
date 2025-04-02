@@ -1,51 +1,67 @@
-{% extends "layouts/content-with-sidenav.html" %}
+{% extends "layouts/layout.html" %}
 
 {% set selectedNav = "Service assessments" %}
 {% set pageName = "Your discovery peer review report" %}
+{% set seoPageDescription = "The outcome of a discovery peer review and next steps for the team"%}
 {% set pageDescription = "The outcome of a discovery peer review and next steps for the team"%}
 
-
+{% set path = "" %}
 
 {% block content %}
 
-{% markdown %}
+    <div class="govuk-width-container">
 
-You'll receive an email with a link to the report up to 7 days after the discovery peer review.  
+        <div class="govuk-grid-row">
 
-The report will include what team has done well, plus recommendations to explore. The panel will support the team with any recommendations made. 
+            <div class="govuk-grid-column-one-quarter">
+                <a href="/" class="govuk-back-link govuk-!-margin-top-0 govuk-!-margin-bottom-9">Back to homepage</a>
+                {% include 'partials/_sidenav.html' %}
+            </div>
 
-## Review recommendations as a team
+            <div class="govuk-grid-column-three-quarters">
 
-If your discovery peer review report has recommendations, you could: 
+                {% markdown %}
 
-- consider stopping work or revisiting the problem space
-- escalate issues or problems to the senior responsible officer or senior leadership team 
-- contact the lead assessor or relevant head of profession for support to plan next steps 
-- plan how to demonstrate actioning recommendations at an alpha or beta assessment. [Apply the Service Standard in DfE](/) can help with this 
+                # {{pageName}}
 
-## Accept or challenge the report 
+                You'll receive an email with a link to the report up to 7 days after the discovery peer review.  
 
-Once you've read the report, the product or delivery manager has 10 working days to accept or challenge it. 
+                The report will include what team has done well, plus recommendations to explore. The panel will support the team with any recommendations made. 
 
-### To accept the report 
+                ## Review recommendations as a team
 
-If the team agree with what's written, you can accept the report on [your dashboard](/book) in the Service assessment service. 
+                If your discovery peer review report has recommendations, you could: 
 
-### To challenge the report 
+                - consider stopping work or revisiting the problem space
+                - escalate issues or problems to the senior responsible officer or senior leadership team 
+                - contact the lead assessor or relevant head of profession for support to plan next steps 
+                - plan how to demonstrate actioning recommendations at an alpha or beta assessment. [Apply the Service Standard in DfE](/) can help with this 
 
-Arrange next steps and email the Service Assessment Plus team at [serviceassessment.plus@education.gov.uk](mailto:serviceassessment.plus@education.gov.uk).  
+                ## Accept or challenge the report 
 
-They'll set up a meeting for the team with the panel. You'll agree any changes to the report with the panel before you accept it. 
+                Once you've read the report, the product or delivery manager has 10 working days to accept or challenge it. 
 
-## What happens next 
+                ### To accept the report 
 
-Once the report has been accepted, it will automatically be published in the [reports section](/reports/) of the service. The team can then follow any recommendations and next steps.  
+                If the team agree with what's written, you can accept the report on [your dashboard](/book) in the Service assessment service. 
 
-Depending on the outcome, the team may be asked to provide evidence of any actions they've taken to implement recommendations. 
+                ### To challenge the report 
 
- 
+                Arrange next steps and email the Service Assessment Plus team at [serviceassessment.plus@education.gov.uk](mailto:serviceassessment.plus@education.gov.uk).  
 
+                They'll set up a meeting for the team with the panel. You'll agree any changes to the report with the panel before you accept it. 
 
-{% endmarkdown %}
+                ## What happens next 
 
+                Once the report has been accepted, it will automatically be published in the [reports section](/reports/) of the service. The team can then follow any recommendations and next steps.  
+
+                Depending on the outcome, the team may be asked to provide evidence of any actions they've taken to implement recommendations. 
+
+                {% endmarkdown %}
+
+            </div>
+
+        </div>
+
+    </div>
 {% endblock %}

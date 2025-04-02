@@ -1,105 +1,98 @@
-{% extends "layouts/full.html" %}
+{% extends "layouts/layout.html" %}
 
 {% set selectedNav = "Phases" %}
 {% set pageName = "Phases of delivery" %}
-{% set pageDescription = "Things to do and good practice throughout the agile phases of delivery."%}
+{% set pageDescription = "Things to do and good practice throughout the agile phases of delivery." %}
+{% set seoPageDescription = "Things to do and good practice throughout the agile phases of delivery." %}
+{% set path = "" %}
 {% set aka = "" %}
 {% set mainClasses = " govuk-!-padding-bottom-9" %}
 
 {% block content %}
 
-    <div class="dfe-width-container govuk-!-margin-top-0">
-        <div class="govuk-grid-row">
-            <div class="govuk-grid-column-full">
-
-                <section>
-                    <div class="govuk-!-margin-top-3 govuk-!-margin-bottom-5">
-                        <div class="govuk-grid-row split-panel" style="background: #f3f2f1;">
-                            <div class="govuk-grid-column-one-half text-column">
-                                <h2 class="govuk-heading-l govuk-!-margin-top-3">Discovery</h2>
-                                <p class="govuk-body-l">What does a good discovery phase look like</p>
-
-                                <ul class="govuk-list govuk-list--spaced">
-                                    <li>
-                                        <a href="/phase/discovery">Guidance for this phase</a>
-                                    </li>
-                                </ul>
-
-                            </div>
-                            <div class="govuk-grid-column-one-half image-column">
-                                <div class="image-container"
-                     style="background-image: url('/assets/images/disco.jpg');"></div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-            </div>
-        </div>
+<div class="govuk-width-container">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-quarter">
+      <a href="/" class="govuk-back-link govuk-!-margin-top-0 govuk-!-margin-bottom-9">Back to homepage</a>
+      {% include 'partials/_sidenav.html' %}
     </div>
 
-    <div class="dfe-width-container govuk-!-margin-top-5">
-        <div class="govuk-grid-row">
-            <div class="govuk-grid-column-full">
+    <div class="govuk-grid-column-three-quarters">
+      {% markdown %}
 
-                <section>
-                    <div class="govuk-!-margin-top-3 govuk-!-margin-bottom-5">
-                        <div class="govuk-grid-row split-panel" style="background: #f3f2f1;">
-                            <div class="govuk-grid-column-one-half text-column">
-                                <strong class="govuk-tag" style="max-width: fit-content">Coming soon</strong>
-                                <h2 class="govuk-heading-l govuk-!-margin-top-3">Alpha</h2>
-                                <p class="govuk-body-l">What does a good alpha phase look like</p>
+      # {{pageName}}
 
-                                <ul class="govuk-list govuk-list--spaced">
-                                    <li>
-                                        <a href="">Guidance for this phase</a>
-                                    </li>
-                                </ul>
+      {% endmarkdown %}
 
-                            </div>
-                            <div class="govuk-grid-column-one-half image-column">
-                                <div class="image-container"
-                     style="background-image: url('/assets/images/alpha.jpg');"></div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+      <section>
+        <div class="govuk-!-margin-top-3 govuk-!-margin-bottom-5">
+          <div class="govuk-grid-row split-panel" style="background: #f3f2f1;">
+            <div class="govuk-grid-column-one-half text-column">
+              <h2 class="govuk-heading-l govuk-!-margin-top-3">Discovery</h2>
+              <p class="govuk-body-l">What does a good discovery phase look like</p>
+
+              <ul class="govuk-list govuk-list--spaced">
+                <li>
+                  <a href="/phase/discovery">Guidance for this phase</a>
+                </li>
+              </ul>
 
             </div>
+            <div class="govuk-grid-column-one-half image-column">
+              <div class="image-container"
+                   style="background-image: url('/assets/images/disco.jpg');"></div>
+            </div>
+          </div>
         </div>
-    </div>
+      </section>
 
-    <div class="dfe-width-container govuk-!-margin-top-5">
-        <div class="govuk-grid-row">
-            <div class="govuk-grid-column-full">
+      <section>
+        <div class="govuk-!-margin-top-3 govuk-!-margin-bottom-5">
+          <div class="govuk-grid-row split-panel" style="background: #f3f2f1;">
+            <div class="govuk-grid-column-one-half text-column">
+              <strong class="govuk-tag" style="max-width: fit-content">Coming soon</strong>
+              <h2 class="govuk-heading-l govuk-!-margin-top-3">Alpha</h2>
+              <p class="govuk-body-l">What does a good alpha phase look like</p>
 
-                <section>
-                    <div class="govuk-!-margin-top-3 govuk-!-margin-bottom-5">
-                        <div class="govuk-grid-row split-panel" style="background: #f3f2f1;">
-                            <div class="govuk-grid-column-one-half text-column">
-                                <strong class="govuk-tag" style="max-width: fit-content">Coming soon</strong>
-                                <h2 class="govuk-heading-l govuk-!-margin-top-3">Beta and live</h2>
-                                <p class="govuk-body-l">What does a good beta phase look like and moving to live</p>
-
-                                <ul class="govuk-list govuk-list--spaced">
-                                    <li>
-                                        <a href="">Guidance for this phase</a>
-                                    </li>
-                                </ul>
-
-                            </div>
-                            <div class="govuk-grid-column-one-half image-column">
-                                <div class="image-container"
-                     style="background-image: url('/assets/images/beta.jpg');"></div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+              <ul class="govuk-list govuk-list--spaced">
+                <li>
+                  <a href="">Guidance for this phase</a>
+                </li>
+              </ul>
 
             </div>
+            <div class="govuk-grid-column-one-half image-column">
+              <div class="image-container"
+                   style="background-image: url('/assets/images/alpha.jpg');"></div>
+            </div>
+          </div>
         </div>
+      </section>
+
+      <section>
+        <div class="govuk-!-margin-top-3 govuk-!-margin-bottom-5">
+          <div class="govuk-grid-row split-panel" style="background: #f3f2f1;">
+            <div class="govuk-grid-column-one-half text-column">
+              <strong class="govuk-tag" style="max-width: fit-content">Coming soon</strong>
+              <h2 class="govuk-heading-l govuk-!-margin-top-3">Beta and live</h2>
+              <p class="govuk-body-l">What does a good beta phase look like and moving to live</p>
+
+              <ul class="govuk-list govuk-list--spaced">
+                <li>
+                  <a href="">Guidance for this phase</a>
+                </li>
+              </ul>
+
+            </div>
+            <div class="govuk-grid-column-one-half image-column">
+              <div class="image-container"
+                   style="background-image: url('/assets/images/beta.jpg');"></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-
-
+  </div>
+</div>
 
 {% endblock %}

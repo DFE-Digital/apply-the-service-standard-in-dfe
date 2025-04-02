@@ -1,127 +1,143 @@
-{% extends "layouts/content-with-sidenav.html" %}
+{% extends "layouts/layout.html" %}
 
 {% set selectedNav = "Service assessments" %}
 {% set pageName = "Discovery peer reviews" %}
+{% set seoPageDescription = "Why have a discovery peer review and how they can add value to your work"%}
 {% set pageDescription = "Why have a discovery peer review and how they can add value to your work"%}
 
-
+{% set path = "" %}
 
 {% block content %}
 
-{% markdown %}
+    <div class="govuk-width-container">
 
+        <div class="govuk-grid-row">
 
-A discovery peer review is a 2-hour informal review of a team's work in the [discovery phase](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works).  
+            <div class="govuk-grid-column-one-quarter">
+                <a href="/" class="govuk-back-link govuk-!-margin-top-0 govuk-!-margin-bottom-9">Back to homepage</a>
+                {% include 'partials/_sidenav.html' %}
+            </div>
 
-It's a way to get feedback and recommendations at the end of this phase. All discoveries in DfE are required to have one. 
+            <div class="govuk-grid-column-three-quarters">
 
-It's not an assessment, your work will not be RAG rated. There are no assessments at discovery. 
+                <span class="govuk-caption-l">For teams</span>
+                {% markdown %}
 
-<a href="https://service-assessments.education.gov.uk/book">Book a discovery peer review</a>.
+                # {{pageName}}
 
-## Why have one 
+                A discovery peer review is a 2-hour informal review of a team's work in the [discovery phase](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works).  
 
-A discovery peer review will give reassurance to confirm whether you: 
+                It's a way to get feedback and recommendations at the end of this phase. All discoveries in DfE are required to have one. 
 
-- have understood what the problem is and priorities for the team 
-- should move into the alpha phase 
+                It's not an assessment, your work will not be RAG rated. There are no assessments at discovery. 
 
-After the review, the team will get a report with practical recommendations and advice. It will not result in a pass or fail. It will not stop a team from progressing. 
+                <a href="https://service-assessments.education.gov.uk/book">Book a discovery peer review</a>.
 
-But remember, if research shows that it's better to stop at the end of discovery, this is not a failure. The team will be saving time and money that could be better spent elsewhere. 
+                ## Why have one 
 
-### What a team gets out of having a review 
+                A discovery peer review will give reassurance to confirm whether you: 
 
-If the assessors have recommendations for the team, these will be detailed in the report. The team can then decide on how they want to act on the recommendations. This could mean having a follow-up call or a workshop. 
+                - have understood what the problem is and priorities for the team 
+                - should move into the alpha phase 
 
-Use the report to the team's advantage. Communicate recommendations with stakeholders or use it to prepare for the next phase of delivery. 
+                After the review, the team will get a report with practical recommendations and advice. It will not result in a pass or fail. It will not stop a team from progressing. 
 
-## When to book 
+                But remember, if research shows that it's better to stop at the end of discovery, this is not a failure. The team will be saving time and money that could be better spent elsewhere. 
 
-When you start your discovery, you should plan to <a href="https://service-assessments.education.gov.uk/book">book your peer review</a> so that it happens near the end of discovery. 
+                ### What a team gets out of having a review 
 
-Make the booking at least 5 weeks in advance so the Service Assessment Plus team has time to arrange a panel. 
+                If the assessors have recommendations for the team, these will be detailed in the report. The team can then decide on how they want to act on the recommendations. This could mean having a follow-up call or a workshop. 
 
-## What to prepare for a discovery peer review 
+                Use the report to the team's advantage. Communicate recommendations with stakeholders or use it to prepare for the next phase of delivery. 
 
-Think about the best way to show the narrative of your discovery. 
+                ## When to book 
 
-Include things like: 
+                When you start your discovery, you should plan to <a href="https://service-assessments.education.gov.uk/book">book your peer review</a> so that it happens near the end of discovery. 
 
-- how you've explored the problem space 
-- who are your users and their needs 
-- existing services that meet your users' needs 
-- any current user journeys 
-- any existing policy or solution constraints 
-- next steps to take 
+                Make the booking at least 5 weeks in advance so the Service Assessment Plus team has time to arrange a panel. 
 
-These points are taken from things teams should consider in the discovery phase for [standards 1 to 7](/service-standard). Show what you've done to explore these at your peer review. 
+                ## What to prepare for a discovery peer review 
 
-You could share a mixture of Lucid boards, docs, and sketches. It could include slides, but it doesn't have to. 
+                Think about the best way to show the narrative of your discovery. 
 
-## What to expect during a discovery peer review 
+                Include things like: 
 
-### After you request the peer review 
+                - how you've explored the problem space 
+                - who are your users and their needs 
+                - existing services that meet your users' needs 
+                - any current user journeys 
+                - any existing policy or solution constraints 
+                - next steps to take 
 
-You'll receive an email with next steps. 
+                These points are taken from things teams should consider in the discovery phase for [standards 1 to 7](/service-standard). Show what you've done to explore these at your peer review. 
 
-This includes how to share links to artefacts for the panel to read. For example, Lucid boards, docs, or slide decks. You can add links to work in progress, it doesn't need to be finished, it just gives the panel an idea of the discovery. 
+                You could share a mixture of Lucid boards, docs, and sketches. It could include slides, but it doesn't have to. 
 
-### One to 2 days before 
+                ## What to expect during a discovery peer review 
 
-The team will have a call with the panel. This is a chance for everyone to meet and agree on what will happen during the session. 
+                ### After you request the peer review 
 
-### On the day 
+                You'll receive an email with next steps. 
 
-Discovery peer reviews are 2 hours. People who attend include members of the discovery team and a peer review panel. The panel usually includes a user researcher, designer, and product or delivery manager. There may also be silent observers for learning and development opportunities. 
+                This includes how to share links to artefacts for the panel to read. For example, Lucid boards, docs, or slide decks. You can add links to work in progress, it doesn't need to be finished, it just gives the panel an idea of the discovery. 
 
-How you want the review to run is for you to agree with the panel. You could, for example, agree to have 45-minutes-to-an-hour show and tell, with the remaining time for questions and answers. You should aim to explore the problem space, the users and agree next steps. 
+                ### One to 2 days before 
 
-See an [example agenda](/service-assessments/run-peer-review#example-discovery-peer-review-agenda). 
+                The team will have a call with the panel. This is a chance for everyone to meet and agree on what will happen during the session. 
 
-### After the discovery peer review 
+                ### On the day 
 
-The panel will meet to discuss observations.
+                Discovery peer reviews are 2 hours. People who attend include members of the discovery team and a peer review panel. The panel usually includes a user researcher, designer, and product or delivery manager. There may also be silent observers for learning and development opportunities. 
 
-They'll complete the report and share it with the team approximately 3 working days after the review.
+                How you want the review to run is for you to agree with the panel. You could, for example, agree to have 45-minutes-to-an-hour show and tell, with the remaining time for questions and answers. You should aim to explore the problem space, the users and agree next steps. 
 
-## Your discovery peer review report
-The report will include what team has done well, plus recommendations that consider the first 7 points of the [Service Standard](https://apply-the-service-standard.education.gov.uk/service-standard). 
+                See an [example agenda](/service-assessments/run-peer-review#example-discovery-peer-review-agenda). 
 
-The panel will support the team with any recommendations made. 
+                ### After the discovery peer review 
 
-### Review recommendations as a team
+                The panel will meet to discuss observations.
 
-If your report has recommendations, you could: 
+                They'll complete the report and share it with the team approximately 3 working days after the review.
 
-- consider stopping work or revisiting the problem space
-- escalate issues or problems to the senior responsible officer or senior leadership team 
-- contact the lead assessor or relevant head of profession for support to plan next steps 
-- plan how to demonstrate actioning recommendations at an alpha or beta assessment. [Apply the Service Standard in DfE](/) can help with this 
+                ## Your discovery peer review report
+                The report will include what team has done well, plus recommendations that consider the first 7 points of the [Service Standard](https://apply-the-service-standard.education.gov.uk/service-standard). 
 
-### Accept or challenge the report 
+                The panel will support the team with any recommendations made. 
 
-Once you've read the report, the product or delivery manager has 10 working days to accept or challenge it. 
+                ### Review recommendations as a team
 
-### To accept the report 
+                If your report has recommendations, you could: 
 
-If the team agree with what's written, you can accept the report on <a href="https://service-assessments.education.gov.uk/manage">your dashboard</a> in the Service assessment service. 
+                - consider stopping work or revisiting the problem space
+                - escalate issues or problems to the senior responsible officer or senior leadership team 
+                - contact the lead assessor or relevant head of profession for support to plan next steps 
+                - plan how to demonstrate actioning recommendations at an alpha or beta assessment. [Apply the Service Standard in DfE](/) can help with this 
 
-### To challenge the report 
+                ### Accept or challenge the report 
 
-Arrange next steps by emailing the <a href="mailto:serviceassessment.plus@education.gov.uk">Service Assessment Plus team</a>.  
+                Once you've read the report, the product or delivery manager has 10 working days to accept or challenge it. 
 
-They'll set up a meeting for the team with the panel. You'll agree any changes to the report with the panel before you accept it. 
+                ### To accept the report 
 
-## What happens next 
+                If the team agree with what's written, you can accept the report on <a href="https://service-assessments.education.gov.uk/manage">your dashboard</a> in the Service assessment service. 
 
-Once the report has been accepted, it will automatically be published in the <a href="https://service-assessments.education.gov.uk/reports">reports</a> of the service. The team can then follow any recommendations and next steps.  
+                ### To challenge the report 
 
-Depending on the outcome, the team may be asked to provide evidence of any actions they've taken to implement recommendations. 
+                Arrange next steps by emailing the <a href="mailto:serviceassessment.plus@education.gov.uk">Service Assessment Plus team</a>.  
 
- 
+                They'll set up a meeting for the team with the panel. You'll agree any changes to the report with the panel before you accept it. 
 
+                ## What happens next 
 
-{% endmarkdown %}
+                Once the report has been accepted, it will automatically be published in the <a href="https://service-assessments.education.gov.uk/reports">reports</a> of the service. The team can then follow any recommendations and next steps.  
 
+                Depending on the outcome, the team may be asked to provide evidence of any actions they've taken to implement recommendations. 
+
+                {% endmarkdown %}
+
+            </div>
+
+        </div>
+
+    </div>
 {% endblock %}

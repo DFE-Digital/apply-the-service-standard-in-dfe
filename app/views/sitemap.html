@@ -1,0 +1,64 @@
+{% extends "layouts/layout.html" %}
+
+{% set pageName = "Site map" %}
+{% set pageDescription = "Site map for Apply the Service Standards in DfE." %}
+{% set selectedNav = "" %}
+{% set seoPageDescription = "Site map for Apply the Service Standards in DfE." %}
+{% set path = "" %}
+{% set lastUpdated = "May 2024" %}
+
+{% block content %}
+
+<div class="govuk-width-container">
+  <div class="govuk-grid-row">
+ 
+
+    <div class="govuk-grid-column-three-quarters">
+      {% markdown %}
+
+      # {{pageName}}
+
+      {% endmarkdown %}
+
+      <nav class="govuk-sitemap" aria-label="Site map">
+        <h2 class="govuk-heading-m">Main pages</h2>
+        <ul class="govuk-list">
+          <li><a href="/" class="govuk-link">Home</a></li>
+        </ul>
+
+        <h2 class="govuk-heading-m govuk-!-margin-top-6">Service Standards</h2>
+        <ul class="govuk-list">
+          <li><a href="/service-standard/1-understand-user-needs" class="govuk-link">1. Understand users and their needs</a></li>
+          <li><a href="/service-standard/2-solve-a-whole-problem" class="govuk-link">2. Solve a whole problem for users</a></li>
+          <li><a href="/service-standard/3-join-up-across-channels" class="govuk-link">3. Provide a joined up experience across all channels</a></li>
+          <li><a href="/service-standard/4-make-the-service-simple-to-use" class="govuk-link">4. Make the service simple to use</a></li>
+          <li><a href="/service-standard/5-make-sure-everyone-can-use-the-service" class="govuk-link">5. Make sure everyone can use the service</a></li>
+          <li><a href="/service-standard/6-have-a-multidisciplinary-team" class="govuk-link">6. Have a multidisciplinary team</a></li>
+          <li><a href="/service-standard/7-use-agile-ways-of-working" class="govuk-link">7. Use agile ways of working</a></li>
+          <li><a href="/service-standard/8-iterate-and-improve-frequently" class="govuk-link">8. Iterate and improve frequently</a></li>
+          <li><a href="/service-standard/9-create-a-secure-service" class="govuk-link">9. Create a secure service which protects users' privacy</a></li>
+          <li><a href="/service-standard/10-define-success-publish-performance-data" class="govuk-link">10. Define what success looks like and publish performance data</a></li>
+          <li><a href="/service-standard/11-choose-the-right-tools-and-technology" class="govuk-link">11. Choose the right tools and technology</a></li>
+          <li><a href="/service-standard/12-make-new-source-code-open" class="govuk-link">12. Make new source code open</a></li>
+          <li><a href="/service-standard/13-use-common-standards-components-patterns" class="govuk-link">13. Use and contribute to open standards, common components and patterns</a></li>
+          <li><a href="/service-standard/14-operate-a-reliable-service" class="govuk-link">14. Operate a reliable service</a></li>
+        </ul>
+
+        <h2 class="govuk-heading-m govuk-!-margin-top-6">Service Assessments</h2>
+        <ul class="govuk-list">
+          <li><a href="/service-assessments" class="govuk-link">Service assessments overview</a></li>
+          <li><a href="/service-assessments/assessments" class="govuk-link">Service assessments</a></li>
+          <li><a href="/service-assessments/discovery-peer-review" class="govuk-link">Discovery peer reviews</a></li>
+          <li><a href="/service-assessments/run-peer-review" class="govuk-link">Run a discovery peer review</a></li>
+          <li><a href="/service-assessments/run-service-assessment" class="govuk-link">Run a service assessment</a></li>
+          <li><a href="/service-assessments/complete-service-assessment-report" class="govuk-link">Complete a service assessment report</a></li>
+          <li><a href="/service-assessments/actioning-recommendations" class="govuk-link">Manage actions from a service assessment</a></li>
+          <li><a href="/service-assessments/support-team" class="govuk-link">Support the team</a></li>
+          <li><a href="/service-assessments/survey" class="govuk-link">Give feedback on the assessment process</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

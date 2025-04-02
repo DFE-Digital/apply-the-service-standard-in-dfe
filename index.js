@@ -1,211 +1,161 @@
-const express = require('express')
-const nunjucks = require('nunjucks')
-const https = require('https')
-const axios = require('axios')
-var dateFilter = require('nunjucks-date-filter')
-var markdown = require('nunjucks-markdown')
-var marked = require('marked')
-const bodyParser = require('body-parser')
-const lunr = require('lunr')
-const fs = require('fs')
-const path = require('path')
-const cheerio = require('cheerio')
-const config = require('./app/config')
-const glob = require('glob');
-const routes = require('./app/routes');
+const express = require('express');
+const compression = require('compression');
+const nunjucks = require('nunjucks');
+const bodyParser = require('body-parser');
+const path = require('path');
+const appRoutes = require('./app/routes.js');
+const dateFilter = require('nunjucks-date-filter')
+const markdown = require('nunjucks-markdown')
+const marked = require('marked')
+const govukMarkdown = require('govuk-markdown')
+const Airtable = require('airtable')
 
+const app = express();
 
-const helmet = require('helmet');
+const base = new Airtable({ apiKey: process.env.airtableFeedbackKey }).base(process.env.airtableFeedbackBase)
 
-const favicon = require('serve-favicon');
+// Set up views and nunjucks environment
+var nunjuckEnv = nunjucks.configure([
+  'app/views',
+  'app/views/layouts',
+  'node_modules/govuk-frontend/dist/',
+  'node_modules/dfe-frontend/packages/components',
+], {
+  autoescape: true,
+  express: app,
+  watch: false,
+  extension: 'html',
+  noCache: false
+});
 
-const PageIndex = require('./middleware/pageIndex')
-const pageIndex = new PageIndex(config)
+app.use(compression());
 
-var NotifyClient = require('notifications-node-client').NotifyClient
+// Serve static files
+app.use('/govuk', express.static(path.join(__dirname, 'node_modules/govuk-frontend/govuk/assets')));
+app.use('/dfe', express.static(path.join(__dirname, 'node_modules/dfe-frontend/dist')));
+app.use('/assets', express.static('app/public'));
+app.use(express.json());
 
-require('dotenv').config()
-const app = express()
+app.locals.serviceName = process.env.serviceName
 
-const notify = new NotifyClient(process.env.notifyKey)
+// Parse URL-encoded bodies (as sent by HTML forms)
+app.use(express.urlencoded({ extended: true }));
 
-const airtable = require('airtable');
-const base = new airtable({ apiKey: process.env.airtableFeedbackKey }).base(process.env.airtableFeedbackBase);
-
-
-
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extended: true }))
-app.use(favicon(path.join(__dirname, 'public/assets/images', 'favicon.ico')));
-
-app.set('view engine', 'html')
-
-app.locals.serviceName = 'Apply the Service Standard in DfE'
-
-
-
-// Set up Nunjucks as the template engine
-var nunjuckEnv = nunjucks.configure(
-  [
-    'app/views',
-    'node_modules/govuk-frontend/dist/',
-    'node_modules/dfe-frontend/packages/components',
-  ],
-  {
-    autoescape: true,
-    express: app,
-  },
-)
+app.use('/favicon.ico', express.static(path.join(__dirname, 'public/assets/images/favicon.ico')));
 
 nunjuckEnv.addFilter('date', dateFilter)
+
+marked.use(govukMarkdown({
+  headingsStartWith: 'xl'
+}))
+
+
 markdown.register(nunjuckEnv, marked.parse)
 
-app.use('/', routes)
-
-// Set up static file serving for the app's assets
-app.use('/assets', express.static('public/assets'))
-
-// Render sitemap.xml in XML format
-app.get('/sitemap.xml', (_, res) => {
-  res.set({ 'Content-Type': 'application/xml' });
-  res.render('sitemap.xml');
-});
+// Set view engine to Nunjucks with .html extension
+app.set('view engine', 'html');
 
 
-app.get('/search', (req, res) => {
-  console.log(req.query['searchterm'])
-  const query = req.query['searchterm'] || ''
-  const resultsPerPage = 10
-  let currentPage = parseInt(req.query.page, 10)
-  const results = pageIndex.search(query)
-  console.log('Results: ' + results)
-  console.log('Query: ' + query)
-
-  const maxPage = Math.ceil(results.length / resultsPerPage)
-  if (!Number.isInteger(currentPage)) {
-    currentPage = 1
-  } else if (currentPage > maxPage || currentPage < 1) {
-    currentPage = 1
-  }
-
-  const startingIndex = resultsPerPage * (currentPage - 1)
-  const endingIndex = startingIndex + resultsPerPage
-
-  res.render('search.html', {
-    currentPage,
-    maxPage,
-    query,
-    results: results.slice(startingIndex, endingIndex),
-    resultsLen: results.length,
-  })
-})
-
-if (config.env !== 'development') {
-  setTimeout(() => {
-    pageIndex.init()
-  }, 2000)
-}
-
-app.post('/submit-feedback', (req, res) => {
-  const feedback = req.body.feedback_form_input
-  const fullUrl = req.headers.referer || 'Unknown'
-
-  //Send to notify after validation with recaptcha first
-  //TODO: Implement recaptcha
-
-  notify
-    .sendEmail(process.env.feedbackTemplateID, 'design.ops@education.gov.uk', {
-      personalisation: {
-        feedback: feedback,
-        page: fullUrl,
-        service: "Apply the Service Standard"
-      },
-    })
-    .then((response) => { })
-    .catch((err) => console.log(err))
-
-  return res.sendStatus(200)
-})
+const { buildSearchIndex, search } = require('./middleware/search.js');
 
 
-app.get('/service-standard', (req, res) => {
-  return res.redirect('/')
-})
+buildSearchIndex('http://apply-the-service-standard.education.gov.uk/sitemap.xml')
+  .then(() => console.log('Search index ready'))
+  .catch(err => console.error('Error initialising search:', err));
 
 
-// Route for handling Yes/No feedback submissions
-app.post('/form-response/helpful', (req, res) => {
-  const { response } = req.body;
-  const service = "Apply the service standard";
-  const pageURL = req.headers.referer || 'Unknown';
-  const date = new Date().toISOString();
 
-  base('Data').create([
-    {
-      "fields": {
-        "Response": response,
-        "Service": service,
-        "URL": pageURL
-      }
-    }
-  ], function (err) {
-    if (err) {
-      console.error(err);
-      return res.status(500).send('Error saving to Airtable');
-    }
-    res.json({ success: true, message: 'Feedback submitted successfully' });
-  });
-});
-
-// New route for handling detailed feedback submissions
 app.post('/form-response/feedback', (req, res) => {
   const { response } = req.body;
 
-  const service = "Apply the service standard"; // Example service name
-  const pageURL = req.headers.referer || 'Unknown'; // Attempt to capture the referrer URL
-  const date = new Date().toISOString();
+  // Prevent bots submitting empty feedback
+  if (!response || response.trim() === '') {
+    return res.status(400).json({ success: false, message: 'No feedback provided' });
+  }
 
-  base('Feedback').create([{
-    "fields": {
-      "Feedback": response,
-      "Service": service,
-      "URL": pageURL
+  // Prevent long feedback
+  if (response.length > 400) {
+    return res.status(400).json({ success: false, message: 'Feedback too long' });
+  }
+
+  console.log("Feedback received:", response);
+
+  const service = 'Apply the service standard'; // Example service name
+  const pageURL = req.headers.referer || 'Unknown'; // Capture the referrer URL
+
+  base('Feedback').create([
+    {
+      fields: {
+        Feedback: response,
+        Service: service,
+        URL: pageURL
+      }
     }
-  }], function (err) {
+  ], function (err, records) {
     if (err) {
-      console.error(err);
-      return res.status(500).send('Error saving to Airtable');
+      console.error("Airtable Error:", err);
+      return res.status(500).json({ success: false, message: 'Could not send feedback' });
     }
-    res.json({ success: true, message: 'Feedback submitted successfully' });
+
+    res.json({ success: true, message: 'Thank you for your feedback' });
   });
 });
 
+
+// e.g. add a /search route:
+app.get('/search', (req, res) => {
+  const query = req.query.q || '';
+  let data = [];
+  if (!query.trim()) {
+    return res.render('search/index', { data });
+  }
+  const results = search(query);
+  // Just pass the results to the template
+  return res.render('search/index', { data: results, query });
+});
+
+
+
+// Use application routes
+app.use('/', appRoutes);
+
+
+// Clean URLs
 app.get(/\.html?$/i, function (req, res) {
-  var path = req.path
-  var parts = path.split('.')
-  parts.pop()
-  path = parts.join('.')
-  res.redirect(path)
-})
+  let urlPath = req.path;
+  const parts = urlPath.split('.');
+  parts.pop();
+  urlPath = parts.join('.');
+  res.redirect(urlPath);
+});
 
+// Dynamic Route Matching for URLs without extensions
 app.get(/^([^.]+)$/, function (req, res, next) {
-  matchRoutes(req, res, next)
+  matchRoutes(req, res, next);
+});
+
+// Render sitemap.xml in XML format
+app.get('/sitemap.xml', (_, res) => {
+  res.set({ 'Content-Type': 'application/xml' })
+  res.render('sitemap.xml')
 })
 
-// Handle 404 errors
-app.use(function (req, res, next) {
-  res.status(404).render('error.html')
-})
+// Route matching function
+function matchRoutes(req, res, next) {
+  let path = req.path;
 
-// Handle 500 errors
-app.use(function (err, req, res, next) {
-  console.error(err.stack)
-  res.status(500).render('error.html')
-})
+  // Remove the first slash, render won't work with it
+  path = path.startsWith('/') ? path.slice(1) : path;
 
-// Try to match a request to a template, for example a request for /test
-// would look for /app/views/test.html
-// and /app/views/test/index.html
+  // If it's blank, render the root index
+  if (path === '') {
+    path = 'index';
+  }
+
+  console.log(path)
+
+  renderPath(path, res, next);
+}
 
 function renderPath(path, res, next) {
   // Try to render the path
@@ -231,28 +181,13 @@ function renderPath(path, res, next) {
   })
 }
 
-matchRoutes = function (req, res, next) {
-  var path = req.path
-
-  // Remove the first slash, render won't work with it
-  path = path.substr(1)
-
-  // If it's blank, render the root index
-  if (path === '') {
-    path = 'index'
-  }
-
-  renderPath(path, res, next)
-}
+// Handle 404 errors
+app.use(function (req, res, next) {
+  res.status(404).render('error.html');
+});
 
 // Start the server
-
-// // Run application on configured port
-// if (config.env === 'development') {
-//   app.listen(config.port - 50, () => {
-//   });
-// } else {
-//   app.listen(config.port);
-// }
-
-app.listen(config.port)
+const PORT = process.env.PORT || 3066;
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+});

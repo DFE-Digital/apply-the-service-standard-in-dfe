@@ -1,41 +1,50 @@
-{% extends "layouts/content-with-sidenav.html" %}
+{% extends "layouts/layout.html" %}
 
 {% set selectedNav = "Service assessments" %}
 {% set pageName = "Give feedback on the assessment process" %}
-{% set pageDescription = "Share feedback to help improve the experience for everyone involved in assessments and assurance "%}
+{% set seoPageDescription = "Share feedback to help improve the experience for everyone involved in assessments and assurance"%}
+{% set pageDescription = "Share feedback to help improve the experience for everyone involved in assessments and assurance"%}
 
-
+{% set path = "" %}
 
 {% block content %}
 
-{% markdown %}
+    <div class="govuk-width-container">
 
+        <div class="govuk-grid-row">
 
-After the service team receive the report, both the team and assessor panel will get a survey to complete. 
+            <div class="govuk-grid-column-one-quarter">
+                <a href="/" class="govuk-back-link govuk-!-margin-top-0 govuk-!-margin-bottom-9">Back to homepage</a>
+                {% include 'partials/_sidenav.html' %}
+            </div>
 
- 
+            <div class="govuk-grid-column-three-quarters">
 
-This gives everyone the opportunity to give feedback on the process from start to finish. 
+                <span class="govuk-caption-l">Feedback</span>
 
- 
+                {% markdown %}
 
-## How we use your feedback 
+                # {{pageName}}
 
- 
+                After the service team receive the report, both the team and assessor panel will get a survey to complete. 
 
-Giving feedback helps improve the assurance process for future teams. 
+                This gives everyone the opportunity to give feedback on the process from start to finish. 
 
- 
+                ## How we use your feedback 
 
-We measure user satisfaction of the: 
+                Giving feedback helps improve the assurance process for future teams. 
 
-- booking process 
-- discovery peer review or service assessment
-- support and guidance around the discovery peer review or service assessment 
+                We measure user satisfaction of the: 
 
- 
+                - booking process 
+                - discovery peer review or service assessment
+                - support and guidance around the discovery peer review or service assessment 
 
+                {% endmarkdown %}
 
-{% endmarkdown %}
+            </div>
 
+        </div>
+
+    </div>
 {% endblock %}
