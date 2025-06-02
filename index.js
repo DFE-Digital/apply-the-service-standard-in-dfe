@@ -34,6 +34,7 @@ app.use(compression());
 app.use('/govuk', express.static(path.join(__dirname, 'node_modules/govuk-frontend/govuk/assets')));
 app.use('/dfe', express.static(path.join(__dirname, 'node_modules/dfe-frontend/dist')));
 app.use('/assets', express.static('app/public'));
+app.use('/public', express.static('public'));
 app.use(express.json());
 
 app.locals.serviceName = process.env.serviceName
