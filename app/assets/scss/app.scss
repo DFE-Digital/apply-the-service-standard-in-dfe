@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
-$govuk-font-family: 'Inter', sans-serif;
+$govuk-font-family: 'Inter',
+sans-serif;
 $govuk-new-link-styles: true;
 $govuk-global-styles: true;
-
 @import 'node_modules/govuk-frontend/dist/govuk/all';
 @import 'node_modules/dfe-frontend/packages/dfefrontend';
-
 @import './_hero.scss';
 @import './_topnav.scss';
 @import './_banner.scss';
@@ -15,125 +13,115 @@ $govuk-global-styles: true;
 @import './_bordered.scss';
 @import './_feedback.scss';
 @import './_verticalnav.scss';
-
+@import './_header.css';
 .govuk-width-container {
-  @include govuk-width-container;
+    @include govuk-width-container;
 }
 
-
 .full-width-panel {
-  width: 100%;
-  display: flex;
-  margin: 0 auto;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
 }
 
 .full-width-panel .govuk-grid-column-one-half {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
 }
 
 .full-width-panel .govuk-grid-column-one-half.text-column {
-  background-color: #f3f2f1;
+    background-color: #f3f2f1;
 }
 
 .full-width-panel .govuk-grid-column-one-half.image-column {
-  padding: 0;
+    padding: 0;
 }
 
 .full-width-panel .image-container {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 @media (max-width: 768px) {
-  .full-width-panel {
-    flex-direction: column;
-  }
-
-  .full-width-panel .govuk-grid-column-one-half {
-    width: 100%;
-  }
-
-  .full-width-panel .image-container {
-    height: 200px;
-    /* Adjust height for mobile view */
-  }
+    .full-width-panel {
+        flex-direction: column;
+    }
+    .full-width-panel .govuk-grid-column-one-half {
+        width: 100%;
+    }
+    .full-width-panel .image-container {
+        height: 200px;
+        /* Adjust height for mobile view */
+    }
 }
 
 .split-panel {
-  width: 100%;
-  display: flex;
-  margin: 0 auto;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
 }
 
 .split-panel--bg-white {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .split-panel .govuk-grid-column-one-half {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
 }
 
 .split-panel .govuk-grid-column-one-half.text-column {
-  padding: 60px 50px;
-
-
+    padding: 60px 50px;
 }
 
 .text-column p {
-  max-width: 30ch;
+    max-width: 30ch;
 }
 
 .split-panel .govuk-grid-column-one-half.image-column {
-  padding: 0;
-  position: relative;
+    padding: 0;
+    position: relative;
 }
 
 .split-panel .image-container {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  min-height: 300px;
-  /* Ensure there is a minimum height */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    /* Ensure there is a minimum height */
 }
 
 @media (max-width: 768px) {
-  .split-panel {
-    flex-direction: column;
-  }
-
-  .split-panel .govuk-grid-column-one-half {
-    width: 100%;
-  }
-
-  .split-panel .image-container {
-    height: 200px;
-    /* Adjust height for mobile view */
-  }
+    .split-panel {
+        flex-direction: column;
+    }
+    .split-panel .govuk-grid-column-one-half {
+        width: 100%;
+    }
+    .split-panel .image-container {
+        height: 200px;
+        /* Adjust height for mobile view */
+    }
 }
-
-
 
 .dfe-inset-text--warning {
-  border-left-color: #d4351c;
-  font-weight: 700;
+    border-left-color: #d4351c;
+    font-weight: 700;
 }
 
-
 @media (min-width: 48.0625em) {
-  .sticky {
-    position: -webkit-sticky;
-    /* Safari */
-    position: sticky;
-    top: 20px;
-    z-index: 1000;
-  }
+    .sticky {
+        position: -webkit-sticky;
+        /* Safari */
+        position: sticky;
+        top: 20px;
+        z-index: 1000;
+    }
 }

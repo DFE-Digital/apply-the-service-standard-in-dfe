@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="govuk-template--rebranded">
 
     <head>
         <meta charset="utf-8">
@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="/assets/css/govuk-frontend.min.css">
         <link rel="stylesheet" href="/assets/css/dfefrontend-2.0.0.min.css">
         <link rel="stylesheet" href="/assets/css/app.css">
+        <link rel="stylesheet" href="/assets/css/_header.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
         <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
         {% block head %}{% endblock %}
@@ -30,13 +31,9 @@
 
         {% include 'layouts/_cookiebanner.html'%}
         <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
-        {% include 'layouts/_topnav.html' %}
-        {% include 'layouts/_services.html' %}
+
         {% include 'layouts/_header.html' %}
-
         {% include 'layouts/_servicenav.html' %}
-
-
 
         {% from "govuk/components/pagination/macro.njk" import govukPagination %}
 
@@ -57,7 +54,7 @@
         <script src="/assets/js/cookies.js"></script>
         <script src="/assets/js/app.js"></script>
         <script src="/assets/js/feedback.js"></script>
-
+        <script src="/assets/js/header.js"></script>
         <script>
             hljs.highlightAll();
         </script>
