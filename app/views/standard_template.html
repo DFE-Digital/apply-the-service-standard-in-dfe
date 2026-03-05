@@ -162,18 +162,4 @@
         {% endblock %}
 
         {% block scripts %}
-            <script>
-                document.addEventListener("DOMContentLoaded", function () {
-                    const mainContainer = document.querySelector('#main-content');
-                    if (mainContainer) {
-                        const links = mainContainer.querySelectorAll('a[href^="https"]');
-
-                        links.forEach(link => {
-                            // Add rel and target attributes
-                            link.setAttribute('rel', 'noreferrer noopener');
-                            link.setAttribute('target', '_blank');
-                        });
-                    }
-                });
-            </script>
         {% endblock %}

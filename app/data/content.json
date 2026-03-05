@@ -29,7 +29,7 @@
                     "a variety of methods of user research",
                     "a prioritised list of user needs",
                     "an understanding of the difference between users and project stakeholders",
-                    "a [Data Protection Impact Assessment (DPIA)](https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx) has been started, where necessary. If you do not have access to the DfE intranet, ask a civil servant to get the information for you",
+                    "a <a href='https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx' target='_blank' rel='noreferrer noopener' class='govuk-link'>Data Protection Impact Assessment (DPIA) (opens in new tab, DfE SharePoint users only)</a> has been started, where necessary. If you do not have access to the DfE intranet, ask a civil servant to get the information for you",
                     "a plan for alpha"
                 ],
                 "avoid": [
@@ -48,8 +48,8 @@
                     "clear definition of user groups",
                     "a prioritised list of user stories",
                     "how inclusive design is being considered in addition to testing with people with access needs",
-                    "use the [inclusivity calculator](https://design.education.gov.uk/tools/inclusivity-calculator) to help you identify numbers of people with access needs",
-                    "an [accessibility audit](https://design.education.gov.uk/accessibility/audits) plan",
+                    "use the [How many people tool](https://accessibility.education.gov.uk/#how-many-people) to help you identify numbers of people with access needs",
+                    "an [accessibility audit](https://accessibility.education.gov.uk/audits-issues-statements/audits/get-an-audit) plan",
                     "research that identifies parts of the service which users find difficult",
                     "evidence of how the team iterated the service to make these parts easier for users and how this was tested and researched",
                     "test and validate concepts with users with access needs",
@@ -73,8 +73,8 @@
                     "user research working with performance analysis to define success metrics",
                     "how design and user needs have [changed over time](https://design-histories.education.gov.uk/) based on user research",
                     "assisted digital routes, for example, offline or supporting routes, have been tested",
-                    "a third party [accessibility audit](https://design.education.gov.uk/accessibility/audits) of the service and actions taken based on findings",
-                    "a [Data Protection Impact Assessment (DPIA)](https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx) has been carried out, where necessary",
+                    "a third party [accessibility audit](https://accessibility.education.gov.uk/audits-issues-statements/audits/get-an-audit#get-help-to-plan-and-organise-your-audit) of the service and actions taken based on findings",
+                    "a <a href='https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx' target='_blank' rel='noreferrer noopener' class='govuk-link'>Data Protection Impact Assessment (DPIA) (opens in new tab, DfE SharePoint users only)</a> has been carried out, where necessary",
                     "any necessary security testing",
                     "what the team has done beyond public beta to continue to meet user needs and deliver outcomes, when moving to live"
                 ],
@@ -274,7 +274,7 @@
         ],
         "why": [
             "People expect services to work. They need things to be easy when they are trying to complete a task or find information.",
-            "As a public sector organisation we have a legal duty to [consider everyone's needs when designing and delivering services](https://design.education.gov.uk/accessibility/)."
+            "As a public sector organisation we have a legal duty to [consider everyone's needs when designing and delivering services](https://accessibility.education.gov.uk/standards)."
         ],
         "professions": [
             "Designers",
@@ -307,7 +307,7 @@
                     "technology decisions supporting accessible and usable design",
                     "content being tested to make sure that users understand it",
                     "[prototypes](https://design.education.gov.uk/design-system/prototype-kit/) built and tested with users identified in discovery",
-                    "any unique component or pattern, or [an adaptation of an existing component from the Design System](https://design-system.service.gov.uk/community/contribution-criteria/), are shared and tested. Plus, a plan for how you will keep them up-to-date with existing systems",
+                    "any unique component or pattern, or adaptation of an existing component from the [GOV.UK Design System](https://design-system.service.gov.uk/community/contribution-criteria/) or [DfE Design System](https://design.education.gov.uk/design-system/), are shared and tested. Plus, a plan for how you'll keep them up-to-date with existing systems",
                     "how users will report a problem with the service and how they'll be supported and updated on any resolution"
                 ],
                 "avoid": [
@@ -323,7 +323,7 @@
                     "evidence of continuous improvement to make changes to the user journey or content",
                     "continual monitoring of feedback and testing usability",
                     "evidence of usability testing, including users with the lowest level of digital skills",
-                    "how the service meets [accessibility](https://design.education.gov.uk/accessibility/) requirements",
+                    "how the service meets [accessibility](https://accessibility.education.gov.uk/standards) requirements",
                     "user research to understand any performance issues"
                 ],
                 "avoid": [
@@ -352,7 +352,7 @@
         "description": [
             "Make sure your service can be used by people with different physical, mental, social, cultural or learning needs, whether it's for the public, for staff working in DfE or across the education sector.",
             "Champion the needs of all users and include them as part of the design and iterative process. Consider where these users are on the [digital inclusion scale](https://userresearch.blog.gov.uk/2019/02/22/reflecting-on-how-we-developed-the-digital-inclusion-scale/).",
-            "Depending on the size and complexity of your service, this standard could be assessed by an [accessibility specialist](https://accessibility.education.gov.uk/standards/accessibility-assessor) at assessment."
+            "Depending on the size and complexity of your service, this standard could be assessed by an [accessibility specialist](https://accessibility.education.gov.uk/standards/assessor-role) at assessment."
         ],
         "why": [
             "Everyone who works on DfE digital services has a role to play in making them [accessible and inclusive](https://accessibility.education.gov.uk/standards).",
@@ -368,7 +368,7 @@
             {
                 "name": "Discovery",
                 "considerations": [
-                    "time and money allocated for [accessibility testing and audits](https://accessibility.education.gov.uk/audits-statements/audits) at future phases",
+                    "time and money allocated for [accessibility testing and audits](https://accessibility.education.gov.uk/audits-issues-statements) at future phases",
                     "what your approach to recruiting users with access needs will be",
                     "evidence of talking to people who use assistive technology",
                     "user research with people with access needs",
@@ -413,9 +413,9 @@
                     "what your approach to recruiting users with access needs will be",
                     "the context of your users' environment when they might be using the service, for example, a noisy classroom, slow internet connection, and what devices they're using",
                     "how you've tested—and continue to test—with users who need [assistive digital support](https://www.gov.uk/service-manual/helping-people-to-use-your-service/assisted-digital-support-introduction)",
-                    "an [accessibility audit](https://accessibility.education.gov.uk/audits-statements/audits) and any issues fixed, this is a mandatory requirement",
+                    "an [accessibility audit](https://accessibility.education.gov.uk/audits-issues-statements) and any issues fixed, this is a mandatory requirement",
                     "how the service meets the latest [accessibility standards](https://accessibility.education.gov.uk/standards)",
-                    "[an accessibility statement](https://accessibility.education.gov.uk/audits-statements/accessibility-statements) that explains how accessible the service is. This needs to be published when the service moves into public beta",
+                    "[an accessibility statement](https://accessibility.education.gov.uk/audits-issues-statements/accessibility-statements/templates) that explains how accessible the service is. This needs to be published when the service moves into public beta",
                     "the service continues to be iterated based on insights from user research",
                     "any changes are tested to make sure they meet accessibility requirements",
                     "non-digital or offline processes and their impact or relationship to the service"
@@ -665,11 +665,11 @@
             {
                 "name": "Discovery",
                 "considerations": [
-                    "building an awareness of [DfE security policies (opens DfE intranet)](https://educationgovuk.sharepoint.com/sites/security/SitePages/security-policies.aspx) and recognizing which ones relate to the service",
-                    "evidence that there has been engagement with Information Security and a response has been received to indicate how [security assurance (opens DfE intranet)](https://educationgovuk.sharepoint.com/sites/security/SitePages/assurance.aspx) should proceed",
-                    "evidence that a [Data Protection Impact Assessment (DPIA) (opens DfE intranet)](https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx) has been started, where necessary",
-                    "evidence that a [Departmental Security Assurance Model (DSAM) process (opens DfE intranet)](https://educationgovuk.sharepoint.com/sites/security/SitePages/assurance.aspx#departmental-security-assurance-model-%28dsam%29-process) has been started",
-                    "a plan that details headline [General Data Protection Regulation (GDPR) (opens DfE intranet)](https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/UK-General-Data-Protection-Regulation-(UK-GDPR).aspx) requirements",
+                    "building an awareness of <a href='https://educationgovuk.sharepoint.com/sites/security/SitePages/security-policies.aspx' target='_blank' rel='noreferrer noopener' class='govuk-link'> DfE security policies (opens in new tab, DfE SharePoint users only)</a> and recognising which ones relate to the service",
+                    "evidence that there has been engagement with Information Security and a response has been received to indicate how <a href='https://educationgovuk.sharepoint.com/sites/security/SitePages/assurance.aspx' target='_blank' rel='noreferrer noopener' class='govuk-link'>security assurance (opens in new tab, DfE SharePoint users only)</a> should proceed",                    
+                    "evidence that a <a href='https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/DPIA.aspx' target='_blank' rel='noreferrer noopener' class='govuk-link'> Data Protection Impact Assessment (DPIA) (opens in new tab, DfE SharePoint users only)</a> has been started, where necessary",
+                    "evidence that a <a href='https://educationgovuk.sharepoint.com/sites/security/SitePages/assurance.aspx#departmental-security-assurance-model-%28dsam%29-process' target='_blank' rel='noreferrer noopener' class='govuk-link'>Departmental Security Assurance Model (DSAM) process (opens in a new tab, DfE SharePoint users only)</a> has been started",
+                    "a plan that details headline <a href='https://educationgovuk.sharepoint.com/sites/lvewp00158/SitePages/UK-General-Data-Protection-Regulation-(UK-GDPR).aspx' target='_blank' rel='noreferrer noopener' class='govuk-link'> General Data Protection Regulation (GDPR) (opens in a new tab, DfE SharePoint users only)</a> requirements",
                     "identify the minimum [personal information](https://www.gov.uk/service-manual/design/collecting-personal-information-from-users) you need from users to provide the service",
                     "whether the service needs identity assurance or authentication",
                     "if the service needs identity assurance or authentication, consider your approach to identifying and evaluating assurance and authentication methods that balance risks in a proportionate way, for example, using [common components](https://dfe-digital.github.io/architecture/common-components/#what-are-common-components), such as [DfE Sign-in](https://dfe-digital.github.io/architecture/common-components/#dfe-sign-in)"
@@ -826,7 +826,7 @@
                 "name": "All phases",
                 "considerations": [
                     "evidence that the team has considered different options for how the service will be delivered technically and the rationale for the chosen technical direction",
-                    "technology choices are technically feasible and [security assured (opens DfE intranet)](https://educationgovuk.sharepoint.com/sites/security/SitePages/assurance.aspx)",
+                    "technology choices are technically feasible and a <a href='https://educationgovuk.sharepoint.com/sites/security/SitePages/assurance.aspx' target='_blank' rel='noreferrer noopener' class='govuk-link'>security assured (opens in new tab, DfE SharePoint users only)</a>",
                     "understand AI technologies, follow the [AI Playbook for the UK Government](https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government) and [Data and AI Ethics Framework](https://www.gov.uk/government/publications/data-ethics-framework)",
                     "the tools the team will be using and why they are value for money",
                     "how the tools and technology you choose meet [accessibility standards](https://accessibility.education.gov.uk/standards), including [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)",
@@ -880,8 +880,7 @@
                 "considerations": [
                     "any code being produced should be [open by default](https://technical-guidance.education.gov.uk/standards/storing-source-code/). If at any point the code was not publicly available, the team will be asked why, and without good reason, could fail an assessment",
                     "it is important not to commit secrets to code. If you have some information that must be secret, for example, passwords, you can use [GitHub secrets](https://technical-guidance.education.gov.uk/infrastructure/security/managing-secrets/#access-secrets-from-github-actions)",
-                    "use GitHub as the recommended tooling for meeting this standard, as repositories in GitHub are open by default. There is a DfE organisation set up at [DfE-Digital](https://github.com/DFE-Digital) which is publicly available. [Find a Tuition Partner](https://github.com/DFE-Digital/find-a-tuition-partner) is an example of a GitHub repo in DfE",
-                    "join DfE-Digital to create a repository for a new service by contacting the DfE Slack channel [#digital-tools-support](https://ukgovernmentdfe.slack.com/archives/CMS9V0JQL)"
+                    "use GitHub as the recommended tooling for meeting this standard, as repositories in GitHub are open by default. There is a DfE organisation set up at [DfE-Digital](https://github.com/DFE-Digital) which is publicly available. [Find a Tuition Partner](https://github.com/DFE-Digital/find-a-tuition-partner) is an example of a GitHub repo in DfE"
                 ],
                 "avoid": [
                     "publishing code that contains secrets, keys, or sensitive information to public repositories",
