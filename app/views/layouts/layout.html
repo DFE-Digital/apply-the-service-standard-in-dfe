@@ -3,7 +3,8 @@
 
     <head>
         <meta charset="utf-8">
-        <title>{{-title or pageName}} | {{serviceName-}} </title>
+        <title>{{-title or pageName}} | {{serviceName-}}
+        </title>
         <meta name="description" content="{{-description-}}">
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
         <meta name="theme-color" content="#00294a">
@@ -34,6 +35,7 @@
 
         {% include 'layouts/_header.html' %}
         {% include 'layouts/_servicenav.html' %}
+        {% include 'layouts/_designmanualbanner.html' %}
 
         {% from "govuk/components/pagination/macro.njk" import govukPagination %}
 
@@ -62,4 +64,3 @@
     </body>
 
 </html>
-
